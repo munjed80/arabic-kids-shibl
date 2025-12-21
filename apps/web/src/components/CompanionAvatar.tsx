@@ -1,0 +1,39 @@
+import type { CompanionMood, CompanionState } from "@/features/companion/stateMachine";
+
+const accentStyles: Record<CompanionMood["accent"], string> = {
+  calm: "bg-sky-50 text-sky-900 border-sky-200",
+  success: "bg-emerald-50 text-emerald-900 border-emerald-200",
+  warning: "bg-amber-50 text-amber-900 border-amber-200",
+  info: "bg-indigo-50 text-indigo-900 border-indigo-200",
+};
+
+const stateEmojis: Record<CompanionState, string> = {
+  idle: "🦁",
+  intro: "👋",
+  thinking: "🤔",
+  happy: "😺",
+  celebrate: "🎉",
+  sad: "😿",
+  cooldown: "😌",
+};
+
+type Props = {
+  mood: CompanionMood;
+};
+
+export function CompanionAvatar({ mood }: Props) {
+  const style = accentStyles[mood.accent];
+
+  return (
+    <div className={`flex items-center gap-3 rounded-xl border px-4 py-3 shadow-sm ${style}`}>
+      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl shadow-inner">
+        {stateEmojis[mood.state]}
+      </div>
+      <div className="flex flex-col">
+        <p className="text-sm font-semibold uppercase tracking-wide text-slate-600">Shibl</p>
+        <p className="text-base font-medium">{mood.label}</p>
+        <p className="text-xs text-slate-500">Non-verbal reactions only</p>
+      </div>
+    </div>
+  );
+}
