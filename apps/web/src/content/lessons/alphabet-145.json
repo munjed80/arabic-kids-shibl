@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-145",
+  "world": "alphabet",
+  "title": "ميم في الوسط والنهاية",
+  "description": "تتبع ميم المتصلة.",
+  "objective": "تمييز ميم الوسط والختام.",
+  "goal": "قراءة الميم المتصلة.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-145-1",
+      "type": "choose",
+      "prompt": "أي كلمة فيها ميم في الوسط؟",
+      "choices": [
+        "حمل",
+        "حل",
+        "حبل"
+      ],
+      "answer": "حمل",
+      "hint": "ميم بين الحاء واللام.",
+      "asset": "image/haml/middle"
+    },
+    {
+      "id": "alphabet-145-2",
+      "type": "match",
+      "prompt": "أين يقع ميم في كلمة علم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/alam/end"
+    },
+    {
+      "id": "alphabet-145-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نمل.",
+      "choices": [
+        "نمل",
+        "نل",
+        "منل"
+      ],
+      "answer": "نمل",
+      "hint": "ميم بعد النون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-145-1",
+      "type": "choose",
+      "prompt": "أي كلمة فيها ميم في الوسط؟",
+      "choices": [
+        "حمل",
+        "حل",
+        "حبل"
+      ],
+      "answer": "حمل",
+      "hint": "ميم بين الحاء واللام.",
+      "asset": "image/haml/middle"
+    },
+    {
+      "id": "alphabet-145-2",
+      "type": "match",
+      "prompt": "أين يقع ميم في كلمة علم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/alam/end"
+    },
+    {
+      "id": "alphabet-145-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نمل.",
+      "choices": [
+        "نمل",
+        "نل",
+        "منل"
+      ],
+      "answer": "نمل",
+      "hint": "ميم بعد النون."
+    }
+  ]
+}

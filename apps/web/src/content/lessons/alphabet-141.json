@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-141",
+  "world": "alphabet",
+  "title": "لام في البداية والوسط",
+  "description": "تتبع لام المتصلة.",
+  "objective": "قراءة لام عند دخولها على كلمة.",
+  "goal": "تمييز لام الأول والوسط.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-141-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بلام؟",
+      "choices": [
+        "لحن",
+        "منح",
+        "حن"
+      ],
+      "answer": "لحن",
+      "hint": "أول صوت لام.",
+      "asset": "audio/lahn/clip1"
+    },
+    {
+      "id": "alphabet-141-2",
+      "type": "match",
+      "prompt": "أين يقع لام في كلمة ملك؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الميم والكاف.",
+      "asset": "image/malik/middle"
+    },
+    {
+      "id": "alphabet-141-3",
+      "type": "build",
+      "prompt": "كوّن كلمة جمل.",
+      "choices": [
+        "جمل",
+        "جلم",
+        "جم"
+      ],
+      "answer": "جمل",
+      "hint": "ضع لام في النهاية."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-141-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بلام؟",
+      "choices": [
+        "لحن",
+        "منح",
+        "حن"
+      ],
+      "answer": "لحن",
+      "hint": "أول صوت لام.",
+      "asset": "audio/lahn/clip1"
+    },
+    {
+      "id": "alphabet-141-2",
+      "type": "match",
+      "prompt": "أين يقع لام في كلمة ملك؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الميم والكاف.",
+      "asset": "image/malik/middle"
+    },
+    {
+      "id": "alphabet-141-3",
+      "type": "build",
+      "prompt": "كوّن كلمة جمل.",
+      "choices": [
+        "جمل",
+        "جلم",
+        "جم"
+      ],
+      "answer": "جمل",
+      "hint": "ضع لام في النهاية."
+    }
+  ]
+}

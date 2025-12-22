@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-148",
+  "world": "alphabet",
+  "title": "شكل نون منقط",
+  "description": "تعرّف شكل النون.",
+  "objective": "تمييز نقطة النون ورسمها.",
+  "goal": "رؤية ن في المواقع المختلفة.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-148-1",
+      "type": "choose",
+      "prompt": "اختر شكل النون المنفصلة.",
+      "choices": [
+        "ن",
+        "م",
+        "ل"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة فوق.",
+      "asset": "image/noon/isolated"
+    },
+    {
+      "id": "alphabet-148-2",
+      "type": "match",
+      "prompt": "أين موقع نون في كلمة عنب؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين العين والباء.",
+      "asset": "image/anab/middle"
+    },
+    {
+      "id": "alphabet-148-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بنون واضحة؟",
+      "choices": [
+        "حسن",
+        "حسب",
+        "حسد"
+      ],
+      "answer": "حسن",
+      "hint": "نون في الختام.",
+      "asset": "image/hasan/end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-148-1",
+      "type": "choose",
+      "prompt": "اختر شكل النون المنفصلة.",
+      "choices": [
+        "ن",
+        "م",
+        "ل"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة فوق.",
+      "asset": "image/noon/isolated"
+    },
+    {
+      "id": "alphabet-148-2",
+      "type": "match",
+      "prompt": "أين موقع نون في كلمة عنب؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين العين والباء.",
+      "asset": "image/anab/middle"
+    },
+    {
+      "id": "alphabet-148-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بنون واضحة؟",
+      "choices": [
+        "حسن",
+        "حسب",
+        "حسد"
+      ],
+      "answer": "حسن",
+      "hint": "نون في الختام.",
+      "asset": "image/hasan/end"
+    }
+  ]
+}

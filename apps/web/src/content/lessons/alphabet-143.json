@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-143",
+  "world": "alphabet",
+  "title": "صوت ميم واضح",
+  "description": "تمييز ميم سمعيًا.",
+  "objective": "التعرف على ميم في الكلمات القصيرة.",
+  "goal": "سماع ميم في البداية والوسط.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-143-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بميم؟",
+      "choices": [
+        "ملح",
+        "لبن",
+        "أذن"
+      ],
+      "answer": "ملح",
+      "hint": "ميم أول صوت.",
+      "asset": "audio/melh/clip1"
+    },
+    {
+      "id": "alphabet-143-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ميم في الوسط.",
+      "choices": [
+        "سمن",
+        "سن",
+        "سد"
+      ],
+      "answer": "سمن",
+      "hint": "ميم بين السين والنون.",
+      "asset": "audio/samn/clip1"
+    },
+    {
+      "id": "alphabet-143-3",
+      "type": "build",
+      "prompt": "كوّن كلمة أم.",
+      "choices": [
+        "أم",
+        "ما",
+        "من"
+      ],
+      "answer": "أم",
+      "hint": "ألف ثم ميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-143-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بميم؟",
+      "choices": [
+        "ملح",
+        "لبن",
+        "أذن"
+      ],
+      "answer": "ملح",
+      "hint": "ميم أول صوت.",
+      "asset": "audio/melh/clip1"
+    },
+    {
+      "id": "alphabet-143-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ميم في الوسط.",
+      "choices": [
+        "سمن",
+        "سن",
+        "سد"
+      ],
+      "answer": "سمن",
+      "hint": "ميم بين السين والنون.",
+      "asset": "audio/samn/clip1"
+    },
+    {
+      "id": "alphabet-143-3",
+      "type": "build",
+      "prompt": "كوّن كلمة أم.",
+      "choices": [
+        "أم",
+        "ما",
+        "من"
+      ],
+      "answer": "أم",
+      "hint": "ألف ثم ميم."
+    }
+  ]
+}

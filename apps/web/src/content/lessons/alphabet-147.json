@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-147",
+  "world": "alphabet",
+  "title": "صوت نون واضح",
+  "description": "تمييز نون سمعيًا.",
+  "objective": "التعرف على ن في كلمات قصيرة.",
+  "goal": "سماع نون في البداية والوسط.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-147-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بنون؟",
+      "choices": [
+        "نار",
+        "دار",
+        "صار"
+      ],
+      "answer": "نار",
+      "hint": "نون أول حرف.",
+      "asset": "audio/nar/clip1"
+    },
+    {
+      "id": "alphabet-147-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها نون في الوسط.",
+      "choices": [
+        "عنب",
+        "عتب",
+        "عبب"
+      ],
+      "answer": "عنب",
+      "hint": "نون بعد العين.",
+      "asset": "audio/anab/clip1"
+    },
+    {
+      "id": "alphabet-147-3",
+      "type": "build",
+      "prompt": "كوّن كلمة أنف.",
+      "choices": [
+        "أنف",
+        "أن",
+        "نف"
+      ],
+      "answer": "أنف",
+      "hint": "نون في الوسط."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-147-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بنون؟",
+      "choices": [
+        "نار",
+        "دار",
+        "صار"
+      ],
+      "answer": "نار",
+      "hint": "نون أول حرف.",
+      "asset": "audio/nar/clip1"
+    },
+    {
+      "id": "alphabet-147-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها نون في الوسط.",
+      "choices": [
+        "عنب",
+        "عتب",
+        "عبب"
+      ],
+      "answer": "عنب",
+      "hint": "نون بعد العين.",
+      "asset": "audio/anab/clip1"
+    },
+    {
+      "id": "alphabet-147-3",
+      "type": "build",
+      "prompt": "كوّن كلمة أنف.",
+      "choices": [
+        "أنف",
+        "أن",
+        "نف"
+      ],
+      "answer": "أنف",
+      "hint": "نون في الوسط."
+    }
+  ]
+}
