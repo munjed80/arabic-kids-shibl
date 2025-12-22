@@ -1,31 +1,31 @@
 {
   "id": "lesson-letters-intro",
-  "title": "Meet the Letters",
-  "description": "Match common Arabic letters to their sounds using simple choices.",
-  "objective": "Strengthen letter recognition and build confidence with Arabic script.",
+  "title": "تعرّف على الحروف",
+  "description": "طابق الحروف العربية مع أصواتها باختيارات بسيطة.",
+  "objective": "تعزيز التعرف على الحروف وبناء الثقة في قراءة العربية.",
   "level": 1,
   "durationMinutes": 5,
   "activities": [
     {
       "id": "letters-1",
-      "prompt": "Tap the letter that makes the sound 'Alif'.",
+      "prompt": "اضغط على الحرف الذي يصدر صوت \"أ\".",
       "choices": ["ا", "ب", "ت"],
       "answer": "ا",
-      "hint": "It looks like a tall straight line."
+      "hint": "يبدو كخط مستقيم طويل."
     },
     {
       "id": "letters-2",
-      "prompt": "Which letter sounds like 'Ba'?",
+      "prompt": "أي حرف يصدر صوت \"ب\"؟",
       "choices": ["ب", "ج", "د"],
       "answer": "ب",
-      "hint": "It has one dot below."
+      "hint": "يحتوي على نقطة واحدة أسفل."
     },
     {
       "id": "letters-3",
-      "prompt": "Find the letter that sounds like 'Ta'.",
+      "prompt": "ابحث عن الحرف الذي يصدر صوت \"ت\".",
       "choices": ["ت", "ث", "ح"],
       "answer": "ت",
-      "hint": "It has two dots on top."
+      "hint": "له نقطتان فوقه."
     }
   ]
 }

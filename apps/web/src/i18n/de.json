@@ -1,0 +1,84 @@
+{
+  "language": {
+    "label": "Sprache",
+    "english": "Englisch",
+    "dutch": "Niederländisch",
+    "german": "Deutsch",
+    "swedish": "Schwedisch",
+    "selectorHint": "Wähle deine Anzeigesprache"
+  },
+  "app": {
+    "title": "Arabic Kids • Shibl",
+    "tagline": "Verspieltes Arabisch-Üben mit einem nonverbalen Begleiter",
+    "subheading": "Kurze, angeleitete Aktivitäten halten Lernende fokussiert. Shibl reagiert nur mit einfachen Animationen – kein Chat, keine Konten und der Fortschritt bleibt auf diesem Gerät.",
+    "badgeSafe": "Kindersicher: kein Tracking, keine Werbung",
+    "badgeProgress": "Fortschritt lokal gespeichert",
+    "badgeContent": "Inhaltsgetriebene Lektionen",
+    "parentLogin": "Eltern-Login",
+    "parentRegister": "Elternkonto erstellen"
+  },
+  "lesson": {
+    "activityLabel": "Aktivität",
+    "hint": "Tipp",
+    "noActivity": "Keine Aktivität gefunden.",
+    "reset": "Lektion zurücksetzen",
+    "details": "Lektionsdetails",
+    "objective": "Ziel",
+    "level": "Level",
+    "duration": "Dauer",
+    "durationValue": "~{minutes} Minuten",
+    "activities": "Aktivitäten",
+    "safetyNote": "Shibl reagiert nur visuell auf Ereignisse in der Lektion. Kein Chat und keine Freitexte werden gesammelt.",
+    "feedback": {
+      "correct": "Richtig! Shibl ist glücklich.",
+      "incorrect": "Noch nicht. Versuch es noch einmal."
+    },
+    "progressLabel": "Fortschritt: Aktivität {current} von {total}",
+    "completePercent": "{percent}% abgeschlossen",
+    "ariaChoose": "Wähle {choice}"
+  },
+  "companion": {
+    "name": "Shibl",
+    "ready": "Bereit",
+    "readyToLearn": "Bereit zum Lernen",
+    "thinking": "Denkt nach...",
+    "greatJob": "Gut gemacht!",
+    "levelComplete": "Level abgeschlossen!",
+    "tryAgain": "Versuch es noch einmal",
+    "cooldown": "Kurze Pause",
+    "nonVerbal": "Nur nonverbale Reaktionen"
+  },
+  "auth": {
+    "parentLoginLabel": "Eltern-Login",
+    "manageSubscription": "Verwalte dein Abonnement",
+    "parentLoginDesc": "Greife auf die Elterneinstellungen zu. Kinder können weiterlernen, ohne diese Seite zu sehen.",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "signIn": "Anmelden",
+    "signingIn": "Anmeldung läuft...",
+    "newHere": "Neu hier?",
+    "createParentAccount": "Elternkonto erstellen",
+    "enterValidCredentials": "Gib eine gültige E-Mail-Adresse und ein Passwort ein.",
+    "unableToSignIn": "Anmeldung nicht möglich. Prüfe E-Mail oder Passwort.",
+    "parentRegisterLabel": "Elternregistrierung",
+    "createParentAccountHeading": "Elternkonto erstellen",
+    "parentRegisterDesc": "Eltern verwalten Abonnements und den Lernfortschritt. Kinder müssen sich nicht anmelden.",
+    "creatingAccount": "Konto wird erstellt...",
+    "createAccount": "Konto erstellen",
+    "alreadyRegistered": "Bereits registriert?",
+    "signInParentAccount": "Im Elternkonto anmelden",
+    "validRegistration": "Gib eine gültige E-Mail-Adresse und ein Passwort ein (mindestens 8 Zeichen).",
+    "unableToRegister": "Registrierung derzeit nicht möglich.",
+    "accountCreated": "Konto erfolgreich erstellt",
+    "logout": "Abmelden",
+    "loggingOut": "Du wirst von deiner Elternsitzung abgemeldet..."
+  },
+  "account": {
+    "dashboard": "Eltern-Dashboard",
+    "manage": "Abonnement und Fortschritt verwalten",
+    "placeholder": "Platzhalter-Dashboard. Lektionen bleiben für Kinder freigeschaltet, ohne dass sie eigene Konten benötigen.",
+    "signedInAs": "Angemeldet als",
+    "dataNotice": "Abonnementverwaltung und Lernfortschritt erscheinen hier. Es werden keine Kinderdaten über den Abschlussstatus hinaus gesammelt.",
+    "backToLessons": "Zurück zu den Lektionen"
+  }
+}

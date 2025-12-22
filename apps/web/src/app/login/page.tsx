@@ -8,8 +8,11 @@ import { loginSchema } from "@/features/auth/schemas";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
+import { LanguageSelector } from "@/components/LanguageSelector";
+import { useI18n } from "@/i18n/I18nProvider";
 
 export default function LoginPage() {
+  const { t } = useI18n();
   const router = useRouter();
   const searchParams = useSearchParams();
   const [error, setError] = useState<string | null>(null);
@@ -29,7 +32,7 @@ export default function LoginPage() {
 
     const parsed = loginSchema.safeParse(credentials);
     if (!parsed.success) {
-      setError("Enter a valid email and password.");
+      setError(t("auth.enterValidCredentials"));
       setPending(false);
       return;
     }
@@ -41,7 +44,7 @@ export default function LoginPage() {
     });
 
     if (result?.error) {
-      setError("Unable to sign in. Check your email or password.");
+      setError(t("auth.unableToSignIn"));
       setPending(false);
       return;
     }
@@ -52,14 +55,13 @@ export default function LoginPage() {
   return (
     <Container as="main" className="flex min-h-screen items-center justify-center py-12">
       <Card className="w-full max-w-md space-y-6">
+        <LanguageSelector />
         <div className="space-y-2">
           <p className="text-sm font-semibold uppercase tracking-wide text-amber-600">
-            Parent login
+            {t("auth.parentLoginLabel")}
           </p>
-          <h1 className="text-3xl font-bold text-slate-900">Manage your subscription</h1>
-          <p className="text-sm text-slate-600">
-            Access parent controls. Children can keep learning without seeing this page.
-          </p>
+          <h1 className="text-3xl font-bold text-slate-900">{t("auth.manageSubscription")}</h1>
+          <p className="text-sm text-slate-600">{t("auth.parentLoginDesc")}</p>
         </div>
 
         {infoMessage ? (
@@ -74,7 +76,7 @@ export default function LoginPage() {
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="email">
-              Email
+              {t("auth.email")}
             </label>
             <input
               id="email"
@@ -87,7 +89,7 @@ export default function LoginPage() {
           </div>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="password">
-              Password
+              {t("auth.password")}
             </label>
             <input
               id="password"
@@ -100,14 +102,14 @@ export default function LoginPage() {
           </div>
 
           <Button type="submit" className="w-full justify-center" disabled={pending}>
-            {pending ? "Signing in..." : "Sign in"}
+            {pending ? t("auth.signingIn") : t("auth.signIn")}
           </Button>
         </form>
 
         <div className="flex items-center justify-between text-sm text-slate-700">
-          <span>New here?</span>
+          <span>{t("auth.newHere")}</span>
           <Link href="/register" className="font-semibold text-amber-700 hover:underline">
-            Create a parent account
+            {t("auth.createParentAccount")}
           </Link>
         </div>
       </Card>

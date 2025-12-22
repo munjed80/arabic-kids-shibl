@@ -1,0 +1,84 @@
+{
+  "language": {
+    "label": "Språk",
+    "english": "Engelska",
+    "dutch": "Nederländska",
+    "german": "Tyska",
+    "swedish": "Svenska",
+    "selectorHint": "Välj språk för gränssnittet"
+  },
+  "app": {
+    "title": "Arabic Kids • Shibl",
+    "tagline": "Lekfull arabiska med en icke-verbal följeslagare",
+    "subheading": "Korta, guidade aktiviteter håller eleverna fokuserade. Shibl reagerar bara med enkla animationer – ingen chatt, inga konton och alla framsteg stannar på den här enheten.",
+    "badgeSafe": "Barnsäker: ingen spårning, inga annonser",
+    "badgeProgress": "Framsteg sparas lokalt",
+    "badgeContent": "Innehållsdrivna lektioner",
+    "parentLogin": "Föräldrainloggning",
+    "parentRegister": "Skapa föräldrakonto"
+  },
+  "lesson": {
+    "activityLabel": "Aktivitet",
+    "hint": "Tips",
+    "noActivity": "Ingen aktivitet hittades.",
+    "reset": "Återställ lektion",
+    "details": "Lektionsdetaljer",
+    "objective": "Mål",
+    "level": "Nivå",
+    "duration": "Tid",
+    "durationValue": "~{minutes} minuter",
+    "activities": "Aktiviteter",
+    "safetyNote": "Shibl reagerar bara visuellt på händelser i lektionen. Ingen chatt eller fritext samlas in.",
+    "feedback": {
+      "correct": "Rätt! Shibl är glad.",
+      "incorrect": "Inte riktigt. Försök igen."
+    },
+    "progressLabel": "Framsteg: Aktivitet {current} av {total}",
+    "completePercent": "{percent}% klart",
+    "ariaChoose": "Välj {choice}"
+  },
+  "companion": {
+    "name": "Shibl",
+    "ready": "Redo",
+    "readyToLearn": "Redo att lära",
+    "thinking": "Tänker...",
+    "greatJob": "Bra jobbat!",
+    "levelComplete": "Nivå klar!",
+    "tryAgain": "Försök igen",
+    "cooldown": "Tar en kort paus",
+    "nonVerbal": "Endast icke-verbala reaktioner"
+  },
+  "auth": {
+    "parentLoginLabel": "Föräldrainloggning",
+    "manageSubscription": "Hantera din prenumeration",
+    "parentLoginDesc": "Gå till föräldrainställningarna. Barn kan fortsätta lära utan att se den här sidan.",
+    "email": "E-post",
+    "password": "Lösenord",
+    "signIn": "Logga in",
+    "signingIn": "Loggar in...",
+    "newHere": "Ny här?",
+    "createParentAccount": "Skapa föräldrakonto",
+    "enterValidCredentials": "Ange en giltig e-post och ett lösenord.",
+    "unableToSignIn": "Kan inte logga in. Kontrollera e-post eller lösenord.",
+    "parentRegisterLabel": "Föräldraregistrering",
+    "createParentAccountHeading": "Skapa ett föräldrakonto",
+    "parentRegisterDesc": "Föräldrar hanterar prenumerationer och barns framsteg. Barn behöver inte registrera sig.",
+    "creatingAccount": "Skapar konto...",
+    "createAccount": "Skapa konto",
+    "alreadyRegistered": "Redan registrerad?",
+    "signInParentAccount": "Logga in på föräldrakonto",
+    "validRegistration": "Ange en giltig e-post och ett lösenord (minst 8 tecken).",
+    "unableToRegister": "Det går inte att registrera just nu.",
+    "accountCreated": "Kontot skapades",
+    "logout": "Logga ut",
+    "loggingOut": "Du loggas ut från din föräldrasession..."
+  },
+  "account": {
+    "dashboard": "Föräldrapanel",
+    "manage": "Hantera prenumeration och framsteg",
+    "placeholder": "Platshållarpanel. Lektioner förblir upplåsta för barn utan att de behöver egna konton.",
+    "signedInAs": "Inloggad som",
+    "dataNotice": "Hantering av prenumerationer och barns framsteg visas här. Ingen barndata samlas in utöver status för slutförda lektioner.",
+    "backToLessons": "Tillbaka till lektioner"
+  }
+}

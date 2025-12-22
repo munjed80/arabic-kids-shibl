@@ -1,0 +1,84 @@
+{
+  "language": {
+    "label": "Taal",
+    "english": "Engels",
+    "dutch": "Nederlands",
+    "german": "Duits",
+    "swedish": "Zweeds",
+    "selectorHint": "Kies je interface-taal"
+  },
+  "app": {
+    "title": "Arabic Kids • Shibl",
+    "tagline": "Speelse Arabische oefening met een niet-verbale metgezel",
+    "subheading": "Korte, begeleide activiteiten houden leerlingen gefocust. Shibl reageert alleen met eenvoudige animaties—geen chat, geen accounts, en alle voortgang blijft op dit apparaat.",
+    "badgeSafe": "Kindveilig: geen tracking, geen advertenties",
+    "badgeProgress": "Voortgang lokaal opgeslagen",
+    "badgeContent": "Content-gedreven lessen",
+    "parentLogin": "Ouderlogin",
+    "parentRegister": "Ouderaccount aanmaken"
+  },
+  "lesson": {
+    "activityLabel": "Activiteit",
+    "hint": "Tip",
+    "noActivity": "Geen activiteit gevonden.",
+    "reset": "Les resetten",
+    "details": "Lesdetails",
+    "objective": "Doel",
+    "level": "Niveau",
+    "duration": "Duur",
+    "durationValue": "~{minutes} minuten",
+    "activities": "Activiteiten",
+    "safetyNote": "Shibl reageert alleen visueel op lesgebeurtenissen. Geen chat of vrije tekst wordt verzameld.",
+    "feedback": {
+      "correct": "Goed zo! Shibl is blij.",
+      "incorrect": "Bijna. Probeer opnieuw."
+    },
+    "progressLabel": "Voortgang: Activiteit {current} van {total}",
+    "completePercent": "{percent}% voltooid",
+    "ariaChoose": "Kies {choice}"
+  },
+  "companion": {
+    "name": "Shibl",
+    "ready": "Klaar",
+    "readyToLearn": "Klaar om te leren",
+    "thinking": "Denkt na...",
+    "greatJob": "Goed gedaan!",
+    "levelComplete": "Les afgerond!",
+    "tryAgain": "Probeer opnieuw",
+    "cooldown": "Neemt een korte pauze",
+    "nonVerbal": "Alleen niet-verbale reacties"
+  },
+  "auth": {
+    "parentLoginLabel": "Ouderlogin",
+    "manageSubscription": "Beheer je abonnement",
+    "parentLoginDesc": "Toegang tot ouderinstellingen. Kinderen kunnen blijven leren zonder deze pagina te zien.",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "signIn": "Inloggen",
+    "signingIn": "Bezig met inloggen...",
+    "newHere": "Nieuw hier?",
+    "createParentAccount": "Maak een ouderaccount",
+    "enterValidCredentials": "Vul een geldig e-mailadres en wachtwoord in.",
+    "unableToSignIn": "Inloggen lukt niet. Controleer je e-mailadres of wachtwoord.",
+    "parentRegisterLabel": "Ouderregistratie",
+    "createParentAccountHeading": "Maak een ouderaccount",
+    "parentRegisterDesc": "Ouders beheren abonnementen en voortgang van kinderen. Kinderen hoeven zich niet aan te melden.",
+    "creatingAccount": "Account wordt aangemaakt...",
+    "createAccount": "Account aanmaken",
+    "alreadyRegistered": "Al geregistreerd?",
+    "signInParentAccount": "Inloggen op ouderaccount",
+    "validRegistration": "Vul een geldig e-mailadres en wachtwoord in (minimaal 8 tekens).",
+    "unableToRegister": "Registreren is nu niet mogelijk.",
+    "accountCreated": "Account succesvol aangemaakt",
+    "logout": "Uitloggen",
+    "loggingOut": "Je wordt afgemeld van je ouder-sessie..."
+  },
+  "account": {
+    "dashboard": "Ouderdashboard",
+    "manage": "Beheer abonnement en voortgang",
+    "placeholder": "Placeholder-dashboard. Lessen blijven ontgrendeld voor kinderen zonder dat ze een eigen account nodig hebben.",
+    "signedInAs": "Ingelogd als",
+    "dataNotice": "Abonnementsbeheer en voortgangsgegevens van kinderen verschijnen hier. Er wordt geen kinddata verzameld buiten voltooiingsstatus.",
+    "backToLessons": "Terug naar lessen"
+  }
+}
