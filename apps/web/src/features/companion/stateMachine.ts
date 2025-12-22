@@ -15,6 +15,16 @@ export type CompanionMood = {
   accent: "calm" | "success" | "warning" | "info";
 };
 
+export const companionLabelKeyByState: Record<CompanionState, string> = {
+  idle: "companion.ready",
+  intro: "companion.readyToLearn",
+  thinking: "companion.thinking",
+  happy: "companion.greatJob",
+  celebrate: "companion.levelComplete",
+  sad: "companion.tryAgain",
+  cooldown: "companion.cooldown",
+};
+
 export class CompanionStateMachine {
   private state: CompanionState = "idle";
   private lastReactionAt = 0;

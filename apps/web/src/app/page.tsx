@@ -17,7 +17,13 @@ import { useI18n } from "@/i18n/I18nProvider";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
-type Feedback = { key: "lesson.feedback.correct" | "lesson.feedback.incorrect" | null; correct?: boolean };
+const feedbackKeys = {
+  correct: "lesson.feedback.correct",
+  incorrect: "lesson.feedback.incorrect",
+} as const;
+
+type FeedbackKey = (typeof feedbackKeys)[keyof typeof feedbackKeys];
+type Feedback = { key: FeedbackKey | null; correct?: boolean };
 
 export default function Home() {
   const { t } = useI18n();
@@ -55,7 +61,7 @@ export default function Home() {
     setCompleted(result.completed);
     setFeedback({
       correct: result.correct,
-      key: result.correct ? "lesson.feedback.correct" : "lesson.feedback.incorrect",
+      key: result.correct ? feedbackKeys.correct : feedbackKeys.incorrect,
     });
     saveProgress(lesson.id, {
       activityIndex: result.nextIndex,

@@ -1,7 +1,11 @@
 "use client";
 
 import { useI18n } from "@/i18n/I18nProvider";
-import type { CompanionMood, CompanionState } from "@/features/companion/stateMachine";
+import {
+  companionLabelKeyByState,
+  type CompanionMood,
+  type CompanionState,
+} from "@/features/companion/stateMachine";
 
 const accentStyles: Record<CompanionMood["accent"], string> = {
   calm: "bg-sky-50 text-sky-900 border-sky-200",
@@ -18,16 +22,6 @@ const stateEmojis: Record<CompanionState, string> = {
   celebrate: "🎉",
   sad: "😿",
   cooldown: "😌",
-};
-
-const moodLabelKey: Record<CompanionState, string> = {
-  idle: "companion.ready",
-  intro: "companion.readyToLearn",
-  thinking: "companion.thinking",
-  happy: "companion.greatJob",
-  celebrate: "companion.levelComplete",
-  sad: "companion.tryAgain",
-  cooldown: "companion.cooldown",
 };
 
 type Props = {
@@ -47,7 +41,7 @@ export function CompanionAvatar({ mood }: Props) {
         <p className="text-sm font-semibold uppercase tracking-wide text-slate-600">
           {t("companion.name")}
         </p>
-        <p className="text-base font-medium">{t(moodLabelKey[mood.state])}</p>
+        <p className="text-base font-medium">{t(companionLabelKeyByState[mood.state])}</p>
         <p className="text-xs text-slate-500">{t("companion.nonVerbal")}</p>
       </div>
     </div>

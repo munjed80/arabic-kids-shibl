@@ -36,18 +36,19 @@ type I18nContextValue = {
 const I18nContext = createContext<I18nContextValue | null>(null);
 
 const getNested = (dictionary: Dictionary, key: string): string | undefined => {
-  return key.split(".").reduce<unknown>((acc, part) => {
-    if (acc && typeof acc === "object" && part in acc) {
+  const result = key.split(".").reduce<unknown>((acc, part) => {
+    if (typeof acc === "object" && acc !== null && part in acc) {
       return (acc as Record<string, unknown>)[part];
     }
     return undefined;
-  }, dictionary) as string | undefined;
+  }, dictionary);
+  return typeof result === "string" ? result : undefined;
 };
 
 const interpolate = (template: string, values?: TranslateValues) => {
   if (!values) return template;
   return template.replace(/{(\w+)}/g, (_, token) =>
-    Object.prototype.hasOwnProperty.call(values, token) ? String(values[token]) : `{${token}}`,
+    Object.hasOwn(values, token) ? String(values[token]) : `{${token}}`,
   );
 };
 
