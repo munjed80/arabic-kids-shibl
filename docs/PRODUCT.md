@@ -17,6 +17,11 @@
 3. **Content-first** – Lessons are JSON + Zod schema validated; UI renders from content, not hardcoded flows.
 4. **Tiny, repeatable activities** – 3–5 minute sessions that reinforce recognition and recall.
 
+## Localization model
+- UI is available in English, Dutch, German, and Swedish. The chosen interface language is saved locally and falls back to the browser language when possible.
+- Arabic remains the only learning language. Lesson JSON files contain Arabic prompts and hints; no Arabic strings live in UI translation files.
+- Language selector is visible to parents and learners, and only affects navigation, instructions, and feedback text—not the Arabic lesson content.
+
 ## Non-goals (MVP)
 - No child accounts or social login.
 - No generative AI, chat, or voice input.

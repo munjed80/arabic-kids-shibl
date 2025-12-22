@@ -7,8 +7,11 @@ import { registerSchema } from "@/features/auth/schemas";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
+import { LanguageSelector } from "@/components/LanguageSelector";
+import { useI18n } from "@/i18n/I18nProvider";
 
 export default function RegisterPage() {
+  const { t } = useI18n();
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
   const [pending, setPending] = useState(false);
@@ -26,7 +29,7 @@ export default function RegisterPage() {
 
     const parsed = registerSchema.safeParse(payload);
     if (!parsed.success) {
-      setError("Enter a valid email and password (8+ characters).");
+      setError(t("auth.validRegistration"));
       setPending(false);
       return;
     }
@@ -39,25 +42,26 @@ export default function RegisterPage() {
 
     if (!response.ok) {
       const data = await response.json().catch(() => ({}));
-      setError(data?.message ?? "Unable to register right now.");
+      setError(data?.message ?? t("auth.unableToRegister"));
       setPending(false);
       return;
     }
 
-    router.push("/login?message=Account%20created%20successfully");
+    router.push(`/login?message=${encodeURIComponent(t("auth.accountCreated"))}`);
   };
 
   return (
     <Container as="main" className="flex min-h-screen items-center justify-center py-12">
       <Card className="w-full max-w-md space-y-6">
+        <LanguageSelector />
         <div className="space-y-2">
           <p className="text-sm font-semibold uppercase tracking-wide text-amber-600">
-            Parent registration
+            {t("auth.parentRegisterLabel")}
           </p>
-          <h1 className="text-3xl font-bold text-slate-900">Create a parent account</h1>
-          <p className="text-sm text-slate-600">
-            Parents manage subscriptions and child progress. Children do not need to sign up.
-          </p>
+          <h1 className="text-3xl font-bold text-slate-900">
+            {t("auth.createParentAccountHeading")}
+          </h1>
+          <p className="text-sm text-slate-600">{t("auth.parentRegisterDesc")}</p>
         </div>
 
         {error ? (
@@ -67,7 +71,7 @@ export default function RegisterPage() {
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="email">
-              Email
+              {t("auth.email")}
             </label>
             <input
               id="email"
@@ -80,7 +84,7 @@ export default function RegisterPage() {
           </div>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="password">
-              Password
+              {t("auth.password")}
             </label>
             <input
               id="password"
@@ -94,14 +98,14 @@ export default function RegisterPage() {
           </div>
 
           <Button type="submit" className="w-full justify-center" disabled={pending}>
-            {pending ? "Creating account..." : "Create account"}
+            {pending ? t("auth.creatingAccount") : t("auth.createAccount")}
           </Button>
         </form>
 
         <div className="flex items-center justify-between text-sm text-slate-700">
-          <span>Already registered?</span>
+          <span>{t("auth.alreadyRegistered")}</span>
           <Link href="/login" className="font-semibold text-amber-700 hover:underline">
-            Sign in to parent account
+            {t("auth.signInParentAccount")}
           </Link>
         </div>
       </Card>

@@ -1,4 +1,11 @@
-import type { CompanionMood, CompanionState } from "@/features/companion/stateMachine";
+"use client";
+
+import { useI18n } from "@/i18n/I18nProvider";
+import {
+  companionLabelKeyByState,
+  type CompanionMood,
+  type CompanionState,
+} from "@/features/companion/stateMachine";
 
 const accentStyles: Record<CompanionMood["accent"], string> = {
   calm: "bg-sky-50 text-sky-900 border-sky-200",
@@ -22,6 +29,7 @@ type Props = {
 };
 
 export function CompanionAvatar({ mood }: Props) {
+  const { t } = useI18n();
   const style = accentStyles[mood.accent];
 
   return (
@@ -30,9 +38,11 @@ export function CompanionAvatar({ mood }: Props) {
         {stateEmojis[mood.state]}
       </div>
       <div className="flex flex-col">
-        <p className="text-sm font-semibold uppercase tracking-wide text-slate-600">Shibl</p>
-        <p className="text-base font-medium">{mood.label}</p>
-        <p className="text-xs text-slate-500">Non-verbal reactions only</p>
+        <p className="text-sm font-semibold uppercase tracking-wide text-slate-600">
+          {t("companion.name")}
+        </p>
+        <p className="text-base font-medium">{t(companionLabelKeyByState[mood.state])}</p>
+        <p className="text-xs text-slate-500">{t("companion.nonVerbal")}</p>
       </div>
     </div>
   );

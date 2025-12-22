@@ -1,0 +1,84 @@
+{
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "dutch": "Dutch",
+    "german": "German",
+    "swedish": "Swedish",
+    "selectorHint": "Choose your interface language"
+  },
+  "app": {
+    "title": "Arabic Kids • Shibl",
+    "tagline": "Playful Arabic practice with a non-verbal companion",
+    "subheading": "Short, guided activities keep learners focused. Shibl reacts with simple animations only—no chat, no accounts, and all progress stays on this device.",
+    "badgeSafe": "Child-safe: no tracking, no ads",
+    "badgeProgress": "Progress saved locally",
+    "badgeContent": "Content-driven lessons",
+    "parentLogin": "Parent login",
+    "parentRegister": "Create parent account"
+  },
+  "lesson": {
+    "activityLabel": "Activity",
+    "hint": "Hint",
+    "noActivity": "No activity found.",
+    "reset": "Reset lesson",
+    "details": "Lesson details",
+    "objective": "Objective",
+    "level": "Level",
+    "duration": "Duration",
+    "durationValue": "~{minutes} minutes",
+    "activities": "Activities",
+    "safetyNote": "Shibl reacts visually to lesson events only. No chat or free text is collected.",
+    "feedback": {
+      "correct": "Correct! Shibl is happy.",
+      "incorrect": "Not quite. Try again."
+    },
+    "progressLabel": "Progress: Activity {current} of {total}",
+    "completePercent": "{percent}% complete",
+    "ariaChoose": "Choose {choice}"
+  },
+  "companion": {
+    "name": "Shibl",
+    "ready": "Ready",
+    "readyToLearn": "Ready to learn",
+    "thinking": "Thinking...",
+    "greatJob": "Great job!",
+    "levelComplete": "Level complete!",
+    "tryAgain": "Try again",
+    "cooldown": "Taking a short break",
+    "nonVerbal": "Non-verbal reactions only"
+  },
+  "auth": {
+    "parentLoginLabel": "Parent login",
+    "manageSubscription": "Manage your subscription",
+    "parentLoginDesc": "Access parent controls. Children can keep learning without seeing this page.",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "newHere": "New here?",
+    "createParentAccount": "Create a parent account",
+    "enterValidCredentials": "Enter a valid email and password.",
+    "unableToSignIn": "Unable to sign in. Check your email or password.",
+    "parentRegisterLabel": "Parent registration",
+    "createParentAccountHeading": "Create a parent account",
+    "parentRegisterDesc": "Parents manage subscriptions and child progress. Children do not need to sign up.",
+    "creatingAccount": "Creating account...",
+    "createAccount": "Create account",
+    "alreadyRegistered": "Already registered?",
+    "signInParentAccount": "Sign in to parent account",
+    "validRegistration": "Enter a valid email and password (8+ characters).",
+    "unableToRegister": "Unable to register right now.",
+    "accountCreated": "Account created successfully",
+    "logout": "Log out",
+    "loggingOut": "Signing you out of your parent session..."
+  },
+  "account": {
+    "dashboard": "Parent dashboard",
+    "manage": "Manage subscription and progress",
+    "placeholder": "Placeholder dashboard. Lessons stay unlocked for children without needing their own credentials.",
+    "signedInAs": "Signed in as",
+    "dataNotice": "Subscription management and child progress tracking will appear here. No child data is collected beyond lesson completion status.",
+    "backToLessons": "Back to lessons"
+  }
+}
