@@ -37,14 +37,20 @@
     "progressLabel": "Fortschritt: Aktivität {current} von {total}",
     "completePercent": "{percent}% abgeschlossen",
     "ariaChoose": "Wähle {choice}",
-    "completedStatus": "Du hast diese Lektion abgeschlossen. Mache weiter, wenn du bereit bist."
+    "completedStatus": "Du hast diese Lektion abgeschlossen. Mache weiter, wenn du bereit bist.",
+    "listenAria": "Audio für die Aufgabe abspielen",
+    "reviewSummaryTitle": "Wiederholung",
+    "reviewSummaryBody": "Kurzer Check, bevor es weitergeht. Keine Antwort nötig.",
+    "reviewAnswerLabel": "Erwartete Antwort",
+    "unsupportedType": "Dieser Schritt wird nicht unterstützt. Wir überspringen ihn, damit du weitermachen kannst."
   },
   "level": {
-    "startHeading": "Level 1 starten",
-    "startCopy": "Beginne mit einfacher Buchstabenerkennung, dann mit Wörtern, ersten Leseschritten und einer gefeierten Wiederholung. Kein Konto nötig.",
-    "startCta": "Level 1 starten",
+    "startHeading": "Level {level} starten",
+    "startCopy": "Beginne Level {level}. Der Fortschritt bleibt auf diesem Gerät.",
+    "lockedCopy": "Schließe Level {previous} ab, um dieses zu öffnen.",
+    "startCta": "Level starten",
     "reset": "Level zurücksetzen",
-    "lessonListTitle": "Level-1-Lektionen",
+    "lessonListTitle": "Level {level} Lektionen",
     "lessonListSubtitle": "{completed} von {total} Lektionen abgeschlossen",
     "lessonStatus": {
       "current": "Aktuell",
@@ -56,8 +62,11 @@
     "progressCount": "Lektionen: {completed}/{total} abgeschlossen",
     "currentLessonLabel": "Aktuelle Lektion {current} von {total}: {title}",
     "completedStatus": "Level abgeschlossen! Du kannst Lektionen jederzeit erneut spielen.",
-    "completedHeading": "Du hast Level 1 abgeschlossen!",
-    "completedBody": "Großartig! Du hast Buchstaben erkannt, kurze Wörter gelesen und eine fröhliche Wiederholung geschafft. Shibl feiert mit dir."
+    "completedHeading": "Du hast Level {level} abgeschlossen!",
+    "completedBody": "Großartig! Level {level} ist geschafft. Du kannst Lektionen jederzeit wiederholen.",
+    "switchLabel": "Level {level}",
+    "switchAria": "Zu Level {level} wechseln",
+    "lockedLabel": "Gesperrt"
   },
   "companion": {
     "name": "Shibl",

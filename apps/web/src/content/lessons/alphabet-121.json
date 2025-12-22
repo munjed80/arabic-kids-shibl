@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-121",
+  "world": "alphabet",
+  "title": "صوت ف واضح",
+  "description": "استمع لتمييز ف عن ق وك.",
+  "objective": "التعرف على ف في البداية.",
+  "goal": "تمييز ف سمعيًا وبصريًا.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-121-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بف؟",
+      "choices": ["فم", "قم", "كم"],
+      "answer": "فم",
+      "hint": "صوت خفيف مع شفة عليا.",
+      "asset": "audio/fam/clip1"
+    },
+    {
+      "id": "alphabet-121-2",
+      "type": "choose",
+      "prompt": "اختر شكل ف المفصول.",
+      "choices": ["ف", "ق", "غ"],
+      "answer": "ف",
+      "hint": "نقطة واحدة فوق وفتحة في الجسم.",
+      "asset": "image/fa/isolated"
+    },
+    {
+      "id": "alphabet-121-3",
+      "type": "match",
+      "prompt": "أين يقع ف في كلمة فهد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/fahd/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-121-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بف؟",
+      "choices": ["فم", "قم", "كم"],
+      "answer": "فم",
+      "hint": "صوت خفيف مع شفة عليا.",
+      "asset": "audio/fam/clip1"
+    },
+    {
+      "id": "alphabet-121-2",
+      "type": "choose",
+      "prompt": "اختر شكل ف المفصول.",
+      "choices": ["ف", "ق", "غ"],
+      "answer": "ف",
+      "hint": "نقطة واحدة فوق وفتحة في الجسم.",
+      "asset": "image/fa/isolated"
+    },
+    {
+      "id": "alphabet-121-3",
+      "type": "match",
+      "prompt": "أين يقع ف في كلمة فهد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/fahd/start"
+    }
+  ]
+}

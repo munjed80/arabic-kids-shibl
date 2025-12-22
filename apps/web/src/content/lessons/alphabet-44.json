@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-44",
+  "world": "alphabet",
+  "title": "حروف مختلطة ٢",
+  "description": "تبديل بين الحروف ا ب ت ث ج ح خ.",
+  "objective": "تمييز الاختلاف في النقاط والصوت.",
+  "goal": "اختيار الحرف الصحيح بسرعة.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-44-1",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو ثلاث نقاط فوق.",
+      "choices": ["ث", "ب", "ح"],
+      "answer": "ث",
+      "hint": "ثلاث نقاط مرتبة.",
+      "asset": "image/thaa/isolated"
+    },
+    {
+      "id": "alphabet-44-2",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع هواء خشن؟",
+      "choices": ["ح", "خ", "ت"],
+      "answer": "خ",
+      "hint": "صوت قوي مع نقطة.",
+      "asset": "audio/letters/khaa"
+    },
+    {
+      "id": "alphabet-44-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بثق.",
+      "choices": ["بثق", "ثقب", "قبث"],
+      "answer": "بثق",
+      "hint": "ابدأ بب ثم ثاء ثم قاف."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-44-1",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو ثلاث نقاط فوق.",
+      "choices": ["ث", "ب", "ح"],
+      "answer": "ث",
+      "hint": "ثلاث نقاط مرتبة.",
+      "asset": "image/thaa/isolated"
+    },
+    {
+      "id": "alphabet-44-2",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع هواء خشن؟",
+      "choices": ["ح", "خ", "ت"],
+      "answer": "خ",
+      "hint": "صوت قوي مع نقطة.",
+      "asset": "audio/letters/khaa"
+    },
+    {
+      "id": "alphabet-44-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بثق.",
+      "choices": ["بثق", "ثقب", "قبث"],
+      "answer": "بثق",
+      "hint": "ابدأ بب ثم ثاء ثم قاف."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-40",
+  "world": "alphabet",
+  "title": "خ في الوسط",
+  "description": "تعرّف على خ المتصلة في منتصف الكلمة.",
+  "objective": "تحديد خ في وسط كلمات قصيرة.",
+  "goal": "ربط خ بالصوت الخشن في الوسط.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-40-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها خ في الوسط؟",
+      "choices": ["صخر", "صحن", "صيف"],
+      "answer": "صخر",
+      "hint": "الخاء بين الصاد والراء.",
+      "asset": "audio/sakhr/clip1"
+    },
+    {
+      "id": "alphabet-40-2",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة مخرج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والراء.",
+      "asset": "image/makhraj/middle"
+    },
+    {
+      "id": "alphabet-40-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سخن.",
+      "choices": ["سخن", "نسخ", "خنس"],
+      "answer": "سخن",
+      "hint": "ضع خ بين السين والنون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-40-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها خ في الوسط؟",
+      "choices": ["صخر", "صحن", "صيف"],
+      "answer": "صخر",
+      "hint": "الخاء بين الصاد والراء.",
+      "asset": "audio/sakhr/clip1"
+    },
+    {
+      "id": "alphabet-40-2",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة مخرج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والراء.",
+      "asset": "image/makhraj/middle"
+    },
+    {
+      "id": "alphabet-40-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سخن.",
+      "choices": ["سخن", "نسخ", "خنس"],
+      "answer": "سخن",
+      "hint": "ضع خ بين السين والنون."
+    }
+  ]
+}

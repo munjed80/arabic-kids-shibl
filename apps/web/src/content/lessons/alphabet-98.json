@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-98",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٤",
+  "description": "تمييز الحروف المفخمة مع غير المفخمة.",
+  "objective": "التفريق بين ص ض ط وسهل.",
+  "goal": "اختيار الحرف الصحيح بسرعة.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-98-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه بنقطة وصوت غليظ؟",
+      "choices": ["ض", "د", "ز"],
+      "answer": "ض",
+      "hint": "ض أغلظ من د.",
+      "asset": "audio/letters/dad"
+    },
+    {
+      "id": "alphabet-98-2",
+      "type": "choose",
+      "prompt": "اختر الحرف المفخم بلا نقاط بين هذه الخيارات.",
+      "choices": ["ص", "س", "ر"],
+      "answer": "ص",
+      "hint": "ص أثقل من س.",
+      "asset": "image/sad/isolated"
+    },
+    {
+      "id": "alphabet-98-3",
+      "type": "build",
+      "prompt": "كوّن كلمة صوت.",
+      "choices": ["صوت", "توص", "وصت"],
+      "answer": "صوت",
+      "hint": "ابدأ بص ثم واو ثم تاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-98-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه بنقطة وصوت غليظ؟",
+      "choices": ["ض", "د", "ز"],
+      "answer": "ض",
+      "hint": "ض أغلظ من د.",
+      "asset": "audio/letters/dad"
+    },
+    {
+      "id": "alphabet-98-2",
+      "type": "choose",
+      "prompt": "اختر الحرف المفخم بلا نقاط بين هذه الخيارات.",
+      "choices": ["ص", "س", "ر"],
+      "answer": "ص",
+      "hint": "ص أثقل من س.",
+      "asset": "image/sad/isolated"
+    },
+    {
+      "id": "alphabet-98-3",
+      "type": "build",
+      "prompt": "كوّن كلمة صوت.",
+      "choices": ["صوت", "توص", "وصت"],
+      "answer": "صوت",
+      "hint": "ابدأ بص ثم واو ثم تاء."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-67",
+  "world": "alphabet",
+  "title": "صوت ز واضح",
+  "description": "استمع لتمييز ز في كلمات قصيرة.",
+  "objective": "التعرف على ز في البداية.",
+  "goal": "تمييز ز سمعيًا وبصريًا.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-67-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بز؟",
+      "choices": ["زيت", "بيت", "حبل"],
+      "answer": "زيت",
+      "hint": "الصوت الأول ز مع رنين.",
+      "asset": "audio/zayt/clip1"
+    },
+    {
+      "id": "alphabet-67-2",
+      "type": "choose",
+      "prompt": "اختر شكل ز المفصول.",
+      "choices": ["ز", "ر", "س"],
+      "answer": "ز",
+      "hint": "ز نقطة فوق.",
+      "asset": "image/zay/isolated"
+    },
+    {
+      "id": "alphabet-67-3",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة زهر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ز هو الصوت الأول.",
+      "asset": "image/zahr/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-67-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بز؟",
+      "choices": ["زيت", "بيت", "حبل"],
+      "answer": "زيت",
+      "hint": "الصوت الأول ز مع رنين.",
+      "asset": "audio/zayt/clip1"
+    },
+    {
+      "id": "alphabet-67-2",
+      "type": "choose",
+      "prompt": "اختر شكل ز المفصول.",
+      "choices": ["ز", "ر", "س"],
+      "answer": "ز",
+      "hint": "ز نقطة فوق.",
+      "asset": "image/zay/isolated"
+    },
+    {
+      "id": "alphabet-67-3",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة زهر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ز هو الصوت الأول.",
+      "asset": "image/zahr/start"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-127",
+  "world": "alphabet",
+  "title": "ق في النهاية",
+  "description": "تعرّف على ق عند ختام الكلمات.",
+  "objective": "تمييز ق النهائي.",
+  "goal": "قراءة ق في نهاية الكلمة.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-127-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بق؟",
+      "choices": ["أفق", "أف", "أفقه"],
+      "answer": "أفق",
+      "hint": "ق آخر حرف مفخم.",
+      "asset": "audio/ufuq/clip1"
+    },
+    {
+      "id": "alphabet-127-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ق أخيرة.",
+      "choices": ["رفق", "رفض", "رفع"],
+      "answer": "رفق",
+      "hint": "ق تأتي بعد الفاء.",
+      "asset": "audio/rafq/clip1"
+    },
+    {
+      "id": "alphabet-127-3",
+      "type": "build",
+      "prompt": "كوّن كلمة صديق.",
+      "choices": ["صديق", "صديك", "صدي"],
+      "answer": "صديق",
+      "hint": "ضع ق في النهاية بعد الياء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-127-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بق؟",
+      "choices": ["أفق", "أف", "أفقه"],
+      "answer": "أفق",
+      "hint": "ق آخر حرف مفخم.",
+      "asset": "audio/ufuq/clip1"
+    },
+    {
+      "id": "alphabet-127-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ق أخيرة.",
+      "choices": ["رفق", "رفض", "رفع"],
+      "answer": "رفق",
+      "hint": "ق تأتي بعد الفاء.",
+      "asset": "audio/rafq/clip1"
+    },
+    {
+      "id": "alphabet-127-3",
+      "type": "build",
+      "prompt": "كوّن كلمة صديق.",
+      "choices": ["صديق", "صديك", "صدي"],
+      "answer": "صديق",
+      "hint": "ضع ق في النهاية بعد الياء."
+    }
+  ]
+}

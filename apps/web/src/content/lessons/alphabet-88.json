@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-88",
+  "world": "alphabet",
+  "title": "مراجعة ص",
+  "description": "تثبيت شكل وصوت ص في المواقع المختلفة.",
+  "objective": "استخدام ص في البداية والوسط والنهاية.",
+  "goal": "قراءة ص بثقة.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-88-1",
+      "type": "match",
+      "prompt": "أين يقع ص في كلمة صوت؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "الصوت المفخم يبدأ بص.",
+      "asset": "image/sawt/start"
+    },
+    {
+      "id": "alphabet-88-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ص وسطية؟",
+      "choices": ["قصص", "حبر", "بيت"],
+      "answer": "قصص",
+      "hint": "ص تظهر في الوسط مع تكرار.",
+      "asset": "audio/qasas/clip2"
+    },
+    {
+      "id": "alphabet-88-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حص.",
+      "choices": ["حص", "صح", "حصح"],
+      "answer": "حص",
+      "hint": "ضع ص بعد الحاء مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-88-1",
+      "type": "match",
+      "prompt": "أين يقع ص في كلمة صوت؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "الصوت المفخم يبدأ بص.",
+      "asset": "image/sawt/start"
+    },
+    {
+      "id": "alphabet-88-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ص وسطية؟",
+      "choices": ["قصص", "حبر", "بيت"],
+      "answer": "قصص",
+      "hint": "ص تظهر في الوسط مع تكرار.",
+      "asset": "audio/qasas/clip2"
+    },
+    {
+      "id": "alphabet-88-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حص.",
+      "choices": ["حص", "صح", "حصح"],
+      "answer": "حص",
+      "hint": "ضع ص بعد الحاء مباشرة."
+    }
+  ]
+}

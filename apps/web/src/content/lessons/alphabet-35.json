@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-35",
+  "world": "alphabet",
+  "title": "صوت ح ناعم",
+  "description": "استمع لصوت ح في كلمات قصيرة.",
+  "objective": "التعرف على ح في البداية.",
+  "goal": "تمييز ح سمعيًا.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-35-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بح؟",
+      "choices": ["حبل", "جمل", "خوف"],
+      "answer": "حبل",
+      "hint": "اسمع النفس الخفيف أولًا.",
+      "asset": "audio/habl/clip1"
+    },
+    {
+      "id": "alphabet-35-2",
+      "type": "choose",
+      "prompt": "اختر شكل ح المفصول.",
+      "choices": ["ح", "خ", "ج"],
+      "answer": "ح",
+      "hint": "لا توجد نقطة.",
+      "asset": "image/haa/isolated"
+    },
+    {
+      "id": "alphabet-35-3",
+      "type": "match",
+      "prompt": "أين يقع ح في كلمة بحر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء والراء.",
+      "asset": "image/bahr/middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-35-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بح؟",
+      "choices": ["حبل", "جمل", "خوف"],
+      "answer": "حبل",
+      "hint": "اسمع النفس الخفيف أولًا.",
+      "asset": "audio/habl/clip1"
+    },
+    {
+      "id": "alphabet-35-2",
+      "type": "choose",
+      "prompt": "اختر شكل ح المفصول.",
+      "choices": ["ح", "خ", "ج"],
+      "answer": "ح",
+      "hint": "لا توجد نقطة." ,
+      "asset": "image/haa/isolated"
+    },
+    {
+      "id": "alphabet-35-3",
+      "type": "match",
+      "prompt": "أين يقع ح في كلمة بحر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء والراء.",
+      "asset": "image/bahr/middle"
+    }
+  ]
+}

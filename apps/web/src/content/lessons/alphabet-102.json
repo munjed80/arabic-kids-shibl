@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-102",
+  "world": "alphabet",
+  "title": "إتمام المستوى ٦",
+  "description": "اختبار خفيف لكل الحروف قبل الإنهاء.",
+  "objective": "تأكيد إتقان الحروف بما فيها ص ض ط.",
+  "goal": "إكمال المستوى بثقة.",
+  "level": 6,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-102-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف مفخم بنقطة؟",
+      "choices": ["ضوء", "صوت", "سيف"],
+      "answer": "ضوء",
+      "hint": "ض بنقطة فوق وصوت غليظ.",
+      "asset": "audio/daw/clip2"
+    },
+    {
+      "id": "alphabet-102-2",
+      "type": "build",
+      "prompt": "كوّن كلمة خطط.",
+      "choices": ["خطط", "طخط", "خط"],
+      "answer": "خطط",
+      "hint": "ط في النهاية بلا نقاط.",
+      "asset": "image/khat/plan"
+    },
+    {
+      "id": "alphabet-102-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ص", "ض", "ط"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-102-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف مفخم بنقطة؟",
+      "choices": ["ضوء", "صوت", "سيف"],
+      "answer": "ضوء",
+      "hint": "ض بنقطة فوق وصوت غليظ.",
+      "asset": "audio/daw/clip2"
+    },
+    {
+      "id": "alphabet-102-2",
+      "type": "build",
+      "prompt": "كوّن كلمة خطط.",
+      "choices": ["خطط", "طخط", "خط"],
+      "answer": "خطط",
+      "hint": "ط في النهاية بلا نقاط.",
+      "asset": "image/khat/plan"
+    },
+    {
+      "id": "alphabet-102-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ص", "ض", "ط"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ]
+}

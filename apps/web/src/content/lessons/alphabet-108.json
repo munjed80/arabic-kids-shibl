@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-108",
+  "world": "alphabet",
+  "title": "ع في الوسط",
+  "description": "تعرّف على ع المتصلة داخل الكلمة.",
+  "objective": "تمييز ع وسطية.",
+  "goal": "ربط ع بصوتها الحلقي.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-108-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ع في الوسط؟",
+      "choices": ["رعد", "راد", "رد"],
+      "answer": "رعد",
+      "hint": "ع بين الراء والدال.",
+      "asset": "audio/raad/clip2"
+    },
+    {
+      "id": "alphabet-108-2",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة سعد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين السين والدال.",
+      "asset": "image/saad/middle"
+    },
+    {
+      "id": "alphabet-108-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لعب.",
+      "choices": ["لعب", "علب", "بلع"],
+      "answer": "لعب",
+      "hint": "ضع ع في الوسط بين اللام والباء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-108-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ع في الوسط؟",
+      "choices": ["رعد", "راد", "رد"],
+      "answer": "رعد",
+      "hint": "ع بين الراء والدال.",
+      "asset": "audio/raad/clip2"
+    },
+    {
+      "id": "alphabet-108-2",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة سعد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين السين والدال.",
+      "asset": "image/saad/middle"
+    },
+    {
+      "id": "alphabet-108-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لعب.",
+      "choices": ["لعب", "علب", "بلع"],
+      "answer": "لعب",
+      "hint": "ضع ع في الوسط بين اللام والباء."
+    }
+  ]
+}

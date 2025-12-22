@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-57",
+  "world": "alphabet",
+  "title": "صوت ر واضح",
+  "description": "استمع لتمييز ر في بداية الكلمات.",
+  "objective": "التعرف على ر الساكنة.",
+  "goal": "تمييز ر عن د وذ.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-57-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بر؟",
+      "choices": ["رمل", "دلو", "ذهب"],
+      "answer": "رمل",
+      "hint": "ر صوت يهتز عند البداية.",
+      "asset": "audio/raml/clip1"
+    },
+    {
+      "id": "alphabet-57-2",
+      "type": "choose",
+      "prompt": "اختر شكل ر المفصول.",
+      "choices": ["ر", "د", "ذ"],
+      "answer": "ر",
+      "hint": "حرف بلا نقطة منحنٍ.",
+      "asset": "image/raa/isolated"
+    },
+    {
+      "id": "alphabet-57-3",
+      "type": "match",
+      "prompt": "أين يقع ر في كلمة رعد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ر هو الصوت الأول.",
+      "asset": "image/raad/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-57-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بر؟",
+      "choices": ["رمل", "دلو", "ذهب"],
+      "answer": "رمل",
+      "hint": "ر صوت يهتز عند البداية.",
+      "asset": "audio/raml/clip1"
+    },
+    {
+      "id": "alphabet-57-2",
+      "type": "choose",
+      "prompt": "اختر شكل ر المفصول.",
+      "choices": ["ر", "د", "ذ"],
+      "answer": "ر",
+      "hint": "حرف بلا نقطة منحنٍ.",
+      "asset": "image/raa/isolated"
+    },
+    {
+      "id": "alphabet-57-3",
+      "type": "match",
+      "prompt": "أين يقع ر في كلمة رعد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ر هو الصوت الأول.",
+      "asset": "image/raad/start"
+    }
+  ]
+}

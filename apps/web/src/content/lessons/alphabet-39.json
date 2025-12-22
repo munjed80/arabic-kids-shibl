@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-39",
+  "world": "alphabet",
+  "title": "صوت خ قوي",
+  "description": "استمع لتمييز خ في البداية.",
+  "objective": "التعرف على خ سمعيًا.",
+  "goal": "تمييز خ عن ح وج.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-39-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بخ؟",
+      "choices": ["خبز", "حبر", "جمل"],
+      "answer": "خبز",
+      "hint": "اسمع الخاء مع هواء خشن.",
+      "asset": "audio/khobz/clip1"
+    },
+    {
+      "id": "alphabet-39-2",
+      "type": "choose",
+      "prompt": "اختر شكل خ المفصول.",
+      "choices": ["خ", "ح", "ج"],
+      "answer": "خ",
+      "hint": "خ تحمل نقطة فوق.",
+      "asset": "image/khaa/isolated"
+    },
+    {
+      "id": "alphabet-39-3",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة خرج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "الخاء أول صوت.",
+      "asset": "image/kharaj/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-39-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بخ؟",
+      "choices": ["خبز", "حبر", "جمل"],
+      "answer": "خبز",
+      "hint": "اسمع الخاء مع هواء خشن.",
+      "asset": "audio/khobz/clip1"
+    },
+    {
+      "id": "alphabet-39-2",
+      "type": "choose",
+      "prompt": "اختر شكل خ المفصول.",
+      "choices": ["خ", "ح", "ج"],
+      "answer": "خ",
+      "hint": "خ تحمل نقطة فوق.",
+      "asset": "image/khaa/isolated"
+    },
+    {
+      "id": "alphabet-39-3",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة خرج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "الخاء أول صوت.",
+      "asset": "image/kharaj/start"
+    }
+  ]
+}

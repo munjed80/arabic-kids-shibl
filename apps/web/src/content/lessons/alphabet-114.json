@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-114",
+  "world": "alphabet",
+  "title": "مراجعة غ",
+  "description": "تثبيت شكل وصوت غ في المواقع المختلفة.",
+  "objective": "استخدام غ بثقة.",
+  "goal": "التمييز بين غ وع وق.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-114-1",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة غيمة؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "غ أول حرف مع نقطة.",
+      "asset": "image/gheema/start"
+    },
+    {
+      "id": "alphabet-114-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها غ في الوسط؟",
+      "choices": ["مغزل", "مزل", "مزلج"],
+      "answer": "مغزل",
+      "hint": "غ بين الميم والزاي.",
+      "asset": "audio/maghzal/clip1"
+    },
+    {
+      "id": "alphabet-114-3",
+      "type": "build",
+      "prompt": "كوّن كلمة غيم.",
+      "choices": ["غيم", "يمغ", "ميغ"],
+      "answer": "غيم",
+      "hint": "ابدأ بغ ثم ياء فميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-114-1",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة غيمة؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "غ أول حرف مع نقطة.",
+      "asset": "image/gheema/start"
+    },
+    {
+      "id": "alphabet-114-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها غ في الوسط؟",
+      "choices": ["مغزل", "مزل", "مزلج"],
+      "answer": "مغزل",
+      "hint": "غ بين الميم والزاي.",
+      "asset": "audio/maghzal/clip1"
+    },
+    {
+      "id": "alphabet-114-3",
+      "type": "build",
+      "prompt": "كوّن كلمة غيم.",
+      "choices": ["غيم", "يمغ", "ميغ"],
+      "answer": "غيم",
+      "hint": "ابدأ بغ ثم ياء فميم."
+    }
+  ]
+}

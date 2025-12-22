@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-73",
+  "world": "alphabet",
+  "title": "س في النهاية",
+  "description": "تعرّف على س عند ختام الكلمات.",
+  "objective": "تمييز س النهائي.",
+  "goal": "قراءة س في نهاية الكلمة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-73-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بس؟",
+      "choices": ["نفس", "بيت", "حبر"],
+      "answer": "نفس",
+      "hint": "س آخر صوت بعد الفاء.",
+      "asset": "audio/nafas/clip1"
+    },
+    {
+      "id": "alphabet-73-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها س أخيرة.",
+      "choices": ["حرس", "دلو", "جمل"],
+      "answer": "حرس",
+      "hint": "س تأتي بعد الراء.",
+      "asset": "audio/haras/clip1"
+    },
+    {
+      "id": "alphabet-73-3",
+      "type": "build",
+      "prompt": "كوّن كلمة كرس.",
+      "choices": ["كرس", "سكر", "كسر"],
+      "answer": "كرس",
+      "hint": "ضع س في النهاية بعد الراء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-73-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بس؟",
+      "choices": ["نفس", "بيت", "حبر"],
+      "answer": "نفس",
+      "hint": "س آخر صوت بعد الفاء.",
+      "asset": "audio/nafas/clip1"
+    },
+    {
+      "id": "alphabet-73-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها س أخيرة.",
+      "choices": ["حرس", "دلو", "جمل"],
+      "answer": "حرس",
+      "hint": "س تأتي بعد الراء.",
+      "asset": "audio/haras/clip1"
+    },
+    {
+      "id": "alphabet-73-3",
+      "type": "build",
+      "prompt": "كوّن كلمة كرس.",
+      "choices": ["كرس", "سكر", "كسر"],
+      "answer": "كرس",
+      "hint": "ضع س في النهاية بعد الراء."
+    }
+  ]
+}

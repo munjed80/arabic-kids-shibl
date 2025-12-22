@@ -1,5 +1,5 @@
 import { LessonEventBus } from "./eventBus";
-import type { Lesson } from "./lessonSchema";
+import type { Activity, Lesson } from "./lessonSchema";
 
 export type LessonEngineResult = {
   correct: boolean;
@@ -37,7 +37,7 @@ export class LessonEngine {
       payload: { lessonId: this.currentLesson.id, activityId: activity.id, choice },
     });
 
-    const correct = activity.answer === choice;
+    const correct = this.isCorrect(activity, choice);
     const isLast = this.currentIndex === this.currentLesson.activities.length - 1;
 
     if (correct) {
@@ -71,5 +71,23 @@ export class LessonEngine {
     if (!this.currentLesson) return;
     this.currentIndex = 0;
     this.startLesson(this.currentLesson, 0);
+  }
+
+  private isCorrect(activity: Activity, choice: string) {
+    const kind = activity.type ?? "choose";
+    switch (kind) {
+      case "review":
+        return true;
+      case "build":
+        return activity.answer.replace(/\s+/g, "") === choice.replace(/\s+/g, "");
+      case "choose":
+      case "listen":
+      case "match":
+        return activity.answer === choice;
+      default: {
+        console.warn(`Unknown activity type "${kind}" encountered. Skipping gracefully.`);
+        return true;
+      }
+    }
   }
 }

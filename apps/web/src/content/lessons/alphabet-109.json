@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-109",
+  "world": "alphabet",
+  "title": "ع في النهاية",
+  "description": "تعرّف على ع عند ختام الكلمات.",
+  "objective": "تمييز ع النهائي.",
+  "goal": "قراءة ع في نهاية الكلمة.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-109-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بع؟",
+      "choices": ["دمع", "حبر", "بيت"],
+      "answer": "دمع",
+      "hint": "ع آخر حرف حلقي.",
+      "asset": "audio/dam3/clip1"
+    },
+    {
+      "id": "alphabet-109-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ع أخيرة.",
+      "choices": ["ورع", "دلو", "زيت"],
+      "answer": "ورع",
+      "hint": "ع تأتي بعد الراء.",
+      "asset": "audio/wara3/clip1"
+    },
+    {
+      "id": "alphabet-109-3",
+      "type": "build",
+      "prompt": "كوّن كلمة منع.",
+      "choices": ["منع", "عنم", "نعم"],
+      "answer": "منع",
+      "hint": "ضع ع في النهاية بعد النون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-109-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بع؟",
+      "choices": ["دمع", "حبر", "بيت"],
+      "answer": "دمع",
+      "hint": "ع آخر حرف حلقي.",
+      "asset": "audio/dam3/clip1"
+    },
+    {
+      "id": "alphabet-109-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ع أخيرة.",
+      "choices": ["ورع", "دلو", "زيت"],
+      "answer": "ورع",
+      "hint": "ع تأتي بعد الراء.",
+      "asset": "audio/wara3/clip1"
+    },
+    {
+      "id": "alphabet-109-3",
+      "type": "build",
+      "prompt": "كوّن كلمة منع.",
+      "choices": ["منع", "عنم", "نعم"],
+      "answer": "منع",
+      "hint": "ضع ع في النهاية بعد النون."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-75",
+  "world": "alphabet",
+  "title": "صوت ش مميز",
+  "description": "استمع لتمييز ش عن س.",
+  "objective": "التعرف على ش بنقاطه الثلاث.",
+  "goal": "فصل ش سمعيًا وبصريًا.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-75-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بش؟",
+      "choices": ["شمس", "سمن", "زيت"],
+      "answer": "شمس",
+      "hint": "صوت ش مع ثلاث نقاط فوق.",
+      "asset": "audio/shams/clip1"
+    },
+    {
+      "id": "alphabet-75-2",
+      "type": "choose",
+      "prompt": "اختر شكل ش المفصول.",
+      "choices": ["ش", "س", "ز"],
+      "answer": "ش",
+      "hint": "ثلاث نقاط فوق.",
+      "asset": "image/sheen/isolated"
+    },
+    {
+      "id": "alphabet-75-3",
+      "type": "match",
+      "prompt": "أين يقع ش في كلمة شجر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ش أول صوت.",
+      "asset": "image/shajar/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-75-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بش؟",
+      "choices": ["شمس", "سمن", "زيت"],
+      "answer": "شمس",
+      "hint": "صوت ش مع ثلاث نقاط فوق.",
+      "asset": "audio/shams/clip1"
+    },
+    {
+      "id": "alphabet-75-2",
+      "type": "choose",
+      "prompt": "اختر شكل ش المفصول.",
+      "choices": ["ش", "س", "ز"],
+      "answer": "ش",
+      "hint": "ثلاث نقاط فوق.",
+      "asset": "image/sheen/isolated"
+    },
+    {
+      "id": "alphabet-75-3",
+      "type": "match",
+      "prompt": "أين يقع ش في كلمة شجر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ش أول صوت.",
+      "asset": "image/shajar/start"
+    }
+  ]
+}

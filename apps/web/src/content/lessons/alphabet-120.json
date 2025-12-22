@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-120",
+  "world": "alphabet",
+  "title": "انطلاق المستوى ٨",
+  "description": "قراءة كلمات مختلطة للاستعداد للمستوى الجديد.",
+  "objective": "ربط ظ ع غ مع حروف أقدم في كلمات قصيرة.",
+  "goal": "الانتقال السلس للمستوى ٨.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-120-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على غ في الوسط؟",
+      "choices": ["مغزى", "موز", "ميز"],
+      "answer": "مغزى",
+      "hint": "غ بين الميم والزاي.",
+      "asset": "audio/maghza/clip1"
+    },
+    {
+      "id": "alphabet-120-2",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بظ.",
+      "choices": ["ظرف", "صرف", "طرف"],
+      "answer": "ظرف",
+      "hint": "ظ مفخم مع نقطة فوق.",
+      "asset": "image/tharf/start"
+    },
+    {
+      "id": "alphabet-120-3",
+      "type": "review",
+      "prompt": "هل أنت جاهز لبدء المستوى ٨؟",
+      "choices": ["جاهز", "أحتاج مراجعة"],
+      "answer": "جاهز",
+      "hint": "ثقتك تقودك للمرحلة القادمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-120-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على غ في الوسط؟",
+      "choices": ["مغزى", "موز", "ميز"],
+      "answer": "مغزى",
+      "hint": "غ بين الميم والزاي.",
+      "asset": "audio/maghza/clip1"
+    },
+    {
+      "id": "alphabet-120-2",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بظ.",
+      "choices": ["ظرف", "صرف", "طرف"],
+      "answer": "ظرف",
+      "hint": "ظ مفخم مع نقطة فوق.",
+      "asset": "image/tharf/start"
+    },
+    {
+      "id": "alphabet-120-3",
+      "type": "review",
+      "prompt": "هل أنت جاهز لبدء المستوى ٨؟",
+      "choices": ["جاهز", "أحتاج مراجعة"],
+      "answer": "جاهز",
+      "hint": "ثقتك تقودك للمرحلة القادمة."
+    }
+  ]
+}

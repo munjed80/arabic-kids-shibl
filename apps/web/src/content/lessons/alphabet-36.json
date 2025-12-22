@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-36",
+  "world": "alphabet",
+  "title": "ح في الوسط",
+  "description": "تعرّف على ح المتصلة في منتصف الكلمة.",
+  "objective": "تحديد ح في كلمات قصيرة.",
+  "goal": "ربط صوت ح مع موقعه.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-36-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ح في الوسط؟",
+      "choices": ["صحر", "صحن", "صخر"],
+      "answer": "صحن",
+      "hint": "اسمع النفس بعد الصاد.",
+      "asset": "audio/sahan/clip1"
+    },
+    {
+      "id": "alphabet-36-2",
+      "type": "match",
+      "prompt": "حدد موقع ح في كلمة مفتاح.",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "تظهر ح أخيرة بعد التاء والألف.",
+      "asset": "image/miftah/end"
+    },
+    {
+      "id": "alphabet-36-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بحر من الاختيارات.",
+      "choices": ["بحر", "حبر", "ربح"],
+      "answer": "بحر",
+      "hint": "ابدأ بب ثم ح ثم ر."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-36-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ح في الوسط؟",
+      "choices": ["صحر", "صحن", "صخر"],
+      "answer": "صحن",
+      "hint": "اسمع النفس بعد الصاد.",
+      "asset": "audio/sahan/clip1"
+    },
+    {
+      "id": "alphabet-36-2",
+      "type": "match",
+      "prompt": "حدد موقع ح في كلمة مفتاح.",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "تظهر ح أخيرة بعد التاء والألف.",
+      "asset": "image/miftah/end"
+    },
+    {
+      "id": "alphabet-36-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بحر من الاختيارات.",
+      "choices": ["بحر", "حبر", "ربح"],
+      "answer": "بحر",
+      "hint": "ابدأ بب ثم ح ثم ر."
+    }
+  ]
+}

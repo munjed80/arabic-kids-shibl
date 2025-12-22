@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-80",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٠",
+  "description": "تمييز سريع بين الحروف مع نقاط مختلفة.",
+  "objective": "التفريق بين ز س ش وسط الحروف السابقة.",
+  "goal": "اختيار الحرف الصحيح بسرعة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-80-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع نقطة واحدة وصفير؟",
+      "choices": ["ز", "س", "ر"],
+      "answer": "ز",
+      "hint": "ز بنقطة فوق.",
+      "asset": "audio/letters/zay"
+    },
+    {
+      "id": "alphabet-80-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو ثلاث نقاط مع صفير.",
+      "choices": ["ش", "ث", "خ"],
+      "answer": "ش",
+      "hint": "ثلاث نقاط فوق الشكل.",
+      "asset": "image/sheen/isolated"
+    },
+    {
+      "id": "alphabet-80-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رسل.",
+      "choices": ["رسل", "سرل", "رلس"],
+      "answer": "رسل",
+      "hint": "ضع س في الوسط بلا نقاط فوق الحرف التالي."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-80-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع نقطة واحدة وصفير؟",
+      "choices": ["ز", "س", "ر"],
+      "answer": "ز",
+      "hint": "ز بنقطة فوق.",
+      "asset": "audio/letters/zay"
+    },
+    {
+      "id": "alphabet-80-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو ثلاث نقاط مع صفير.",
+      "choices": ["ش", "ث", "خ"],
+      "answer": "ش",
+      "hint": "ثلاث نقاط فوق الشكل.",
+      "asset": "image/sheen/isolated"
+    },
+    {
+      "id": "alphabet-80-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رسل.",
+      "choices": ["رسل", "سرل", "رلس"],
+      "answer": "رسل",
+      "hint": "ضع س في الوسط بلا نقاط فوق الحرف التالي."
+    }
+  ]
+}

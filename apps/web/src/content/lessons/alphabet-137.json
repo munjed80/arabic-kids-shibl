@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-137",
+  "world": "alphabet",
+  "title": "إتمام المستوى ٨",
+  "description": "اختبار خفيف لكل الحروف قبل الإنهاء.",
+  "objective": "تأكيد إتقان ف ق ك مع الحروف السابقة.",
+  "goal": "إكمال المستوى بثقة.",
+  "level": 8,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-137-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف مفخم بنقطتين؟",
+      "choices": ["قلم", "كلمة", "فم"],
+      "answer": "قلم",
+      "hint": "ق مفخمة بنقطتين فوق.",
+      "asset": "audio/qalam/clip2"
+    },
+    {
+      "id": "alphabet-137-2",
+      "type": "build",
+      "prompt": "كوّن كلمة فاكهة.",
+      "choices": ["فاكهة", "كافهة", "فاكه"],
+      "answer": "فاكهة",
+      "hint": "ابدأ بف ثم ألف ثم كاف.",
+      "asset": "image/fa/fruit"
+    },
+    {
+      "id": "alphabet-137-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ف", "ق", "ك"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-137-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف مفخم بنقطتين؟",
+      "choices": ["قلم", "كلمة", "فم"],
+      "answer": "قلم",
+      "hint": "ق مفخمة بنقطتين فوق.",
+      "asset": "audio/qalam/clip2"
+    },
+    {
+      "id": "alphabet-137-2",
+      "type": "build",
+      "prompt": "كوّن كلمة فاكهة.",
+      "choices": ["فاكهة", "كافهة", "فاكه"],
+      "answer": "فاكهة",
+      "hint": "ابدأ بف ثم ألف ثم كاف.",
+      "asset": "image/fa/fruit"
+    },
+    {
+      "id": "alphabet-137-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ف", "ق", "ك"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ]
+}

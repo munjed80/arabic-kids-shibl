@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-125",
+  "world": "alphabet",
+  "title": "صوت ق قوي",
+  "description": "استمع لتمييز ق المفخمة عن ك.",
+  "objective": "التعرف على ق في البداية.",
+  "goal": "تمييز ق سمعيًا وبصريًا.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-125-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بق؟",
+      "choices": ["قمر", "كمر", "فمر"],
+      "answer": "قمر",
+      "hint": "صوت مفخم يخرج من أقصى الحلق.",
+      "asset": "audio/qamar/clip1"
+    },
+    {
+      "id": "alphabet-125-2",
+      "type": "choose",
+      "prompt": "اختر شكل ق المفصول.",
+      "choices": ["ق", "ك", "ف"],
+      "answer": "ق",
+      "hint": "نقطتان فوق مع انحناء.",
+      "asset": "image/qaf/isolated"
+    },
+    {
+      "id": "alphabet-125-3",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة قلم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ق أول الحروف.",
+      "asset": "image/qalam/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-125-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بق؟",
+      "choices": ["قمر", "كمر", "فمر"],
+      "answer": "قمر",
+      "hint": "صوت مفخم يخرج من أقصى الحلق.",
+      "asset": "audio/qamar/clip1"
+    },
+    {
+      "id": "alphabet-125-2",
+      "type": "choose",
+      "prompt": "اختر شكل ق المفصول.",
+      "choices": ["ق", "ك", "ف"],
+      "answer": "ق",
+      "hint": "نقطتان فوق مع انحناء.",
+      "asset": "image/qaf/isolated"
+    },
+    {
+      "id": "alphabet-125-3",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة قلم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ق أول الحروف.",
+      "asset": "image/qalam/start"
+    }
+  ]
+}

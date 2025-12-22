@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-64",
+  "world": "alphabet",
+  "title": "حروف مختلطة ٨",
+  "description": "تدريب سريع على الحروف مع مواقع مختلفة.",
+  "objective": "تعزيز السرعة في التمييز.",
+  "goal": "الاستعداد للمراجعة النهائية.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-64-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع ذبذبة خفيفة بلا نقطة؟",
+      "choices": ["ر", "ذ", "د"],
+      "answer": "ر",
+      "hint": "صوت يهتز من طرف اللسان.",
+      "asset": "audio/letters/raa"
+    },
+    {
+      "id": "alphabet-64-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة فوق لكنه أضعف من خ.",
+      "choices": ["ذ", "ث", "ب"],
+      "answer": "ذ",
+      "hint": "همس مع نقطة واحدة.",
+      "asset": "image/thal/isolated"
+    },
+    {
+      "id": "alphabet-64-3",
+      "type": "build",
+      "prompt": "كوّن كلمة خدر.",
+      "choices": ["خدر", "درخ", "رخد"],
+      "answer": "خدر",
+      "hint": "ابدأ بخاء ثم د ثم ر."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-64-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع ذبذبة خفيفة بلا نقطة؟",
+      "choices": ["ر", "ذ", "د"],
+      "answer": "ر",
+      "hint": "صوت يهتز من طرف اللسان.",
+      "asset": "audio/letters/raa"
+    },
+    {
+      "id": "alphabet-64-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة فوق لكنه أضعف من خ.",
+      "choices": ["ذ", "ث", "ب"],
+      "answer": "ذ",
+      "hint": "همس مع نقطة واحدة.",
+      "asset": "image/thal/isolated"
+    },
+    {
+      "id": "alphabet-64-3",
+      "type": "build",
+      "prompt": "كوّن كلمة خدر.",
+      "choices": ["خدر", "درخ", "رخد"],
+      "answer": "خدر",
+      "hint": "ابدأ بخاء ثم د ثم ر."
+    }
+  ]
+}

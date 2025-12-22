@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-53",
+  "world": "alphabet",
+  "title": "صوت ذ مميز",
+  "description": "استمع لتمييز ذ عن د.",
+  "objective": "التعرف على صوت ذ الواضح.",
+  "goal": "فصل ذ سمعيًا عن د.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-53-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بذ؟",
+      "choices": ["ذهب", "درب", "حطب"],
+      "answer": "ذهب",
+      "hint": "ذ مع همس خفيف.",
+      "asset": "audio/thahab/clip1"
+    },
+    {
+      "id": "alphabet-53-2",
+      "type": "choose",
+      "prompt": "اختر شكل ذ المفصول.",
+      "choices": ["ذ", "د", "ر"],
+      "answer": "ذ",
+      "hint": "ذ تحمل نقطة فوق.",
+      "asset": "image/thal/isolated"
+    },
+    {
+      "id": "alphabet-53-3",
+      "type": "match",
+      "prompt": "أين يقع ذ في كلمة غذاء؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بعد الغين مباشرة.",
+      "asset": "image/ghitha/middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-53-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بذ؟",
+      "choices": ["ذهب", "درب", "حطب"],
+      "answer": "ذهب",
+      "hint": "ذ مع همس خفيف.",
+      "asset": "audio/thahab/clip1"
+    },
+    {
+      "id": "alphabet-53-2",
+      "type": "choose",
+      "prompt": "اختر شكل ذ المفصول.",
+      "choices": ["ذ", "د", "ر"],
+      "answer": "ذ",
+      "hint": "ذ تحمل نقطة فوق.",
+      "asset": "image/thal/isolated"
+    },
+    {
+      "id": "alphabet-53-3",
+      "type": "match",
+      "prompt": "أين يقع ذ في كلمة غذاء؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بعد الغين مباشرة.",
+      "asset": "image/ghitha/middle"
+    }
+  ]
+}

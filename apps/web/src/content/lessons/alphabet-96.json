@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-96",
+  "world": "alphabet",
+  "title": "مراجعة ط",
+  "description": "تثبيت شكل وصوت ط في المواقع المختلفة.",
+  "objective": "استخدام ط بثقة.",
+  "goal": "التمييز بين ط وت.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-96-1",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة طبخ؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ط أول حرف مفخم.",
+      "asset": "image/tabkh/start"
+    },
+    {
+      "id": "alphabet-96-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ط وسطية؟",
+      "choices": ["حطب", "حبر", "بيت"],
+      "answer": "حطب",
+      "hint": "ط بين الحاء والباء.",
+      "asset": "audio/hatab/clip2"
+    },
+    {
+      "id": "alphabet-96-3",
+      "type": "build",
+      "prompt": "كوّن كلمة خطط.",
+      "choices": ["خطط", "طخط", "خط"],
+      "answer": "خطط",
+      "hint": "ضع ط في النهاية بعد الخط." 
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-96-1",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة طبخ؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ط أول حرف مفخم.",
+      "asset": "image/tabkh/start"
+    },
+    {
+      "id": "alphabet-96-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ط وسطية؟",
+      "choices": ["حطب", "حبر", "بيت"],
+      "answer": "حطب",
+      "hint": "ط بين الحاء والباء.",
+      "asset": "audio/hatab/clip2"
+    },
+    {
+      "id": "alphabet-96-3",
+      "type": "build",
+      "prompt": "كوّن كلمة خطط.",
+      "choices": ["خطط", "طخط", "خط"],
+      "answer": "خطط",
+      "hint": "ضع ط في النهاية بعد الخط." 
+    }
+  ]
+}

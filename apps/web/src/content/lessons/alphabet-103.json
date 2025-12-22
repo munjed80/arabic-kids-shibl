@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-103",
+  "world": "alphabet",
+  "title": "صوت ظ واضح",
+  "description": "استمع لتمييز ظ عن ز وض.",
+  "objective": "التعرف على ظ في البداية.",
+  "goal": "تمييز ظ سمعيًا وبصريًا.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-103-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بظ؟",
+      "choices": ["ظرف", "زيت", "ضوء"],
+      "answer": "ظرف",
+      "hint": "حرف مفخم مع نقطة فوق.",
+      "asset": "audio/tharf/clip1"
+    },
+    {
+      "id": "alphabet-103-2",
+      "type": "choose",
+      "prompt": "اختر شكل ظ المفصول.",
+      "choices": ["ظ", "ض", "ز"],
+      "answer": "ظ",
+      "hint": "شبه ض لكن بنقطة أعلى.",
+      "asset": "image/thaa2/isolated"
+    },
+    {
+      "id": "alphabet-103-3",
+      "type": "match",
+      "prompt": "أين يقع ظ في كلمة ظرف؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ظ هو الصوت الأول.",
+      "asset": "image/tharf/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-103-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بظ؟",
+      "choices": ["ظرف", "زيت", "ضوء"],
+      "answer": "ظرف",
+      "hint": "حرف مفخم مع نقطة فوق.",
+      "asset": "audio/tharf/clip1"
+    },
+    {
+      "id": "alphabet-103-2",
+      "type": "choose",
+      "prompt": "اختر شكل ظ المفصول.",
+      "choices": ["ظ", "ض", "ز"],
+      "answer": "ظ",
+      "hint": "شبه ض لكن بنقطة أعلى.",
+      "asset": "image/thaa2/isolated"
+    },
+    {
+      "id": "alphabet-103-3",
+      "type": "match",
+      "prompt": "أين يقع ظ في كلمة ظرف؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ظ هو الصوت الأول.",
+      "asset": "image/tharf/start"
+    }
+  ]
+}

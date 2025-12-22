@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-91",
+  "world": "alphabet",
+  "title": "ض في النهاية",
+  "description": "تعرّف على ض عند ختام الكلمات.",
+  "objective": "تمييز ض النهائي عن د.",
+  "goal": "قراءة ض في نهاية الكلمة.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-91-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بض؟",
+      "choices": ["حوض", "حبر", "بيت"],
+      "answer": "حوض",
+      "hint": "ض آخر صوت بعد الواو.",
+      "asset": "audio/hawd/clip3"
+    },
+    {
+      "id": "alphabet-91-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ض أخيرة.",
+      "choices": ["نبض", "حبر", "قمر"],
+      "answer": "نبض",
+      "hint": "ض بعد الباء مباشرة.",
+      "asset": "audio/nabd/clip1"
+    },
+    {
+      "id": "alphabet-91-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بيض.",
+      "choices": ["بيض", "ضيب", "يبض"],
+      "answer": "بيض",
+      "hint": "ضع ض في النهاية بعد الياء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-91-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بض؟",
+      "choices": ["حوض", "حبر", "بيت"],
+      "answer": "حوض",
+      "hint": "ض آخر صوت بعد الواو.",
+      "asset": "audio/hawd/clip3"
+    },
+    {
+      "id": "alphabet-91-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ض أخيرة.",
+      "choices": ["نبض", "حبر", "قمر"],
+      "answer": "نبض",
+      "hint": "ض بعد الباء مباشرة.",
+      "asset": "audio/nabd/clip1"
+    },
+    {
+      "id": "alphabet-91-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بيض.",
+      "choices": ["بيض", "ضيب", "يبض"],
+      "answer": "بيض",
+      "hint": "ضع ض في النهاية بعد الياء."
+    }
+  ]
+}

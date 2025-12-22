@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-92",
+  "world": "alphabet",
+  "title": "مراجعة ض",
+  "description": "تثبيت شكل وصوت ض في المواقع المختلفة.",
+  "objective": "استخدام ض بثقة.",
+  "goal": "التمييز الواضح بين ض ود.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-92-1",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة ضوء؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ض أول حرف مفخم.",
+      "asset": "image/daw/start"
+    },
+    {
+      "id": "alphabet-92-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ض وسطية؟",
+      "choices": ["حوض", "حبر", "بيت"],
+      "answer": "حوض",
+      "hint": "ض بعد الواو بنقطة فوق.",
+      "asset": "audio/hawd/clip2"
+    },
+    {
+      "id": "alphabet-92-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نبض.",
+      "choices": ["نبض", "بنض", "نضب"],
+      "answer": "نبض",
+      "hint": "ضع ض في النهاية بعد الباء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-92-1",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة ضوء؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ض أول حرف مفخم.",
+      "asset": "image/daw/start"
+    },
+    {
+      "id": "alphabet-92-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ض وسطية؟",
+      "choices": ["حوض", "حبر", "بيت"],
+      "answer": "حوض",
+      "hint": "ض بعد الواو بنقطة فوق.",
+      "asset": "audio/hawd/clip2"
+    },
+    {
+      "id": "alphabet-92-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نبض.",
+      "choices": ["نبض", "بنض", "نضب"],
+      "answer": "نبض",
+      "hint": "ضع ض في النهاية بعد الباء."
+    }
+  ]
+}

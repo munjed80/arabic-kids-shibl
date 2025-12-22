@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-107",
+  "world": "alphabet",
+  "title": "صوت ع واضح",
+  "description": "استمع لتمييز ع من بداية الحلق.",
+  "objective": "التعرف على ع في البداية.",
+  "goal": "تمييز ع سمعيًا وبصريًا.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-107-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بع؟",
+      "choices": ["عسل", "سمن", "زيت"],
+      "answer": "عسل",
+      "hint": "صوت حلقي واضح في البداية.",
+      "asset": "audio/asal/clip1"
+    },
+    {
+      "id": "alphabet-107-2",
+      "type": "choose",
+      "prompt": "اختر شكل ع المفصول.",
+      "choices": ["ع", "غ", "ح"],
+      "answer": "ع",
+      "hint": "حرف بلا نقطة بصوت حلقي.",
+      "asset": "image/ain/isolated"
+    },
+    {
+      "id": "alphabet-107-3",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة عشب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ع أول حرف.",
+      "asset": "image/oshb/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-107-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بع؟",
+      "choices": ["عسل", "سمن", "زيت"],
+      "answer": "عسل",
+      "hint": "صوت حلقي واضح في البداية.",
+      "asset": "audio/asal/clip1"
+    },
+    {
+      "id": "alphabet-107-2",
+      "type": "choose",
+      "prompt": "اختر شكل ع المفصول.",
+      "choices": ["ع", "غ", "ح"],
+      "answer": "ع",
+      "hint": "حرف بلا نقطة بصوت حلقي.",
+      "asset": "image/ain/isolated"
+    },
+    {
+      "id": "alphabet-107-3",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة عشب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ع أول حرف.",
+      "asset": "image/oshb/start"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-104",
+  "world": "alphabet",
+  "title": "ظ في الوسط",
+  "description": "تعرّف على ظ داخل الكلمة.",
+  "objective": "تمييز ظ وسطية عن ض.",
+  "goal": "ربط ظ بموقعه الأوسط.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-104-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ظ في الوسط؟",
+      "choices": ["عظم", "عنب", "غصن"],
+      "answer": "عظم",
+      "hint": "ظ بين العين والميم.",
+      "asset": "audio/azm/clip1"
+    },
+    {
+      "id": "alphabet-104-2",
+      "type": "match",
+      "prompt": "أين يقع ظ في كلمة حظا؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الحاء والألف.",
+      "asset": "image/hatha/middle"
+    },
+    {
+      "id": "alphabet-104-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حظ.",
+      "choices": ["حظ", "ظح", "ضح"],
+      "answer": "حظ",
+      "hint": "ضع ظ بعد الحاء مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-104-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ظ في الوسط؟",
+      "choices": ["عظم", "عنب", "غصن"],
+      "answer": "عظم",
+      "hint": "ظ بين العين والميم.",
+      "asset": "audio/azm/clip1"
+    },
+    {
+      "id": "alphabet-104-2",
+      "type": "match",
+      "prompt": "أين يقع ظ في كلمة حظا؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الحاء والألف.",
+      "asset": "image/hatha/middle"
+    },
+    {
+      "id": "alphabet-104-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حظ.",
+      "choices": ["حظ", "ظح", "ضح"],
+      "answer": "حظ",
+      "hint": "ضع ظ بعد الحاء مباشرة."
+    }
+  ]
+}

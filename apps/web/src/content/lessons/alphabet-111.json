@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-111",
+  "world": "alphabet",
+  "title": "صوت غ واضح",
+  "description": "استمع لتمييز غ من الخلفية الحلقية.",
+  "objective": "التعرف على غ في البداية.",
+  "goal": "تمييز غ سمعيًا وبصريًا.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-111-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بغ؟",
+      "choices": ["غيمة", "قمر", "فم"],
+      "answer": "غيمة",
+      "hint": "صوت غ حلقي بنقطة فوق.",
+      "asset": "audio/gheema/clip1"
+    },
+    {
+      "id": "alphabet-111-2",
+      "type": "choose",
+      "prompt": "اختر شكل غ المفصول.",
+      "choices": ["غ", "ع", "ف"],
+      "answer": "غ",
+      "hint": "يشبه ع لكن مع نقطة فوق.",
+      "asset": "image/ghain/isolated"
+    },
+    {
+      "id": "alphabet-111-3",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة غصن؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "غ هو الصوت الأول.",
+      "asset": "image/ghosn/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-111-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بغ؟",
+      "choices": ["غيمة", "قمر", "فم"],
+      "answer": "غيمة",
+      "hint": "صوت غ حلقي بنقطة فوق.",
+      "asset": "audio/gheema/clip1"
+    },
+    {
+      "id": "alphabet-111-2",
+      "type": "choose",
+      "prompt": "اختر شكل غ المفصول.",
+      "choices": ["غ", "ع", "ف"],
+      "answer": "غ",
+      "hint": "يشبه ع لكن مع نقطة فوق.",
+      "asset": "image/ghain/isolated"
+    },
+    {
+      "id": "alphabet-111-3",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة غصن؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "غ هو الصوت الأول.",
+      "asset": "image/ghosn/start"
+    }
+  ]
+}

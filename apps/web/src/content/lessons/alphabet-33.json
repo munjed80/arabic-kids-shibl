@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-33",
+  "world": "alphabet",
+  "title": "ج في النهاية",
+  "description": "تعرّف على ج عند انتهاء الكلمة.",
+  "objective": "تمييز ج النهائي صوتًا وشكلًا.",
+  "goal": "قراءة ج في آخر كلمات قصيرة.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-33-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بج؟",
+      "choices": ["ثلج", "حبر", "كتب"],
+      "answer": "ثلج",
+      "hint": "اسمع ج بعد الثاء واللام.",
+      "asset": "audio/thalj/clip1"
+    },
+    {
+      "id": "alphabet-33-2",
+      "type": "match",
+      "prompt": "حدد موقع ج في كلمة موج.",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "يأتي بعد الواو.",
+      "asset": "image/mowj/end"
+    },
+    {
+      "id": "alphabet-33-3",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين درج.",
+      "choices": ["درج", "جرد", "رجد"],
+      "answer": "درج",
+      "hint": "ابدأ بد ثم ر ثم ج."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-33-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بج؟",
+      "choices": ["ثلج", "حبر", "كتب"],
+      "answer": "ثلج",
+      "hint": "اسمع ج بعد الثاء واللام.",
+      "asset": "audio/thalj/clip1"
+    },
+    {
+      "id": "alphabet-33-2",
+      "type": "match",
+      "prompt": "حدد موقع ج في كلمة موج.",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "يأتي بعد الواو.",
+      "asset": "image/mowj/end"
+    },
+    {
+      "id": "alphabet-33-3",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين درج.",
+      "choices": ["درج", "جرد", "رجد"],
+      "answer": "درج",
+      "hint": "ابدأ بد ثم ر ثم ج."
+    }
+  ]
+}

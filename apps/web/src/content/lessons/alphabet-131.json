@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-131",
+  "world": "alphabet",
+  "title": "ك في النهاية",
+  "description": "تعرّف على ك عند ختام الكلمات.",
+  "objective": "تمييز ك النهائي.",
+  "goal": "قراءة ك في نهاية الكلمة.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-131-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بك؟",
+      "choices": ["ملاك", "ملاء", "ملا"],
+      "answer": "ملاك",
+      "hint": "ك آخر حرف بعد الألف.",
+      "asset": "audio/malak/clip1"
+    },
+    {
+      "id": "alphabet-131-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ك أخيرة.",
+      "choices": ["سمك", "سم", "سمو"],
+      "answer": "سمك",
+      "hint": "ك تأتي بعد الميم.",
+      "asset": "audio/samak/clip1"
+    },
+    {
+      "id": "alphabet-131-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فلك.",
+      "choices": ["فلك", "لفك", "فل"],
+      "answer": "فلك",
+      "hint": "ضع ك في النهاية بعد اللام."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-131-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بك؟",
+      "choices": ["ملاك", "ملاء", "ملا"],
+      "answer": "ملاك",
+      "hint": "ك آخر حرف بعد الألف.",
+      "asset": "audio/malak/clip1"
+    },
+    {
+      "id": "alphabet-131-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ك أخيرة.",
+      "choices": ["سمك", "سم", "سمو"],
+      "answer": "سمك",
+      "hint": "ك تأتي بعد الميم.",
+      "asset": "audio/samak/clip1"
+    },
+    {
+      "id": "alphabet-131-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فلك.",
+      "choices": ["فلك", "لفك", "فل"],
+      "answer": "فلك",
+      "hint": "ضع ك في النهاية بعد اللام."
+    }
+  ]
+}

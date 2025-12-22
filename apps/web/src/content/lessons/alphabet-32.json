@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-32",
+  "world": "alphabet",
+  "title": "ج في الوسط",
+  "description": "تعرّف على ج المتصلة في منتصف الكلمة.",
+  "objective": "تحديد ج في وسط كلمات قصيرة.",
+  "goal": "ربط صوت وشكل ج في السياق.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-32-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ج في الوسط؟",
+      "choices": ["مجد", "حوت", "بيت"],
+      "answer": "مجد",
+      "hint": "اسمع الجرس بعد الميم.",
+      "asset": "audio/majd/clip1"
+    },
+    {
+      "id": "alphabet-32-2",
+      "type": "match",
+      "prompt": "أين يأتي ج في كلمة درج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الدال والراء.",
+      "asset": "image/deraj/middle"
+    },
+    {
+      "id": "alphabet-32-3",
+      "type": "build",
+      "prompt": "كوّن كلمة جسر من الاختيارات.",
+      "choices": ["جسر", "سرج", "جرس"],
+      "answer": "جسر",
+      "hint": "ابدأ بج ثم سر متصل."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-32-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ج في الوسط؟",
+      "choices": ["مجد", "حوت", "بيت"],
+      "answer": "مجد",
+      "hint": "اسمع الجرس بعد الميم.",
+      "asset": "audio/majd/clip1"
+    },
+    {
+      "id": "alphabet-32-2",
+      "type": "match",
+      "prompt": "أين يأتي ج في كلمة درج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الدال والراء.",
+      "asset": "image/deraj/middle"
+    },
+    {
+      "id": "alphabet-32-3",
+      "type": "build",
+      "prompt": "كوّن كلمة جسر من الاختيارات.",
+      "choices": ["جسر", "سرج", "جرس"],
+      "answer": "جسر",
+      "hint": "ابدأ بج ثم سر متصل."
+    }
+  ]
+}

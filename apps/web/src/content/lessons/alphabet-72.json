@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-72",
+  "world": "alphabet",
+  "title": "س في الوسط",
+  "description": "تعرّف على س المتصلة في منتصف الكلمة.",
+  "objective": "تمييز س وسطية.",
+  "goal": "ربط س مع الحروف قبل وبعدها.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-72-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها س في الوسط؟",
+      "choices": ["بساط", "بيت", "حبر"],
+      "answer": "بساط",
+      "hint": "س بين الباء والألف.",
+      "asset": "audio/bisat/clip1"
+    },
+    {
+      "id": "alphabet-72-2",
+      "type": "match",
+      "prompt": "أين يقع س في كلمة مسك؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والكاف.",
+      "asset": "image/misk/middle"
+    },
+    {
+      "id": "alphabet-72-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فستق.",
+      "choices": ["فستق", "سفتق", "فتقس"],
+      "answer": "فستق",
+      "hint": "ضع س بعد الفاء مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-72-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها س في الوسط؟",
+      "choices": ["بساط", "بيت", "حبر"],
+      "answer": "بساط",
+      "hint": "س بين الباء والألف.",
+      "asset": "audio/bisat/clip1"
+    },
+    {
+      "id": "alphabet-72-2",
+      "type": "match",
+      "prompt": "أين يقع س في كلمة مسك؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والكاف.",
+      "asset": "image/misk/middle"
+    },
+    {
+      "id": "alphabet-72-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فستق.",
+      "choices": ["فستق", "سفتق", "فتقس"],
+      "answer": "فستق",
+      "hint": "ضع س بعد الفاء مباشرة."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-113",
+  "world": "alphabet",
+  "title": "غ في النهاية",
+  "description": "تعرّف على غ عند ختام الكلمات.",
+  "objective": "تمييز غ النهائي.",
+  "goal": "قراءة غ في نهاية الكلمة.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-113-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بغ؟",
+      "choices": ["بلوغ", "كتاب", "بيت"],
+      "answer": "بلوغ",
+      "hint": "غ آخر حرف بعد الواو.",
+      "asset": "audio/balough/clip1"
+    },
+    {
+      "id": "alphabet-113-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها غ أخيرة.",
+      "choices": ["فراغ", "حبر", "رمل"],
+      "answer": "فراغ",
+      "hint": "تنتهي بغ مفخمة.",
+      "asset": "audio/faragh/clip1"
+    },
+    {
+      "id": "alphabet-113-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فرغ.",
+      "choices": ["فرغ", "غرف", "رفغ"],
+      "answer": "فرغ",
+      "hint": "ضع غ بعد الراء في النهاية."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-113-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بغ؟",
+      "choices": ["بلوغ", "كتاب", "بيت"],
+      "answer": "بلوغ",
+      "hint": "غ آخر حرف بعد الواو.",
+      "asset": "audio/balough/clip1"
+    },
+    {
+      "id": "alphabet-113-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها غ أخيرة.",
+      "choices": ["فراغ", "حبر", "رمل"],
+      "answer": "فراغ",
+      "hint": "تنتهي بغ مفخمة.",
+      "asset": "audio/faragh/clip1"
+    },
+    {
+      "id": "alphabet-113-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فرغ.",
+      "choices": ["فرغ", "غرف", "رفغ"],
+      "answer": "فرغ",
+      "hint": "ضع غ بعد الراء في النهاية."
+    }
+  ]
+}

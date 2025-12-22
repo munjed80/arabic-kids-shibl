@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-99",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٥",
+  "description": "دمج الحروف المفخمة مع غيرها في كلمات بسيطة.",
+  "objective": "مطابقة الصوت مع الشكل.",
+  "goal": "تعزيز الذاكرة السمعية والبصرية.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-99-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم بلا نقطة يسبق طاء؟",
+      "choices": ["ص", "س", "ش"],
+      "answer": "ص",
+      "hint": "ص في بداية الكلمة.",
+      "asset": "audio/letters/sad2"
+    },
+    {
+      "id": "alphabet-99-2",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة حوض؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ض بعد الواو.",
+      "asset": "image/hawd/end"
+    },
+    {
+      "id": "alphabet-99-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بساط.",
+      "choices": ["بساط", "صباس", "طسبا"],
+      "answer": "بساط",
+      "hint": "ط في النهاية بعد الألف."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-99-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم بلا نقطة يسبق طاء؟",
+      "choices": ["ص", "س", "ش"],
+      "answer": "ص",
+      "hint": "ص في بداية الكلمة.",
+      "asset": "audio/letters/sad2"
+    },
+    {
+      "id": "alphabet-99-2",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة حوض؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ض بعد الواو.",
+      "asset": "image/hawd/end"
+    },
+    {
+      "id": "alphabet-99-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بساط.",
+      "choices": ["بساط", "صباس", "طسبا"],
+      "answer": "بساط",
+      "hint": "ط في النهاية بعد الألف."
+    }
+  ]
+}

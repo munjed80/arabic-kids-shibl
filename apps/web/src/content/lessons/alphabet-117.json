@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-117",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٩",
+  "description": "تطبيق سريع للحروف ظ ع غ مع كلمات قصيرة.",
+  "objective": "اختيار الحرف الصحيح من الصوت والمعنى.",
+  "goal": "تعزيز الطلاقة قبل المراجعة.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-117-1",
+      "type": "listen",
+      "prompt": "أي حرف بنقطة وفخم بعد العين؟",
+      "choices": ["غ", "ظ", "ف"],
+      "answer": "غ",
+      "hint": "الغ صوت أعمق من الظ.",
+      "asset": "audio/letters/ghain2"
+    },
+    {
+      "id": "alphabet-117-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الصحيح في كلمة _رف.",
+      "choices": ["ظ", "غ", "ع"],
+      "answer": "ظ",
+      "hint": "ظرف يبدأ بظ مفخم.",
+      "asset": "image/tharf/isolated"
+    },
+    {
+      "id": "alphabet-117-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رغد.",
+      "choices": ["رغد", "غرد", "درغ"],
+      "answer": "رغد",
+      "hint": "ضع غ بعد الراء مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-117-1",
+      "type": "listen",
+      "prompt": "أي حرف بنقطة وفخم بعد العين؟",
+      "choices": ["غ", "ظ", "ف"],
+      "answer": "غ",
+      "hint": "الغ صوت أعمق من الظ.",
+      "asset": "audio/letters/ghain2"
+    },
+    {
+      "id": "alphabet-117-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الصحيح في كلمة _رف.",
+      "choices": ["ظ", "غ", "ع"],
+      "answer": "ظ",
+      "hint": "ظرف يبدأ بظ مفخم.",
+      "asset": "image/tharf/isolated"
+    },
+    {
+      "id": "alphabet-117-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رغد.",
+      "choices": ["رغد", "غرد", "درغ"],
+      "answer": "رغد",
+      "hint": "ضع غ بعد الراء مباشرة."
+    }
+  ]
+}

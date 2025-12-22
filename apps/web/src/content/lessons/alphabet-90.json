@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-90",
+  "world": "alphabet",
+  "title": "ض في الوسط",
+  "description": "تعرّف على ض المتصلة داخل الكلمة.",
+  "objective": "تمييز ض وسطية عن د.",
+  "goal": "ربط ض بنقطة فوق وصوت غليظ.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-90-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ض في الوسط؟",
+      "choices": ["حضن", "حدب", "حبر"],
+      "answer": "حضن",
+      "hint": "ض بعد الحاء مباشرة.",
+      "asset": "audio/hadn/clip1"
+    },
+    {
+      "id": "alphabet-90-2",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة بيض؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ض آخر حرف بعد الياء.",
+      "asset": "image/bayd/end"
+    },
+    {
+      "id": "alphabet-90-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حوض.",
+      "choices": ["حوض", "ضحا", "حضو"],
+      "answer": "حوض",
+      "hint": "ضع ض بعد الواو بنقطة فوق."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-90-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ض في الوسط؟",
+      "choices": ["حضن", "حدب", "حبر"],
+      "answer": "حضن",
+      "hint": "ض بعد الحاء مباشرة.",
+      "asset": "audio/hadn/clip1"
+    },
+    {
+      "id": "alphabet-90-2",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة بيض؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ض آخر حرف بعد الياء.",
+      "asset": "image/bayd/end"
+    },
+    {
+      "id": "alphabet-90-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حوض.",
+      "choices": ["حوض", "ضحا", "حضو"],
+      "answer": "حوض",
+      "hint": "ضع ض بعد الواو بنقطة فوق."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-41",
+  "world": "alphabet",
+  "title": "خ في النهاية",
+  "description": "تعرّف على خ عند ختام الكلمة.",
+  "objective": "تمييز خ النهائي.",
+  "goal": "قراءة خ في نهاية كلمات.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-41-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بخ؟",
+      "choices": ["مخ", "ملح", "بحر"],
+      "answer": "مخ",
+      "hint": "الخاء صوت خشن في آخر الكلمة.",
+      "asset": "audio/mekh/clip1"
+    },
+    {
+      "id": "alphabet-41-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة تنتهي بخ.",
+      "choices": ["فخ", "مرح", "مسح"],
+      "answer": "فخ",
+      "hint": "الخاء تأتي بعد الفاء مباشرة.",
+      "asset": "audio/fakh/clip1"
+    },
+    {
+      "id": "alphabet-41-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فخ.",
+      "choices": ["فخ", "خف", "حك"],
+      "answer": "فخ",
+      "hint": "ضع خ بعد الفاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-41-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بخ؟",
+      "choices": ["مخ", "ملح", "بحر"],
+      "answer": "مخ",
+      "hint": "الخاء صوت خشن في آخر الكلمة.",
+      "asset": "audio/mekh/clip1"
+    },
+    {
+      "id": "alphabet-41-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة تنتهي بخ.",
+      "choices": ["فخ", "مرح", "مسح"],
+      "answer": "فخ",
+      "hint": "الخاء تأتي بعد الفاء مباشرة.",
+      "asset": "audio/fakh/clip1"
+    },
+    {
+      "id": "alphabet-41-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فخ.",
+      "choices": ["فخ", "خف", "حك"],
+      "answer": "فخ",
+      "hint": "ضع خ بعد الفاء."
+    }
+  ]
+}

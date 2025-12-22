@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-31",
+  "world": "alphabet",
+  "title": "صوت ج واضح",
+  "description": "استمع لتمييز ج في كلمات قصيرة.",
+  "objective": "التعرف على صوت ج في الكلمات.",
+  "goal": "تمييز ج سمعيًا وبصريًا.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-31-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ج في البداية؟",
+      "choices": ["جمل", "حبل", "ثوب"],
+      "answer": "جمل",
+      "hint": "ابحث عن ج في أول الصوت.",
+      "asset": "audio/jeml/clip1"
+    },
+    {
+      "id": "alphabet-31-2",
+      "type": "choose",
+      "prompt": "اختر شكل ج المفصول.",
+      "choices": ["ج", "ح", "خ"],
+      "answer": "ج",
+      "hint": "توجد نقطة أسفل الحرف.",
+      "asset": "image/jeem/isolated"
+    },
+    {
+      "id": "alphabet-31-3",
+      "type": "match",
+      "prompt": "أين يقع ج في كلمة دجاج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "اسمع ج في آخر الكلمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-31-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ج في البداية؟",
+      "choices": ["جمل", "حبل", "ثوب"],
+      "answer": "جمل",
+      "hint": "ابحث عن ج في أول الصوت.",
+      "asset": "audio/jeml/clip1"
+    },
+    {
+      "id": "alphabet-31-2",
+      "type": "choose",
+      "prompt": "اختر شكل ج المفصول.",
+      "choices": ["ج", "ح", "خ"],
+      "answer": "ج",
+      "hint": "توجد نقطة أسفل الحرف.",
+      "asset": "image/jeem/isolated"
+    },
+    {
+      "id": "alphabet-31-3",
+      "type": "match",
+      "prompt": "أين يقع ج في كلمة دجاج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "اسمع ج في آخر الكلمة."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-85",
+  "world": "alphabet",
+  "title": "صوت ص واضح",
+  "description": "استمع لتمييز ص عن س.",
+  "objective": "التعرف على ص في البداية.",
+  "goal": "تمييز ص سمعيًا وبصريًا.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-85-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بص؟",
+      "choices": ["صوت", "سيف", "زيت"],
+      "answer": "صوت",
+      "hint": "ص صوت مفخم في البداية.",
+      "asset": "audio/sawt/clip1"
+    },
+    {
+      "id": "alphabet-85-2",
+      "type": "choose",
+      "prompt": "اختر شكل ص المفصول.",
+      "choices": ["ص", "س", "ض"],
+      "answer": "ص",
+      "hint": "ص بلا نقاط.",
+      "asset": "image/sad/isolated"
+    },
+    {
+      "id": "alphabet-85-3",
+      "type": "match",
+      "prompt": "أين يقع ص في كلمة صبر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ص أول حرف.",
+      "asset": "image/sabr/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-85-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بص؟",
+      "choices": ["صوت", "سيف", "زيت"],
+      "answer": "صوت",
+      "hint": "ص صوت مفخم في البداية.",
+      "asset": "audio/sawt/clip1"
+    },
+    {
+      "id": "alphabet-85-2",
+      "type": "choose",
+      "prompt": "اختر شكل ص المفصول.",
+      "choices": ["ص", "س", "ض"],
+      "answer": "ص",
+      "hint": "ص بلا نقاط.",
+      "asset": "image/sad/isolated"
+    },
+    {
+      "id": "alphabet-85-3",
+      "type": "match",
+      "prompt": "أين يقع ص في كلمة صبر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ص أول حرف.",
+      "asset": "image/sabr/start"
+    }
+  ]
+}

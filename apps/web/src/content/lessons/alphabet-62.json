@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-62",
+  "world": "alphabet",
+  "title": "حروف مختلطة ٦",
+  "description": "تمييز النقاط والأصوات بين الحروف المتشابهة.",
+  "objective": "التفريق بين د وذ وث وخ.",
+  "goal": "اختيار الحرف الصحيح بسرعة.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-62-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع همس خفيف ونقطة فوق؟",
+      "choices": ["ذ", "د", "ر"],
+      "answer": "ذ",
+      "hint": "ذ أقرب للثة مع نقطة واحدة.",
+      "asset": "audio/letters/thal"
+    },
+    {
+      "id": "alphabet-62-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو ثلاث نقاط فوق.",
+      "choices": ["ث", "ب", "د"],
+      "answer": "ث",
+      "hint": "ثلاث نقاط مرتبة.",
+      "asset": "image/thaa/isolated"
+    },
+    {
+      "id": "alphabet-62-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ذبح.",
+      "choices": ["ذبح", "بذح", "حذب"],
+      "answer": "ذبح",
+      "hint": "ابدأ بذ ثم باء ثم حاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-62-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع همس خفيف ونقطة فوق؟",
+      "choices": ["ذ", "د", "ر"],
+      "answer": "ذ",
+      "hint": "ذ أقرب للثة مع نقطة واحدة.",
+      "asset": "audio/letters/thal"
+    },
+    {
+      "id": "alphabet-62-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو ثلاث نقاط فوق.",
+      "choices": ["ث", "ب", "د"],
+      "answer": "ث",
+      "hint": "ثلاث نقاط مرتبة.",
+      "asset": "image/thaa/isolated"
+    },
+    {
+      "id": "alphabet-62-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ذبح.",
+      "choices": ["ذبح", "بذح", "حذب"],
+      "answer": "ذبح",
+      "hint": "ابدأ بذ ثم باء ثم حاء."
+    }
+  ]
+}

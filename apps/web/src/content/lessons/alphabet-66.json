@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-66",
+  "world": "alphabet",
+  "title": "إتمام المستوى ٤",
+  "description": "اختبار خفيف لكل الحروف قبل الإنهاء.",
+  "objective": "تأكيد إتقان ا ب ت ث ج ح خ د ذ ر.",
+  "goal": "إكمال المستوى بثقة.",
+  "level": 4,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-66-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بدون نقاط وبصوت قوي؟",
+      "choices": ["دلو", "ذيل", "رمل"],
+      "answer": "دلو",
+      "hint": "د بلا نقطة وصوته واضح في البداية.",
+      "asset": "audio/dalw/clip2"
+    },
+    {
+      "id": "alphabet-66-2",
+      "type": "build",
+      "prompt": "كوّن كلمة ذرا.",
+      "choices": ["ذرا", "راذ", "ذار"],
+      "answer": "ذرا",
+      "hint": "ابدأ بذ ثم راء ثم ألف.",
+      "asset": "image/thara/build"
+    },
+    {
+      "id": "alphabet-66-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["د", "ذ", "ر"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-66-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بدون نقاط وبصوت قوي؟",
+      "choices": ["دلو", "ذيل", "رمل"],
+      "answer": "دلو",
+      "hint": "د بلا نقطة مع د لواء واضح.",
+      "asset": "audio/dalw/clip2"
+    },
+    {
+      "id": "alphabet-66-2",
+      "type": "build",
+      "prompt": "كوّن كلمة ذرا.",
+      "choices": ["ذرا", "راذ", "ذار"],
+      "answer": "ذرا",
+      "hint": "ابدأ بذ ثم راء ثم ألف.",
+      "asset": "image/thara/build"
+    },
+    {
+      "id": "alphabet-66-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["د", "ذ", "ر"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ]
+}
