@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-25",
+  "world": "alphabet",
+  "title": "كلمة بنت",
+  "description": "كوّن كلمة بنت وركز على ن في الوسط.",
+  "objective": "دمج ب ون وت في كلمة واحدة.",
+  "goal": "قراءة كلمة بنت بوضوح.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-25-1",
+      "type": "build",
+      "prompt": "كوّن كلمة بنت بالترتيب الصحيح.",
+      "choices": [
+        "بنت",
+        "نب ت",
+        "تبن"
+      ],
+      "answer": "بنت",
+      "hint": "ابدأ بب ثم ن ثم ت."
+    },
+    {
+      "id": "alphabet-25-2",
+      "type": "choose",
+      "prompt": "أي حرف في وسط بنت؟",
+      "choices": [
+        "ن",
+        "ي",
+        "ب"
+      ],
+      "answer": "ن",
+      "hint": "الصوت الثاني أنفي.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-25-3",
+      "type": "review",
+      "prompt": "اختر الكلمة التي تنتهي بتاء.",
+      "choices": [
+        "بنت",
+        "بين",
+        "بي"
+      ],
+      "answer": "بنت",
+      "hint": "اسمع التاء في النهاية.",
+      "asset": "audio/words/bint"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-25-1",
+      "type": "build",
+      "prompt": "كوّن كلمة بنت بالترتيب الصحيح.",
+      "choices": [
+        "بنت",
+        "نب ت",
+        "تبن"
+      ],
+      "answer": "بنت",
+      "hint": "ابدأ بب ثم ن ثم ت."
+    },
+    {
+      "id": "alphabet-25-2",
+      "type": "choose",
+      "prompt": "أي حرف في وسط بنت؟",
+      "choices": [
+        "ن",
+        "ي",
+        "ب"
+      ],
+      "answer": "ن",
+      "hint": "الصوت الثاني أنفي.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-25-3",
+      "type": "review",
+      "prompt": "اختر الكلمة التي تنتهي بتاء.",
+      "choices": [
+        "بنت",
+        "بين",
+        "بي"
+      ],
+      "answer": "بنت",
+      "hint": "اسمع التاء في النهاية.",
+      "asset": "audio/words/bint"
+    }
+  ]
+}

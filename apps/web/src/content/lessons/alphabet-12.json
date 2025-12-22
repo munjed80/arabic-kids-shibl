@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-12",
+  "world": "alphabet",
+  "title": "ن داخل الكلمات",
+  "description": "اكتشف موقع ن في كلمات قصيرة.",
+  "objective": "تحديد ن في البداية والوسط.",
+  "goal": "معرفة ن في بداية ووسط الكلمة.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-12-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بصوت ن؟",
+      "choices": [
+        "ني",
+        "بي",
+        "تي"
+      ],
+      "answer": "ني",
+      "hint": "الصوت الأول أنفي.",
+      "asset": "audio/words/nee"
+    },
+    {
+      "id": "alphabet-12-2",
+      "type": "match",
+      "prompt": "أين يقع ن في كلمة بنت؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "ب-ن-ت، الحرف الثاني ن."
+    },
+    {
+      "id": "alphabet-12-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بن من الحروف.",
+      "choices": [
+        "بن",
+        "نب",
+        "بي"
+      ],
+      "answer": "بن",
+      "hint": "ابدأ بب ثم ن."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-12-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بصوت ن؟",
+      "choices": [
+        "ني",
+        "بي",
+        "تي"
+      ],
+      "answer": "ني",
+      "hint": "الصوت الأول أنفي.",
+      "asset": "audio/words/nee"
+    },
+    {
+      "id": "alphabet-12-2",
+      "type": "match",
+      "prompt": "أين يقع ن في كلمة بنت؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "ب-ن-ت، الحرف الثاني ن."
+    },
+    {
+      "id": "alphabet-12-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بن من الحروف.",
+      "choices": [
+        "بن",
+        "نب",
+        "بي"
+      ],
+      "answer": "بن",
+      "hint": "ابدأ بب ثم ن."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "alphabet-20",
+  "world": "alphabet",
+  "title": "تجميع الأصوات",
+  "description": "استمع واختر الحرف الصحيح من الأربعة.",
+  "objective": "سرعة اختيار الحرف المناسب.",
+  "goal": "التمييز بين ب وت ون وي معًا.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-20-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ن",
+      "hint": "صوت أنفي واضح.",
+      "asset": "audio/n/sound-2"
+    },
+    {
+      "id": "alphabet-20-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بياء؟",
+      "choices": [
+        "ي",
+        "بي",
+        "تي"
+      ],
+      "answer": "ي",
+      "hint": "حرف واحد يكفي.",
+      "asset": "audio/y/sound-3"
+    },
+    {
+      "id": "alphabet-20-3",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ت في النهاية؟",
+      "choices": [
+        "بيت",
+        "بن",
+        "بي"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الأخير ت.",
+      "asset": "audio/words/bayt"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-20-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ن",
+      "hint": "صوت أنفي واضح.",
+      "asset": "audio/n/sound-2"
+    },
+    {
+      "id": "alphabet-20-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بياء؟",
+      "choices": [
+        "ي",
+        "بي",
+        "تي"
+      ],
+      "answer": "ي",
+      "hint": "حرف واحد يكفي.",
+      "asset": "audio/y/sound-3"
+    },
+    {
+      "id": "alphabet-20-3",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ت في النهاية؟",
+      "choices": [
+        "بيت",
+        "بن",
+        "بي"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الأخير ت.",
+      "asset": "audio/words/bayt"
+    }
+  ]
+}

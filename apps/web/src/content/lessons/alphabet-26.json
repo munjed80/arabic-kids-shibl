@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-26",
+  "world": "alphabet",
+  "title": "كلمة بين",
+  "description": "تدريب على ي في الوسط ون في النهاية.",
+  "objective": "دمج ب وي ون في كلمة واحدة.",
+  "goal": "قراءة كلمة بين بثقة.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-26-1",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين كلمة بين.",
+      "choices": [
+        "بين",
+        "نيب",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "ابدأ بب ثم ي ثم ن."
+    },
+    {
+      "id": "alphabet-26-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني بين شيئين؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "بنت"
+      ],
+      "answer": "بين",
+      "hint": "تنتهي بصوت ن.",
+      "asset": "audio/words/bayn"
+    },
+    {
+      "id": "alphabet-26-3",
+      "type": "review",
+      "prompt": "أي حرف في نهاية كلمة بين؟",
+      "choices": [
+        "ن",
+        "ي",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "صوت أنفي قصير.",
+      "asset": "image/word/bayn-end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-26-1",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين كلمة بين.",
+      "choices": [
+        "بين",
+        "نيب",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "ابدأ بب ثم ي ثم ن."
+    },
+    {
+      "id": "alphabet-26-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني بين شيئين؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "بنت"
+      ],
+      "answer": "بين",
+      "hint": "تنتهي بصوت ن.",
+      "asset": "audio/words/bayn"
+    },
+    {
+      "id": "alphabet-26-3",
+      "type": "review",
+      "prompt": "أي حرف في نهاية كلمة بين؟",
+      "choices": [
+        "ن",
+        "ي",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "صوت أنفي قصير.",
+      "asset": "image/word/bayn-end"
+    }
+  ]
+}

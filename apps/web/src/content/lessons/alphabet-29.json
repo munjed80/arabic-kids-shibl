@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-29",
+  "world": "alphabet",
+  "title": "مراجعة مختلطة ٢",
+  "description": "تكرار كلمات بيت وبنت وتين وبين.",
+  "objective": "استرجاع الكلمات بسرعة.",
+  "goal": "مراجعة كلمات المستوى قبل الإتمام.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-29-1",
+      "type": "review",
+      "prompt": "أي كلمة تعني منزلاً؟",
+      "choices": [
+        "بيت",
+        "بين",
+        "تي"
+      ],
+      "answer": "بيت",
+      "hint": "تنتهي بتاء.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-29-2",
+      "type": "listen",
+      "prompt": "استمع واختر الكلمة التي تبدأ بتاء.",
+      "choices": [
+        "تين",
+        "بين",
+        "بي"
+      ],
+      "answer": "تين",
+      "hint": "نقطتان فوق الحرف الأول.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-29-3",
+      "type": "choose",
+      "prompt": "أي حرف يربط بين ب ون في كلمة بين؟",
+      "choices": [
+        "ي",
+        "ت",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "هو الصوت الأوسط.",
+      "asset": "image/word/bayn-middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-29-1",
+      "type": "review",
+      "prompt": "أي كلمة تعني منزلاً؟",
+      "choices": [
+        "بيت",
+        "بين",
+        "تي"
+      ],
+      "answer": "بيت",
+      "hint": "تنتهي بتاء.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-29-2",
+      "type": "listen",
+      "prompt": "استمع واختر الكلمة التي تبدأ بتاء.",
+      "choices": [
+        "تين",
+        "بين",
+        "بي"
+      ],
+      "answer": "تين",
+      "hint": "نقطتان فوق الحرف الأول.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-29-3",
+      "type": "choose",
+      "prompt": "أي حرف يربط بين ب ون في كلمة بين؟",
+      "choices": [
+        "ي",
+        "ت",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "هو الصوت الأوسط.",
+      "asset": "image/word/bayn-middle"
+    }
+  ]
+}

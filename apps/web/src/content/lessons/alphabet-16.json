@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-16",
+  "world": "alphabet",
+  "title": "تحقق سريع",
+  "description": "جاوب بسرعة على الحرف الصحيح.",
+  "objective": "تثبيت التمييز الفوري.",
+  "goal": "اختبار سريع بين ب وت ون.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-16-1",
+      "type": "listen",
+      "prompt": "اسمع وحدد هل الصوت ت؟",
+      "choices": [
+        "ت",
+        "ب",
+        "ن"
+      ],
+      "answer": "ت",
+      "hint": "صوت لساني واضح.",
+      "asset": "audio/t/sound-1"
+    },
+    {
+      "id": "alphabet-16-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ن في الوسط؟",
+      "choices": [
+        "بنت",
+        "بيت",
+        "بي"
+      ],
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-16-3",
+      "type": "review",
+      "prompt": "أي كلمة تبدأ بحرف ب؟",
+      "choices": [
+        "بي",
+        "تي",
+        "ني"
+      ],
+      "answer": "بي",
+      "hint": "النقطة تحت الخط في البداية.",
+      "asset": "audio/words/bee"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-16-1",
+      "type": "listen",
+      "prompt": "اسمع وحدد هل الصوت ت؟",
+      "choices": [
+        "ت",
+        "ب",
+        "ن"
+      ],
+      "answer": "ت",
+      "hint": "صوت لساني واضح.",
+      "asset": "audio/t/sound-1"
+    },
+    {
+      "id": "alphabet-16-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ن في الوسط؟",
+      "choices": [
+        "بنت",
+        "بيت",
+        "بي"
+      ],
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-16-3",
+      "type": "review",
+      "prompt": "أي كلمة تبدأ بحرف ب؟",
+      "choices": [
+        "بي",
+        "تي",
+        "ني"
+      ],
+      "answer": "بي",
+      "hint": "النقطة تحت الخط في البداية.",
+      "asset": "audio/words/bee"
+    }
+  ]
+}

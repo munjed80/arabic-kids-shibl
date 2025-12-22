@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-15",
+  "world": "alphabet",
+  "title": "النقاط المميزة",
+  "description": "قارن بين ب وت ون بصريًا.",
+  "objective": "تثبيت شكل كل حرف بالنقطة.",
+  "goal": "تمييز مواضع النقاط للحروف الثلاثة.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-15-1",
+      "type": "choose",
+      "prompt": "أي حرف تحته نقطة؟",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ب",
+      "hint": "النقطة أسفل الخط فقط هنا.",
+      "asset": "image/b/dot"
+    },
+    {
+      "id": "alphabet-15-2",
+      "type": "choose",
+      "prompt": "أي حرف عليه نقطتان فوق؟",
+      "choices": [
+        "ت",
+        "ب",
+        "ن"
+      ],
+      "answer": "ت",
+      "hint": "نقطتان فوق الرأس.",
+      "asset": "image/t/dots"
+    },
+    {
+      "id": "alphabet-15-3",
+      "type": "review",
+      "prompt": "اختر ن بين الحروف المتشابهة.",
+      "choices": [
+        "ن",
+        "ب",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة فوق.",
+      "asset": "image/n/spot"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-15-1",
+      "type": "choose",
+      "prompt": "أي حرف تحته نقطة؟",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ب",
+      "hint": "النقطة أسفل الخط فقط هنا.",
+      "asset": "image/b/dot"
+    },
+    {
+      "id": "alphabet-15-2",
+      "type": "choose",
+      "prompt": "أي حرف عليه نقطتان فوق؟",
+      "choices": [
+        "ت",
+        "ب",
+        "ن"
+      ],
+      "answer": "ت",
+      "hint": "نقطتان فوق الرأس.",
+      "asset": "image/t/dots"
+    },
+    {
+      "id": "alphabet-15-3",
+      "type": "review",
+      "prompt": "اختر ن بين الحروف المتشابهة.",
+      "choices": [
+        "ن",
+        "ب",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة فوق.",
+      "asset": "image/n/spot"
+    }
+  ]
+}

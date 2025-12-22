@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-13",
+  "world": "alphabet",
+  "title": "ن في النهاية",
+  "description": "ركز على ن عندما يكون آخر صوت.",
+  "objective": "سماع ن في نهاية الكلمات القصيرة.",
+  "goal": "تمييز ن في نهاية كلمة.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-13-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بحرف ن؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "استمع للصوت الأخير.",
+      "asset": "audio/words/bayn"
+    },
+    {
+      "id": "alphabet-13-2",
+      "type": "listen",
+      "prompt": "اسمع واختر الكلمة التي في وسطها ن.",
+      "choices": [
+        "بنت",
+        "تي",
+        "بي"
+      ],
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-13-3",
+      "type": "review",
+      "prompt": "اختر الحرف ن بين الحروف المتشابهة.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ن",
+      "hint": "نقطة فوق الخط.",
+      "asset": "image/n/spot"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-13-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بحرف ن؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "استمع للصوت الأخير.",
+      "asset": "audio/words/bayn"
+    },
+    {
+      "id": "alphabet-13-2",
+      "type": "listen",
+      "prompt": "اسمع واختر الكلمة التي في وسطها ن.",
+      "choices": [
+        "بنت",
+        "تي",
+        "بي"
+      ],
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-13-3",
+      "type": "review",
+      "prompt": "اختر الحرف ن بين الحروف المتشابهة.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ن",
+      "hint": "نقطة فوق الخط.",
+      "asset": "image/n/spot"
+    }
+  ]
+}

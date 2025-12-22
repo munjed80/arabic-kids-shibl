@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-14",
+  "world": "alphabet",
+  "title": "أصوات متقاربة",
+  "description": "استمع واختر الحرف الصحيح.",
+  "objective": "تمييز الفروق الصوتية بين الحروف الثلاثة.",
+  "goal": "التمييز بين ب وت ون سمعيًا.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-14-1",
+      "type": "listen",
+      "prompt": "أي صوت هو ب؟",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ب",
+      "hint": "انفجار شفوي خفيف.",
+      "asset": "audio/b/sound-1"
+    },
+    {
+      "id": "alphabet-14-2",
+      "type": "choose",
+      "prompt": "أي حرف عليه نقطة فوق واحدة؟",
+      "choices": [
+        "ن",
+        "ب",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة أعلى.",
+      "asset": "image/n/dot"
+    },
+    {
+      "id": "alphabet-14-3",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بحرف ب.",
+      "choices": [
+        "بي",
+        "تي",
+        "ني"
+      ],
+      "answer": "بي",
+      "hint": "الصوت الأول ب.",
+      "asset": "audio/words/bee"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-14-1",
+      "type": "listen",
+      "prompt": "أي صوت هو ب؟",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ب",
+      "hint": "انفجار شفوي خفيف.",
+      "asset": "audio/b/sound-1"
+    },
+    {
+      "id": "alphabet-14-2",
+      "type": "choose",
+      "prompt": "أي حرف عليه نقطة فوق واحدة؟",
+      "choices": [
+        "ن",
+        "ب",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة أعلى.",
+      "asset": "image/n/dot"
+    },
+    {
+      "id": "alphabet-14-3",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بحرف ب.",
+      "choices": [
+        "بي",
+        "تي",
+        "ني"
+      ],
+      "answer": "بي",
+      "hint": "الصوت الأول ب.",
+      "asset": "audio/words/bee"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-21",
+  "world": "alphabet",
+  "title": "أشكال الحروف",
+  "description": "ركز على النقاط وأماكنها.",
+  "objective": "تثبيت الشكل البصري لكل حرف.",
+  "goal": "تمييز أشكال الحروف الأربعة.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-21-1",
+      "type": "choose",
+      "prompt": "أي حرف له نقطتان تحت؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "حرف ياء فقط.",
+      "asset": "image/y/dots"
+    },
+    {
+      "id": "alphabet-21-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ت؟",
+      "choices": [
+        "تين",
+        "بين",
+        "بن"
+      ],
+      "answer": "تين",
+      "hint": "نقطتان فوق أول حرف.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-21-3",
+      "type": "review",
+      "prompt": "أي كلمة تنتهي بنون؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "استمع للصوت الأخير.",
+      "asset": "audio/words/bayn"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-21-1",
+      "type": "choose",
+      "prompt": "أي حرف له نقطتان تحت؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "حرف ياء فقط.",
+      "asset": "image/y/dots"
+    },
+    {
+      "id": "alphabet-21-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ت؟",
+      "choices": [
+        "تين",
+        "بين",
+        "بن"
+      ],
+      "answer": "تين",
+      "hint": "نقطتان فوق أول حرف.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-21-3",
+      "type": "review",
+      "prompt": "أي كلمة تنتهي بنون؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "استمع للصوت الأخير.",
+      "asset": "audio/words/bayn"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-19",
+  "world": "alphabet",
+  "title": "ي في النهاية",
+  "description": "ركز على ي كآخر حرف.",
+  "objective": "سماع ي في نهاية الكلمات.",
+  "goal": "تمييز ي في نهاية الكلمة.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-19-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بياء؟",
+      "choices": [
+        "بني",
+        "بن",
+        "بي"
+      ],
+      "answer": "بني",
+      "hint": "اسمع المد في النهاية.",
+      "asset": "audio/words/buni"
+    },
+    {
+      "id": "alphabet-19-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ي بعد ب مباشرة؟",
+      "choices": [
+        "بي",
+        "بن",
+        "تي"
+      ],
+      "answer": "بي",
+      "hint": "الصوت الثاني ياء.",
+      "asset": "audio/words/bee"
+    },
+    {
+      "id": "alphabet-19-3",
+      "type": "review",
+      "prompt": "اختر الحرف ي بين الحروف الأخرى.",
+      "choices": [
+        "ي",
+        "ن",
+        "ب"
+      ],
+      "answer": "ي",
+      "hint": "نقطتان تحت السطر.",
+      "asset": "image/y/spot"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-19-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بياء؟",
+      "choices": [
+        "بني",
+        "بن",
+        "بي"
+      ],
+      "answer": "بني",
+      "hint": "اسمع المد في النهاية.",
+      "asset": "audio/words/buni"
+    },
+    {
+      "id": "alphabet-19-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ي بعد ب مباشرة؟",
+      "choices": [
+        "بي",
+        "بن",
+        "تي"
+      ],
+      "answer": "بي",
+      "hint": "الصوت الثاني ياء.",
+      "asset": "audio/words/bee"
+    },
+    {
+      "id": "alphabet-19-3",
+      "type": "review",
+      "prompt": "اختر الحرف ي بين الحروف الأخرى.",
+      "choices": [
+        "ي",
+        "ن",
+        "ب"
+      ],
+      "answer": "ي",
+      "hint": "نقطتان تحت السطر.",
+      "asset": "image/y/spot"
+    }
+  ]
+}

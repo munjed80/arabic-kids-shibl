@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-22",
+  "world": "alphabet",
+  "title": "مواضع الحروف",
+  "description": "اختر الحرف أو الموقع الصحيح.",
+  "objective": "معرفة البداية والوسط والنهاية للحروف.",
+  "goal": "تحديد مواقع الحروف الأربعة داخل الكلمات.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-22-1",
+      "type": "listen",
+      "prompt": "استمع واختر الحرف ب أو غيره.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ب",
+      "hint": "صوت شفوي.",
+      "asset": "audio/b/sound-2"
+    },
+    {
+      "id": "alphabet-22-2",
+      "type": "choose",
+      "prompt": "أي كلمة في وسطها ياء؟",
+      "choices": [
+        "بيت",
+        "بنت",
+        "بن"
+      ],
+      "answer": "بيت",
+      "hint": "الحرف الثاني ي.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-22-3",
+      "type": "choose",
+      "prompt": "أكمل الكلمة: بي_",
+      "choices": [
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ت",
+      "hint": "الصوت الأخير يجعلها بيت."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-22-1",
+      "type": "listen",
+      "prompt": "استمع واختر الحرف ب أو غيره.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ب",
+      "hint": "صوت شفوي.",
+      "asset": "audio/b/sound-2"
+    },
+    {
+      "id": "alphabet-22-2",
+      "type": "choose",
+      "prompt": "أي كلمة في وسطها ياء؟",
+      "choices": [
+        "بيت",
+        "بنت",
+        "بن"
+      ],
+      "answer": "بيت",
+      "hint": "الحرف الثاني ي.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-22-3",
+      "type": "choose",
+      "prompt": "أكمل الكلمة: بي_",
+      "choices": [
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ت",
+      "hint": "الصوت الأخير يجعلها بيت."
+    }
+  ]
+}

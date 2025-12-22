@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-18",
+  "world": "alphabet",
+  "title": "ي في الوسط",
+  "description": "ابحث عن ي داخل كلمات قصيرة.",
+  "objective": "تمييز موقع ي بين الحروف.",
+  "goal": "معرفة ي عندما يكون في الوسط.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-18-1",
+      "type": "listen",
+      "prompt": "أي كلمة في وسطها ي؟",
+      "choices": [
+        "بيت",
+        "بنت",
+        "بن"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الثاني ياء.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-18-2",
+      "type": "match",
+      "prompt": "حدد موقع ي في كلمة بيت.",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بي-ت."
+    },
+    {
+      "id": "alphabet-18-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بي من الحروف.",
+      "choices": [
+        "بي",
+        "يب",
+        "بن"
+      ],
+      "answer": "بي",
+      "hint": "ابدأ بب ثم ي."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-18-1",
+      "type": "listen",
+      "prompt": "أي كلمة في وسطها ي؟",
+      "choices": [
+        "بيت",
+        "بنت",
+        "بن"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الثاني ياء.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-18-2",
+      "type": "match",
+      "prompt": "حدد موقع ي في كلمة بيت.",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بي-ت."
+    },
+    {
+      "id": "alphabet-18-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بي من الحروف.",
+      "choices": [
+        "بي",
+        "يب",
+        "بن"
+      ],
+      "answer": "بي",
+      "hint": "ابدأ بب ثم ي."
+    }
+  ]
+}

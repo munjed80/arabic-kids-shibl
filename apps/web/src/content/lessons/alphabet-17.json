@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-17",
+  "world": "alphabet",
+  "title": "حرف ي الجديد",
+  "description": "استمع وشاهد ي لأول مرة في هذا المستوى.",
+  "objective": "تمييز ي بصريًا وسمعيًا.",
+  "goal": "التعرف على صوت وشكل الحرف ي.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-17-1",
+      "type": "listen",
+      "prompt": "استمع واختر صوت ي.",
+      "choices": [
+        "ي",
+        "ب",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "نقطتان تحت الخط في شكله المنفصل.",
+      "asset": "audio/y/sound-1"
+    },
+    {
+      "id": "alphabet-17-2",
+      "type": "choose",
+      "prompt": "أي شكل هو ي الصحيح؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "ذيل طويل ونقطتان أسفل.",
+      "asset": "image/y/isolated"
+    },
+    {
+      "id": "alphabet-17-3",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ي في البداية؟",
+      "choices": [
+        "ي",
+        "بي",
+        "بن"
+      ],
+      "answer": "ي",
+      "hint": "حرف واحد يمثل الصوت المطلوب.",
+      "asset": "audio/y/sound-2"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-17-1",
+      "type": "listen",
+      "prompt": "استمع واختر صوت ي.",
+      "choices": [
+        "ي",
+        "ب",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "نقطتان تحت الخط في شكله المنفصل.",
+      "asset": "audio/y/sound-1"
+    },
+    {
+      "id": "alphabet-17-2",
+      "type": "choose",
+      "prompt": "أي شكل هو ي الصحيح؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "ذيل طويل ونقطتان أسفل.",
+      "asset": "image/y/isolated"
+    },
+    {
+      "id": "alphabet-17-3",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ي في البداية؟",
+      "choices": [
+        "ي",
+        "بي",
+        "بن"
+      ],
+      "answer": "ي",
+      "hint": "حرف واحد يمثل الصوت المطلوب.",
+      "asset": "audio/y/sound-2"
+    }
+  ]
+}
