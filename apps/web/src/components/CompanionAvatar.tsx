@@ -20,21 +20,22 @@ const stateEmojis: Record<CompanionState, string> = {
   cooldown: "😌",
 };
 
+const moodLabelKey: Record<CompanionState, string> = {
+  idle: "companion.ready",
+  intro: "companion.readyToLearn",
+  thinking: "companion.thinking",
+  happy: "companion.greatJob",
+  celebrate: "companion.levelComplete",
+  sad: "companion.tryAgain",
+  cooldown: "companion.cooldown",
+};
+
 type Props = {
   mood: CompanionMood;
 };
 
 export function CompanionAvatar({ mood }: Props) {
   const { t } = useI18n();
-  const moodLabelKey: Record<CompanionState, string> = {
-    idle: "companion.ready",
-    intro: "companion.readyToLearn",
-    thinking: "companion.thinking",
-    happy: "companion.greatJob",
-    celebrate: "companion.levelComplete",
-    sad: "companion.tryAgain",
-    cooldown: "companion.cooldown",
-  };
   const style = accentStyles[mood.accent];
 
   return (
