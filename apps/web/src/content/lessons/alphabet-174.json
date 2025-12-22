@@ -26,13 +26,13 @@
       "type": "choose",
       "prompt": "أي كلمة تجمع هاء وواو وياء؟",
       "choices": [
-        "هويا",
+        "وهي",
         "هو",
         "هي"
       ],
-      "answer": "هويا",
-      "hint": "تشمل الحروف الثلاثة.",
-      "asset": "audio/hawya/clip1"
+      "answer": "وهي",
+      "hint": "تشمل الحروف الثلاثة في كلمة مألوفة.",
+      "asset": "audio/wahi/clip1"
     },
     {
       "id": "alphabet-174-3",
@@ -66,13 +66,13 @@
       "type": "choose",
       "prompt": "أي كلمة تجمع هاء وواو وياء؟",
       "choices": [
-        "هويا",
+        "وهي",
         "هو",
         "هي"
       ],
-      "answer": "هويا",
-      "hint": "تشمل الحروف الثلاثة.",
-      "asset": "audio/hawya/clip1"
+      "answer": "وهي",
+      "hint": "تشمل الحروف الثلاثة في كلمة مألوفة.",
+      "asset": "audio/wahi/clip1"
     },
     {
       "id": "alphabet-174-3",
