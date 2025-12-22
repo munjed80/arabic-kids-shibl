@@ -31,11 +31,33 @@
     "safetyNote": "Shibl reagiert nur visuell auf Ereignisse in der Lektion. Kein Chat und keine Freitexte werden gesammelt.",
     "feedback": {
       "correct": "Richtig! Shibl ist glücklich.",
-      "incorrect": "Noch nicht. Versuch es noch einmal."
+      "incorrect": "Noch nicht. Versuch es noch einmal.",
+      "lessonComplete": "Lektion abgeschlossen! Weiter zum nächsten Schritt."
     },
     "progressLabel": "Fortschritt: Aktivität {current} von {total}",
     "completePercent": "{percent}% abgeschlossen",
-    "ariaChoose": "Wähle {choice}"
+    "ariaChoose": "Wähle {choice}",
+    "completedStatus": "Du hast diese Lektion abgeschlossen. Mache weiter, wenn du bereit bist."
+  },
+  "level": {
+    "startHeading": "Level 1 starten",
+    "startCopy": "Beginne mit einfacher Buchstabenerkennung, dann mit Wörtern, ersten Leseschritten und einer gefeierten Wiederholung. Kein Konto nötig.",
+    "startCta": "Level 1 starten",
+    "reset": "Level zurücksetzen",
+    "lessonListTitle": "Level-1-Lektionen",
+    "lessonListSubtitle": "{completed} von {total} Lektionen abgeschlossen",
+    "lessonStatus": {
+      "current": "Aktuell",
+      "completed": "Abgeschlossen",
+      "ready": "Bereit",
+      "locked": "Gesperrt"
+    },
+    "lessonAria": "{title} öffnen",
+    "progressCount": "Lektionen: {completed}/{total} abgeschlossen",
+    "currentLessonLabel": "Aktuelle Lektion {current} von {total}: {title}",
+    "completedStatus": "Level abgeschlossen! Du kannst Lektionen jederzeit erneut spielen.",
+    "completedHeading": "Du hast Level 1 abgeschlossen!",
+    "completedBody": "Großartig! Du hast Buchstaben erkannt, kurze Wörter gelesen und eine fröhliche Wiederholung geschafft. Shibl feiert mit dir."
   },
   "companion": {
     "name": "Shibl",

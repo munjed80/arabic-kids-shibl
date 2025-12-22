@@ -18,7 +18,7 @@
 - Visible but unobtrusive placement (badge-style component).
 
 ## Inputs and outputs
-- **Inputs:** Typed lesson events (LESSON_STARTED, ANSWER_SUBMITTED, ANSWER_CORRECT, ANSWER_WRONG, LEVEL_COMPLETED, THINKING).
+- **Inputs:** Typed lesson events (LESSON_STARTED, ANSWER_SUBMITTED, ANSWER_CORRECT, ANSWER_WRONG, LESSON_COMPLETED, LEVEL_COMPLETED, THINKING).
 - **Outputs:** Visual state only (emoji/animation hooks). No messages, no chat, no sound.
 - **Data:** No PII stored or transmitted. No analytics hooks.
 

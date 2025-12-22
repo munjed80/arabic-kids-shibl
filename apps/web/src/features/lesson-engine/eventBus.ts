@@ -1,5 +1,6 @@
 export type LessonEventType =
   | "LESSON_STARTED"
+  | "LESSON_COMPLETED"
   | "ANSWER_CORRECT"
   | "ANSWER_WRONG"
   | "LEVEL_COMPLETED"

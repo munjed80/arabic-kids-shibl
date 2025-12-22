@@ -47,7 +47,7 @@ export class LessonEngine {
       });
       if (isLast) {
         this.bus.emit({
-          type: "LEVEL_COMPLETED",
+          type: "LESSON_COMPLETED",
           payload: { lessonId: this.currentLesson.id, activityId: activity.id },
         });
       } else {

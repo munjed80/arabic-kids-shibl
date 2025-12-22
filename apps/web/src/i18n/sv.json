@@ -31,11 +31,33 @@
     "safetyNote": "Shibl reagerar bara visuellt på händelser i lektionen. Ingen chatt eller fritext samlas in.",
     "feedback": {
       "correct": "Rätt! Shibl är glad.",
-      "incorrect": "Inte riktigt. Försök igen."
+      "incorrect": "Inte riktigt. Försök igen.",
+      "lessonComplete": "Lektion klar! Dags för nästa steg."
     },
     "progressLabel": "Framsteg: Aktivitet {current} av {total}",
     "completePercent": "{percent}% klart",
-    "ariaChoose": "Välj {choice}"
+    "ariaChoose": "Välj {choice}",
+    "completedStatus": "Du har slutfört den här lektionen. Fortsätt när du vill."
+  },
+  "level": {
+    "startHeading": "Starta nivå 1",
+    "startCopy": "Börja med enkel bokstavsigenkänning, sedan ord, första läsning och en festlig repetition. Inget konto behövs.",
+    "startCta": "Starta nivå 1",
+    "reset": "Återställ nivå",
+    "lessonListTitle": "Nivå 1-lektioner",
+    "lessonListSubtitle": "{completed} av {total} lektioner klara",
+    "lessonStatus": {
+      "current": "Aktuell",
+      "completed": "Klar",
+      "ready": "Redo",
+      "locked": "Låst"
+    },
+    "lessonAria": "Öppna {title}",
+    "progressCount": "Lektioner: {completed}/{total} klara",
+    "currentLessonLabel": "Aktuell lektion {current} av {total}: {title}",
+    "completedStatus": "Nivån är klar! Du kan spela lektioner igen när du vill.",
+    "completedHeading": "Du har slutfört nivå 1!",
+    "completedBody": "Bra jobbat. Du kände igen bokstäver, läste korta ord och gjorde en festlig repetition. Shibl firar med dig."
   },
   "companion": {
     "name": "Shibl",

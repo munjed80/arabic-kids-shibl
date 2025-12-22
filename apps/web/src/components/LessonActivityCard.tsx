@@ -10,6 +10,7 @@ type Props = {
   disabled?: boolean;
   feedback?: { correct?: boolean; message?: string | null };
   onThinking?: () => void;
+  statusMessage?: string | null;
 };
 
 export function LessonActivityCard({
@@ -18,6 +19,7 @@ export function LessonActivityCard({
   disabled,
   feedback,
   onThinking,
+  statusMessage,
 }: Props) {
   const { t } = useI18n();
 
@@ -50,6 +52,10 @@ export function LessonActivityCard({
           </button>
         ))}
       </div>
+
+      {statusMessage ? (
+        <p className="mt-3 text-sm text-slate-500">{statusMessage}</p>
+      ) : null}
 
       {feedback?.message ? (
         <div

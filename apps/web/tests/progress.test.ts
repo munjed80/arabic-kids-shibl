@@ -1,37 +1,51 @@
 /// <reference types="vitest" />
 
-import { clearProgress, loadProgress, saveProgress } from "@/features/progress/localProgress";
+import {
+  getLessonProgressFromLevel,
+  loadLevelProgress,
+  resetLevelProgress,
+  saveLessonProgress,
+  updateLevelState,
+} from "@/features/progress/localProgress";
 
-describe("local progress storage", () => {
-  const record = { lessonId: "lesson-1", activityIndex: 2, completed: false };
+describe("level progress storage", () => {
+  const levelId = "level-1";
+  const firstLessonId = "lesson-start";
 
-  it("saves and loads progress", () => {
-    saveProgress(record.lessonId, {
-      activityIndex: record.activityIndex,
-      completed: record.completed,
-    });
-    const loaded = loadProgress(record.lessonId);
-    expect(loaded).toEqual(record);
+  beforeEach(() => {
+    resetLevelProgress(levelId, firstLessonId);
   });
 
-  it("clears progress per lesson", () => {
-    saveProgress(record.lessonId, {
-      activityIndex: record.activityIndex,
-      completed: record.completed,
-    });
-    clearProgress(record.lessonId);
-    const loaded = loadProgress(record.lessonId);
-    expect(loaded).toBeUndefined();
+  it("saves lesson progress and marks level as started", () => {
+    const lessonRecord = { lessonId: "lesson-1", activityIndex: 1, completed: false };
+    const level = saveLessonProgress(levelId, firstLessonId, lessonRecord);
+
+    const loaded = loadLevelProgress(levelId, firstLessonId);
+    const progress = getLessonProgressFromLevel(loaded, lessonRecord.lessonId);
+
+    expect(progress).toEqual(lessonRecord);
+    expect(loaded.started).toBe(true);
+    expect(level.currentLessonId).toBe(lessonRecord.lessonId);
   });
 
-  it("clears all progress when no lessonId is provided", () => {
-    saveProgress(record.lessonId, {
-      activityIndex: record.activityIndex,
-      completed: record.completed,
-    });
-    saveProgress("lesson-2", { activityIndex: 0, completed: true });
-    clearProgress();
-    expect(loadProgress(record.lessonId)).toBeUndefined();
-    expect(loadProgress("lesson-2")).toBeUndefined();
+  it("resets a level and clears lesson entries", () => {
+    saveLessonProgress(levelId, firstLessonId, { lessonId: "lesson-1", activityIndex: 2, completed: true });
+    resetLevelProgress(levelId, firstLessonId);
+
+    const loaded = loadLevelProgress(levelId, firstLessonId);
+
+    expect(loaded.lessons).toEqual([]);
+    expect(loaded.started).toBe(false);
+    expect(loaded.levelCompleted).toBe(false);
+    expect(loaded.currentLessonId).toBe(firstLessonId);
+  });
+
+  it("updates level state when completed", () => {
+    saveLessonProgress(levelId, firstLessonId, { lessonId: "lesson-1", activityIndex: 2, completed: true });
+    const updated = updateLevelState(levelId, firstLessonId, { levelCompleted: true });
+
+    expect(updated.levelCompleted).toBe(true);
+    const loaded = loadLevelProgress(levelId, firstLessonId);
+    expect(loaded.levelCompleted).toBe(true);
   });
 });
