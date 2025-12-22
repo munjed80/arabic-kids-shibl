@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-82",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٢",
+  "description": "اختبار سريع للتفريق بين ز س ش والحروف السابقة.",
+  "objective": "اختيار الحرف الصحيح سمعيًا وبصريًا.",
+  "goal": "تثبيت الفروق قبل المراجعة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-82-1",
+      "type": "listen",
+      "prompt": "أي حرف بلا نقاط مع صفير خفيف؟",
+      "choices": ["س", "ش", "ز"],
+      "answer": "س",
+      "hint": "صوت ممتد بلا نقاط.",
+      "asset": "audio/letters/seen"
+    },
+    {
+      "id": "alphabet-82-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة واحدة وصوت قصير.",
+      "choices": ["ز", "س", "ر"],
+      "answer": "ز",
+      "hint": "نقطة فوق.",
+      "asset": "image/zay/isolated"
+    },
+    {
+      "id": "alphabet-82-3",
+      "type": "build",
+      "prompt": "كوّن كلمة شمس.",
+      "choices": ["شمس", "مسش", "سشم"],
+      "answer": "شمس",
+      "hint": "ابدأ بش ثم ميم ثم سين." 
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-82-1",
+      "type": "listen",
+      "prompt": "أي حرف بلا نقاط مع صفير خفيف؟",
+      "choices": ["س", "ش", "ز"],
+      "answer": "س",
+      "hint": "صوت ممتد بلا نقاط.",
+      "asset": "audio/letters/seen"
+    },
+    {
+      "id": "alphabet-82-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة واحدة وصوت قصير.",
+      "choices": ["ز", "س", "ر"],
+      "answer": "ز",
+      "hint": "نقطة فوق.",
+      "asset": "image/zay/isolated"
+    },
+    {
+      "id": "alphabet-82-3",
+      "type": "build",
+      "prompt": "كوّن كلمة شمس.",
+      "choices": ["شمس", "مسش", "سشم"],
+      "answer": "شمس",
+      "hint": "ابدأ بش ثم ميم ثم سين." 
+    }
+  ]
+}

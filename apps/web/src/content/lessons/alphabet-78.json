@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-78",
+  "world": "alphabet",
+  "title": "مراجعة ش",
+  "description": "تثبيت شكل وصوت ش في المواقع الثلاثة.",
+  "objective": "استخدام ش بثقة.",
+  "goal": "التمييز الواضح بين ش وس.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-78-1",
+      "type": "match",
+      "prompt": "أين يقع ش في كلمة شبل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ثلاث نقاط في أول الكلمة.",
+      "asset": "image/shibl/start"
+    },
+    {
+      "id": "alphabet-78-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ش وسطية؟",
+      "choices": ["عشب", "عنب", "قمر"],
+      "answer": "عشب",
+      "hint": "ش بعد العين مباشرة.",
+      "asset": "audio/oshb/clip2"
+    },
+    {
+      "id": "alphabet-78-3",
+      "type": "build",
+      "prompt": "كوّن كلمة عرش.",
+      "choices": ["عرش", "شعر", "رعش"],
+      "answer": "عرش",
+      "hint": "ضع ش في النهاية بعد الراء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-78-1",
+      "type": "match",
+      "prompt": "أين يقع ش في كلمة شبل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ثلاث نقاط في أول الكلمة.",
+      "asset": "image/shibl/start"
+    },
+    {
+      "id": "alphabet-78-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ش وسطية؟",
+      "choices": ["عشب", "عنب", "قمر"],
+      "answer": "عشب",
+      "hint": "ش بعد العين مباشرة.",
+      "asset": "audio/oshb/clip2"
+    },
+    {
+      "id": "alphabet-78-3",
+      "type": "build",
+      "prompt": "كوّن كلمة عرش.",
+      "choices": ["عرش", "شعر", "رعش"],
+      "answer": "عرش",
+      "hint": "ضع ش في النهاية بعد الراء."
+    }
+  ]
+}

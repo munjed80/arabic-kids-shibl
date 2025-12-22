@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-77",
+  "world": "alphabet",
+  "title": "ش في النهاية",
+  "description": "تعرّف على ش عند ختام الكلمات.",
+  "objective": "تمييز ش النهائي بثلاث نقاط.",
+  "goal": "قراءة ش في نهاية الكلمة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-77-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بش؟",
+      "choices": ["عطش", "بيت", "حبر"],
+      "answer": "عطش",
+      "hint": "ثلاث نقاط في آخر الكلمة.",
+      "asset": "audio/atash/clip1"
+    },
+    {
+      "id": "alphabet-77-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ش أخيرة.",
+      "choices": ["عريش", "خوف", "دلو"],
+      "answer": "عريش",
+      "hint": "ش بعد الياء مباشرة.",
+      "asset": "audio/areesh/clip1"
+    },
+    {
+      "id": "alphabet-77-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نقاش.",
+      "choices": ["نقاش", "قانش", "شاقن"],
+      "answer": "نقاش",
+      "hint": "ضع ش في النهاية بعد الألف." 
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-77-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بش؟",
+      "choices": ["عطش", "بيت", "حبر"],
+      "answer": "عطش",
+      "hint": "ثلاث نقاط في آخر الكلمة.",
+      "asset": "audio/atash/clip1"
+    },
+    {
+      "id": "alphabet-77-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ش أخيرة.",
+      "choices": ["عريش", "خوف", "دلو"],
+      "answer": "عريش",
+      "hint": "ش بعد الياء مباشرة.",
+      "asset": "audio/areesh/clip1"
+    },
+    {
+      "id": "alphabet-77-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نقاش.",
+      "choices": ["نقاش", "قانش", "شاقن"],
+      "answer": "نقاش",
+      "hint": "ضع ش في النهاية بعد الألف." 
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-68",
+  "world": "alphabet",
+  "title": "ز في الوسط",
+  "description": "تعرّف على ز داخل الكلمة.",
+  "objective": "تحديد ز في وسط كلمات قصيرة.",
+  "goal": "ربط صوت ز مع موقعه الأوسط.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-68-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ز في الوسط؟",
+      "choices": ["مزح", "سمك", "حبر"],
+      "answer": "مزح",
+      "hint": "ز بين الميم والحاء.",
+      "asset": "audio/mazh/clip1"
+    },
+    {
+      "id": "alphabet-68-2",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة لوز؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين اللام والواو.",
+      "asset": "image/loz/middle"
+    },
+    {
+      "id": "alphabet-68-3",
+      "type": "build",
+      "prompt": "كوّن كلمة زبد.",
+      "choices": ["زبد", "بزد", "دزب"],
+      "answer": "زبد",
+      "hint": "ابدأ بز ثم باء ثم دال."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-68-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ز في الوسط؟",
+      "choices": ["مزح", "سمك", "حبر"],
+      "answer": "مزح",
+      "hint": "ز بين الميم والحاء.",
+      "asset": "audio/mazh/clip1"
+    },
+    {
+      "id": "alphabet-68-2",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة لوز؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين اللام والزاي.",
+      "asset": "image/loz/middle"
+    },
+    {
+      "id": "alphabet-68-3",
+      "type": "build",
+      "prompt": "كوّن كلمة زبد.",
+      "choices": ["زبد", "بزد", "دزب"],
+      "answer": "زبد",
+      "hint": "ابدأ بز ثم باء ثم دال."
+    }
+  ]
+}

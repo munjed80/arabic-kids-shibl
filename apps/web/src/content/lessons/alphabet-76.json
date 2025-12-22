@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-76",
+  "world": "alphabet",
+  "title": "ش في الوسط",
+  "description": "تعرّف على ش المتصلة داخل الكلمة.",
+  "objective": "تمييز ش وسطية عن س.",
+  "goal": "ربط ش بثلاث نقاط واضحة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-76-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ش في الوسط؟",
+      "choices": ["عشب", "عنب", "قمر"],
+      "answer": "عشب",
+      "hint": "ش بعد العين مباشرة.",
+      "asset": "audio/oshb/clip1"
+    },
+    {
+      "id": "alphabet-76-2",
+      "type": "match",
+      "prompt": "أين يقع ش في كلمة مشى؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والألف.",
+      "asset": "image/masha/middle"
+    },
+    {
+      "id": "alphabet-76-3",
+      "type": "build",
+      "prompt": "كوّن كلمة شبل.",
+      "choices": ["شبل", "بشل", "لبش"],
+      "answer": "شبل",
+      "hint": "ابدأ بش ثم باء ثم لام."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-76-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ش في الوسط؟",
+      "choices": ["عشب", "عنب", "قمر"],
+      "answer": "عشب",
+      "hint": "ش بعد العين مباشرة.",
+      "asset": "audio/oshb/clip1"
+    },
+    {
+      "id": "alphabet-76-2",
+      "type": "match",
+      "prompt": "أين يقع ش في كلمة مشى؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والألف.",
+      "asset": "image/masha/middle"
+    },
+    {
+      "id": "alphabet-76-3",
+      "type": "build",
+      "prompt": "كوّن كلمة شبل.",
+      "choices": ["شبل", "بشل", "لبش"],
+      "answer": "شبل",
+      "hint": "ابدأ بش ثم باء ثم لام."
+    }
+  ]
+}

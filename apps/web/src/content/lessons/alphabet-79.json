@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-79",
+  "world": "alphabet",
+  "title": "حروف مختلطة ٩",
+  "description": "مراجعة مجموعة الحروف مع ز س ش.",
+  "objective": "اختيار الحرف الصحيح من أصوات قريبة.",
+  "goal": "تمييز النقاط والصفير.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-79-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع صفير وثلاث نقاط؟",
+      "choices": ["ش", "س", "ز"],
+      "answer": "ش",
+      "hint": "ش بثلاث نقاط.",
+      "asset": "audio/letters/sheen"
+    },
+    {
+      "id": "alphabet-79-2",
+      "type": "choose",
+      "prompt": "اختر الحرف بلا نقاط وصوت صفير.",
+      "choices": ["س", "ش", "ز"],
+      "answer": "س",
+      "hint": "س بلا نقاط.",
+      "asset": "image/seen/isolated"
+    },
+    {
+      "id": "alphabet-79-3",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة ميزان؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "ز بعد الياء.",
+      "asset": "image/mizan/middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-79-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه مع صفير وثلاث نقاط؟",
+      "choices": ["ش", "س", "ز"],
+      "answer": "ش",
+      "hint": "ش بثلاث نقاط.",
+      "asset": "audio/letters/sheen"
+    },
+    {
+      "id": "alphabet-79-2",
+      "type": "choose",
+      "prompt": "اختر الحرف بلا نقاط وصوت صفير.",
+      "choices": ["س", "ش", "ز"],
+      "answer": "س",
+      "hint": "س بلا نقاط.",
+      "asset": "image/seen/isolated"
+    },
+    {
+      "id": "alphabet-79-3",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة ميزان؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "ز بعد الياء.",
+      "asset": "image/mizan/middle"
+    }
+  ]
+}

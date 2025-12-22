@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-69",
+  "world": "alphabet",
+  "title": "ز في النهاية",
+  "description": "تعرّف على ز عند ختام الكلمات.",
+  "objective": "تمييز ز النهائي صوتًا وشكلًا.",
+  "goal": "قراءة ز في نهاية الكلمات.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-69-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بز؟",
+      "choices": ["خبز", "حبر", "بيت"],
+      "answer": "خبز",
+      "hint": "اسمع ز بعد الباء.",
+      "asset": "audio/khobz/clip2"
+    },
+    {
+      "id": "alphabet-69-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ز أخيرة.",
+      "choices": ["لوز", "سهل", "جمل"],
+      "answer": "لوز",
+      "hint": "ز تأتي بعد الواو.",
+      "asset": "audio/loz/clip1"
+    },
+    {
+      "id": "alphabet-69-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فز.",
+      "choices": ["فز", "زف", "فاز"],
+      "answer": "فز",
+      "hint": "ضع ز بعد الفاء مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-69-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بز؟",
+      "choices": ["خبز", "حبر", "بيت"],
+      "answer": "خبز",
+      "hint": "اسمع ز بعد الباء.",
+      "asset": "audio/khobz/clip2"
+    },
+    {
+      "id": "alphabet-69-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ز أخيرة.",
+      "choices": ["لوز", "سهل", "جمل"],
+      "answer": "لوز",
+      "hint": "ز تأتي بعد الواو.",
+      "asset": "audio/loz/clip1"
+    },
+    {
+      "id": "alphabet-69-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فز.",
+      "choices": ["فز", "زف", "فاز"],
+      "answer": "فز",
+      "hint": "ضع ز بعد الفاء مباشرة."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-71",
+  "world": "alphabet",
+  "title": "صوت س واضح",
+  "description": "استمع لتمييز س في كلمات بسيطة.",
+  "objective": "التعرف على س في البداية.",
+  "goal": "تمييز س سمعيًا وبصريًا.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-71-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بس؟",
+      "choices": ["سيف", "زيت", "حبل"],
+      "answer": "سيف",
+      "hint": "صوت صفير في البداية.",
+      "asset": "audio/saif/clip1"
+    },
+    {
+      "id": "alphabet-71-2",
+      "type": "choose",
+      "prompt": "اختر شكل س المفصول.",
+      "choices": ["س", "ش", "ز"],
+      "answer": "س",
+      "hint": "س بدون نقاط.",
+      "asset": "image/seen/isolated"
+    },
+    {
+      "id": "alphabet-71-3",
+      "type": "match",
+      "prompt": "أين يقع س في كلمة سلم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "س أول صوت.",
+      "asset": "image/sallam/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-71-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بس؟",
+      "choices": ["سيف", "زيت", "حبل"],
+      "answer": "سيف",
+      "hint": "صوت صفير في البداية.",
+      "asset": "audio/saif/clip1"
+    },
+    {
+      "id": "alphabet-71-2",
+      "type": "choose",
+      "prompt": "اختر شكل س المفصول.",
+      "choices": ["س", "ش", "ز"],
+      "answer": "س",
+      "hint": "س بدون نقاط.",
+      "asset": "image/seen/isolated"
+    },
+    {
+      "id": "alphabet-71-3",
+      "type": "match",
+      "prompt": "أين يقع س في كلمة سلم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "س أول صوت.",
+      "asset": "image/sallam/start"
+    }
+  ]
+}

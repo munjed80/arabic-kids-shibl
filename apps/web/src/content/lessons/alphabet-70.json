@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-70",
+  "world": "alphabet",
+  "title": "مراجعة ز",
+  "description": "تثبيت شكل وصوت ز في مواقع متعددة.",
+  "objective": "استخدام ز في البداية والوسط والنهاية.",
+  "goal": "قراءة ز بثقة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-70-1",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة زبد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ز هو الصوت الأول.",
+      "asset": "image/zabad/start"
+    },
+    {
+      "id": "alphabet-70-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ز وسطية؟",
+      "choices": ["لوز", "حبر", "بيت"],
+      "answer": "لوز",
+      "hint": "ز بعد الواو مباشرة.",
+      "asset": "audio/loz/clip2"
+    },
+    {
+      "id": "alphabet-70-3",
+      "type": "build",
+      "prompt": "كوّن كلمة خبز.",
+      "choices": ["خبز", "بخز", "خزب"],
+      "answer": "خبز",
+      "hint": "ضع ز في النهاية بعد الباء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-70-1",
+      "type": "match",
+      "prompt": "أين يقع ز في كلمة زبد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ز هو الصوت الأول.",
+      "asset": "image/zabad/start"
+    },
+    {
+      "id": "alphabet-70-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ز وسطية؟",
+      "choices": ["لوز", "حبر", "بيت"],
+      "answer": "لوز",
+      "hint": "ز بعد الواو مباشرة.",
+      "asset": "audio/loz/clip2"
+    },
+    {
+      "id": "alphabet-70-3",
+      "type": "build",
+      "prompt": "كوّن كلمة خبز.",
+      "choices": ["خبز", "بخز", "خزب"],
+      "answer": "خبز",
+      "hint": "ضع ز في النهاية بعد الباء."
+    }
+  ]
+}

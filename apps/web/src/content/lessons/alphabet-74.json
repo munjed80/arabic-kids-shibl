@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-74",
+  "world": "alphabet",
+  "title": "مراجعة س",
+  "description": "تثبيت شكل وصوت س في مواضع مختلفة.",
+  "objective": "استخدام س في البداية والوسط والنهاية.",
+  "goal": "قراءة س بثقة.",
+  "level": 5,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-74-1",
+      "type": "match",
+      "prompt": "أين يقع س في كلمة سمن؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "س أول حرف.",
+      "asset": "image/saman/start"
+    },
+    {
+      "id": "alphabet-74-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على س وسطية؟",
+      "choices": ["حرس", "بساط", "بيت"],
+      "answer": "بساط",
+      "hint": "س بين الباء والألف.",
+      "asset": "audio/bisat/clip2"
+    },
+    {
+      "id": "alphabet-74-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نفس.",
+      "choices": ["نفس", "سفن", "فنس"],
+      "answer": "نفس",
+      "hint": "ضع س في النهاية بعد الفاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-74-1",
+      "type": "match",
+      "prompt": "أين يقع س في كلمة سمن؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "س أول حرف.",
+      "asset": "image/saman/start"
+    },
+    {
+      "id": "alphabet-74-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على س وسطية؟",
+      "choices": ["حرس", "بساط", "بيت"],
+      "answer": "بساط",
+      "hint": "س بين الباء والألف.",
+      "asset": "audio/bisat/clip2"
+    },
+    {
+      "id": "alphabet-74-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نفس.",
+      "choices": ["نفس", "سفن", "فنس"],
+      "answer": "نفس",
+      "hint": "ضع س في النهاية بعد الفاء."
+    }
+  ]
+}
