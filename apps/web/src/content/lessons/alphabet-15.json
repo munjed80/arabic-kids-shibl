@@ -1,0 +1,100 @@
+{
+  "id": "alphabet-15",
+  "world": "alphabet",
+  "title": "تمييز النقاط",
+  "description": "مقارنة ب وت ون من حيث موضع النقطة.",
+  "objective": "التعرف البصري على الحرف الصحيح.",
+  "goal": "تثبيت الفرق بين النقطة فوق وتحت.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-15-1",
+      "type": "choose",
+      "prompt": "أي حرف تحته نقطة واحدة؟",
+      "choices": [
+        "ب",
+        "ن",
+        "ت"
+      ],
+      "answer": "ب",
+      "hint": "النقطة تحت الخط فقط في ب.",
+      "asset": "image/b/dot"
+    },
+    {
+      "id": "alphabet-15-2",
+      "type": "match",
+      "prompt": "أي كلمة تحتوي على ت وليس ن؟",
+      "choices": [
+        "تاب",
+        "نان",
+        "بان"
+      ],
+      "answer": "تاب",
+      "hint": "اسمع ت في البداية.",
+      "pairs": [
+        {
+          "left": "ت",
+          "right": "تاب"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-15-3",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر هل هو ب أم ن؟",
+      "choices": [
+        "ب",
+        "ن"
+      ],
+      "answer": "ب",
+      "hint": "الصوت البائي يبدأ بانفجار شفوي خفيف.",
+      "asset": "audio/b/sound-1"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-15-1",
+      "type": "choose",
+      "prompt": "أي حرف تحته نقطة واحدة؟",
+      "choices": [
+        "ب",
+        "ن",
+        "ت"
+      ],
+      "answer": "ب",
+      "hint": "النقطة تحت الخط فقط في ب.",
+      "asset": "image/b/dot"
+    },
+    {
+      "id": "alphabet-15-2",
+      "type": "match",
+      "prompt": "أي كلمة تحتوي على ت وليس ن؟",
+      "choices": [
+        "تاب",
+        "نان",
+        "بان"
+      ],
+      "answer": "تاب",
+      "hint": "اسمع ت في البداية.",
+      "pairs": [
+        {
+          "left": "ت",
+          "right": "تاب"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-15-3",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر هل هو ب أم ن؟",
+      "choices": [
+        "ب",
+        "ن"
+      ],
+      "answer": "ب",
+      "hint": "الصوت البائي يبدأ بانفجار شفوي خفيف.",
+      "asset": "audio/b/sound-1"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-23",
+  "world": "alphabet",
+  "title": "اختبار السرعة",
+  "description": "استجب بسرعة للحرف أو الكلمة الصحيحة.",
+  "objective": "اختيار الحرف المناسب دون تردد.",
+  "goal": "سرعة تمييز ب وت ون وي في كلمات متنوعة.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-23-1",
+      "type": "listen",
+      "prompt": "استمع وحدد هل الصوت ي أم ن؟",
+      "choices": [
+        "ي",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "انخفض اللسان نحو الأمام لصوت ي.",
+      "asset": "audio/y/sound-2"
+    },
+    {
+      "id": "alphabet-23-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ت؟",
+      "choices": [
+        "تين",
+        "بيت",
+        "نار"
+      ],
+      "answer": "تين",
+      "hint": "تظهر نقطتان فوق الحرف الأول.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-23-3",
+      "type": "review",
+      "prompt": "أي حرف له نقطتان تحت؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "لاحظ الذيل الطويل والنقطتين أسفل.",
+      "asset": "image/y/dots"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-23-1",
+      "type": "listen",
+      "prompt": "استمع وحدد هل الصوت ي أم ن؟",
+      "choices": [
+        "ي",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "انخفض اللسان نحو الأمام لصوت ي.",
+      "asset": "audio/y/sound-2"
+    },
+    {
+      "id": "alphabet-23-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ت؟",
+      "choices": [
+        "تين",
+        "بيت",
+        "نار"
+      ],
+      "answer": "تين",
+      "hint": "تظهر نقطتان فوق الحرف الأول.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-23-3",
+      "type": "review",
+      "prompt": "أي حرف له نقطتان تحت؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "لاحظ الذيل الطويل والنقطتين أسفل.",
+      "asset": "image/y/dots"
+    }
+  ]
+}

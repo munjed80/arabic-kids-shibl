@@ -1,0 +1,100 @@
+{
+  "id": "alphabet-24",
+  "world": "alphabet",
+  "title": "كلمة بيت",
+  "description": "رتب الحروف واقرأ كلمة بيت.",
+  "objective": "تثبيت حرف ي داخل كلمة مألوفة.",
+  "goal": "بناء كلمة بيت وقراءتها بثقة.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-24-1",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين كلمة بيت.",
+      "choices": [
+        "بيت",
+        "تيب",
+        "بي"
+      ],
+      "answer": "بيت",
+      "hint": "ابدأ بب ثم ي ثم ت.",
+      "tiles": [
+        "ب",
+        "ي",
+        "ت"
+      ]
+    },
+    {
+      "id": "alphabet-24-2",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة بيت الصحيحة.",
+      "choices": [
+        "بيت",
+        "باب",
+        "نار"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الأوسط هو ي.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-24-3",
+      "type": "review",
+      "prompt": "أي حرف في وسط كلمة بيت؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "الصوت الثاني هو ياء مكسورة.",
+      "asset": "image/word/bayt-middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-24-1",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين كلمة بيت.",
+      "choices": [
+        "بيت",
+        "تيب",
+        "بي"
+      ],
+      "answer": "بيت",
+      "hint": "ابدأ بب ثم ي ثم ت.",
+      "tiles": [
+        "ب",
+        "ي",
+        "ت"
+      ]
+    },
+    {
+      "id": "alphabet-24-2",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة بيت الصحيحة.",
+      "choices": [
+        "بيت",
+        "باب",
+        "نار"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الأوسط هو ي.",
+      "asset": "audio/words/bayt"
+    },
+    {
+      "id": "alphabet-24-3",
+      "type": "review",
+      "prompt": "أي حرف في وسط كلمة بيت؟",
+      "choices": [
+        "ي",
+        "ب",
+        "ت"
+      ],
+      "answer": "ي",
+      "hint": "الصوت الثاني هو ياء مكسورة.",
+      "asset": "image/word/bayt-middle"
+    }
+  ]
+}

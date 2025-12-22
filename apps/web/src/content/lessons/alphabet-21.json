@@ -1,0 +1,102 @@
+{
+  "id": "alphabet-21",
+  "world": "alphabet",
+  "title": "أشكال الحروف",
+  "description": "اختبر نفسك في التعرف على النقاط والأشكال.",
+  "objective": "تمييز ب وت ون وي بصريًا.",
+  "goal": "تمييز شكل الحروف المتشابهة بالنقاط.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-21-1",
+      "type": "choose",
+      "prompt": "أي حرف له نقطتان فوق؟",
+      "choices": [
+        "ت",
+        "ي",
+        "ن"
+      ],
+      "answer": "ت",
+      "hint": "تختلف عن ب بنقطتين فوق الخط.",
+      "asset": "image/t/dots"
+    },
+    {
+      "id": "alphabet-21-2",
+      "type": "match",
+      "prompt": "أي كلمة تبدأ بحرف ب؟",
+      "choices": [
+        "بنت",
+        "تين",
+        "نور"
+      ],
+      "answer": "بنت",
+      "hint": "الصوت الأول ب بشفاه منغلقة.",
+      "pairs": [
+        {
+          "left": "ب",
+          "right": "بنت"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-21-3",
+      "type": "review",
+      "prompt": "أي كلمة تنتهي بحرف ي؟",
+      "choices": [
+        "بني",
+        "بيت",
+        "نار"
+      ],
+      "answer": "بني",
+      "hint": "اسمع الياء الممدودة في النهاية.",
+      "asset": "audio/words/buni"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-21-1",
+      "type": "choose",
+      "prompt": "أي حرف له نقطتان فوق؟",
+      "choices": [
+        "ت",
+        "ي",
+        "ن"
+      ],
+      "answer": "ت",
+      "hint": "تختلف عن ب بنقطتين فوق الخط.",
+      "asset": "image/t/dots"
+    },
+    {
+      "id": "alphabet-21-2",
+      "type": "match",
+      "prompt": "أي كلمة تبدأ بحرف ب؟",
+      "choices": [
+        "بنت",
+        "تين",
+        "نور"
+      ],
+      "answer": "بنت",
+      "hint": "الصوت الأول ب بشفاه منغلقة.",
+      "pairs": [
+        {
+          "left": "ب",
+          "right": "بنت"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-21-3",
+      "type": "review",
+      "prompt": "أي كلمة تنتهي بحرف ي؟",
+      "choices": [
+        "بني",
+        "بيت",
+        "نار"
+      ],
+      "answer": "بني",
+      "hint": "اسمع الياء الممدودة في النهاية.",
+      "asset": "audio/words/buni"
+    }
+  ]
+}

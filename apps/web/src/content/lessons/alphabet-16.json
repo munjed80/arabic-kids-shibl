@@ -1,0 +1,102 @@
+{
+  "id": "alphabet-16",
+  "world": "alphabet",
+  "title": "تحقق سريع",
+  "description": "اختر الحرف الصحيح بعد سماع الصوت أو قراءة الكلمة.",
+  "objective": "سرعة تمييز ب وت ون في كلمات قصيرة.",
+  "goal": "اختبار سريع على ب وت ون.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-16-1",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر الحرف الصحيح.",
+      "choices": [
+        "ت",
+        "ن",
+        "ب"
+      ],
+      "answer": "ت",
+      "hint": "الصوت يخرج من اللسان مع نقطتين فوق.",
+      "asset": "audio/t/sound-1"
+    },
+    {
+      "id": "alphabet-16-2",
+      "type": "match",
+      "prompt": "اختر الكلمة التي تنتهي بحرف ن.",
+      "choices": [
+        "من",
+        "ما",
+        "له"
+      ],
+      "answer": "من",
+      "hint": "انتهِ بصوت أنفي قصير.",
+      "pairs": [
+        {
+          "left": "ن",
+          "right": "من"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-16-3",
+      "type": "review",
+      "prompt": "أي كلمة تبدأ بحرف ب؟",
+      "choices": [
+        "باب",
+        "نار",
+        "تاج"
+      ],
+      "answer": "باب",
+      "hint": "انظر للنقطة تحت الخط في البداية.",
+      "asset": "audio/words/bab"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-16-1",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر الحرف الصحيح.",
+      "choices": [
+        "ت",
+        "ن",
+        "ب"
+      ],
+      "answer": "ت",
+      "hint": "الصوت يخرج من اللسان مع نقطتين فوق.",
+      "asset": "audio/t/sound-1"
+    },
+    {
+      "id": "alphabet-16-2",
+      "type": "match",
+      "prompt": "اختر الكلمة التي تنتهي بحرف ن.",
+      "choices": [
+        "من",
+        "ما",
+        "له"
+      ],
+      "answer": "من",
+      "hint": "انتهِ بصوت أنفي قصير.",
+      "pairs": [
+        {
+          "left": "ن",
+          "right": "من"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-16-3",
+      "type": "review",
+      "prompt": "أي كلمة تبدأ بحرف ب؟",
+      "choices": [
+        "باب",
+        "نار",
+        "تاج"
+      ],
+      "answer": "باب",
+      "hint": "انظر للنقطة تحت الخط في البداية.",
+      "asset": "audio/words/bab"
+    }
+  ]
+}

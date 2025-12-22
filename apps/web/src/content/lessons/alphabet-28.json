@@ -1,0 +1,104 @@
+{
+  "id": "alphabet-28",
+  "world": "alphabet",
+  "title": "مراجعة مختلطة ١",
+  "description": "تدريبات تذكير للحروف الأربعة عبر كلمات قصيرة.",
+  "objective": "تعزيز التمييز السريع بين الحروف.",
+  "goal": "مراجعة الحروف ب وت ون وي بمهام متنوعة.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-28-1",
+      "type": "review",
+      "prompt": "اختر الحرف المناسب للصوت المسموع.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ب",
+      "hint": "الصوت شفوي بنقطة تحت.",
+      "asset": "audio/b/sound-2"
+    },
+    {
+      "id": "alphabet-28-2",
+      "type": "match",
+      "prompt": "أي كلمة تحتوي على ي في الوسط؟",
+      "choices": [
+        "بيت",
+        "بنت",
+        "نار"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الثاني هو ياء.",
+      "pairs": [
+        {
+          "left": "ي",
+          "right": "بيت"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-28-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بحرف ن؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "يد"
+      ],
+      "answer": "بين",
+      "hint": "انتهِ بصوت أنفي قصير.",
+      "asset": "audio/words/bayn"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-28-1",
+      "type": "review",
+      "prompt": "اختر الحرف المناسب للصوت المسموع.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ب",
+      "hint": "الصوت شفوي بنقطة تحت.",
+      "asset": "audio/b/sound-2"
+    },
+    {
+      "id": "alphabet-28-2",
+      "type": "match",
+      "prompt": "أي كلمة تحتوي على ي في الوسط؟",
+      "choices": [
+        "بيت",
+        "بنت",
+        "نار"
+      ],
+      "answer": "بيت",
+      "hint": "الصوت الثاني هو ياء.",
+      "pairs": [
+        {
+          "left": "ي",
+          "right": "بيت"
+        }
+      ]
+    },
+    {
+      "id": "alphabet-28-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بحرف ن؟",
+      "choices": [
+        "بين",
+        "بيت",
+        "يد"
+      ],
+      "answer": "بين",
+      "hint": "انتهِ بصوت أنفي قصير.",
+      "asset": "audio/words/bayn"
+    }
+  ]
+}

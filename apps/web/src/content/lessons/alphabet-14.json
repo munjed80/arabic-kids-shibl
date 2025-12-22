@@ -1,0 +1,102 @@
+{
+  "id": "alphabet-14",
+  "world": "alphabet",
+  "title": "ن مع ب وت",
+  "description": "ميز صوت وشكل ن عن ب وت.",
+  "objective": "اختيار ن بدقة بين الحروف المتشابهة.",
+  "goal": "التمييز بين أصوات ب وت ون.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-14-1",
+      "type": "choose",
+      "prompt": "أي حرف صوته ن وليس ب؟",
+      "choices": [
+        "ب",
+        "ن",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "اسمع الأنف عند ن.",
+      "asset": "audio/n/sound-2"
+    },
+    {
+      "id": "alphabet-14-2",
+      "type": "listen",
+      "prompt": "استمع واختر الحرف المسموع بين ب وت ون.",
+      "choices": [
+        "ت",
+        "ن",
+        "ب"
+      ],
+      "answer": "ن",
+      "hint": "الصوت يخرج من الأنف بوضوح.",
+      "asset": "audio/n/sound-3"
+    },
+    {
+      "id": "alphabet-14-3",
+      "type": "match",
+      "prompt": "اختر الكلمة التي تبدأ بحرف ن.",
+      "choices": [
+        "ناب",
+        "تاب",
+        "باب"
+      ],
+      "answer": "ناب",
+      "hint": "ركز على الحرف الأول.",
+      "pairs": [
+        {
+          "left": "ن",
+          "right": "ناب"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-14-1",
+      "type": "choose",
+      "prompt": "أي حرف صوته ن وليس ب؟",
+      "choices": [
+        "ب",
+        "ن",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "اسمع الأنف عند ن.",
+      "asset": "audio/n/sound-2"
+    },
+    {
+      "id": "alphabet-14-2",
+      "type": "listen",
+      "prompt": "استمع واختر الحرف المسموع بين ب وت ون.",
+      "choices": [
+        "ت",
+        "ن",
+        "ب"
+      ],
+      "answer": "ن",
+      "hint": "الصوت يخرج من الأنف بوضوح.",
+      "asset": "audio/n/sound-3"
+    },
+    {
+      "id": "alphabet-14-3",
+      "type": "match",
+      "prompt": "اختر الكلمة التي تبدأ بحرف ن.",
+      "choices": [
+        "ناب",
+        "تاب",
+        "باب"
+      ],
+      "answer": "ناب",
+      "hint": "ركز على الحرف الأول.",
+      "pairs": [
+        {
+          "left": "ن",
+          "right": "ناب"
+        }
+      ]
+    }
+  ]
+}

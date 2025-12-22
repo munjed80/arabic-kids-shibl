@@ -1,0 +1,104 @@
+{
+  "id": "alphabet-20",
+  "world": "alphabet",
+  "title": "تجميع الأصوات",
+  "description": "اختر الحرف الصحيح بعد سماع الصوت بين الأربعة.",
+  "objective": "سرعة اختيار الحرف المناسب.",
+  "goal": "تمييز أصوات ب وت ون وي معًا.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "alphabet-20-1",
+      "type": "listen",
+      "prompt": "استمع واختر الحرف المسموع.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ن",
+      "hint": "الصوت الأنفي يدل على ن.",
+      "asset": "audio/n/sound-4"
+    },
+    {
+      "id": "alphabet-20-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ي؟",
+      "choices": [
+        "يد",
+        "تاج",
+        "باب"
+      ],
+      "answer": "يد",
+      "hint": "الأصوات تبدأ بياء واضحة.",
+      "asset": "audio/words/yad"
+    },
+    {
+      "id": "alphabet-20-3",
+      "type": "match",
+      "prompt": "أي كلمة تحتوي على ت في الوسط؟",
+      "choices": [
+        "بيت",
+        "بني",
+        "نار"
+      ],
+      "answer": "بيت",
+      "hint": "استمع لبي-ت.",
+      "pairs": [
+        {
+          "left": "ت",
+          "right": "بيت"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-20-1",
+      "type": "listen",
+      "prompt": "استمع واختر الحرف المسموع.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ن",
+      "hint": "الصوت الأنفي يدل على ن.",
+      "asset": "audio/n/sound-4"
+    },
+    {
+      "id": "alphabet-20-2",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ي؟",
+      "choices": [
+        "يد",
+        "تاج",
+        "باب"
+      ],
+      "answer": "يد",
+      "hint": "الأصوات تبدأ بياء واضحة.",
+      "asset": "audio/words/yad"
+    },
+    {
+      "id": "alphabet-20-3",
+      "type": "match",
+      "prompt": "أي كلمة تحتوي على ت في الوسط؟",
+      "choices": [
+        "بيت",
+        "بني",
+        "نار"
+      ],
+      "answer": "بيت",
+      "hint": "استمع لبي-ت.",
+      "pairs": [
+        {
+          "left": "ت",
+          "right": "بيت"
+        }
+      ]
+    }
+  ]
+}

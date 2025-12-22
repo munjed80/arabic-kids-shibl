@@ -1,0 +1,100 @@
+{
+  "id": "alphabet-26",
+  "world": "alphabet",
+  "title": "كلمة بين",
+  "description": "بناء كلمة بين للتدريب على وسط ي ونهايتها ن.",
+  "objective": "دمج ب وي ون في قراءة واحدة.",
+  "goal": "استخدام ي مع ب ون في كلمة بين.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-26-1",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين كلمة بين.",
+      "choices": [
+        "بين",
+        "نيب",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "ابدأ بب ثم ي ثم ن.",
+      "tiles": [
+        "ب",
+        "ي",
+        "ن"
+      ]
+    },
+    {
+      "id": "alphabet-26-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني وسط مكانين؟",
+      "choices": [
+        "بين",
+        "باب",
+        "نار"
+      ],
+      "answer": "بين",
+      "hint": "الكلمة تصف المسافة ما بين شيئين.",
+      "asset": "audio/words/bayn"
+    },
+    {
+      "id": "alphabet-26-3",
+      "type": "review",
+      "prompt": "أي حرف في نهاية كلمة بين؟",
+      "choices": [
+        "ن",
+        "ب",
+        "ي"
+      ],
+      "answer": "ن",
+      "hint": "الصوت الأخير أنفي قصير.",
+      "asset": "image/word/bayn-end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-26-1",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين كلمة بين.",
+      "choices": [
+        "بين",
+        "نيب",
+        "بي"
+      ],
+      "answer": "بين",
+      "hint": "ابدأ بب ثم ي ثم ن.",
+      "tiles": [
+        "ب",
+        "ي",
+        "ن"
+      ]
+    },
+    {
+      "id": "alphabet-26-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني وسط مكانين؟",
+      "choices": [
+        "بين",
+        "باب",
+        "نار"
+      ],
+      "answer": "بين",
+      "hint": "الكلمة تصف المسافة ما بين شيئين.",
+      "asset": "audio/words/bayn"
+    },
+    {
+      "id": "alphabet-26-3",
+      "type": "review",
+      "prompt": "أي حرف في نهاية كلمة بين؟",
+      "choices": [
+        "ن",
+        "ب",
+        "ي"
+      ],
+      "answer": "ن",
+      "hint": "الصوت الأخير أنفي قصير.",
+      "asset": "image/word/bayn-end"
+    }
+  ]
+}

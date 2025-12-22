@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-17",
+  "world": "alphabet",
+  "title": "حرف ي الجديد",
+  "description": "تعرف على صوت وشكل ي المنفصل.",
+  "objective": "تمييز ي عن الحروف السابقة.",
+  "goal": "سماع حرف ي والتعرف على شكله.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-17-1",
+      "type": "listen",
+      "prompt": "استمع للصوت ثم اختر الحرف ي.",
+      "choices": [
+        "ي",
+        "ن",
+        "ب"
+      ],
+      "answer": "ي",
+      "hint": "له نقطتان أسفل في شكله المنفصل.",
+      "asset": "audio/y/sound-1"
+    },
+    {
+      "id": "alphabet-17-2",
+      "type": "choose",
+      "prompt": "اختر شكل ي الصحيح بين الحروف.",
+      "choices": [
+        "ت",
+        "ي",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "ابحث عن الذيل الطويل والنقطتين تحت.",
+      "asset": "image/y/isolated"
+    },
+    {
+      "id": "alphabet-17-3",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ي؟",
+      "choices": [
+        "يد",
+        "باب",
+        "نار"
+      ],
+      "answer": "يد",
+      "hint": "الصوت الأول هو ي مع كسر خفيف.",
+      "asset": "audio/words/yad"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-17-1",
+      "type": "listen",
+      "prompt": "استمع للصوت ثم اختر الحرف ي.",
+      "choices": [
+        "ي",
+        "ن",
+        "ب"
+      ],
+      "answer": "ي",
+      "hint": "له نقطتان أسفل في شكله المنفصل.",
+      "asset": "audio/y/sound-1"
+    },
+    {
+      "id": "alphabet-17-2",
+      "type": "choose",
+      "prompt": "اختر شكل ي الصحيح بين الحروف.",
+      "choices": [
+        "ت",
+        "ي",
+        "ن"
+      ],
+      "answer": "ي",
+      "hint": "ابحث عن الذيل الطويل والنقطتين تحت.",
+      "asset": "image/y/isolated"
+    },
+    {
+      "id": "alphabet-17-3",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ي؟",
+      "choices": [
+        "يد",
+        "باب",
+        "نار"
+      ],
+      "answer": "يد",
+      "hint": "الصوت الأول هو ي مع كسر خفيف.",
+      "asset": "audio/words/yad"
+    }
+  ]
+}

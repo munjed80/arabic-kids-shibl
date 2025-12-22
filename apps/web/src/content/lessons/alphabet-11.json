@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-11",
+  "world": "alphabet",
+  "title": "اكتشاف صوت ن",
+  "description": "تعرف على صوت الحرف ن واختر شكله الصحيح.",
+  "objective": "تمييز صوت ن وشكله المنفصل.",
+  "goal": "سماع حرف ن والتعرف على شكله.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-11-1",
+      "type": "listen",
+      "prompt": "استمع للصوت ثم اختر الحرف الذي سمعته.",
+      "choices": [
+        "ن",
+        "ب",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "يظهر مع نقطة فوق الخط.",
+      "asset": "audio/n/sound-1"
+    },
+    {
+      "id": "alphabet-11-2",
+      "type": "choose",
+      "prompt": "اختر شكل الحرف ن المنفصل بين الحروف المشابهة.",
+      "choices": [
+        "ب",
+        "ن",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة فوق السطر تجعله يختلف عن ب وت.",
+      "asset": "image/n/isolated"
+    },
+    {
+      "id": "alphabet-11-3",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ن؟",
+      "choices": [
+        "نار",
+        "باب",
+        "توت"
+      ],
+      "answer": "نار",
+      "hint": "يظهر الحرف في أول الكلمة.",
+      "asset": "audio/words/nar"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-11-1",
+      "type": "listen",
+      "prompt": "استمع للصوت ثم اختر الحرف الذي سمعته.",
+      "choices": [
+        "ن",
+        "ب",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "يظهر مع نقطة فوق الخط.",
+      "asset": "audio/n/sound-1"
+    },
+    {
+      "id": "alphabet-11-2",
+      "type": "choose",
+      "prompt": "اختر شكل الحرف ن المنفصل بين الحروف المشابهة.",
+      "choices": [
+        "ب",
+        "ن",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "نقطة واحدة فوق السطر تجعله يختلف عن ب وت.",
+      "asset": "image/n/isolated"
+    },
+    {
+      "id": "alphabet-11-3",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف ن؟",
+      "choices": [
+        "نار",
+        "باب",
+        "توت"
+      ],
+      "answer": "نار",
+      "hint": "يظهر الحرف في أول الكلمة.",
+      "asset": "audio/words/nar"
+    }
+  ]
+}

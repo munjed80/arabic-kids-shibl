@@ -1,0 +1,100 @@
+{
+  "id": "alphabet-27",
+  "world": "alphabet",
+  "title": "كلمة تين",
+  "description": "بناء كلمة تين والتمييز بين ت وي ون.",
+  "objective": "دمج الحروف الأربعة في كلمة قصيرة.",
+  "goal": "قراءة كلمة تين بثقة.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-27-1",
+      "type": "build",
+      "prompt": "كوّن كلمة تين بالترتيب الصحيح.",
+      "choices": [
+        "تين",
+        "تينَ",
+        "نيت"
+      ],
+      "answer": "تين",
+      "hint": "ابدأ بتاء بنقطتين فوق.",
+      "tiles": [
+        "ت",
+        "ي",
+        "ن"
+      ]
+    },
+    {
+      "id": "alphabet-27-2",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة تين الصحيحة.",
+      "choices": [
+        "تين",
+        "بين",
+        "بيت"
+      ],
+      "answer": "تين",
+      "hint": "الصوت الأول تاء واضحة.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-27-3",
+      "type": "review",
+      "prompt": "أي حرف يبدأ به تين؟",
+      "choices": [
+        "ت",
+        "ب",
+        "ي"
+      ],
+      "answer": "ت",
+      "hint": "تظهر نقطتان فوق الحرف الأول.",
+      "asset": "image/word/teen-start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-27-1",
+      "type": "build",
+      "prompt": "كوّن كلمة تين بالترتيب الصحيح.",
+      "choices": [
+        "تين",
+        "تينَ",
+        "نيت"
+      ],
+      "answer": "تين",
+      "hint": "ابدأ بتاء بنقطتين فوق.",
+      "tiles": [
+        "ت",
+        "ي",
+        "ن"
+      ]
+    },
+    {
+      "id": "alphabet-27-2",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة تين الصحيحة.",
+      "choices": [
+        "تين",
+        "بين",
+        "بيت"
+      ],
+      "answer": "تين",
+      "hint": "الصوت الأول تاء واضحة.",
+      "asset": "audio/words/teen"
+    },
+    {
+      "id": "alphabet-27-3",
+      "type": "review",
+      "prompt": "أي حرف يبدأ به تين؟",
+      "choices": [
+        "ت",
+        "ب",
+        "ي"
+      ],
+      "answer": "ت",
+      "hint": "تظهر نقطتان فوق الحرف الأول.",
+      "asset": "image/word/teen-start"
+    }
+  ]
+}

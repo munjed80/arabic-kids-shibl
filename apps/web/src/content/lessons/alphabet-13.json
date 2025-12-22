@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-13",
+  "world": "alphabet",
+  "title": "ن في نهاية الكلمة",
+  "description": "تعرّف على ن عندما يكون آخر الصوت.",
+  "objective": "تمييز ن في نهاية كلمات قصيرة.",
+  "goal": "قراءة كلمات ينتهي فيها حرف ن.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-13-1",
+      "type": "listen",
+      "prompt": "استمع واختر الكلمة التي ينتهي صوتها بحرف ن.",
+      "choices": [
+        "من",
+        "ما",
+        "لا"
+      ],
+      "answer": "من",
+      "hint": "الصوت الأخير هو ن واضحة.",
+      "asset": "audio/words/min"
+    },
+    {
+      "id": "alphabet-13-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على حرف ن واضح؟",
+      "choices": [
+        "نوم",
+        "باب",
+        "تاج"
+      ],
+      "answer": "نوم",
+      "hint": "لاحظ الصوت في وسط الكلمة.",
+      "asset": "audio/words/nom"
+    },
+    {
+      "id": "alphabet-13-3",
+      "type": "review",
+      "prompt": "اختر الحرف ن بين الحروف ب وت.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ن",
+      "hint": "ن نقطته فوق وليست تحت.",
+      "asset": "image/n/spot-the-letter"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-13-1",
+      "type": "listen",
+      "prompt": "استمع واختر الكلمة التي ينتهي صوتها بحرف ن.",
+      "choices": [
+        "من",
+        "ما",
+        "لا"
+      ],
+      "answer": "من",
+      "hint": "الصوت الأخير هو ن واضحة.",
+      "asset": "audio/words/min"
+    },
+    {
+      "id": "alphabet-13-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على حرف ن واضح؟",
+      "choices": [
+        "نوم",
+        "باب",
+        "تاج"
+      ],
+      "answer": "نوم",
+      "hint": "لاحظ الصوت في وسط الكلمة.",
+      "asset": "audio/words/nom"
+    },
+    {
+      "id": "alphabet-13-3",
+      "type": "review",
+      "prompt": "اختر الحرف ن بين الحروف ب وت.",
+      "choices": [
+        "ب",
+        "ت",
+        "ن"
+      ],
+      "answer": "ن",
+      "hint": "ن نقطته فوق وليست تحت.",
+      "asset": "image/n/spot-the-letter"
+    }
+  ]
+}

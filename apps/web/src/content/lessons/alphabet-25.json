@@ -1,0 +1,110 @@
+{
+  "id": "alphabet-25",
+  "world": "alphabet",
+  "title": "كلمة بنت",
+  "description": "كوّن كلمة بنت وركز على صوت ن في الوسط.",
+  "objective": "دمج ب ون وت في كلمة واحدة.",
+  "goal": "قراءة كلمة بنت بوضوح.",
+  "level": 2,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-25-1",
+      "type": "build",
+      "prompt": "كوّن كلمة بنت بالترتيب الصحيح.",
+      "choices": [
+        "بنت",
+        "تبن",
+        "نتب"
+      ],
+      "answer": "بنت",
+      "hint": "ابدأ بب ثم ن ثم ت.",
+      "tiles": [
+        "ب",
+        "ن",
+        "ت"
+      ]
+    },
+    {
+      "id": "alphabet-25-2",
+      "type": "choose",
+      "prompt": "أي حرف تسمعه في وسط بنت؟",
+      "choices": [
+        "ن",
+        "ي",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "استمع لصوت الأنف في الوسط.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-25-3",
+      "type": "match",
+      "prompt": "أي كلمة تشبه بنت في الصوت؟",
+      "choices": [
+        "بن",
+        "بنت",
+        "بات"
+      ],
+      "answer": "بنت",
+      "hint": "تحتوي على ثلاثة أصوات واضحة.",
+      "pairs": [
+        {
+          "left": "بنت",
+          "right": "بنت"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-25-1",
+      "type": "build",
+      "prompt": "كوّن كلمة بنت بالترتيب الصحيح.",
+      "choices": [
+        "بنت",
+        "تبن",
+        "نتب"
+      ],
+      "answer": "بنت",
+      "hint": "ابدأ بب ثم ن ثم ت.",
+      "tiles": [
+        "ب",
+        "ن",
+        "ت"
+      ]
+    },
+    {
+      "id": "alphabet-25-2",
+      "type": "choose",
+      "prompt": "أي حرف تسمعه في وسط بنت؟",
+      "choices": [
+        "ن",
+        "ي",
+        "ت"
+      ],
+      "answer": "ن",
+      "hint": "استمع لصوت الأنف في الوسط.",
+      "asset": "audio/words/bint"
+    },
+    {
+      "id": "alphabet-25-3",
+      "type": "match",
+      "prompt": "أي كلمة تشبه بنت في الصوت؟",
+      "choices": [
+        "بن",
+        "بنت",
+        "بات"
+      ],
+      "answer": "بنت",
+      "hint": "تحتوي على ثلاثة أصوات واضحة.",
+      "pairs": [
+        {
+          "left": "بنت",
+          "right": "بنت"
+        }
+      ]
+    }
+  ]
+}
