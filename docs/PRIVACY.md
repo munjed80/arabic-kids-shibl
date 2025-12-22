@@ -8,7 +8,7 @@
 **Data flow**
 - All lesson content is packaged with the app as static JSON.
 - Progress is stored in `localStorage` under a single key and can be cleared by the learner at any time.
-- Parent accounts are stored in a minimal SQLite database (via Prisma) with hashed passwords.
+- Parent accounts are stored in `apps/web/src/data/users.json` with hashed passwords. This file is local to the deployment and intended for MVP testing.
 - No child identifiers are created; lesson play remains available without login.
 
 **Security posture**

@@ -32,7 +32,7 @@ export default function LoginPage() {
 
     const parsed = loginSchema.safeParse(credentials);
     if (!parsed.success) {
-      setError(t("auth.enterValidCredentials"));
+      setError(t("auth.invalidCredentials"));
       setPending(false);
       return;
     }
@@ -44,7 +44,7 @@ export default function LoginPage() {
     });
 
     if (result?.error) {
-      setError(t("auth.unableToSignIn"));
+      setError(t("auth.invalidCredentials"));
       setPending(false);
       return;
     }
@@ -58,9 +58,9 @@ export default function LoginPage() {
         <LanguageSelector />
         <div className="space-y-2">
           <p className="text-sm font-semibold uppercase tracking-wide text-amber-600">
-            {t("auth.parentLoginLabel")}
+            {t("auth.parentAreaTitle")}
           </p>
-          <h1 className="text-3xl font-bold text-slate-900">{t("auth.manageSubscription")}</h1>
+          <h1 className="text-3xl font-bold text-slate-900">{t("auth.loginTitle")}</h1>
           <p className="text-sm text-slate-600">{t("auth.parentLoginDesc")}</p>
         </div>
 
@@ -76,7 +76,7 @@ export default function LoginPage() {
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="email">
-              {t("auth.email")}
+              {t("auth.emailLabel")}
             </label>
             <input
               id="email"
@@ -89,7 +89,7 @@ export default function LoginPage() {
           </div>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="password">
-              {t("auth.password")}
+              {t("auth.passwordLabel")}
             </label>
             <input
               id="password"
@@ -109,7 +109,7 @@ export default function LoginPage() {
         <div className="flex items-center justify-between text-sm text-slate-700">
           <span>{t("auth.newHere")}</span>
           <Link href="/register" className="font-semibold text-amber-700 hover:underline">
-            {t("auth.createParentAccount")}
+            {t("auth.createAccount")}
           </Link>
         </div>
       </Card>

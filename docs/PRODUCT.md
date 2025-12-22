@@ -7,7 +7,7 @@
 ## MVP scope
 - Content-driven lessons defined in JSON (no CMS, no backend).
 - Non-verbal lion cub companion reacts only to lesson events (no chat, no text input).
-- Parent-only authentication (email + password) for subscription management; children access lessons without accounts.
+- Parent-only authentication (email + password) for subscription management; children access lessons without accounts. Parent records live in a local JSON file for this MVP.
 - Local progress storage in the browser for lesson play; no child data sync.
 - Works offline after first load; suitable for Vercel static deployment.
 
@@ -25,7 +25,7 @@
 ## Non-goals (MVP)
 - No child accounts or social login.
 - No generative AI, chat, or voice input.
-- No backend services beyond minimal auth database.
+- No backend services beyond minimal auth JSON store for parents.
 - No payment or monetization hooks (subscription UI is placeholder).
 
 ## Level 1 definition

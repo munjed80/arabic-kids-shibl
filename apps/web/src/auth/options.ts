@@ -1,15 +1,21 @@
-import type { NextAuthOptions } from "next-auth";
+import type { NextAuthOptions, RequestInternal } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { authenticateParent } from "@/features/auth/service";
 import { loginSchema } from "@/features/auth/schemas";
 import { allowAttempt, resetAttempts } from "@/features/auth/rateLimiter";
 
-function getClientIdentifier(req?: Request) {
-  return (
-    req?.headers.get("x-forwarded-for") ||
-    req?.headers.get("x-real-ip") ||
-    "anonymous"
-  );
+type RequestWithHeaders = Pick<RequestInternal, "headers"> | undefined;
+
+function readHeader(headers: RequestWithHeaders, key: string) {
+  const value = headers?.headers?.get?.(key) ?? headers?.headers?.[key];
+  if (Array.isArray(value)) {
+    return value[0];
+  }
+  return typeof value === "string" ? value : undefined;
+}
+
+function getClientIdentifier(req?: RequestWithHeaders) {
+  return readHeader(req, "x-forwarded-for") || readHeader(req, "x-real-ip") || "anonymous";
 }
 
 export const authOptions: NextAuthOptions = {

@@ -53,21 +53,21 @@ const interpolate = (template: string, values?: TranslateValues) => {
 };
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<SupportedLocale>(defaultLocale);
-
-  useEffect(() => {
-    const initial = resolveLocale({
+  const [locale, setLocaleState] = useState<SupportedLocale>(() =>
+    resolveLocale({
       stored: typeof window !== "undefined" ? localStorage.getItem(storageKey) : undefined,
       navigatorLanguages: typeof navigator !== "undefined" ? navigator.languages : undefined,
-    });
-    setLocaleState(initial);
+    }),
+  );
+
+  useEffect(() => {
     if (typeof document !== "undefined") {
-      document.documentElement.lang = initial;
+      document.documentElement.lang = locale;
     }
     if (typeof window !== "undefined") {
-      localStorage.setItem(storageKey, initial);
+      localStorage.setItem(storageKey, locale);
     }
-  }, []);
+  }, [locale]);
 
   const setLocale = (value: SupportedLocale) => {
     setLocaleState(value);
