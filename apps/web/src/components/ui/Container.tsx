@@ -12,8 +12,10 @@ export function Container({
   as: Component = "div",
   ...rest
 }: ContainerProps) {
+  const classes = ["mx-auto max-w-6xl px-6", className].filter(Boolean).join(" ");
+
   return (
-    <Component className={`mx-auto max-w-6xl px-6${className ? ` ${className}` : ""}`} {...rest}>
+    <Component className={classes} {...rest}>
       {children}
     </Component>
   );

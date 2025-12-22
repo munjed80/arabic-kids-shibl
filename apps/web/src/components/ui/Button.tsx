@@ -15,10 +15,18 @@ const variantClasses: Record<ButtonVariant, string> = {
 };
 
 export function Button({ children, className = "", variant = "primary", ...props }: ButtonProps) {
+  const classes = [
+    "rounded-full px-4 py-2 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400",
+    variantClasses[variant],
+    className,
+  ]
+    .filter(Boolean)
+    .join(" ");
+
   return (
     <button
       {...props}
-      className={`rounded-full px-4 py-2 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400 ${variantClasses[variant]}${className ? ` ${className}` : ""}`}
+      className={classes}
     >
       {children}
     </button>
