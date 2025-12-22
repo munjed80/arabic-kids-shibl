@@ -7,7 +7,9 @@
 ## MVP scope
 - Content-driven lessons defined in JSON (no CMS, no backend).
 - Non-verbal lion cub companion reacts only to lesson events (no chat, no text input).
-- Local progress storage in the browser; no accounts, no cloud sync.
+- Local progress storage in the browser for children; no child accounts or usernames.
+- Parent-only email/password authentication to manage the €7/month subscription and view progress.
+- SQLite via Prisma stores parent records and placeholder subscriptions with hashed passwords.
 - Works offline after first load; suitable for Vercel static deployment.
 
 ## Pillars
@@ -17,7 +19,6 @@
 4. **Tiny, repeatable activities** – 3–5 minute sessions that reinforce recognition and recall.
 
 ## Non-goals (MVP)
-- No authentication or user profiles.
+- No social login or child logins.
 - No generative AI, chat, or voice input.
-- No backend services or analytics.
-- No payment or monetization hooks.
+- No analytics; subscription billing remains a placeholder.

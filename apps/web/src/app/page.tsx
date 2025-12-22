@@ -13,6 +13,7 @@ import { lessonSchema } from "@/features/lesson-engine/lessonSchema";
 import { clearProgress, loadProgress, saveProgress } from "@/features/progress/localProgress";
 import lessonData from "@/content/lessons/lesson-letters.json";
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 
 type Feedback = { message: string | null; correct?: boolean };
 
@@ -97,6 +98,11 @@ export default function Home() {
           <span className="rounded-full bg-sky-50 px-4 py-2 font-semibold text-sky-800">
             Content-driven lessons
           </span>
+          <Link href="/login" className="ml-auto">
+            <Button variant="ghost" className="px-3">
+              Parent login
+            </Button>
+          </Link>
         </div>
       </Card>
 
