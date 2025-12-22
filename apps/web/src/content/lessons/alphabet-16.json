@@ -2,101 +2,91 @@
   "id": "alphabet-16",
   "world": "alphabet",
   "title": "تحقق سريع",
-  "description": "اختر الحرف الصحيح بعد سماع الصوت أو قراءة الكلمة.",
-  "objective": "سرعة تمييز ب وت ون في كلمات قصيرة.",
-  "goal": "اختبار سريع على ب وت ون.",
+  "description": "جاوب بسرعة على الحرف الصحيح.",
+  "objective": "تثبيت التمييز الفوري.",
+  "goal": "اختبار سريع بين ب وت ون.",
   "level": 2,
   "durationMinutes": 3,
   "steps": [
     {
       "id": "alphabet-16-1",
       "type": "listen",
-      "prompt": "استمع للصوت واختر الحرف الصحيح.",
+      "prompt": "اسمع وحدد هل الصوت ت؟",
       "choices": [
         "ت",
-        "ن",
-        "ب"
+        "ب",
+        "ن"
       ],
       "answer": "ت",
-      "hint": "الصوت يخرج من اللسان مع نقطتين فوق.",
+      "hint": "صوت لساني واضح.",
       "asset": "audio/t/sound-1"
     },
     {
       "id": "alphabet-16-2",
-      "type": "match",
-      "prompt": "اختر الكلمة التي تنتهي بحرف ن.",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ن في الوسط؟",
       "choices": [
-        "من",
-        "ما",
-        "له"
+        "بنت",
+        "بيت",
+        "بي"
       ],
-      "answer": "من",
-      "hint": "انتهِ بصوت أنفي قصير.",
-      "pairs": [
-        {
-          "left": "ن",
-          "right": "من"
-        }
-      ]
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
     },
     {
       "id": "alphabet-16-3",
       "type": "review",
       "prompt": "أي كلمة تبدأ بحرف ب؟",
       "choices": [
-        "باب",
-        "نار",
-        "تاج"
+        "بي",
+        "تي",
+        "ني"
       ],
-      "answer": "باب",
-      "hint": "انظر للنقطة تحت الخط في البداية.",
-      "asset": "audio/words/bab"
+      "answer": "بي",
+      "hint": "النقطة تحت الخط في البداية.",
+      "asset": "audio/words/bee"
     }
   ],
   "activities": [
     {
       "id": "alphabet-16-1",
       "type": "listen",
-      "prompt": "استمع للصوت واختر الحرف الصحيح.",
+      "prompt": "اسمع وحدد هل الصوت ت؟",
       "choices": [
         "ت",
-        "ن",
-        "ب"
+        "ب",
+        "ن"
       ],
       "answer": "ت",
-      "hint": "الصوت يخرج من اللسان مع نقطتين فوق.",
+      "hint": "صوت لساني واضح.",
       "asset": "audio/t/sound-1"
     },
     {
       "id": "alphabet-16-2",
-      "type": "match",
-      "prompt": "اختر الكلمة التي تنتهي بحرف ن.",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ن في الوسط؟",
       "choices": [
-        "من",
-        "ما",
-        "له"
+        "بنت",
+        "بيت",
+        "بي"
       ],
-      "answer": "من",
-      "hint": "انتهِ بصوت أنفي قصير.",
-      "pairs": [
-        {
-          "left": "ن",
-          "right": "من"
-        }
-      ]
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
     },
     {
       "id": "alphabet-16-3",
       "type": "review",
       "prompt": "أي كلمة تبدأ بحرف ب؟",
       "choices": [
-        "باب",
-        "نار",
-        "تاج"
+        "بي",
+        "تي",
+        "ني"
       ],
-      "answer": "باب",
-      "hint": "انظر للنقطة تحت الخط في البداية.",
-      "asset": "audio/words/bab"
+      "answer": "بي",
+      "hint": "النقطة تحت الخط في البداية.",
+      "asset": "audio/words/bee"
     }
   ]
 }

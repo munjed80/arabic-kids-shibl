@@ -2,9 +2,9 @@
   "id": "alphabet-28",
   "world": "alphabet",
   "title": "مراجعة مختلطة ١",
-  "description": "تدريبات تذكير للحروف الأربعة عبر كلمات قصيرة.",
-  "objective": "تعزيز التمييز السريع بين الحروف.",
-  "goal": "مراجعة الحروف ب وت ون وي بمهام متنوعة.",
+  "description": "تدريبات تذكير للحروف الأربعة.",
+  "objective": "تعزيز التمييز السريع.",
+  "goal": "مراجعة الحروف الأربعة بمهام متنوعة.",
   "level": 2,
   "durationMinutes": 3,
   "steps": [
@@ -19,38 +19,33 @@
         "ي"
       ],
       "answer": "ب",
-      "hint": "الصوت شفوي بنقطة تحت.",
-      "asset": "audio/b/sound-2"
+      "hint": "نقطة تحت الخط.",
+      "asset": "audio/b/sound-3"
     },
     {
       "id": "alphabet-28-2",
-      "type": "match",
-      "prompt": "أي كلمة تحتوي على ي في الوسط؟",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ياء في الوسط؟",
       "choices": [
         "بيت",
         "بنت",
-        "نار"
+        "بن"
       ],
       "answer": "بيت",
-      "hint": "الصوت الثاني هو ياء.",
-      "pairs": [
-        {
-          "left": "ي",
-          "right": "بيت"
-        }
-      ]
+      "hint": "الصوت الثاني ي.",
+      "asset": "audio/words/bayt"
     },
     {
       "id": "alphabet-28-3",
       "type": "choose",
-      "prompt": "أي كلمة تنتهي بحرف ن؟",
+      "prompt": "أي كلمة تنتهي بنون؟",
       "choices": [
         "بين",
         "بيت",
-        "يد"
+        "بي"
       ],
       "answer": "بين",
-      "hint": "انتهِ بصوت أنفي قصير.",
+      "hint": "استمع للصوت الأخير.",
       "asset": "audio/words/bayn"
     }
   ],
@@ -66,38 +61,33 @@
         "ي"
       ],
       "answer": "ب",
-      "hint": "الصوت شفوي بنقطة تحت.",
-      "asset": "audio/b/sound-2"
+      "hint": "نقطة تحت الخط.",
+      "asset": "audio/b/sound-3"
     },
     {
       "id": "alphabet-28-2",
-      "type": "match",
-      "prompt": "أي كلمة تحتوي على ي في الوسط؟",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ياء في الوسط؟",
       "choices": [
         "بيت",
         "بنت",
-        "نار"
+        "بن"
       ],
       "answer": "بيت",
-      "hint": "الصوت الثاني هو ياء.",
-      "pairs": [
-        {
-          "left": "ي",
-          "right": "بيت"
-        }
-      ]
+      "hint": "الصوت الثاني ي.",
+      "asset": "audio/words/bayt"
     },
     {
       "id": "alphabet-28-3",
       "type": "choose",
-      "prompt": "أي كلمة تنتهي بحرف ن؟",
+      "prompt": "أي كلمة تنتهي بنون؟",
       "choices": [
         "بين",
         "بيت",
-        "يد"
+        "بي"
       ],
       "answer": "بين",
-      "hint": "انتهِ بصوت أنفي قصير.",
+      "hint": "استمع للصوت الأخير.",
       "asset": "audio/words/bayn"
     }
   ]

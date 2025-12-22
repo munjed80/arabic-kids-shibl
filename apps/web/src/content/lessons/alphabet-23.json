@@ -2,89 +2,89 @@
   "id": "alphabet-23",
   "world": "alphabet",
   "title": "اختبار السرعة",
-  "description": "استجب بسرعة للحرف أو الكلمة الصحيحة.",
-  "objective": "اختيار الحرف المناسب دون تردد.",
-  "goal": "سرعة تمييز ب وت ون وي في كلمات متنوعة.",
+  "description": "أجب بسرعة على الحرف أو الكلمة الصحيحة.",
+  "objective": "اختيار صحيح دون تردد.",
+  "goal": "سرعة تمييز ب وت ون وي.",
   "level": 2,
   "durationMinutes": 3,
   "steps": [
     {
       "id": "alphabet-23-1",
       "type": "listen",
-      "prompt": "استمع وحدد هل الصوت ي أم ن؟",
+      "prompt": "هل الصوت ي أم ن؟",
       "choices": [
         "ي",
         "ن"
       ],
       "answer": "ي",
-      "hint": "انخفض اللسان نحو الأمام لصوت ي.",
-      "asset": "audio/y/sound-2"
+      "hint": "اسمع الياء الممدودة.",
+      "asset": "audio/y/sound-4"
     },
     {
       "id": "alphabet-23-2",
       "type": "choose",
-      "prompt": "أي كلمة تبدأ بحرف ت؟",
+      "prompt": "أي كلمة تبدأ بحرف ن؟",
       "choices": [
-        "تين",
-        "بيت",
-        "نار"
+        "ني",
+        "بي",
+        "تي"
       ],
-      "answer": "تين",
-      "hint": "تظهر نقطتان فوق الحرف الأول.",
-      "asset": "audio/words/teen"
+      "answer": "ني",
+      "hint": "الصوت الأول أنفي.",
+      "asset": "audio/words/nee"
     },
     {
       "id": "alphabet-23-3",
       "type": "review",
-      "prompt": "أي حرف له نقطتان تحت؟",
+      "prompt": "أي حرف تحته نقطة واحدة؟",
       "choices": [
-        "ي",
         "ب",
-        "ت"
+        "ت",
+        "ن"
       ],
-      "answer": "ي",
-      "hint": "لاحظ الذيل الطويل والنقطتين أسفل.",
-      "asset": "image/y/dots"
+      "answer": "ب",
+      "hint": "النقطة أسفل الخط.",
+      "asset": "image/b/dot"
     }
   ],
   "activities": [
     {
       "id": "alphabet-23-1",
       "type": "listen",
-      "prompt": "استمع وحدد هل الصوت ي أم ن؟",
+      "prompt": "هل الصوت ي أم ن؟",
       "choices": [
         "ي",
         "ن"
       ],
       "answer": "ي",
-      "hint": "انخفض اللسان نحو الأمام لصوت ي.",
-      "asset": "audio/y/sound-2"
+      "hint": "اسمع الياء الممدودة.",
+      "asset": "audio/y/sound-4"
     },
     {
       "id": "alphabet-23-2",
       "type": "choose",
-      "prompt": "أي كلمة تبدأ بحرف ت؟",
+      "prompt": "أي كلمة تبدأ بحرف ن؟",
       "choices": [
-        "تين",
-        "بيت",
-        "نار"
+        "ني",
+        "بي",
+        "تي"
       ],
-      "answer": "تين",
-      "hint": "تظهر نقطتان فوق الحرف الأول.",
-      "asset": "audio/words/teen"
+      "answer": "ني",
+      "hint": "الصوت الأول أنفي.",
+      "asset": "audio/words/nee"
     },
     {
       "id": "alphabet-23-3",
       "type": "review",
-      "prompt": "أي حرف له نقطتان تحت؟",
+      "prompt": "أي حرف تحته نقطة واحدة؟",
       "choices": [
-        "ي",
         "ب",
-        "ت"
+        "ت",
+        "ن"
       ],
-      "answer": "ي",
-      "hint": "لاحظ الذيل الطويل والنقطتين أسفل.",
-      "asset": "image/y/dots"
+      "answer": "ب",
+      "hint": "النقطة أسفل الخط.",
+      "asset": "image/b/dot"
     }
   ]
 }

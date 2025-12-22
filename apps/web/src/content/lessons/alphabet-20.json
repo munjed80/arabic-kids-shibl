@@ -2,16 +2,16 @@
   "id": "alphabet-20",
   "world": "alphabet",
   "title": "تجميع الأصوات",
-  "description": "اختر الحرف الصحيح بعد سماع الصوت بين الأربعة.",
+  "description": "استمع واختر الحرف الصحيح من الأربعة.",
   "objective": "سرعة اختيار الحرف المناسب.",
-  "goal": "تمييز أصوات ب وت ون وي معًا.",
+  "goal": "التمييز بين ب وت ون وي معًا.",
   "level": 2,
   "durationMinutes": 3,
   "steps": [
     {
       "id": "alphabet-20-1",
       "type": "listen",
-      "prompt": "استمع واختر الحرف المسموع.",
+      "prompt": "استمع وحدد الحرف.",
       "choices": [
         "ب",
         "ت",
@@ -19,46 +19,41 @@
         "ي"
       ],
       "answer": "ن",
-      "hint": "الصوت الأنفي يدل على ن.",
-      "asset": "audio/n/sound-4"
+      "hint": "صوت أنفي واضح.",
+      "asset": "audio/n/sound-2"
     },
     {
       "id": "alphabet-20-2",
       "type": "choose",
-      "prompt": "أي كلمة تبدأ بحرف ي؟",
+      "prompt": "أي كلمة تبدأ بياء؟",
       "choices": [
-        "يد",
-        "تاج",
-        "باب"
+        "ي",
+        "بي",
+        "تي"
       ],
-      "answer": "يد",
-      "hint": "الأصوات تبدأ بياء واضحة.",
-      "asset": "audio/words/yad"
+      "answer": "ي",
+      "hint": "حرف واحد يكفي.",
+      "asset": "audio/y/sound-3"
     },
     {
       "id": "alphabet-20-3",
-      "type": "match",
-      "prompt": "أي كلمة تحتوي على ت في الوسط؟",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ت في النهاية؟",
       "choices": [
         "بيت",
-        "بني",
-        "نار"
+        "بن",
+        "بي"
       ],
       "answer": "بيت",
-      "hint": "استمع لبي-ت.",
-      "pairs": [
-        {
-          "left": "ت",
-          "right": "بيت"
-        }
-      ]
+      "hint": "الصوت الأخير ت.",
+      "asset": "audio/words/bayt"
     }
   ],
   "activities": [
     {
       "id": "alphabet-20-1",
       "type": "listen",
-      "prompt": "استمع واختر الحرف المسموع.",
+      "prompt": "استمع وحدد الحرف.",
       "choices": [
         "ب",
         "ت",
@@ -66,39 +61,34 @@
         "ي"
       ],
       "answer": "ن",
-      "hint": "الصوت الأنفي يدل على ن.",
-      "asset": "audio/n/sound-4"
+      "hint": "صوت أنفي واضح.",
+      "asset": "audio/n/sound-2"
     },
     {
       "id": "alphabet-20-2",
       "type": "choose",
-      "prompt": "أي كلمة تبدأ بحرف ي؟",
+      "prompt": "أي كلمة تبدأ بياء؟",
       "choices": [
-        "يد",
-        "تاج",
-        "باب"
+        "ي",
+        "بي",
+        "تي"
       ],
-      "answer": "يد",
-      "hint": "الأصوات تبدأ بياء واضحة.",
-      "asset": "audio/words/yad"
+      "answer": "ي",
+      "hint": "حرف واحد يكفي.",
+      "asset": "audio/y/sound-3"
     },
     {
       "id": "alphabet-20-3",
-      "type": "match",
-      "prompt": "أي كلمة تحتوي على ت في الوسط؟",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي على ت في النهاية؟",
       "choices": [
         "بيت",
-        "بني",
-        "نار"
+        "بن",
+        "بي"
       ],
       "answer": "بيت",
-      "hint": "استمع لبي-ت.",
-      "pairs": [
-        {
-          "left": "ت",
-          "right": "بيت"
-        }
-      ]
+      "hint": "الصوت الأخير ت.",
+      "asset": "audio/words/bayt"
     }
   ]
 }

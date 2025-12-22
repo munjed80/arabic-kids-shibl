@@ -1,92 +1,92 @@
 {
   "id": "alphabet-13",
   "world": "alphabet",
-  "title": "ن في نهاية الكلمة",
-  "description": "تعرّف على ن عندما يكون آخر الصوت.",
-  "objective": "تمييز ن في نهاية كلمات قصيرة.",
-  "goal": "قراءة كلمات ينتهي فيها حرف ن.",
+  "title": "ن في النهاية",
+  "description": "ركز على ن عندما يكون آخر صوت.",
+  "objective": "سماع ن في نهاية الكلمات القصيرة.",
+  "goal": "تمييز ن في نهاية كلمة.",
   "level": 2,
-  "durationMinutes": 4,
+  "durationMinutes": 3,
   "steps": [
     {
       "id": "alphabet-13-1",
-      "type": "listen",
-      "prompt": "استمع واختر الكلمة التي ينتهي صوتها بحرف ن.",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بحرف ن؟",
       "choices": [
-        "من",
-        "ما",
-        "لا"
+        "بين",
+        "بيت",
+        "بي"
       ],
-      "answer": "من",
-      "hint": "الصوت الأخير هو ن واضحة.",
-      "asset": "audio/words/min"
+      "answer": "بين",
+      "hint": "استمع للصوت الأخير.",
+      "asset": "audio/words/bayn"
     },
     {
       "id": "alphabet-13-2",
-      "type": "choose",
-      "prompt": "أي كلمة تحتوي على حرف ن واضح؟",
+      "type": "listen",
+      "prompt": "اسمع واختر الكلمة التي في وسطها ن.",
       "choices": [
-        "نوم",
-        "باب",
-        "تاج"
+        "بنت",
+        "تي",
+        "بي"
       ],
-      "answer": "نوم",
-      "hint": "لاحظ الصوت في وسط الكلمة.",
-      "asset": "audio/words/nom"
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
     },
     {
       "id": "alphabet-13-3",
       "type": "review",
-      "prompt": "اختر الحرف ن بين الحروف ب وت.",
+      "prompt": "اختر الحرف ن بين الحروف المتشابهة.",
       "choices": [
         "ب",
         "ت",
         "ن"
       ],
       "answer": "ن",
-      "hint": "ن نقطته فوق وليست تحت.",
-      "asset": "image/n/spot-the-letter"
+      "hint": "نقطة فوق الخط.",
+      "asset": "image/n/spot"
     }
   ],
   "activities": [
     {
       "id": "alphabet-13-1",
-      "type": "listen",
-      "prompt": "استمع واختر الكلمة التي ينتهي صوتها بحرف ن.",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بحرف ن؟",
       "choices": [
-        "من",
-        "ما",
-        "لا"
+        "بين",
+        "بيت",
+        "بي"
       ],
-      "answer": "من",
-      "hint": "الصوت الأخير هو ن واضحة.",
-      "asset": "audio/words/min"
+      "answer": "بين",
+      "hint": "استمع للصوت الأخير.",
+      "asset": "audio/words/bayn"
     },
     {
       "id": "alphabet-13-2",
-      "type": "choose",
-      "prompt": "أي كلمة تحتوي على حرف ن واضح؟",
+      "type": "listen",
+      "prompt": "اسمع واختر الكلمة التي في وسطها ن.",
       "choices": [
-        "نوم",
-        "باب",
-        "تاج"
+        "بنت",
+        "تي",
+        "بي"
       ],
-      "answer": "نوم",
-      "hint": "لاحظ الصوت في وسط الكلمة.",
-      "asset": "audio/words/nom"
+      "answer": "بنت",
+      "hint": "الحرف الثاني ن.",
+      "asset": "audio/words/bint"
     },
     {
       "id": "alphabet-13-3",
       "type": "review",
-      "prompt": "اختر الحرف ن بين الحروف ب وت.",
+      "prompt": "اختر الحرف ن بين الحروف المتشابهة.",
       "choices": [
         "ب",
         "ت",
         "ن"
       ],
       "answer": "ن",
-      "hint": "ن نقطته فوق وليست تحت.",
-      "asset": "image/n/spot-the-letter"
+      "hint": "نقطة فوق الخط.",
+      "asset": "image/n/spot"
     }
   ]
 }

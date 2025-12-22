@@ -1,102 +1,92 @@
 {
   "id": "alphabet-14",
   "world": "alphabet",
-  "title": "ن مع ب وت",
-  "description": "ميز صوت وشكل ن عن ب وت.",
-  "objective": "اختيار ن بدقة بين الحروف المتشابهة.",
-  "goal": "التمييز بين أصوات ب وت ون.",
+  "title": "أصوات متقاربة",
+  "description": "استمع واختر الحرف الصحيح.",
+  "objective": "تمييز الفروق الصوتية بين الحروف الثلاثة.",
+  "goal": "التمييز بين ب وت ون سمعيًا.",
   "level": 2,
-  "durationMinutes": 4,
+  "durationMinutes": 3,
   "steps": [
     {
       "id": "alphabet-14-1",
-      "type": "choose",
-      "prompt": "أي حرف صوته ن وليس ب؟",
+      "type": "listen",
+      "prompt": "أي صوت هو ب؟",
       "choices": [
         "ب",
-        "ن",
-        "ت"
+        "ت",
+        "ن"
       ],
-      "answer": "ن",
-      "hint": "اسمع الأنف عند ن.",
-      "asset": "audio/n/sound-2"
+      "answer": "ب",
+      "hint": "انفجار شفوي خفيف.",
+      "asset": "audio/b/sound-1"
     },
     {
       "id": "alphabet-14-2",
-      "type": "listen",
-      "prompt": "استمع واختر الحرف المسموع بين ب وت ون.",
+      "type": "choose",
+      "prompt": "أي حرف عليه نقطة فوق واحدة؟",
       "choices": [
-        "ت",
         "ن",
-        "ب"
+        "ب",
+        "ت"
       ],
       "answer": "ن",
-      "hint": "الصوت يخرج من الأنف بوضوح.",
-      "asset": "audio/n/sound-3"
+      "hint": "نقطة واحدة أعلى.",
+      "asset": "image/n/dot"
     },
     {
       "id": "alphabet-14-3",
-      "type": "match",
-      "prompt": "اختر الكلمة التي تبدأ بحرف ن.",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بحرف ب.",
       "choices": [
-        "ناب",
-        "تاب",
-        "باب"
+        "بي",
+        "تي",
+        "ني"
       ],
-      "answer": "ناب",
-      "hint": "ركز على الحرف الأول.",
-      "pairs": [
-        {
-          "left": "ن",
-          "right": "ناب"
-        }
-      ]
+      "answer": "بي",
+      "hint": "الصوت الأول ب.",
+      "asset": "audio/words/bee"
     }
   ],
   "activities": [
     {
       "id": "alphabet-14-1",
-      "type": "choose",
-      "prompt": "أي حرف صوته ن وليس ب؟",
+      "type": "listen",
+      "prompt": "أي صوت هو ب؟",
       "choices": [
         "ب",
-        "ن",
-        "ت"
+        "ت",
+        "ن"
       ],
-      "answer": "ن",
-      "hint": "اسمع الأنف عند ن.",
-      "asset": "audio/n/sound-2"
+      "answer": "ب",
+      "hint": "انفجار شفوي خفيف.",
+      "asset": "audio/b/sound-1"
     },
     {
       "id": "alphabet-14-2",
-      "type": "listen",
-      "prompt": "استمع واختر الحرف المسموع بين ب وت ون.",
+      "type": "choose",
+      "prompt": "أي حرف عليه نقطة فوق واحدة؟",
       "choices": [
-        "ت",
         "ن",
-        "ب"
+        "ب",
+        "ت"
       ],
       "answer": "ن",
-      "hint": "الصوت يخرج من الأنف بوضوح.",
-      "asset": "audio/n/sound-3"
+      "hint": "نقطة واحدة أعلى.",
+      "asset": "image/n/dot"
     },
     {
       "id": "alphabet-14-3",
-      "type": "match",
-      "prompt": "اختر الكلمة التي تبدأ بحرف ن.",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بحرف ب.",
       "choices": [
-        "ناب",
-        "تاب",
-        "باب"
+        "بي",
+        "تي",
+        "ني"
       ],
-      "answer": "ناب",
-      "hint": "ركز على الحرف الأول.",
-      "pairs": [
-        {
-          "left": "ن",
-          "right": "ناب"
-        }
-      ]
+      "answer": "بي",
+      "hint": "الصوت الأول ب.",
+      "asset": "audio/words/bee"
     }
   ]
 }
