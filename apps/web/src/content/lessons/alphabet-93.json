@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-93",
+  "world": "alphabet",
+  "title": "صوت ط مفخم",
+  "description": "استمع لتمييز ط عن ت.",
+  "objective": "التعرف على ط في البداية.",
+  "goal": "تمييز ط سمعيًا وبصريًا.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-93-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بط؟",
+      "choices": ["طير", "تين", "بيت"],
+      "answer": "طير",
+      "hint": "ط مفخمة مع رنين خفيف.",
+      "asset": "audio/tayr/clip1"
+    },
+    {
+      "id": "alphabet-93-2",
+      "type": "choose",
+      "prompt": "اختر شكل ط المفصول.",
+      "choices": ["ط", "ت", "د"],
+      "answer": "ط",
+      "hint": "ط بلا نقاط.",
+      "asset": "image/taa2/isolated"
+    },
+    {
+      "id": "alphabet-93-3",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة طبخ؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ط أول حرف مفخم.",
+      "asset": "image/tabkh/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-93-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بط؟",
+      "choices": ["طير", "تين", "بيت"],
+      "answer": "طير",
+      "hint": "ط مفخمة مع رنين خفيف.",
+      "asset": "audio/tayr/clip1"
+    },
+    {
+      "id": "alphabet-93-2",
+      "type": "choose",
+      "prompt": "اختر شكل ط المفصول.",
+      "choices": ["ط", "ت", "د"],
+      "answer": "ط",
+      "hint": "ط بلا نقاط.",
+      "asset": "image/taa2/isolated"
+    },
+    {
+      "id": "alphabet-93-3",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة طبخ؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ط أول حرف مفخم.",
+      "asset": "image/tabkh/start"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-89",
+  "world": "alphabet",
+  "title": "صوت ض قوي",
+  "description": "استمع لتمييز ض عن د.",
+  "objective": "التعرف على ض المفخمة.",
+  "goal": "تمييز ض سمعيًا وبصريًا.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-89-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بض؟",
+      "choices": ["ضوء", "دلو", "زيت"],
+      "answer": "ضوء",
+      "hint": "ض صوت غليظ في البداية.",
+      "asset": "audio/daw/clip1"
+    },
+    {
+      "id": "alphabet-89-2",
+      "type": "choose",
+      "prompt": "اختر شكل ض المفصول.",
+      "choices": ["ض", "د", "ص"],
+      "answer": "ض",
+      "hint": "ض بنقطة فوق.",
+      "asset": "image/dad/isolated"
+    },
+    {
+      "id": "alphabet-89-3",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة ضرس؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ض أول حرف.",
+      "asset": "image/daris/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-89-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بض؟",
+      "choices": ["ضوء", "دلو", "زيت"],
+      "answer": "ضوء",
+      "hint": "ض صوت غليظ في البداية.",
+      "asset": "audio/daw/clip1"
+    },
+    {
+      "id": "alphabet-89-2",
+      "type": "choose",
+      "prompt": "اختر شكل ض المفصول.",
+      "choices": ["ض", "د", "ص"],
+      "answer": "ض",
+      "hint": "ض بنقطة فوق.",
+      "asset": "image/dad/isolated"
+    },
+    {
+      "id": "alphabet-89-3",
+      "type": "match",
+      "prompt": "أين يقع ض في كلمة ضرس؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ض أول حرف.",
+      "asset": "image/daris/start"
+    }
+  ]
+}

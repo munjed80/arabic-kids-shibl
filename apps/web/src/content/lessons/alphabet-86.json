@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-86",
+  "world": "alphabet",
+  "title": "ص في الوسط",
+  "description": "تعرّف على ص المتصلة في منتصف الكلمة.",
+  "objective": "تمييز ص داخل كلمات قصيرة.",
+  "goal": "ربط ص بموقعه الأوسط.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-86-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ص في الوسط؟",
+      "choices": ["عصف", "عنب", "حبر"],
+      "answer": "عصف",
+      "hint": "ص بين العين والفاء.",
+      "asset": "audio/asaf/clip1"
+    },
+    {
+      "id": "alphabet-86-2",
+      "type": "match",
+      "prompt": "أين يقع ص في كلمة قصة؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين القاف والتاء.",
+      "asset": "image/qissa/middle"
+    },
+    {
+      "id": "alphabet-86-3",
+      "type": "build",
+      "prompt": "كوّن كلمة صحن.",
+      "choices": ["صحن", "حصن", "نصح"],
+      "answer": "صحن",
+      "hint": "ابدأ بص ثم ح ثم نون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-86-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ص في الوسط؟",
+      "choices": ["عصف", "عنب", "حبر"],
+      "answer": "عصف",
+      "hint": "ص بين العين والفاء.",
+      "asset": "audio/asaf/clip1"
+    },
+    {
+      "id": "alphabet-86-2",
+      "type": "match",
+      "prompt": "أين يقع ص في كلمة قصة؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين القاف والتاء.",
+      "asset": "image/qissa/middle"
+    },
+    {
+      "id": "alphabet-86-3",
+      "type": "build",
+      "prompt": "كوّن كلمة صحن.",
+      "choices": ["صحن", "حصن", "نصح"],
+      "answer": "صحن",
+      "hint": "ابدأ بص ثم ح ثم نون."
+    }
+  ]
+}

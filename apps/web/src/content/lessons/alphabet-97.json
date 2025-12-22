@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-97",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٣",
+  "description": "مراجعة الحروف مع ص ض ط وبقية المجموعة.",
+  "objective": "اختيار الحرف الصحيح من أصوات متقاربة.",
+  "goal": "تمييز التفخيم والنقاط.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-97-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم تسمعه بلا نقطة؟",
+      "choices": ["ص", "س", "ط"],
+      "answer": "ص",
+      "hint": "ص مفخمة بلا نقاط.",
+      "asset": "audio/letters/sad"
+    },
+    {
+      "id": "alphabet-97-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة واحدة مفخمة.",
+      "choices": ["ض", "ز", "د"],
+      "answer": "ض",
+      "hint": "ض بنقطة فوق وصوت غليظ.",
+      "asset": "image/dad/isolated"
+    },
+    {
+      "id": "alphabet-97-3",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة خط؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ط آخر الحروف.",
+      "asset": "image/khat/end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-97-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم تسمعه بلا نقطة؟",
+      "choices": ["ص", "س", "ط"],
+      "answer": "ص",
+      "hint": "ص مفخمة بلا نقاط.",
+      "asset": "audio/letters/sad"
+    },
+    {
+      "id": "alphabet-97-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة واحدة مفخمة.",
+      "choices": ["ض", "ز", "د"],
+      "answer": "ض",
+      "hint": "ض بنقطة فوق وصوت غليظ.",
+      "asset": "image/dad/isolated"
+    },
+    {
+      "id": "alphabet-97-3",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة خط؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ط آخر الحروف.",
+      "asset": "image/khat/end"
+    }
+  ]
+}

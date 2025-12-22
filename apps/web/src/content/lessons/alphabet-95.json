@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-95",
+  "world": "alphabet",
+  "title": "ط في النهاية",
+  "description": "تعرّف على ط عند ختام الكلمات.",
+  "objective": "تمييز ط النهائي عن ت.",
+  "goal": "قراءة ط في نهاية الكلمة.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-95-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بط؟",
+      "choices": ["سطح", "نقط", "حبر"],
+      "answer": "نقط",
+      "hint": "ط آخر حرف مفخم.",
+      "asset": "audio/noqat/clip1"
+    },
+    {
+      "id": "alphabet-95-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ط أخيرة.",
+      "choices": ["خط", "بيت", "حبل"],
+      "answer": "خط",
+      "hint": "ط بعد الخاء مباشرة.",
+      "asset": "audio/khat/clip1"
+    },
+    {
+      "id": "alphabet-95-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بساط.",
+      "choices": ["بساط", "سباط", "طابس"],
+      "answer": "بساط",
+      "hint": "ضع ط في النهاية بعد الألف." 
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-95-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بط؟",
+      "choices": ["سطح", "نقط", "حبر"],
+      "answer": "نقط",
+      "hint": "ط آخر حرف مفخم.",
+      "asset": "audio/noqat/clip1"
+    },
+    {
+      "id": "alphabet-95-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ط أخيرة.",
+      "choices": ["خط", "بيت", "حبل"],
+      "answer": "خط",
+      "hint": "ط بعد الخاء مباشرة.",
+      "asset": "audio/khat/clip1"
+    },
+    {
+      "id": "alphabet-95-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بساط.",
+      "choices": ["بساط", "سباط", "طابس"],
+      "answer": "بساط",
+      "hint": "ضع ط في النهاية بعد الألف." 
+    }
+  ]
+}

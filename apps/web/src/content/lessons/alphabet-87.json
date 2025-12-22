@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-87",
+  "world": "alphabet",
+  "title": "ص في النهاية",
+  "description": "تعرّف على ص عند ختام الكلمات.",
+  "objective": "تمييز ص النهائي.",
+  "goal": "قراءة ص في نهاية الكلمة.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-87-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بص؟",
+      "choices": ["قصص", "حبر", "بيت"],
+      "answer": "قصص",
+      "hint": "ص صوت مفخم في آخر الكلمة.",
+      "asset": "audio/qasas/clip1"
+    },
+    {
+      "id": "alphabet-87-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ص أخيرة.",
+      "choices": ["قصص", "قلم", "حبل"],
+      "answer": "قصص",
+      "hint": "الصوت المفخم في النهاية.",
+      "asset": "audio/qasas/clip1"
+    },
+    {
+      "id": "alphabet-87-3",
+      "type": "build",
+      "prompt": "كوّن كلمة قص.",
+      "choices": ["قص", "صق", "قصة"],
+      "answer": "قص",
+      "hint": "ضع ص بعد القاف مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-87-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بص؟",
+      "choices": ["قصص", "حبر", "بيت"],
+      "answer": "قصص",
+      "hint": "ص صوت مفخم في آخر الكلمة.",
+      "asset": "audio/qasas/clip1"
+    },
+    {
+      "id": "alphabet-87-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ص أخيرة.",
+      "choices": ["قصص", "قلم", "حبل"],
+      "answer": "قصص",
+      "hint": "الصوت المفخم في النهاية.",
+      "asset": "audio/qasas/clip1"
+    },
+    {
+      "id": "alphabet-87-3",
+      "type": "build",
+      "prompt": "كوّن كلمة قص.",
+      "choices": ["قص", "صق", "قصة"],
+      "answer": "قص",
+      "hint": "ضع ص بعد القاف مباشرة."
+    }
+  ]
+}

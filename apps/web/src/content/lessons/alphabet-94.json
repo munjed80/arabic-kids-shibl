@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-94",
+  "world": "alphabet",
+  "title": "ط في الوسط",
+  "description": "تعرّف على ط المتصلة داخل الكلمة.",
+  "objective": "تمييز ط وسطية عن ت.",
+  "goal": "ربط ط بصوتها المفخم.",
+  "level": 6,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-94-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ط في الوسط؟",
+      "choices": ["حطب", "حبر", "حبل"],
+      "answer": "حطب",
+      "hint": "ط بين الحاء والباء.",
+      "asset": "audio/hatab/clip1"
+    },
+    {
+      "id": "alphabet-94-2",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة سطر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين السين والراء.",
+      "asset": "image/satr/middle"
+    },
+    {
+      "id": "alphabet-94-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بطاط.",
+      "choices": ["بطاط", "طبط", "طتاب"],
+      "answer": "بطاط",
+      "hint": "ضع ط في الوسط وأخرى في النهاية."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-94-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ط في الوسط؟",
+      "choices": ["حطب", "حبر", "حبل"],
+      "answer": "حطب",
+      "hint": "ط بين الحاء والباء.",
+      "asset": "audio/hatab/clip1"
+    },
+    {
+      "id": "alphabet-94-2",
+      "type": "match",
+      "prompt": "أين يقع ط في كلمة سطر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين السين والراء.",
+      "asset": "image/satr/middle"
+    },
+    {
+      "id": "alphabet-94-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بطاط.",
+      "choices": ["بطاط", "طبط", "طتاب"],
+      "answer": "بطاط",
+      "hint": "ضع ط في الوسط وأخرى في النهاية."
+    }
+  ]
+}
