@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-130",
+  "world": "alphabet",
+  "title": "ك في الوسط",
+  "description": "تعرّف على ك المتصلة داخل الكلمة.",
+  "objective": "تمييز ك وسطية.",
+  "goal": "ربط ك بصوتها الخفيف.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-130-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ك في الوسط؟",
+      "choices": ["بكرة", "مرة", "برة"],
+      "answer": "بكرة",
+      "hint": "ك بين الباء والراء.",
+      "asset": "audio/bakra/clip1"
+    },
+    {
+      "id": "alphabet-130-2",
+      "type": "match",
+      "prompt": "أين يقع ك في كلمة سكر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين السين والراء.",
+      "asset": "image/sokar/middle"
+    },
+    {
+      "id": "alphabet-130-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ملك.",
+      "choices": ["ملك", "مكل", "لكم"],
+      "answer": "ملك",
+      "hint": "ضع ك في النهاية بعد اللام."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-130-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ك في الوسط؟",
+      "choices": ["بكرة", "مرة", "برة"],
+      "answer": "بكرة",
+      "hint": "ك بين الباء والراء.",
+      "asset": "audio/bakra/clip1"
+    },
+    {
+      "id": "alphabet-130-2",
+      "type": "match",
+      "prompt": "أين يقع ك في كلمة سكر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين السين والراء.",
+      "asset": "image/sokar/middle"
+    },
+    {
+      "id": "alphabet-130-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ملك.",
+      "choices": ["ملك", "مكل", "لكم"],
+      "answer": "ملك",
+      "hint": "ضع ك في النهاية بعد اللام."
+    }
+  ]
+}

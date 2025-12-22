@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-124",
+  "world": "alphabet",
+  "title": "مراجعة ف",
+  "description": "تثبيت شكل وصوت ف في المواقع المختلفة.",
+  "objective": "استخدام ف بثقة.",
+  "goal": "التمييز بين ف وق وك.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-124-1",
+      "type": "match",
+      "prompt": "أين يقع ف في كلمة فهد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/fahd/start"
+    },
+    {
+      "id": "alphabet-124-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ف في الوسط؟",
+      "choices": ["كفاح", "كاح", "كاحف"],
+      "answer": "كفاح",
+      "hint": "ف بعد الكاف مباشرة.",
+      "asset": "audio/kefah/clip1"
+    },
+    {
+      "id": "alphabet-124-3",
+      "type": "build",
+      "prompt": "كوّن كلمة طرف.",
+      "choices": ["طرف", "طر", "رفط"],
+      "answer": "طرف",
+      "hint": "ضع ف في النهاية بعد الراء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-124-1",
+      "type": "match",
+      "prompt": "أين يقع ف في كلمة فهد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/fahd/start"
+    },
+    {
+      "id": "alphabet-124-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ف في الوسط؟",
+      "choices": ["كفاح", "كاح", "كاحف"],
+      "answer": "كفاح",
+      "hint": "ف بعد الكاف مباشرة.",
+      "asset": "audio/kefah/clip1"
+    },
+    {
+      "id": "alphabet-124-3",
+      "type": "build",
+      "prompt": "كوّن كلمة طرف.",
+      "choices": ["طرف", "طر", "رفط"],
+      "answer": "طرف",
+      "hint": "ضع ف في النهاية بعد الراء."
+    }
+  ]
+}

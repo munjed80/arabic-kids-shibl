@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-132",
+  "world": "alphabet",
+  "title": "مراجعة ك",
+  "description": "تثبيت شكل وصوت ك في المواقع المختلفة.",
+  "objective": "استخدام ك بثقة.",
+  "goal": "التمييز بين ك وق وف.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-132-1",
+      "type": "match",
+      "prompt": "أين يقع ك في كلمة كتاب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/ketab/start"
+    },
+    {
+      "id": "alphabet-132-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ك في الوسط؟",
+      "choices": ["ملك", "مل", "مال"],
+      "answer": "ملك",
+      "hint": "ك بعد اللام مباشرة.",
+      "asset": "audio/malak/clip2"
+    },
+    {
+      "id": "alphabet-132-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سمك.",
+      "choices": ["سمك", "سم", "سمق"],
+      "answer": "سمك",
+      "hint": "ضع ك في النهاية بعد الميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-132-1",
+      "type": "match",
+      "prompt": "أين يقع ك في كلمة كتاب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/ketab/start"
+    },
+    {
+      "id": "alphabet-132-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ك في الوسط؟",
+      "choices": ["ملك", "مل", "مال"],
+      "answer": "ملك",
+      "hint": "ك بعد اللام مباشرة.",
+      "asset": "audio/malak/clip2"
+    },
+    {
+      "id": "alphabet-132-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سمك.",
+      "choices": ["سمك", "سم", "سمق"],
+      "answer": "سمك",
+      "hint": "ضع ك في النهاية بعد الميم."
+    }
+  ]
+}

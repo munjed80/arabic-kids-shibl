@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-129",
+  "world": "alphabet",
+  "title": "صوت ك واضح",
+  "description": "استمع لتمييز ك الخفيفة عن ق.",
+  "objective": "التعرف على ك في البداية.",
+  "goal": "تمييز ك سمعيًا وبصريًا.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-129-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بك؟",
+      "choices": ["كتاب", "قتاب", "فتاب"],
+      "answer": "كتاب",
+      "hint": "صوت خفيف بلا تفخيم.",
+      "asset": "audio/ketab/clip1"
+    },
+    {
+      "id": "alphabet-129-2",
+      "type": "choose",
+      "prompt": "اختر شكل ك المفصول.",
+      "choices": ["ك", "ق", "ف"],
+      "answer": "ك",
+      "hint": "بدون نقاط مع انحناء بسيط.",
+      "asset": "image/kaf/isolated"
+    },
+    {
+      "id": "alphabet-129-3",
+      "type": "match",
+      "prompt": "أين يقع ك في كلمة كلب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/kalb/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-129-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بك؟",
+      "choices": ["كتاب", "قتاب", "فتاب"],
+      "answer": "كتاب",
+      "hint": "صوت خفيف بلا تفخيم.",
+      "asset": "audio/ketab/clip1"
+    },
+    {
+      "id": "alphabet-129-2",
+      "type": "choose",
+      "prompt": "اختر شكل ك المفصول.",
+      "choices": ["ك", "ق", "ف"],
+      "answer": "ك",
+      "hint": "بدون نقاط مع انحناء بسيط.",
+      "asset": "image/kaf/isolated"
+    },
+    {
+      "id": "alphabet-129-3",
+      "type": "match",
+      "prompt": "أين يقع ك في كلمة كلب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول حرف في الكلمة.",
+      "asset": "image/kalb/start"
+    }
+  ]
+}

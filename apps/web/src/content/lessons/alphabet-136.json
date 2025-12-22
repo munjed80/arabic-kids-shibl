@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-136",
+  "world": "alphabet",
+  "title": "مراجعة نهائية ٧",
+  "description": "مراجعة شاملة قبل ختام المستوى ٨.",
+  "objective": "تثبيت ف ق ك مع باقي الحروف.",
+  "goal": "الاستعداد لإكمال المستوى ٨.",
+  "level": 8,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-136-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف الخفيف بنقطة واحدة.",
+      "choices": ["ف", "ق", "ك"],
+      "answer": "ف",
+      "hint": "صوت شفوي بلا تفخيم.",
+      "asset": "audio/letters/fa2"
+    },
+    {
+      "id": "alphabet-136-2",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة صديق؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "بعد الياء مباشرة.",
+      "asset": "image/sadeeq/end"
+    },
+    {
+      "id": "alphabet-136-3",
+      "type": "review",
+      "prompt": "راجع الحروف الجديدة وتأكد من جاهزيتك.",
+      "choices": ["ف", "ق", "ك"],
+      "answer": "جاهز",
+      "hint": "أنت مستعد للخطوة الأخيرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-136-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف الخفيف بنقطة واحدة.",
+      "choices": ["ف", "ق", "ك"],
+      "answer": "ف",
+      "hint": "صوت شفوي بلا تفخيم.",
+      "asset": "audio/letters/fa2"
+    },
+    {
+      "id": "alphabet-136-2",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة صديق؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "بعد الياء مباشرة.",
+      "asset": "image/sadeeq/end"
+    },
+    {
+      "id": "alphabet-136-3",
+      "type": "review",
+      "prompt": "راجع الحروف الجديدة وتأكد من جاهزيتك.",
+      "choices": ["ف", "ق", "ك"],
+      "answer": "جاهز",
+      "hint": "أنت مستعد للخطوة الأخيرة."
+    }
+  ]
+}

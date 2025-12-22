@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-119",
+  "world": "alphabet",
+  "title": "إتمام المستوى ٧",
+  "description": "اختبار خفيف لكل الحروف قبل الإنهاء.",
+  "objective": "تأكيد إتقان ظ ع غ مع الحروف السابقة.",
+  "goal": "إكمال المستوى بثقة.",
+  "level": 7,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-119-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف حلقي بلا نقطة؟",
+      "choices": ["عسل", "غصن", "قلم"],
+      "answer": "عسل",
+      "hint": "صوت ع من الحلق دون نقطة.",
+      "asset": "audio/asal/clip2"
+    },
+    {
+      "id": "alphabet-119-2",
+      "type": "build",
+      "prompt": "كوّن كلمة غيم.",
+      "choices": ["غيم", "ميغ", "يغ"],
+      "answer": "غيم",
+      "hint": "ابدأ بغ ثم ياء فميم.",
+      "asset": "image/gheema/isolated"
+    },
+    {
+      "id": "alphabet-119-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ظ", "ع", "غ"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-119-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بحرف حلقي بلا نقطة؟",
+      "choices": ["عسل", "غصن", "قلم"],
+      "answer": "عسل",
+      "hint": "صوت ع من الحلق دون نقطة.",
+      "asset": "audio/asal/clip2"
+    },
+    {
+      "id": "alphabet-119-2",
+      "type": "build",
+      "prompt": "كوّن كلمة غيم.",
+      "choices": ["غيم", "ميغ", "يغ"],
+      "answer": "غيم",
+      "hint": "ابدأ بغ ثم ياء فميم.",
+      "asset": "image/gheema/isolated"
+    },
+    {
+      "id": "alphabet-119-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ظ", "ع", "غ"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف الجديدة والقديمة."
+    }
+  ]
+}

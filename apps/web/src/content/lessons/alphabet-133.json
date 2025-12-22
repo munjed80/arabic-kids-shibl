@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-133",
+  "world": "alphabet",
+  "title": "حروف مختلطة ٢٠",
+  "description": "تمييز سريع بين ف ق ك والحروف السابقة.",
+  "objective": "اختيار الحرف الصحيح من الصوت.",
+  "goal": "تحسين السرعة قبل المراجعة.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-133-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم بنقطتين تسمعه؟",
+      "choices": ["ق", "ك", "ف"],
+      "answer": "ق",
+      "hint": "أثقل من ك وبه نقطتان.",
+      "asset": "audio/letters/qaf"
+    },
+    {
+      "id": "alphabet-133-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الخفيف بلا نقاط بين هذه الخيارات.",
+      "choices": ["ك", "ق", "غ"],
+      "answer": "ك",
+      "hint": "يكتب بلا نقاط.",
+      "asset": "image/kaf/isolated"
+    },
+    {
+      "id": "alphabet-133-3",
+      "type": "build",
+      "prompt": "كوّن كلمة قفل.",
+      "choices": ["قفل", "فلق", "لفق"],
+      "answer": "قفل",
+      "hint": "ابدأ بق ثم فاء ثم لام."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-133-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم بنقطتين تسمعه؟",
+      "choices": ["ق", "ك", "ف"],
+      "answer": "ق",
+      "hint": "أثقل من ك وبه نقطتان.",
+      "asset": "audio/letters/qaf"
+    },
+    {
+      "id": "alphabet-133-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الخفيف بلا نقاط بين هذه الخيارات.",
+      "choices": ["ك", "ق", "غ"],
+      "answer": "ك",
+      "hint": "يكتب بلا نقاط.",
+      "asset": "image/kaf/isolated"
+    },
+    {
+      "id": "alphabet-133-3",
+      "type": "build",
+      "prompt": "كوّن كلمة قفل.",
+      "choices": ["قفل", "فلق", "لفق"],
+      "answer": "قفل",
+      "hint": "ابدأ بق ثم فاء ثم لام."
+    }
+  ]
+}

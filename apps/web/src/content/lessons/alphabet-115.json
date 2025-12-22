@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-115",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٧",
+  "description": "مراجعة ظ وع وغ مع الحروف السابقة.",
+  "objective": "التمييز بين الحروف الحلقية والنقاط.",
+  "goal": "اختيار الحرف الصحيح من السياق.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-115-1",
+      "type": "listen",
+      "prompt": "أي حرف حلقي بنقطة تسمعه؟",
+      "choices": ["غ", "ع", "ق"],
+      "answer": "غ",
+      "hint": "صوت غ أعمق من ع.",
+      "asset": "audio/letters/ghain"
+    },
+    {
+      "id": "alphabet-115-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة فوق ويشبه ع.",
+      "choices": ["غ", "ف", "ق"],
+      "answer": "غ",
+      "hint": "ليس له فتحة مثل ف.",
+      "asset": "image/ghain/isolated"
+    },
+    {
+      "id": "alphabet-115-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ظرف.",
+      "choices": ["ظرف", "رفظ", "فرظ"],
+      "answer": "ظرف",
+      "hint": "ابدأ بظ ثم راء فاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-115-1",
+      "type": "listen",
+      "prompt": "أي حرف حلقي بنقطة تسمعه؟",
+      "choices": ["غ", "ع", "ق"],
+      "answer": "غ",
+      "hint": "صوت غ أعمق من ع.",
+      "asset": "audio/letters/ghain"
+    },
+    {
+      "id": "alphabet-115-2",
+      "type": "choose",
+      "prompt": "اختر الحرف ذو نقطة فوق ويشبه ع.",
+      "choices": ["غ", "ف", "ق"],
+      "answer": "غ",
+      "hint": "ليس له فتحة مثل ف.",
+      "asset": "image/ghain/isolated"
+    },
+    {
+      "id": "alphabet-115-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ظرف.",
+      "choices": ["ظرف", "رفظ", "فرظ"],
+      "answer": "ظرف",
+      "hint": "ابدأ بظ ثم راء فاء."
+    }
+  ]
+}

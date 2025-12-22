@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-116",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١٨",
+  "description": "خلط بين ظ وع وغ مع حروف خفيفة.",
+  "objective": "التفريق بين التفخيم وعدمه.",
+  "goal": "تحديد مواقع الحروف بسرعة.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-116-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم بلا نقاط تسمعه؟",
+      "choices": ["ع", "غ", "ظ"],
+      "answer": "ظ",
+      "hint": "صوت ظ أغلظ من ع.",
+      "asset": "audio/letters/thaa2"
+    },
+    {
+      "id": "alphabet-116-2",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة لمع؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "بعد الميم مباشرة.",
+      "asset": "image/lama3/end"
+    },
+    {
+      "id": "alphabet-116-3",
+      "type": "build",
+      "prompt": "كوّن كلمة غصن.",
+      "choices": ["غصن", "صغن", "نصغ"],
+      "answer": "غصن",
+      "hint": "ابدأ بغ ثم صاد ثم نون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-116-1",
+      "type": "listen",
+      "prompt": "أي حرف مفخم بلا نقاط تسمعه؟",
+      "choices": ["ع", "غ", "ظ"],
+      "answer": "ظ",
+      "hint": "صوت ظ أغلظ من ع.",
+      "asset": "audio/letters/thaa2"
+    },
+    {
+      "id": "alphabet-116-2",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة لمع؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "بعد الميم مباشرة.",
+      "asset": "image/lama3/end"
+    },
+    {
+      "id": "alphabet-116-3",
+      "type": "build",
+      "prompt": "كوّن كلمة غصن.",
+      "choices": ["غصن", "صغن", "نصغ"],
+      "answer": "غصن",
+      "hint": "ابدأ بغ ثم صاد ثم نون."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-118",
+  "world": "alphabet",
+  "title": "مراجعة نهائية ٦",
+  "description": "مراجعة شاملة قبل ختام المستوى ٧.",
+  "objective": "تثبيت ظ وع وغ مع باقي الحروف.",
+  "goal": "الاستعداد لإكمال المستوى ٧.",
+  "level": 7,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-118-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف المفخم بنقطة واحدة.",
+      "choices": ["ظ", "غ", "ف"],
+      "answer": "ظ",
+      "hint": "أثقل من ف وصوته واضح.",
+      "asset": "audio/letters/thaa3"
+    },
+    {
+      "id": "alphabet-118-2",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة مغزل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بعد الميم مباشرة.",
+      "asset": "image/maghzal/middle"
+    },
+    {
+      "id": "alphabet-118-3",
+      "type": "review",
+      "prompt": "راجع الحروف الجديدة وتأكد من جاهزيتك.",
+      "choices": ["ظ", "ع", "غ"],
+      "answer": "جاهز",
+      "hint": "أنت مستعد للخطوة الأخيرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-118-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف المفخم بنقطة واحدة.",
+      "choices": ["ظ", "غ", "ف"],
+      "answer": "ظ",
+      "hint": "أثقل من ف وصوته واضح.",
+      "asset": "audio/letters/thaa3"
+    },
+    {
+      "id": "alphabet-118-2",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة مغزل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بعد الميم مباشرة.",
+      "asset": "image/maghzal/middle"
+    },
+    {
+      "id": "alphabet-118-3",
+      "type": "review",
+      "prompt": "راجع الحروف الجديدة وتأكد من جاهزيتك.",
+      "choices": ["ظ", "ع", "غ"],
+      "answer": "جاهز",
+      "hint": "أنت مستعد للخطوة الأخيرة."
+    }
+  ]
+}

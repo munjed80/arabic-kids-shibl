@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-126",
+  "world": "alphabet",
+  "title": "ق في الوسط",
+  "description": "تعرّف على ق المتصلة داخل الكلمة.",
+  "objective": "تمييز ق وسطية.",
+  "goal": "ربط ق بصوتها المفخم.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-126-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ق في الوسط؟",
+      "choices": ["فقاعة", "فاعة", "قاعة"],
+      "answer": "فقاعة",
+      "hint": "ق بين الفاء والألف.",
+      "asset": "audio/foqa3a/clip1"
+    },
+    {
+      "id": "alphabet-126-2",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة عقل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين العين واللام.",
+      "asset": "image/aql/middle"
+    },
+    {
+      "id": "alphabet-126-3",
+      "type": "build",
+      "prompt": "كوّن كلمة دقيق.",
+      "choices": ["دقيق", "قديق", "ديق"],
+      "answer": "دقيق",
+      "hint": "ضع ق بعد الياء قبل الكاف."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-126-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ق في الوسط؟",
+      "choices": ["فقاعة", "فاعة", "قاعة"],
+      "answer": "فقاعة",
+      "hint": "ق بين الفاء والألف.",
+      "asset": "audio/foqa3a/clip1"
+    },
+    {
+      "id": "alphabet-126-2",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة عقل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين العين واللام.",
+      "asset": "image/aql/middle"
+    },
+    {
+      "id": "alphabet-126-3",
+      "type": "build",
+      "prompt": "كوّن كلمة دقيق.",
+      "choices": ["دقيق", "قديق", "ديق"],
+      "answer": "دقيق",
+      "hint": "ضع ق بعد الياء قبل الكاف."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-110",
+  "world": "alphabet",
+  "title": "مراجعة ع",
+  "description": "تثبيت شكل وصوت ع في المواقع المختلفة.",
+  "objective": "استخدام ع بثقة.",
+  "goal": "التمييز بين ع وغ وح.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-110-1",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة عنب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ع هو أول الحروف.",
+      "asset": "image/3anab/start"
+    },
+    {
+      "id": "alphabet-110-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ع في الوسط؟",
+      "choices": ["شمع", "شمل", "شم"],
+      "answer": "شمع",
+      "hint": "يأتي ع بعد الميم.",
+      "asset": "audio/sham3/clip1"
+    },
+    {
+      "id": "alphabet-110-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سمع.",
+      "choices": ["سمع", "مسع", "سعم"],
+      "answer": "سمع",
+      "hint": "ضع ع في النهاية بعد الميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-110-1",
+      "type": "match",
+      "prompt": "أين يقع ع في كلمة عنب؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ع هو أول الحروف.",
+      "asset": "image/3anab/start"
+    },
+    {
+      "id": "alphabet-110-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ع في الوسط؟",
+      "choices": ["شمع", "شمل", "شم"],
+      "answer": "شمع",
+      "hint": "يأتي ع بعد الميم.",
+      "asset": "audio/sham3/clip1"
+    },
+    {
+      "id": "alphabet-110-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سمع.",
+      "choices": ["سمع", "مسع", "سعم"],
+      "answer": "سمع",
+      "hint": "ضع ع في النهاية بعد الميم."
+    }
+  ]
+}

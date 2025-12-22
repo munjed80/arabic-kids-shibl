@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-138",
+  "world": "alphabet",
+  "title": "تطبيق كلمات المستوى ٨",
+  "description": "قراءة كلمات مختلطة تشمل ف ق ك مع الحروف السابقة.",
+  "objective": "دمج الحروف الجديدة في جمل قصيرة.",
+  "goal": "تثبيت التعلم قبل الانتقال لمستوى جديد.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-138-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ق في الوسط؟",
+      "choices": ["فقير", "فير", "فكر"],
+      "answer": "فقير",
+      "hint": "ق بين الفاء والياء.",
+      "asset": "audio/faqir/clip1"
+    },
+    {
+      "id": "alphabet-138-2",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بك.",
+      "choices": ["كتاب", "عتاب", "قرطاس"],
+      "answer": "كتاب",
+      "hint": "ك خفيفة بلا نقاط.",
+      "asset": "image/kaf/book"
+    },
+    {
+      "id": "alphabet-138-3",
+      "type": "review",
+      "prompt": "هل أنت جاهز للمرحلة التالية؟",
+      "choices": ["جاهز", "أحتاج مراجعة"],
+      "answer": "جاهز",
+      "hint": "ثقتك تقودك للمرحلة القادمة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-138-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ق في الوسط؟",
+      "choices": ["فقير", "فير", "فكر"],
+      "answer": "فقير",
+      "hint": "ق بين الفاء والياء.",
+      "asset": "audio/faqir/clip1"
+    },
+    {
+      "id": "alphabet-138-2",
+      "type": "choose",
+      "prompt": "اختر الكلمة التي تبدأ بك.",
+      "choices": ["كتاب", "عتاب", "قرطاس"],
+      "answer": "كتاب",
+      "hint": "ك خفيفة بلا نقاط.",
+      "asset": "image/kaf/book"
+    },
+    {
+      "id": "alphabet-138-3",
+      "type": "review",
+      "prompt": "هل أنت جاهز للمرحلة التالية؟",
+      "choices": ["جاهز", "أحتاج مراجعة"],
+      "answer": "جاهز",
+      "hint": "ثقتك تقودك للمرحلة القادمة."
+    }
+  ]
+}

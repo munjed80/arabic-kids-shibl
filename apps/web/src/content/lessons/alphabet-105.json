@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-105",
+  "world": "alphabet",
+  "title": "ظ في النهاية",
+  "description": "تعرّف على ظ عند ختام الكلمات.",
+  "objective": "تمييز ظ النهائي.",
+  "goal": "قراءة ظ في نهاية الكلمة.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-105-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بظ؟",
+      "choices": ["حفظ", "حبر", "بيت"],
+      "answer": "حفظ",
+      "hint": "ظ آخر حرف بعد الفاء.",
+      "asset": "audio/hifz/clip1"
+    },
+    {
+      "id": "alphabet-105-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ظ أخيرة.",
+      "choices": ["حفظ", "حبل", "زيت"],
+      "answer": "حفظ",
+      "hint": "ظ مفخمة في النهاية.",
+      "asset": "audio/hifz/clip2"
+    },
+    {
+      "id": "alphabet-105-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حظ.",
+      "choices": ["حظ", "ظح", "ضح"],
+      "answer": "حظ",
+      "hint": "ضع ظ في النهاية بعد الحاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-105-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بظ؟",
+      "choices": ["حفظ", "حبر", "بيت"],
+      "answer": "حفظ",
+      "hint": "ظ آخر حرف بعد الفاء.",
+      "asset": "audio/hifz/clip1"
+    },
+    {
+      "id": "alphabet-105-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ظ أخيرة.",
+      "choices": ["حفظ", "حبل", "زيت"],
+      "answer": "حفظ",
+      "hint": "ظ مفخمة في النهاية.",
+      "asset": "audio/hifz/clip2"
+    },
+    {
+      "id": "alphabet-105-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حظ.",
+      "choices": ["حظ", "ظح", "ضح"],
+      "answer": "حظ",
+      "hint": "ضع ظ في النهاية بعد الحاء."
+    }
+  ]
+}

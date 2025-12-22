@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-106",
+  "world": "alphabet",
+  "title": "مراجعة ظ",
+  "description": "تثبيت شكل وصوت ظ في المواقع المختلفة.",
+  "objective": "استخدام ظ بثقة.",
+  "goal": "التمييز بين ظ وض وز.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-106-1",
+      "type": "match",
+      "prompt": "أين يقع ظ في كلمة ظرف؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ظ أول حرف.",
+      "asset": "image/tharf/start"
+    },
+    {
+      "id": "alphabet-106-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ظ وسطية؟",
+      "choices": ["عظم", "عنب", "غصن"],
+      "answer": "عظم",
+      "hint": "ظ بين العين والميم.",
+      "asset": "audio/azm/clip2"
+    },
+    {
+      "id": "alphabet-106-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حظ.",
+      "choices": ["حظ", "ظح", "ضح"],
+      "answer": "حظ",
+      "hint": "ضع ظ بعد الحاء مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-106-1",
+      "type": "match",
+      "prompt": "أين يقع ظ في كلمة ظرف؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ظ أول حرف.",
+      "asset": "image/tharf/start"
+    },
+    {
+      "id": "alphabet-106-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ظ وسطية؟",
+      "choices": ["عظم", "عنب", "غصن"],
+      "answer": "عظم",
+      "hint": "ظ بين العين والميم.",
+      "asset": "audio/azm/clip2"
+    },
+    {
+      "id": "alphabet-106-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حظ.",
+      "choices": ["حظ", "ظح", "ضح"],
+      "answer": "حظ",
+      "hint": "ضع ظ بعد الحاء مباشرة."
+    }
+  ]
+}

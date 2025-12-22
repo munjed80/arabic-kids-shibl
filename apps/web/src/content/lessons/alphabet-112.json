@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-112",
+  "world": "alphabet",
+  "title": "غ في الوسط",
+  "description": "تعرّف على غ المتصلة داخل الكلمة.",
+  "objective": "تمييز غ وسطية.",
+  "goal": "ربط غ بصوتها الحلقي المفخم.",
+  "level": 7,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-112-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها غ في الوسط؟",
+      "choices": ["بغلة", "بلد", "بدل"],
+      "answer": "بغلة",
+      "hint": "غ بين الباء واللام.",
+      "asset": "audio/baghla/clip1"
+    },
+    {
+      "id": "alphabet-112-2",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة مغزل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والزاي.",
+      "asset": "image/maghzal/middle"
+    },
+    {
+      "id": "alphabet-112-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لغز.",
+      "choices": ["لغز", "لزغ", "غلز"],
+      "answer": "لغز",
+      "hint": "ضع غ بعد اللام مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-112-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها غ في الوسط؟",
+      "choices": ["بغلة", "بلد", "بدل"],
+      "answer": "بغلة",
+      "hint": "غ بين الباء واللام.",
+      "asset": "audio/baghla/clip1"
+    },
+    {
+      "id": "alphabet-112-2",
+      "type": "match",
+      "prompt": "أين يقع غ في كلمة مغزل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم والزاي.",
+      "asset": "image/maghzal/middle"
+    },
+    {
+      "id": "alphabet-112-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لغز.",
+      "choices": ["لغز", "لزغ", "غلز"],
+      "answer": "لغز",
+      "hint": "ضع غ بعد اللام مباشرة."
+    }
+  ]
+}

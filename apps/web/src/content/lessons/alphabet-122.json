@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-122",
+  "world": "alphabet",
+  "title": "ف في الوسط",
+  "description": "تعرّف على ف المتصلة داخل الكلمة.",
+  "objective": "تمييز ف وسطية.",
+  "goal": "ربط ف بصوتها الخفيف.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-122-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ف في الوسط؟",
+      "choices": ["قفز", "قز", "كف"],
+      "answer": "قفز",
+      "hint": "ف بين القاف والزاي.",
+      "asset": "audio/qafaz/clip1"
+    },
+    {
+      "id": "alphabet-122-2",
+      "type": "match",
+      "prompt": "أين يقع ف في كلمة دفء؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الدال والهمزة.",
+      "asset": "image/daff/middle"
+    },
+    {
+      "id": "alphabet-122-3",
+      "type": "build",
+      "prompt": "كوّن كلمة كفاح.",
+      "choices": ["كفاح", "كفا", "فكاح"],
+      "answer": "كفاح",
+      "hint": "ضع ف بعد الكاف مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-122-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ف في الوسط؟",
+      "choices": ["قفز", "قز", "كف"],
+      "answer": "قفز",
+      "hint": "ف بين القاف والزاي.",
+      "asset": "audio/qafaz/clip1"
+    },
+    {
+      "id": "alphabet-122-2",
+      "type": "match",
+      "prompt": "أين يقع ف في كلمة دفء؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الدال والهمزة.",
+      "asset": "image/daff/middle"
+    },
+    {
+      "id": "alphabet-122-3",
+      "type": "build",
+      "prompt": "كوّن كلمة كفاح.",
+      "choices": ["كفاح", "كفا", "فكاح"],
+      "answer": "كفاح",
+      "hint": "ضع ف بعد الكاف مباشرة."
+    }
+  ]
+}

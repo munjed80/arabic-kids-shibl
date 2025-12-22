@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-128",
+  "world": "alphabet",
+  "title": "مراجعة ق",
+  "description": "تثبيت شكل وصوت ق في المواقع المختلفة.",
+  "objective": "استخدام ق بثقة.",
+  "goal": "التمييز بين ق وك وف.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-128-1",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة قلم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ق أول حرف بنقطتين.",
+      "asset": "image/qalam/start"
+    },
+    {
+      "id": "alphabet-128-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ق في الوسط؟",
+      "choices": ["عقل", "عل", "علك"],
+      "answer": "عقل",
+      "hint": "ق بين العين واللام.",
+      "asset": "audio/aql/clip1"
+    },
+    {
+      "id": "alphabet-128-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رفق.",
+      "choices": ["رفق", "رف", "فرق"],
+      "answer": "رفق",
+      "hint": "ضع ق في النهاية بعد الفاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-128-1",
+      "type": "match",
+      "prompt": "أين يقع ق في كلمة قلم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ق أول حرف بنقطتين.",
+      "asset": "image/qalam/start"
+    },
+    {
+      "id": "alphabet-128-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ق في الوسط؟",
+      "choices": ["عقل", "عل", "علك"],
+      "answer": "عقل",
+      "hint": "ق بين العين واللام.",
+      "asset": "audio/aql/clip1"
+    },
+    {
+      "id": "alphabet-128-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رفق.",
+      "choices": ["رفق", "رف", "فرق"],
+      "answer": "رفق",
+      "hint": "ضع ق في النهاية بعد الفاء."
+    }
+  ]
+}

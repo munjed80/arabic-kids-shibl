@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-123",
+  "world": "alphabet",
+  "title": "ف في النهاية",
+  "description": "تعرّف على ف عند ختام الكلمات.",
+  "objective": "تمييز ف النهائي.",
+  "goal": "قراءة ف في نهاية الكلمة.",
+  "level": 8,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-123-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بف؟",
+      "choices": ["صوف", "صوت", "صوم"],
+      "answer": "صوف",
+      "hint": "ف آخر حرف بعد الواو.",
+      "asset": "audio/soof/clip1"
+    },
+    {
+      "id": "alphabet-123-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ف أخيرة.",
+      "choices": ["أرف", "أرض", "أرز"],
+      "answer": "أرف",
+      "hint": "تنتهي بف خفيفة.",
+      "asset": "audio/araf/clip1"
+    },
+    {
+      "id": "alphabet-123-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ظرف.",
+      "choices": ["ظرف", "ظفر", "رفظ"],
+      "answer": "ظرف",
+      "hint": "ضع ف في النهاية بعد الراء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-123-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بف؟",
+      "choices": ["صوف", "صوت", "صوم"],
+      "answer": "صوف",
+      "hint": "ف آخر حرف بعد الواو.",
+      "asset": "audio/soof/clip1"
+    },
+    {
+      "id": "alphabet-123-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ف أخيرة.",
+      "choices": ["أرف", "أرض", "أرز"],
+      "answer": "أرف",
+      "hint": "تنتهي بف خفيفة.",
+      "asset": "audio/araf/clip1"
+    },
+    {
+      "id": "alphabet-123-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ظرف.",
+      "choices": ["ظرف", "ظفر", "رفظ"],
+      "answer": "ظرف",
+      "hint": "ضع ف في النهاية بعد الراء."
+    }
+  ]
+}
