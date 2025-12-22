@@ -27,3 +27,10 @@
 - No generative AI, chat, or voice input.
 - No backend services beyond minimal auth database.
 - No payment or monetization hooks (subscription UI is placeholder).
+
+## Level 1 definition
+- **Scope:** Four short lessons in a fixed order — letter recognition, word recognition, first reading confidence, and a review + celebration step.
+- **Objective:** Build automatic recognition of core Arabic letters, connect sounds to simple words, and read very short phrases with support.
+- **Duration:** Each lesson is ~4–6 minutes and can be replayed; full level completion is possible in a single sitting.
+- **Completion rule:** Level 1 is marked complete when all lessons are finished locally; Shibl celebrates and progress remains on the device.
+- **Accounts:** No account or payment is required to start, progress through, or finish Level 1.

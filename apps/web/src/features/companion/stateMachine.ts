@@ -37,7 +37,12 @@ export class CompanionStateMachine {
 
   handleEvent(event: LessonEvent): CompanionState {
     const now = Date.now();
-    const reactionEvents: LessonEventType[] = ["ANSWER_CORRECT", "ANSWER_WRONG", "LEVEL_COMPLETED"];
+    const reactionEvents: LessonEventType[] = [
+      "ANSWER_CORRECT",
+      "ANSWER_WRONG",
+      "LESSON_COMPLETED",
+      "LEVEL_COMPLETED",
+    ];
     const isReactionEvent = reactionEvents.includes(event.type);
 
     if (this.shouldThrottle(event.type, now)) {
@@ -54,6 +59,9 @@ export class CompanionStateMachine {
         this.state = "thinking";
         break;
       case "ANSWER_CORRECT":
+        this.state = "happy";
+        break;
+      case "LESSON_COMPLETED":
         this.state = "happy";
         break;
       case "LEVEL_COMPLETED":
@@ -101,7 +109,7 @@ export class CompanionStateMachine {
   private shouldThrottle(eventType: LessonEventType, now: number): boolean {
     if (this.lastReactionAt === 0) return false;
     const soonAfterPrevious = now - this.lastReactionAt < this.cooldownMs;
-    const isReactionEvent = ["ANSWER_CORRECT", "ANSWER_WRONG", "LEVEL_COMPLETED"].includes(
+    const isReactionEvent = ["ANSWER_CORRECT", "ANSWER_WRONG", "LESSON_COMPLETED", "LEVEL_COMPLETED"].includes(
       eventType,
     );
     return soonAfterPrevious && isReactionEvent;

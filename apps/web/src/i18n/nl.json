@@ -31,11 +31,33 @@
     "safetyNote": "Shibl reageert alleen visueel op lesgebeurtenissen. Geen chat of vrije tekst wordt verzameld.",
     "feedback": {
       "correct": "Goed zo! Shibl is blij.",
-      "incorrect": "Bijna. Probeer opnieuw."
+      "incorrect": "Bijna. Probeer opnieuw.",
+      "lessonComplete": "Les voltooid! Klaar voor de volgende stap."
     },
     "progressLabel": "Voortgang: Activiteit {current} van {total}",
     "completePercent": "{percent}% voltooid",
-    "ariaChoose": "Kies {choice}"
+    "ariaChoose": "Kies {choice}",
+    "completedStatus": "Je hebt deze les afgerond. Ga verder wanneer je wilt."
+  },
+  "level": {
+    "startHeading": "Level 1 starten",
+    "startCopy": "Begin met eenvoudige letterherkenning, ga daarna naar woorden, eerste lezen en een feestelijke herhaling. Geen account nodig.",
+    "startCta": "Start Level 1",
+    "reset": "Level resetten",
+    "lessonListTitle": "Level 1-lessen",
+    "lessonListSubtitle": "{completed} van {total} lessen voltooid",
+    "lessonStatus": {
+      "current": "Huidig",
+      "completed": "Voltooid",
+      "ready": "Klaar",
+      "locked": "Vergrendeld"
+    },
+    "lessonAria": "{title} openen",
+    "progressCount": "Lessen: {completed}/{total} voltooid",
+    "currentLessonLabel": "Huidige les {current} van {total}: {title}",
+    "completedStatus": "Level voltooid! Je kunt lessen opnieuw spelen wanneer je wilt.",
+    "completedHeading": "Je hebt Level 1 afgerond!",
+    "completedBody": "Goed gedaan. Je herkende letters, las korte woorden en deed een feestelijke herhaling. Shibl viert met je mee."
   },
   "companion": {
     "name": "Shibl",

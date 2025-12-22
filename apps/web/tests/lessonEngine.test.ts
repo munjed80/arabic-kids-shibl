@@ -52,7 +52,7 @@ describe("LessonEngine", () => {
       "ANSWER_CORRECT",
       "ANSWER_SUBMITTED",
       "ANSWER_CORRECT",
-      "LEVEL_COMPLETED",
+      "LESSON_COMPLETED",
     ]);
   });
 });

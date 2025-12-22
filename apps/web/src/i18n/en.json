@@ -31,11 +31,33 @@
     "safetyNote": "Shibl reacts visually to lesson events only. No chat or free text is collected.",
     "feedback": {
       "correct": "Correct! Shibl is happy.",
-      "incorrect": "Not quite. Try again."
+      "incorrect": "Not quite. Try again.",
+      "lessonComplete": "Lesson complete! Get ready for the next step."
     },
     "progressLabel": "Progress: Activity {current} of {total}",
     "completePercent": "{percent}% complete",
-    "ariaChoose": "Choose {choice}"
+    "ariaChoose": "Choose {choice}",
+    "completedStatus": "You finished this lesson. Continue when you’re ready."
+  },
+  "level": {
+    "startHeading": "Start Level 1",
+    "startCopy": "Begin with simple letter recognition, then move to words, first reading, and a celebratory review. No account is needed.",
+    "startCta": "Start Level 1",
+    "reset": "Reset Level",
+    "lessonListTitle": "Level 1 lessons",
+    "lessonListSubtitle": "{completed} of {total} lessons completed",
+    "lessonStatus": {
+      "current": "Current",
+      "completed": "Completed",
+      "ready": "Ready",
+      "locked": "Locked"
+    },
+    "lessonAria": "Open {title}",
+    "progressCount": "Lessons: {completed}/{total} completed",
+    "currentLessonLabel": "Current lesson {current} of {total}: {title}",
+    "completedStatus": "Level completed! You can replay lessons anytime.",
+    "completedHeading": "You finished Level 1!",
+    "completedBody": "Great work. You recognized letters, read short words, and finished a celebratory review. Shibl is celebrating with you."
   },
   "companion": {
     "name": "Shibl",
