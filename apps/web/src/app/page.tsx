@@ -112,6 +112,14 @@ export default function Home() {
             Create parent account
           </Link>
         </div>
+        <div className="flex flex-wrap gap-3 text-sm font-semibold text-slate-800">
+          <Link href="/login" className="rounded-full border border-slate-300 px-4 py-2 hover:border-amber-400 hover:text-amber-700">
+            Parent login
+          </Link>
+          <Link href="/register" className="rounded-full border border-slate-300 px-4 py-2 hover:border-amber-400 hover:text-amber-700">
+            Create parent account
+          </Link>
+        </div>
       </Card>
 
       <section className="grid gap-6 lg:grid-cols-3">
