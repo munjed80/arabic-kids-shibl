@@ -25,11 +25,21 @@ export default function RegisterPage() {
     const payload = {
       email: String(formData.get("email") || ""),
       password: String(formData.get("password") || ""),
+      confirmPassword: String(formData.get("confirmPassword") || ""),
     };
 
     const parsed = registerSchema.safeParse(payload);
     if (!parsed.success) {
-      setError(t("auth.validRegistration"));
+      const fieldErrors = parsed.error.flatten().fieldErrors;
+      if (fieldErrors.confirmPassword?.length) {
+        setError(t("auth.passwordsDontMatch"));
+      } else if (fieldErrors.password?.includes("auth.passwordTooShort")) {
+        setError(t("auth.passwordTooShort"));
+      } else if (fieldErrors.password?.includes("auth.passwordTooLong")) {
+        setError(t("auth.passwordTooLong"));
+      } else {
+        setError(t("auth.invalidCredentials"));
+      }
       setPending(false);
       return;
     }
@@ -42,12 +52,18 @@ export default function RegisterPage() {
 
     if (!response.ok) {
       const data = await response.json().catch(() => ({}));
-      setError(data?.message ?? t("auth.unableToRegister"));
+      if (data?.message === "EMAIL_IN_USE") {
+        setError(t("auth.emailAlreadyUsed"));
+      } else {
+        setError(t("auth.invalidCredentials"));
+      }
       setPending(false);
       return;
     }
 
-    router.push(`/login?message=${encodeURIComponent(t("auth.accountCreated"))}`);
+    router.push(
+      `/login?message=${encodeURIComponent(t("auth.accountWelcome", { email: parsed.data.email }))}`,
+    );
   };
 
   return (
@@ -56,10 +72,10 @@ export default function RegisterPage() {
         <LanguageSelector />
         <div className="space-y-2">
           <p className="text-sm font-semibold uppercase tracking-wide text-amber-600">
-            {t("auth.parentRegisterLabel")}
+            {t("auth.parentAreaTitle")}
           </p>
           <h1 className="text-3xl font-bold text-slate-900">
-            {t("auth.createParentAccountHeading")}
+            {t("auth.registerTitle")}
           </h1>
           <p className="text-sm text-slate-600">{t("auth.parentRegisterDesc")}</p>
         </div>
@@ -71,7 +87,7 @@ export default function RegisterPage() {
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="email">
-              {t("auth.email")}
+              {t("auth.emailLabel")}
             </label>
             <input
               id="email"
@@ -84,11 +100,25 @@ export default function RegisterPage() {
           </div>
           <div className="space-y-2">
             <label className="text-sm font-semibold text-slate-800" htmlFor="password">
-              {t("auth.password")}
+              {t("auth.passwordLabel")}
             </label>
             <input
               id="password"
               name="password"
+              type="password"
+              autoComplete="new-password"
+              className="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-amber-400 focus:outline-none"
+              required
+              minLength={8}
+            />
+          </div>
+          <div className="space-y-2">
+            <label className="text-sm font-semibold text-slate-800" htmlFor="confirmPassword">
+              {t("auth.confirmPasswordLabel")}
+            </label>
+            <input
+              id="confirmPassword"
+              name="confirmPassword"
               type="password"
               autoComplete="new-password"
               className="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-amber-400 focus:outline-none"
@@ -105,7 +135,7 @@ export default function RegisterPage() {
         <div className="flex items-center justify-between text-sm text-slate-700">
           <span>{t("auth.alreadyRegistered")}</span>
           <Link href="/login" className="font-semibold text-amber-700 hover:underline">
-            {t("auth.signInParentAccount")}
+            {t("auth.signIn")}
           </Link>
         </div>
       </Card>

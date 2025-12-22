@@ -49,9 +49,6 @@ export default function Home() {
     ],
     [],
   );
-  if (!lessons.length) {
-    return null;
-  }
   const eventBus = useMemo(() => new LessonEventBus(), []);
   const companion = useMemo(() => new CompanionStateMachine(), []);
   const engine = useMemo(() => new LessonEngine(eventBus), [eventBus]);
@@ -67,11 +64,9 @@ export default function Home() {
     levelProgress.started ? getLessonProgressFromLevel(levelProgress, firstLessonId).completed : false,
   );
   const [mood, setMood] = useState(companion.getMood());
-  const [hasCelebrated, setHasCelebrated] = useState(false);
 
   const currentLesson =
     lessons.find((lesson) => lesson.id === levelProgress.currentLessonId) ?? lessons[0];
-  const currentLessonProgress = getLessonProgressFromLevel(levelProgress, currentLesson.id);
   const currentLessonIndex = lessons.findIndex((lesson) => lesson.id === currentLesson.id);
 
   useEffect(() => {
@@ -85,20 +80,8 @@ export default function Home() {
   useEffect(() => {
     if (!levelProgress.started || !currentLesson) return;
     const progress = getLessonProgressFromLevel(levelProgress, currentLesson.id);
-    setActivityIndex(progress.activityIndex);
-    setLessonCompleted(progress.completed);
     engine.startLesson(currentLesson, progress.activityIndex);
   }, [currentLesson, engine, levelProgress]);
-
-  useEffect(() => {
-    if (levelProgress.levelCompleted && !hasCelebrated) {
-      eventBus.emit({
-        type: "LEVEL_COMPLETED",
-        payload: { lessonId: currentLesson.id, activityId: currentLesson.activities[0]?.id },
-      });
-      setHasCelebrated(true);
-    }
-  }, [currentLesson, eventBus, hasCelebrated, levelProgress.levelCompleted]);
 
   const submitAnswer = (choice: string) => {
     if (!levelProgress.started) return;
@@ -131,8 +114,12 @@ export default function Home() {
         currentLessonId: nextLesson.id,
         started: true,
       });
+      const nextProgress = getLessonProgressFromLevel(nextRecord, nextLesson.id);
+      setActivityIndex(nextProgress.activityIndex);
+      setLessonCompleted(nextProgress.completed);
       setLevelProgress(nextRecord);
       setFeedback({ key: feedbackKeys.correct, correct: true });
+      engine.startLesson(nextLesson, nextProgress.activityIndex);
     }
 
     if (allLessonsComplete && !updated.levelCompleted) {
@@ -145,7 +132,6 @@ export default function Home() {
         type: "LEVEL_COMPLETED",
         payload: { lessonId: currentLesson.id, activityId: activity?.id },
       });
-      setHasCelebrated(true);
     }
   };
 
@@ -158,7 +144,6 @@ export default function Home() {
     setFeedback({ key: null });
     companion.reset();
     setMood(companion.getMood());
-    setHasCelebrated(false);
   };
 
   const startLevel = () => {
@@ -166,7 +151,11 @@ export default function Home() {
       started: true,
       currentLessonId: currentLesson.id,
     });
+    const progress = getLessonProgressFromLevel(started, currentLesson.id);
     setLevelProgress(started);
+    setActivityIndex(progress.activityIndex);
+    setLessonCompleted(progress.completed);
+    engine.startLesson(currentLesson, progress.activityIndex);
     setFeedback({ key: null });
   };
 
@@ -175,7 +164,14 @@ export default function Home() {
       currentLessonId: lessonId,
       started: true,
     });
+    const progress = getLessonProgressFromLevel(next, lessonId);
     setLevelProgress(next);
+    setActivityIndex(progress.activityIndex);
+    setLessonCompleted(progress.completed);
+    const lesson = lessons.find((entry) => entry.id === lessonId);
+    if (lesson) {
+      engine.startLesson(lesson, progress.activityIndex);
+    }
     setFeedback({ key: null });
   };
 

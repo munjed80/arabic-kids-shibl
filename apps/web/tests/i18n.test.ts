@@ -1,5 +1,3 @@
-/// <reference types="vitest" />
-
 import { describe, expect, it } from "vitest";
 import { defaultLocale, resolveLocale, supportedLocales } from "@/i18n/config";
 

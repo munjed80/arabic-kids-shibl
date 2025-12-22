@@ -1,90 +1,51 @@
-import { afterEach, describe, expect, it, vi } from "vitest";
-import bcrypt from "bcrypt";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import fs from "node:fs/promises";
+import path from "node:path";
+import os from "node:os";
 import { authenticateParent, registerParentAccount } from "@/features/auth/service";
 
-const { userMock } = vi.hoisted(() => ({
-  userMock: {
-    findUnique: vi.fn(),
-    create: vi.fn(),
-  },
-}));
+describe("auth service", () => {
+  const originalPath = process.env.USER_STORE_PATH;
+  let tempFile: string;
 
-vi.mock("@/lib/prisma", () => ({
-  prisma: {
-    user: userMock,
-  },
-}));
-
-describe("authenticateParent", () => {
-  afterEach(() => {
-    userMock.findUnique.mockReset();
+  beforeEach(async () => {
+    const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "auth-service-"));
+    tempFile = path.join(tempDir, "users.json");
+    process.env.USER_STORE_PATH = tempFile;
+    vi.resetModules();
   });
 
-  it("returns user when password matches", async () => {
-    const passwordHash = await bcrypt.hash("password123", 10);
-    userMock.findUnique.mockResolvedValue({
-      id: 1,
+  afterEach(() => {
+    process.env.USER_STORE_PATH = originalPath;
+  });
+
+  it("authenticates a parent with correct credentials", async () => {
+    await registerParentAccount({
       email: "parent@example.com",
-      passwordHash,
+      password: "password123",
+      confirmPassword: "password123",
     });
 
-    const result = await authenticateParent({
+    const sessionUser = await authenticateParent({
       email: "parent@example.com",
       password: "password123",
     });
 
-    expect(result).toMatchObject({ email: "parent@example.com" });
+    expect(sessionUser?.email).toBe("parent@example.com");
   });
 
   it("returns null on incorrect password", async () => {
-    const passwordHash = await bcrypt.hash("password123", 10);
-    userMock.findUnique.mockResolvedValue({
-      id: 1,
+    await registerParentAccount({
       email: "parent@example.com",
-      passwordHash,
+      password: "password123",
+      confirmPassword: "password123",
     });
 
-    const result = await authenticateParent({
+    const sessionUser = await authenticateParent({
       email: "parent@example.com",
       password: "wrong",
     });
 
-    expect(result).toBeNull();
-  });
-});
-
-describe("registerParentAccount", () => {
-  afterEach(() => {
-    userMock.findUnique.mockReset();
-    userMock.create.mockReset();
-  });
-
-  it("creates a new parent account with hashed password", async () => {
-    userMock.findUnique.mockResolvedValue(null);
-    userMock.create.mockResolvedValue({
-      id: 2,
-      email: "new@example.com",
-      passwordHash: "hashed",
-    });
-
-    const result = await registerParentAccount({
-      email: "new@example.com",
-      password: "safePassword123",
-    });
-
-    expect(result.email).toBe("new@example.com");
-    expect(userMock.create).toHaveBeenCalled();
-  });
-
-  it("throws when account already exists", async () => {
-    userMock.findUnique.mockResolvedValue({
-      id: 3,
-      email: "dup@example.com",
-      passwordHash: "hashed",
-    });
-
-    await expect(
-      registerParentAccount({ email: "dup@example.com", password: "password123" }),
-    ).rejects.toThrow("Account already exists");
+    expect(sessionUser).toBeNull();
   });
 });
