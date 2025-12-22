@@ -1,31 +1,36 @@
 "use client";
 
+import { useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { registerSchema } from "@/features/auth/schemas";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
-import { registerSchema } from "@/features/auth/schemas";
-import { signIn } from "next-auth/react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
 
 export default function RegisterPage() {
   const router = useRouter();
-  const [form, setForm] = useState({ email: "", password: "" });
-  const [message, setMessage] = useState<string | null>(null);
-  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [pending, setPending] = useState(false);
 
-  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setMessage(null);
+    setError(null);
+    setPending(true);
 
-    const parsed = registerSchema.safeParse(form);
+    const formData = new FormData(event.currentTarget);
+    const payload = {
+      email: String(formData.get("email") || ""),
+      password: String(formData.get("password") || ""),
+    };
+
+    const parsed = registerSchema.safeParse(payload);
     if (!parsed.success) {
-      setMessage("Use a valid email and a password with at least 8 characters.");
+      setError("Enter a valid email and password (8+ characters).");
+      setPending(false);
       return;
     }
 
-    setSubmitting(true);
     const response = await fetch("/api/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -33,68 +38,62 @@ export default function RegisterPage() {
     });
 
     if (!response.ok) {
-      setMessage("We couldn't create your account right now. Please try again.");
-      setSubmitting(false);
+      const data = await response.json().catch(() => ({}));
+      setError(data?.message ?? "Unable to register right now.");
+      setPending(false);
       return;
     }
 
-    await signIn("credentials", {
-      ...parsed.data,
-      redirect: false,
-      callbackUrl: "/account",
-    });
-    router.push("/account");
-    setSubmitting(false);
+    router.push("/login?message=Account%20created%20successfully");
   };
 
   return (
-    <Container as="main" className="flex min-h-screen items-center justify-center py-16">
-      <Card className="w-full max-w-xl space-y-6">
-        <div className="space-y-2 text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-amber-600">
+    <Container as="main" className="flex min-h-screen items-center justify-center py-12">
+      <Card className="w-full max-w-md space-y-6">
+        <div className="space-y-2">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-600">
             Parent registration
           </p>
-          <h1 className="text-2xl font-bold text-slate-900">Create your parent account</h1>
+          <h1 className="text-3xl font-bold text-slate-900">Create a parent account</h1>
           <p className="text-sm text-slate-600">
-            Parents manage the €7/month subscription and view child progress. Children never enter
-            credentials.
+            Parents manage subscriptions and child progress. Children do not need to sign up.
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        {error ? (
+          <p className="rounded-lg bg-red-50 px-4 py-3 text-sm text-red-800">{error}</p>
+        ) : null}
+
+        <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-2">
-            <label className="block text-sm font-medium text-slate-800" htmlFor="email">
+            <label className="text-sm font-semibold text-slate-800" htmlFor="email">
               Email
             </label>
             <input
               id="email"
               name="email"
               type="email"
-              value={form.email}
-              onChange={(e) => setForm((prev) => ({ ...prev, email: e.target.value }))}
-              className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-slate-900 focus:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-200"
               autoComplete="email"
+              className="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-amber-400 focus:outline-none"
               required
             />
           </div>
           <div className="space-y-2">
-            <label className="block text-sm font-medium text-slate-800" htmlFor="password">
+            <label className="text-sm font-semibold text-slate-800" htmlFor="password">
               Password
             </label>
             <input
               id="password"
               name="password"
               type="password"
-              value={form.password}
-              onChange={(e) => setForm((prev) => ({ ...prev, password: e.target.value }))}
-              className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2 text-slate-900 focus:border-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-200"
               autoComplete="new-password"
+              className="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-amber-400 focus:outline-none"
               required
             />
           </div>
-          {message ? <p className="text-sm text-amber-700">{message}</p> : null}
-          <Button type="submit" className="w-full justify-center" disabled={submitting}>
-            {submitting ? "Creating account..." : "Register"}
+
+          <Button type="submit" className="w-full justify-center" disabled={pending}>
+            {pending ? "Creating account..." : "Register"}
           </Button>
         </form>
 

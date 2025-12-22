@@ -1,55 +1,54 @@
-import { Button } from "@/components/ui/Button";
+import { redirect } from "next/navigation";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/auth/options";
+import { ensureParentSession } from "@/features/auth/guards";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
-import { canAccessProtected } from "@/features/auth/protection";
-import { authOptions } from "@/lib/authOptions";
-import { getServerSession } from "next-auth";
+import { Button } from "@/components/ui/Button";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 
 export default async function AccountPage() {
   const session = await getServerSession(authOptions);
+  const guard = ensureParentSession(session);
 
-  if (!canAccessProtected(session)) {
-    redirect("/login");
+  if (!guard.allowed) {
+    redirect(guard.redirectTo);
   }
 
   return (
-    <Container as="main" className="flex min-h-screen flex-col gap-6 py-12">
-      <div className="space-y-2">
-        <p className="text-sm font-semibold uppercase tracking-widest text-amber-600">
-          Parent dashboard
-        </p>
-        <h1 className="text-3xl font-bold text-slate-900">Manage your subscription and progress</h1>
-        <p className="text-sm text-slate-600">
-          This area is parent-only. Children can keep using lessons without entering credentials.
-        </p>
-      </div>
-
-      <div className="grid gap-6 md:grid-cols-2">
-        <Card className="space-y-3">
-          <h2 className="text-xl font-semibold text-slate-900">Account</h2>
-          <p className="text-sm text-slate-700">Signed in as {session?.user.email}</p>
-          <div className="flex gap-3">
-            <Link href="/logout">
-              <Button>Logout</Button>
-            </Link>
-            <Link href="/">
-              <Button variant="ghost">Back to lessons</Button>
-            </Link>
-          </div>
-        </Card>
-
-        <Card className="space-y-3">
-          <h2 className="text-xl font-semibold text-slate-900">Subscription</h2>
-          <p className="text-sm text-slate-700">
-            Subscription management placeholder. Billing for €7/month will be handled here.
+    <Container as="main" className="flex min-h-screen items-center justify-center py-12">
+      <Card className="w-full max-w-2xl space-y-6">
+        <div className="space-y-2">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber-600">
+            Parent dashboard
           </p>
-          <div className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">
-            No child data is shown or collected. Only parent contact information is stored securely.
-          </div>
-        </Card>
-      </div>
+          <h1 className="text-3xl font-bold text-slate-900">Manage subscription and progress</h1>
+          <p className="text-sm text-slate-600">
+            Placeholder dashboard. Lessons stay unlocked for children without needing their own
+            credentials.
+          </p>
+        </div>
+
+        <div className="rounded-xl bg-slate-50 p-4 text-sm text-slate-800">
+          <p className="font-semibold text-slate-900">Signed in as</p>
+          <p>{session?.user?.email}</p>
+          <p className="mt-3 text-slate-700">
+            Subscription management and child progress tracking will appear here. No child data is
+            collected beyond lesson completion status.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-3">
+          <Link href="/logout">
+            <Button type="button">Log out</Button>
+          </Link>
+          <Link href="/">
+            <Button type="button" variant="ghost">
+              Back to lessons
+            </Button>
+          </Link>
+        </div>
+      </Card>
     </Container>
   );
 }

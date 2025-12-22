@@ -1,17 +1,20 @@
 import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import { loginSchema, registerSchema } from "@/features/auth/schemas";
 
 describe("auth schemas", () => {
   it("accepts valid email and password", () => {
-    const parsed = loginSchema.parse({ email: "parent@example.com", password: "password123" });
-    expect(parsed.email).toBe("parent@example.com");
+    const result = loginSchema.safeParse({ email: "parent@example.com", password: "password123" });
+    expect(result.success).toBe(true);
   });
 
   it("rejects short passwords", () => {
-    expect(() => registerSchema.parse({ email: "parent@example.com", password: "short" })).toThrow();
+    const result = registerSchema.safeParse({ email: "parent@example.com", password: "short" });
+    expect(result.success).toBe(false);
   });
 
   it("rejects invalid emails", () => {
-    expect(() => loginSchema.parse({ email: "not-an-email", password: "password123" })).toThrow();
+    const result = loginSchema.safeParse({ email: "not-an-email", password: "password123" });
+    expect(result.success).toBe(false);
   });
 });

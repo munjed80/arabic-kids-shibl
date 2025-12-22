@@ -1,12 +1,10 @@
-import { authSecret } from "@/lib/authSecret";
-import { withAuth } from "next-auth/middleware";
+import nextAuthMiddleware from "next-auth/middleware";
 
-export default withAuth({
-  pages: {
-    signIn: "/login",
-  },
-  secret: authSecret,
-});
+if (!process.env.NEXTAUTH_SECRET) {
+  process.env.NEXTAUTH_SECRET = "dev-secret";
+}
+
+export const middleware = nextAuthMiddleware;
 
 export const config = {
   matcher: ["/account"],

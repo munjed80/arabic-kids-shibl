@@ -1,23 +1,8 @@
-# Parent authentication
+# Authentication flow
 
-**Goal:** Parent-only access for subscription management while children continue lessons without entering credentials.
-
-## Stack
-- NextAuth (Credentials provider, JWT sessions, secure cookies, CSRF on forms).
-- Prisma + SQLite (`prisma/schema.prisma`) with `User` and `Subscription` tables.
-- Passwords hashed with bcryptjs (bcrypt algorithm, 10 rounds).
-- Basic in-memory rate limiting (5 attempts per 15 minutes, keyed by IP/email).
-
-## Flows
-- **Register (`/register`, POST `/api/register`)**: Validate with Zod, ensure unique email, hash password, create user row. Auto-signs in and redirects to `/account`.
-- **Login (`/login`)**: Zod-validated credentials passed to NextAuth Credentials provider; on success sets secure session cookie and JWT.
-- **Logout (`/logout`)**: Calls NextAuth `signOut`, returning to `/`.
-
-## Protection
-- Middleware guards `/account`; unauthenticated users are redirected to `/login`.
-- Server-side check in `src/app/account/page.tsx` ensures sessions before rendering.
-- Children can keep using lessons at `/` regardless of parent session.
-
-## Environment
-- Database defaults to `file:./prisma/dev.db`; override with `DATABASE_URL` if needed.
-- Set `NEXTAUTH_SECRET` in production to secure JWT/session cookies.
+- Parents create accounts with email + password only; no social login and no child credentials.
+- Credentials are verified through NextAuth Credentials provider backed by Prisma + SQLite with bcrypt password hashing.
+- Sessions use secure cookies with CSRF protection from NextAuth; JWT strategy keeps the footprint minimal.
+- Login attempts are rate-limited in-memory to reduce brute force risk.
+- `/account` is protected by middleware and server-side session checks. `/login`, `/register`, and `/logout` handle parent sign-in/out. Lessons remain accessible to children without authentication.
+- Registration and login inputs are validated with Zod on both client and server paths. No passwords are logged or shown in UI responses.

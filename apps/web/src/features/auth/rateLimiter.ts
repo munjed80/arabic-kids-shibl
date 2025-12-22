@@ -1,45 +1,43 @@
-const WINDOW_MS = 15 * 60 * 1000; // 15 minutes
-const MAX_ATTEMPTS = 5;
-
-type LoginBucket = {
-  attempts: number;
-  firstAttempt: number;
+type Attempt = {
+  count: number;
+  first: number;
 };
 
-const buckets = new Map<string, LoginBucket>();
+const WINDOW_MS = 15 * 60 * 1000;
+const MAX_ATTEMPTS = 5;
 
-function currentBucket(key: string): LoginBucket {
-  const existing = buckets.get(key);
-  if (!existing) {
-    const fresh = { attempts: 0, firstAttempt: Date.now() };
-    buckets.set(key, fresh);
-    return fresh;
+const attempts = new Map<string, Attempt>();
+
+function cleanup(key: string, now: number) {
+  const entry = attempts.get(key);
+  if (entry && now - entry.first > WINDOW_MS) {
+    attempts.delete(key);
+  }
+}
+
+export function allowAttempt(key: string): boolean {
+  const now = Date.now();
+  cleanup(key, now);
+  const entry = attempts.get(key);
+
+  if (!entry) {
+    attempts.set(key, { count: 1, first: now });
+    return true;
   }
 
-  if (Date.now() - existing.firstAttempt > WINDOW_MS) {
-    const fresh = { attempts: 0, firstAttempt: Date.now() };
-    buckets.set(key, fresh);
-    return fresh;
+  if (entry.count >= MAX_ATTEMPTS) {
+    return false;
   }
 
-  return existing;
+  attempts.set(key, { ...entry, count: entry.count + 1 });
+  return true;
 }
 
-export function canAttemptLogin(key: string) {
-  const bucket = currentBucket(key);
-  return bucket.attempts < MAX_ATTEMPTS;
+export function resetAttempts(key: string) {
+  attempts.delete(key);
 }
 
-export function recordFailedLogin(key: string) {
-  const bucket = currentBucket(key);
-  bucket.attempts += 1;
-  buckets.set(key, bucket);
-}
-
-export function resetLoginAttempts(key: string) {
-  buckets.delete(key);
-}
-
-export function resetAllLoginBuckets() {
-  buckets.clear();
+export function getAttemptCount(key: string) {
+  cleanup(key, Date.now());
+  return attempts.get(key)?.count ?? 0;
 }

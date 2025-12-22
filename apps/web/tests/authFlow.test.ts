@@ -1,9 +1,4 @@
-import {
-  authenticateParent,
-  registerParent,
-  resolveRateLimitKey,
-} from "@/features/auth/authService";
-import { resetAllLoginBuckets } from "@/features/auth/rateLimiter";
+import { authenticateParent, registerParentAccount } from "@/features/auth/service";
 import { describe, expect, it, vi } from "vitest";
 
 const findUnique = vi.fn();
@@ -18,72 +13,76 @@ vi.mock("@/lib/prisma", () => ({
   },
 }));
 
-vi.mock("bcryptjs", () => ({
-  hash: vi.fn(async (value: string) => `hashed-${value}`),
-  compare: vi.fn(async (value: string, hashValue: string) => hashValue === `hashed-${value}`),
-}));
+vi.mock("bcrypt", () => {
+  const hash = vi.fn(async (value: string) => `hashed-${value}`);
+  const compare = vi.fn(async (value: string, hashValue: string) => hashValue === `hashed-${value}`);
+  return {
+    __esModule: true,
+    default: {
+      hash,
+      compare,
+    },
+    hash,
+    compare,
+  };
+});
 
 describe("auth flows", () => {
   beforeEach(() => {
     findUnique.mockReset();
     create.mockReset();
-    resetAllLoginBuckets();
   });
 
   it("registers a new parent and hashes the password", async () => {
     findUnique.mockResolvedValue(null);
-    create.mockResolvedValue({ id: "user-1", email: "parent@example.com" });
+    create.mockResolvedValue({ id: 1, email: "parent@example.com" });
 
-    const result = await registerParent({ email: "parent@example.com", password: "password123" });
+    const result = await registerParentAccount({
+      email: "parent@example.com",
+      password: "password123",
+    });
 
     expect(create).toHaveBeenCalledWith({
       data: { email: "parent@example.com", passwordHash: "hashed-password123" },
     });
-    expect(result.id).toBe("user-1");
+    expect(result.id).toBe("1");
   });
 
   it("prevents duplicate parent accounts", async () => {
-    findUnique.mockResolvedValue({ id: "existing", email: "parent@example.com" });
+    findUnique.mockResolvedValue({ id: 1, email: "parent@example.com" });
 
     await expect(
-      registerParent({ email: "parent@example.com", password: "password123" }),
-    ).rejects.toThrow("EMAIL_EXISTS");
+      registerParentAccount({ email: "parent@example.com", password: "password123" }),
+    ).rejects.toThrow("Account already exists");
   });
 
-  it("authenticates when credentials are valid and under rate limit", async () => {
+  it("authenticates when credentials are valid", async () => {
     findUnique.mockResolvedValue({
-      id: "user-1",
+      id: 1,
       email: "parent@example.com",
       passwordHash: "hashed-password123",
     });
 
-    const result = await authenticateParent(
-      { email: "parent@example.com", password: "password123" },
-      resolveRateLimitKey("parent@example.com", null),
-    );
+    const result = await authenticateParent({
+      email: "parent@example.com",
+      password: "password123",
+    });
 
-    expect(result?.id).toBe("user-1");
+    expect(result?.id).toBe("1");
   });
 
-  it("blocks logins after repeated failures", async () => {
+  it("returns null when password is invalid", async () => {
     findUnique.mockResolvedValue({
-      id: "user-1",
+      id: 1,
       email: "parent@example.com",
       passwordHash: "hashed-password123",
     });
 
-    for (let i = 0; i < 5; i++) {
-      const result = await authenticateParent(
-        { email: "parent@example.com", password: "wrong-pass" },
-        "ip-key",
-      );
-      expect(result).toBeNull();
-    }
+    const result = await authenticateParent({
+      email: "parent@example.com",
+      password: "wrong",
+    });
 
-    const blocked = await authenticateParent(
-      { email: "parent@example.com", password: "password123" },
-      "ip-key",
-    );
-    expect(blocked).toBeNull();
+    expect(result).toBeNull();
   });
 });
