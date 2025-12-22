@@ -13,7 +13,7 @@ export function Container({
   ...rest
 }: ContainerProps) {
   return (
-    <Component className={`mx-auto max-w-6xl px-6 ${className}`} {...rest}>
+    <Component className={`mx-auto max-w-6xl px-6${className ? ` ${className}` : ""}`} {...rest}>
       {children}
     </Component>
   );

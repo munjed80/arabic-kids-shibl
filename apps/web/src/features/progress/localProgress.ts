@@ -26,7 +26,8 @@ const normalizeRecord = (
   data?: Omit<LessonProgressRecord, "lessonId">,
 ): LessonProgressRecord => {
   if (typeof lessonIdOrRecord === "string") {
-    if (!data) throw new Error("Progress data is required when lessonId is provided.");
+    if (!data)
+      throw new Error("Progress data (activityIndex and completed) is required when lessonId is provided.");
     return { lessonId: lessonIdOrRecord, ...data };
   }
   return lessonIdOrRecord;
