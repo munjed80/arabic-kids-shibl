@@ -1,4 +1,5 @@
 import type { Activity } from "@/features/lesson-engine/lessonSchema";
+import { Card } from "@/components/ui/Card";
 
 type Props = {
   activity: Activity;
@@ -16,7 +17,7 @@ export function LessonActivityCard({
   onThinking,
 }: Props) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+    <Card>
       <p className="text-xs font-semibold uppercase tracking-widest text-amber-600">
         Activity
       </p>
@@ -54,6 +55,6 @@ export function LessonActivityCard({
           {feedback.message}
         </div>
       ) : null}
-    </div>
+    </Card>
   );
 }
