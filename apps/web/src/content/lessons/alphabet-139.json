@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-139",
+  "world": "alphabet",
+  "title": "صوت لام واضح",
+  "description": "تمييز لام سمعيًا.",
+  "objective": "التعرف على لام في الكلمات القصيرة.",
+  "goal": "سمع ل في البداية والوسط.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-139-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بلام صافية؟",
+      "choices": [
+        "لبن",
+        "أدب",
+        "سمن"
+      ],
+      "answer": "لبن",
+      "hint": "لام أول حرف.",
+      "asset": "audio/laban/clip1"
+    },
+    {
+      "id": "alphabet-139-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها لام في الوسط.",
+      "choices": [
+        "ملك",
+        "مك",
+        "من"
+      ],
+      "answer": "ملك",
+      "hint": "لام بين الميم والكاف.",
+      "asset": "audio/malik/clip1"
+    },
+    {
+      "id": "alphabet-139-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لعب.",
+      "choices": [
+        "لعب",
+        "علب",
+        "بلع"
+      ],
+      "answer": "لعب",
+      "hint": "ابدأ بلام ثم عين ثم باء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-139-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بلام صافية؟",
+      "choices": [
+        "لبن",
+        "أدب",
+        "سمن"
+      ],
+      "answer": "لبن",
+      "hint": "لام أول حرف.",
+      "asset": "audio/laban/clip1"
+    },
+    {
+      "id": "alphabet-139-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها لام في الوسط.",
+      "choices": [
+        "ملك",
+        "مك",
+        "من"
+      ],
+      "answer": "ملك",
+      "hint": "لام بين الميم والكاف.",
+      "asset": "audio/malik/clip1"
+    },
+    {
+      "id": "alphabet-139-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لعب.",
+      "choices": [
+        "لعب",
+        "علب",
+        "بلع"
+      ],
+      "answer": "لعب",
+      "hint": "ابدأ بلام ثم عين ثم باء."
+    }
+  ]
+}

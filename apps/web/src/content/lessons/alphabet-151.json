@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-151",
+  "world": "alphabet",
+  "title": "حروف ل م ن معًا ١",
+  "description": "تمييز الحروف الجديدة بين الكلمات.",
+  "objective": "التفريق بين لام وميم ونون سماعًا وبصرًا.",
+  "goal": "اختيار الحرف الصحيح من الصوت.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-151-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بلام؟",
+      "choices": [
+        "لبن",
+        "ملح",
+        "نحل"
+      ],
+      "answer": "لبن",
+      "hint": "لام في البداية.",
+      "asset": "audio/laban/clip2"
+    },
+    {
+      "id": "alphabet-151-2",
+      "type": "choose",
+      "prompt": "ما الحرف الأول في كلمة ملح؟",
+      "choices": [
+        "م",
+        "ل",
+        "ن"
+      ],
+      "answer": "م",
+      "hint": "تبدأ الكلمة بميم واضحة.",
+      "asset": "image/melh/start"
+    },
+    {
+      "id": "alphabet-151-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لمن.",
+      "choices": [
+        "لمن",
+        "منل",
+        "نلم"
+      ],
+      "answer": "لمن",
+      "hint": "ابدأ بلام ثم ميم ثم نون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-151-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بلام؟",
+      "choices": [
+        "لبن",
+        "ملح",
+        "نحل"
+      ],
+      "answer": "لبن",
+      "hint": "لام في البداية.",
+      "asset": "audio/laban/clip2"
+    },
+    {
+      "id": "alphabet-151-2",
+      "type": "choose",
+      "prompt": "ما الحرف الأول في كلمة ملح؟",
+      "choices": [
+        "م",
+        "ل",
+        "ن"
+      ],
+      "answer": "م",
+      "hint": "تبدأ الكلمة بميم واضحة.",
+      "asset": "image/melh/start"
+    },
+    {
+      "id": "alphabet-151-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لمن.",
+      "choices": [
+        "لمن",
+        "منل",
+        "نلم"
+      ],
+      "answer": "لمن",
+      "hint": "ابدأ بلام ثم ميم ثم نون."
+    }
+  ]
+}

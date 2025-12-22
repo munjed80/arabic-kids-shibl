@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-153",
+  "world": "alphabet",
+  "title": "تمييز الحروف المتقاربة ٣",
+  "description": "تدريب سمعي وبصري سريع.",
+  "objective": "عدم الخلط بين لام وميم ونون.",
+  "goal": "اختيار الحرف الصحيح.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-153-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بنون؟",
+      "choices": [
+        "نمل",
+        "ملح",
+        "لحم"
+      ],
+      "answer": "نمل",
+      "hint": "اسمع النون أولًا.",
+      "asset": "audio/nml/clip3"
+    },
+    {
+      "id": "alphabet-153-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الموجود في وسط كلمة حمل.",
+      "choices": [
+        "م",
+        "ل",
+        "ن"
+      ],
+      "answer": "م",
+      "hint": "يأتي بعد الحاء مباشرة.",
+      "asset": "image/haml/middle2"
+    },
+    {
+      "id": "alphabet-153-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لحم.",
+      "choices": [
+        "لحم",
+        "حلم",
+        "حمل"
+      ],
+      "answer": "لحم",
+      "hint": "ابدأ بلام ثم حاء ثم ميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-153-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بنون؟",
+      "choices": [
+        "نمل",
+        "ملح",
+        "لحم"
+      ],
+      "answer": "نمل",
+      "hint": "اسمع النون أولًا.",
+      "asset": "audio/nml/clip3"
+    },
+    {
+      "id": "alphabet-153-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الموجود في وسط كلمة حمل.",
+      "choices": [
+        "م",
+        "ل",
+        "ن"
+      ],
+      "answer": "م",
+      "hint": "يأتي بعد الحاء مباشرة.",
+      "asset": "image/haml/middle2"
+    },
+    {
+      "id": "alphabet-153-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لحم.",
+      "choices": [
+        "لحم",
+        "حلم",
+        "حمل"
+      ],
+      "answer": "لحم",
+      "hint": "ابدأ بلام ثم حاء ثم ميم."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-154",
+  "world": "alphabet",
+  "title": "بناء كلمات ل م ن",
+  "description": "تجميع الحروف في كلمات.",
+  "objective": "ممارسة القراءة السريعة للحروف الثلاثة.",
+  "goal": "تثبيت التمييز عبر البناء.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-154-1",
+      "type": "match",
+      "prompt": "أين يقع لام في كلمة سلم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين السين والميم.",
+      "asset": "image/salam/middle"
+    },
+    {
+      "id": "alphabet-154-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي ميم في النهاية؟",
+      "choices": [
+        "قلم",
+        "قل",
+        "قن"
+      ],
+      "answer": "قلم",
+      "hint": "ميم تغلق الكلمة.",
+      "asset": "image/qalam/end"
+    },
+    {
+      "id": "alphabet-154-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نصل.",
+      "choices": [
+        "نصل",
+        "نص",
+        "صلن"
+      ],
+      "answer": "نصل",
+      "hint": "ابدأ بنون وضع لام في النهاية."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-154-1",
+      "type": "match",
+      "prompt": "أين يقع لام في كلمة سلم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين السين والميم.",
+      "asset": "image/salam/middle"
+    },
+    {
+      "id": "alphabet-154-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي ميم في النهاية؟",
+      "choices": [
+        "قلم",
+        "قل",
+        "قن"
+      ],
+      "answer": "قلم",
+      "hint": "ميم تغلق الكلمة.",
+      "asset": "image/qalam/end"
+    },
+    {
+      "id": "alphabet-154-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نصل.",
+      "choices": [
+        "نصل",
+        "نص",
+        "صلن"
+      ],
+      "answer": "نصل",
+      "hint": "ابدأ بنون وضع لام في النهاية."
+    }
+  ]
+}

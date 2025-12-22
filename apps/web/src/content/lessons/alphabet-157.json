@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-157",
+  "world": "alphabet",
+  "title": "صوت هـ لطيف",
+  "description": "تمييز الهاء سمعيًا.",
+  "objective": "التعرف على هـ في كلمات قصيرة.",
+  "goal": "سماع الهاء في البداية والوسط.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-157-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بهاء خفيفة؟",
+      "choices": [
+        "هدهد",
+        "مدد",
+        "بدد"
+      ],
+      "answer": "هدهد",
+      "hint": "الهاء أول صوت.",
+      "asset": "audio/hudhud/clip1"
+    },
+    {
+      "id": "alphabet-157-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها هـ في الوسط.",
+      "choices": [
+        "سهل",
+        "سل",
+        "سال"
+      ],
+      "answer": "سهل",
+      "hint": "الهاء بين السين واللام.",
+      "asset": "audio/sahl/clip1"
+    },
+    {
+      "id": "alphabet-157-3",
+      "type": "build",
+      "prompt": "كوّن كلمة هواء.",
+      "choices": [
+        "هواء",
+        "هوا",
+        "وهو"
+      ],
+      "answer": "هواء",
+      "hint": "ابدأ بهاء ثم واو ثم ألف."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-157-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بهاء خفيفة؟",
+      "choices": [
+        "هدهد",
+        "مدد",
+        "بدد"
+      ],
+      "answer": "هدهد",
+      "hint": "الهاء أول صوت.",
+      "asset": "audio/hudhud/clip1"
+    },
+    {
+      "id": "alphabet-157-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها هـ في الوسط.",
+      "choices": [
+        "سهل",
+        "سل",
+        "سال"
+      ],
+      "answer": "سهل",
+      "hint": "الهاء بين السين واللام.",
+      "asset": "audio/sahl/clip1"
+    },
+    {
+      "id": "alphabet-157-3",
+      "type": "build",
+      "prompt": "كوّن كلمة هواء.",
+      "choices": [
+        "هواء",
+        "هوا",
+        "وهو"
+      ],
+      "answer": "هواء",
+      "hint": "ابدأ بهاء ثم واو ثم ألف."
+    }
+  ]
+}

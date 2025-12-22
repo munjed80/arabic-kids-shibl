@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-166",
+  "world": "alphabet",
+  "title": "ياء طويلة",
+  "description": "تمييز الصوت الطويل يي.",
+  "objective": "الانتباه للياء كمد.",
+  "goal": "فرق بين ياء قصيرة وطويلة.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-166-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ياء طويلة؟",
+      "choices": [
+        "ليل",
+        "ملل",
+        "لمل"
+      ],
+      "answer": "ليل",
+      "hint": "صوت ي ممتد.",
+      "asset": "audio/lail/clip1"
+    },
+    {
+      "id": "alphabet-166-2",
+      "type": "match",
+      "prompt": "أين موقع الياء في كلمة بيت؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الباء والتاء.",
+      "asset": "image/bayt/middle"
+    },
+    {
+      "id": "alphabet-166-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حليب.",
+      "choices": [
+        "حليب",
+        "حلب",
+        "حب"
+      ],
+      "answer": "حليب",
+      "hint": "الياء مد في الوسط."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-166-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ياء طويلة؟",
+      "choices": [
+        "ليل",
+        "ملل",
+        "لمل"
+      ],
+      "answer": "ليل",
+      "hint": "صوت ي ممتد.",
+      "asset": "audio/lail/clip1"
+    },
+    {
+      "id": "alphabet-166-2",
+      "type": "match",
+      "prompt": "أين موقع الياء في كلمة بيت؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الباء والتاء.",
+      "asset": "image/bayt/middle"
+    },
+    {
+      "id": "alphabet-166-3",
+      "type": "build",
+      "prompt": "كوّن كلمة حليب.",
+      "choices": [
+        "حليب",
+        "حلب",
+        "حب"
+      ],
+      "answer": "حليب",
+      "hint": "الياء مد في الوسط."
+    }
+  ]
+}

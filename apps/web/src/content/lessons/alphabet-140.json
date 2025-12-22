@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-140",
+  "world": "alphabet",
+  "title": "شكل لام رشيق",
+  "description": "معرفة رسم لام منفصلة ومتصلة.",
+  "objective": "تمييز شكل ل عن الحروف القريبة.",
+  "goal": "التعرف على ل في المواقع المختلفة.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-140-1",
+      "type": "choose",
+      "prompt": "اختر شكل لام المنفصلة.",
+      "choices": [
+        "ل",
+        "ك",
+        "ن"
+      ],
+      "answer": "ل",
+      "hint": "خط طويل بلا نقاط.",
+      "asset": "image/lam/isolated"
+    },
+    {
+      "id": "alphabet-140-2",
+      "type": "match",
+      "prompt": "أين موقع لام في كلمة لحم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "البداية",
+      "hint": "تبدأ بها الكلمة.",
+      "asset": "image/lahm/start"
+    },
+    {
+      "id": "alphabet-140-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بلام واضحة؟",
+      "choices": [
+        "حبل",
+        "حسب",
+        "حب"
+      ],
+      "answer": "حبل",
+      "hint": "لام في آخر الكلمة.",
+      "asset": "image/habl/end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-140-1",
+      "type": "choose",
+      "prompt": "اختر شكل لام المنفصلة.",
+      "choices": [
+        "ل",
+        "ك",
+        "ن"
+      ],
+      "answer": "ل",
+      "hint": "خط طويل بلا نقاط.",
+      "asset": "image/lam/isolated"
+    },
+    {
+      "id": "alphabet-140-2",
+      "type": "match",
+      "prompt": "أين موقع لام في كلمة لحم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "البداية",
+      "hint": "تبدأ بها الكلمة.",
+      "asset": "image/lahm/start"
+    },
+    {
+      "id": "alphabet-140-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بلام واضحة؟",
+      "choices": [
+        "حبل",
+        "حسب",
+        "حب"
+      ],
+      "answer": "حبل",
+      "hint": "لام في آخر الكلمة.",
+      "asset": "image/habl/end"
+    }
+  ]
+}

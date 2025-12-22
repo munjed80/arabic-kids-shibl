@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-146",
+  "world": "alphabet",
+  "title": "ميم في الختام",
+  "description": "ترسيخ شكل الميم الأخيرة.",
+  "objective": "قراءة ميم النهائية.",
+  "goal": "ثقة في ميم نهاية الكلمة.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-146-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بميم؟",
+      "choices": [
+        "فم",
+        "فا",
+        "فن"
+      ],
+      "answer": "فم",
+      "hint": "ميم في النهاية.",
+      "asset": "audio/fam/clip2"
+    },
+    {
+      "id": "alphabet-146-2",
+      "type": "match",
+      "prompt": "أين موقع ميم في كلمة حلم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "تغلق الكلمة.",
+      "asset": "image/helm/end"
+    },
+    {
+      "id": "alphabet-146-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رسم.",
+      "choices": [
+        "رسم",
+        "رم",
+        "سرم"
+      ],
+      "answer": "رسم",
+      "hint": "ضع ميم في الختام."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-146-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بميم؟",
+      "choices": [
+        "فم",
+        "فا",
+        "فن"
+      ],
+      "answer": "فم",
+      "hint": "ميم في النهاية.",
+      "asset": "audio/fam/clip2"
+    },
+    {
+      "id": "alphabet-146-2",
+      "type": "match",
+      "prompt": "أين موقع ميم في كلمة حلم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "تغلق الكلمة.",
+      "asset": "image/helm/end"
+    },
+    {
+      "id": "alphabet-146-3",
+      "type": "build",
+      "prompt": "كوّن كلمة رسم.",
+      "choices": [
+        "رسم",
+        "رم",
+        "سرم"
+      ],
+      "answer": "رسم",
+      "hint": "ضع ميم في الختام."
+    }
+  ]
+}

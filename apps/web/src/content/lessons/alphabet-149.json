@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-149",
+  "world": "alphabet",
+  "title": "نون في البداية والنهاية",
+  "description": "تتبع نون المتصلة.",
+  "objective": "تمييز نون في أول وآخر الكلمة.",
+  "goal": "قراءة نون بسهولة.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-149-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بنون؟",
+      "choices": [
+        "نحل",
+        "حل",
+        "مل"
+      ],
+      "answer": "نحل",
+      "hint": "نون تسبق الحاء.",
+      "asset": "audio/nahal/clip1"
+    },
+    {
+      "id": "alphabet-149-2",
+      "type": "match",
+      "prompt": "أين يقع نون في كلمة عن؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/an/end"
+    },
+    {
+      "id": "alphabet-149-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نحن.",
+      "choices": [
+        "نحن",
+        "حن",
+        "نح"
+      ],
+      "answer": "نحن",
+      "hint": "نون ثم حاء ثم نون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-149-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بنون؟",
+      "choices": [
+        "نحل",
+        "حل",
+        "مل"
+      ],
+      "answer": "نحل",
+      "hint": "نون تسبق الحاء.",
+      "asset": "audio/nahal/clip1"
+    },
+    {
+      "id": "alphabet-149-2",
+      "type": "match",
+      "prompt": "أين يقع نون في كلمة عن؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/an/end"
+    },
+    {
+      "id": "alphabet-149-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نحن.",
+      "choices": [
+        "نحن",
+        "حن",
+        "نح"
+      ],
+      "answer": "نحن",
+      "hint": "نون ثم حاء ثم نون."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-172",
+  "world": "alphabet",
+  "title": "ممارسة هـ و ي ٤",
+  "description": "تدريب نهائي بطيء قبل المراجعة.",
+  "objective": "التأكد من وضوح النقاط والمد.",
+  "goal": "جاهزية للمراجعة العامة.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-172-1",
+      "type": "match",
+      "prompt": "أين يقع الياء في كلمة فيل؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الفاء واللام.",
+      "asset": "image/feel/middle"
+    },
+    {
+      "id": "alphabet-172-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي واو طويلة؟",
+      "choices": [
+        "سوق",
+        "سق",
+        "سقع"
+      ],
+      "answer": "سوق",
+      "hint": "صوت أو واضح.",
+      "asset": "audio/sooq/clip1"
+    },
+    {
+      "id": "alphabet-172-3",
+      "type": "review",
+      "prompt": "كيف تقييمك للحروف هـ و ي؟",
+      "choices": [
+        "ممتاز",
+        "متوسط",
+        "أحتاج تكرار"
+      ],
+      "answer": "ممتاز",
+      "hint": "خذ نفسًا عميقًا وتابع."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-172-1",
+      "type": "match",
+      "prompt": "أين يقع الياء في كلمة فيل؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الفاء واللام.",
+      "asset": "image/feel/middle"
+    },
+    {
+      "id": "alphabet-172-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي واو طويلة؟",
+      "choices": [
+        "سوق",
+        "سق",
+        "سقع"
+      ],
+      "answer": "سوق",
+      "hint": "صوت أو واضح.",
+      "asset": "audio/sooq/clip1"
+    },
+    {
+      "id": "alphabet-172-3",
+      "type": "review",
+      "prompt": "كيف تقييمك للحروف هـ و ي؟",
+      "choices": [
+        "ممتاز",
+        "متوسط",
+        "أحتاج تكرار"
+      ],
+      "answer": "ممتاز",
+      "hint": "خذ نفسًا عميقًا وتابع."
+    }
+  ]
+}

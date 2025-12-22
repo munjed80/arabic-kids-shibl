@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-162",
+  "world": "alphabet",
+  "title": "واو طويلة",
+  "description": "الانتباه للصوت الطويل أو.",
+  "objective": "تمييز الواو كحرف مد.",
+  "goal": "سماع الفرق بين القصير والطويل.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-162-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها واو طويلة؟",
+      "choices": [
+        "نور",
+        "نار",
+        "نر"
+      ],
+      "answer": "نور",
+      "hint": "صوت أو ممتد.",
+      "asset": "audio/noor/clip1"
+    },
+    {
+      "id": "alphabet-162-2",
+      "type": "match",
+      "prompt": "أين موقع الواو في كلمة جوز؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الجيم والزاي.",
+      "asset": "image/jawz/middle"
+    },
+    {
+      "id": "alphabet-162-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سوق.",
+      "choices": [
+        "سوق",
+        "سق",
+        "سو"
+      ],
+      "answer": "سوق",
+      "hint": "الواو مد في الوسط."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-162-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها واو طويلة؟",
+      "choices": [
+        "نور",
+        "نار",
+        "نر"
+      ],
+      "answer": "نور",
+      "hint": "صوت أو ممتد.",
+      "asset": "audio/noor/clip1"
+    },
+    {
+      "id": "alphabet-162-2",
+      "type": "match",
+      "prompt": "أين موقع الواو في كلمة جوز؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الجيم والزاي.",
+      "asset": "image/jawz/middle"
+    },
+    {
+      "id": "alphabet-162-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سوق.",
+      "choices": [
+        "سوق",
+        "سق",
+        "سو"
+      ],
+      "answer": "سوق",
+      "hint": "الواو مد في الوسط."
+    }
+  ]
+}

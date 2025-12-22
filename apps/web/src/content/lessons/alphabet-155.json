@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-155",
+  "world": "alphabet",
+  "title": "مراجعة مستوى ٩",
+  "description": "مراجعة لام ميم نون معًا.",
+  "objective": "تعزيز الثقة قبل الإنهاء.",
+  "goal": "تذكير سريع بكل الحروف.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-155-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه في كلمة نمل؟",
+      "choices": [
+        "ن",
+        "م",
+        "ل"
+      ],
+      "answer": "ن",
+      "hint": "أول صوت في الكلمة.",
+      "asset": "audio/nml/clip4"
+    },
+    {
+      "id": "alphabet-155-2",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بلام؟",
+      "choices": [
+        "جمل",
+        "جمر",
+        "جم"
+      ],
+      "answer": "جمل",
+      "hint": "لام أخيرة واضحة.",
+      "asset": "image/jamal/end2"
+    },
+    {
+      "id": "alphabet-155-3",
+      "type": "review",
+      "prompt": "كيف تشعر بعد التدريب؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "أنت تتقدم بثبات."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-155-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه في كلمة نمل؟",
+      "choices": [
+        "ن",
+        "م",
+        "ل"
+      ],
+      "answer": "ن",
+      "hint": "أول صوت في الكلمة.",
+      "asset": "audio/nml/clip4"
+    },
+    {
+      "id": "alphabet-155-2",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بلام؟",
+      "choices": [
+        "جمل",
+        "جمر",
+        "جم"
+      ],
+      "answer": "جمل",
+      "hint": "لام أخيرة واضحة.",
+      "asset": "image/jamal/end2"
+    },
+    {
+      "id": "alphabet-155-3",
+      "type": "review",
+      "prompt": "كيف تشعر بعد التدريب؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "أنت تتقدم بثبات."
+    }
+  ]
+}

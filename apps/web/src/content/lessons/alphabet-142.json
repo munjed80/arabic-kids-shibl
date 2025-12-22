@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-142",
+  "world": "alphabet",
+  "title": "لام في الختام",
+  "description": "قراءة لام الأخيرة.",
+  "objective": "تمييز لام النهائية.",
+  "goal": "ثبات شكل لام في نهاية الكلمات.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-142-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بلام؟",
+      "choices": [
+        "حبل",
+        "حبر",
+        "حبط"
+      ],
+      "answer": "حبل",
+      "hint": "صوت لام في الختام.",
+      "asset": "audio/habl/clip2"
+    },
+    {
+      "id": "alphabet-142-2",
+      "type": "match",
+      "prompt": "أين موقع لام في كلمة ظل؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/zill/end"
+    },
+    {
+      "id": "alphabet-142-3",
+      "type": "build",
+      "prompt": "كوّن كلمة أمل.",
+      "choices": [
+        "أمل",
+        "أم",
+        "مل"
+      ],
+      "answer": "أمل",
+      "hint": "ألف ثم ميم ثم لام."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-142-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بلام؟",
+      "choices": [
+        "حبل",
+        "حبر",
+        "حبط"
+      ],
+      "answer": "حبل",
+      "hint": "صوت لام في الختام.",
+      "asset": "audio/habl/clip2"
+    },
+    {
+      "id": "alphabet-142-2",
+      "type": "match",
+      "prompt": "أين موقع لام في كلمة ظل؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/zill/end"
+    },
+    {
+      "id": "alphabet-142-3",
+      "type": "build",
+      "prompt": "كوّن كلمة أمل.",
+      "choices": [
+        "أمل",
+        "أم",
+        "مل"
+      ],
+      "answer": "أمل",
+      "hint": "ألف ثم ميم ثم لام."
+    }
+  ]
+}

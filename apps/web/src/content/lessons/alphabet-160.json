@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-160",
+  "world": "alphabet",
+  "title": "تثبيت الهاء",
+  "description": "تفريق الهاء عن التاء المربوطة.",
+  "objective": "قراءة الهاء النهائية بثقة.",
+  "goal": "إنهاء درس الهاء بوضوح.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-160-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بهاء وليست تاء مربوطة؟",
+      "choices": [
+        "وجه",
+        "شجرة",
+        "تفاحة"
+      ],
+      "answer": "وجه",
+      "hint": "الصوت يخرج هواءً في النهاية.",
+      "asset": "audio/wajh/clip2"
+    },
+    {
+      "id": "alphabet-160-2",
+      "type": "match",
+      "prompt": "أين موقع الهاء في كلمة لهو؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين اللام والواو.",
+      "asset": "image/lahw/middle"
+    },
+    {
+      "id": "alphabet-160-3",
+      "type": "review",
+      "prompt": "مستعد للانتقال بعد الهاء؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "ثقة صوتية وبصرية."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-160-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بهاء وليست تاء مربوطة؟",
+      "choices": [
+        "وجه",
+        "شجرة",
+        "تفاحة"
+      ],
+      "answer": "وجه",
+      "hint": "الصوت يخرج هواءً في النهاية.",
+      "asset": "audio/wajh/clip2"
+    },
+    {
+      "id": "alphabet-160-2",
+      "type": "match",
+      "prompt": "أين موقع الهاء في كلمة لهو؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين اللام والواو.",
+      "asset": "image/lahw/middle"
+    },
+    {
+      "id": "alphabet-160-3",
+      "type": "review",
+      "prompt": "مستعد للانتقال بعد الهاء؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "ثقة صوتية وبصرية."
+    }
+  ]
+}

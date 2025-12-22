@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-144",
+  "world": "alphabet",
+  "title": "شكل ميم مستدير",
+  "description": "تعرّف شكل الميم.",
+  "objective": "تمييز ميم المفصولة والوسطى.",
+  "goal": "رؤية ميم بوضوح.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-144-1",
+      "type": "choose",
+      "prompt": "اختر شكل ميم المنفصلة.",
+      "choices": [
+        "م",
+        "ن",
+        "ل"
+      ],
+      "answer": "م",
+      "hint": "حرف مستدير بلا نقاط فوق.",
+      "asset": "image/meem/isolated"
+    },
+    {
+      "id": "alphabet-144-2",
+      "type": "match",
+      "prompt": "أين موقع ميم في كلمة ملح؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "البداية",
+      "hint": "هي أول حرف.",
+      "asset": "image/melh/start"
+    },
+    {
+      "id": "alphabet-144-3",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي ميم في الوسط؟",
+      "choices": [
+        "سمن",
+        "سن",
+        "سم"
+      ],
+      "answer": "سمن",
+      "hint": "ميم بين السين والنون.",
+      "asset": "image/samn/middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-144-1",
+      "type": "choose",
+      "prompt": "اختر شكل ميم المنفصلة.",
+      "choices": [
+        "م",
+        "ن",
+        "ل"
+      ],
+      "answer": "م",
+      "hint": "حرف مستدير بلا نقاط فوق.",
+      "asset": "image/meem/isolated"
+    },
+    {
+      "id": "alphabet-144-2",
+      "type": "match",
+      "prompt": "أين موقع ميم في كلمة ملح؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "البداية",
+      "hint": "هي أول حرف.",
+      "asset": "image/melh/start"
+    },
+    {
+      "id": "alphabet-144-3",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي ميم في الوسط؟",
+      "choices": [
+        "سمن",
+        "سن",
+        "سم"
+      ],
+      "answer": "سمن",
+      "hint": "ميم بين السين والنون.",
+      "asset": "image/samn/middle"
+    }
+  ]
+}

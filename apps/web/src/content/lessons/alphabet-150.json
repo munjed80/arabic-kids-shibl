@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-150",
+  "world": "alphabet",
+  "title": "إحساس نون أنفي",
+  "description": "التركيز على خروج النون من الأنف.",
+  "objective": "سماع وقراءة النون بوضوح.",
+  "goal": "وعي بالصوت الأنفي للنون.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-150-1",
+      "type": "listen",
+      "prompt": "أي كلمة يظهر فيها صوت نون في البداية؟",
+      "choices": [
+        "نمل",
+        "ملح",
+        "كحل"
+      ],
+      "answer": "نمل",
+      "hint": "النون أول صوت.",
+      "asset": "audio/nml/clip2"
+    },
+    {
+      "id": "alphabet-150-2",
+      "type": "choose",
+      "prompt": "أي كلمة ينتهي صوتها بنون واضحة؟",
+      "choices": [
+        "لبن",
+        "لب",
+        "لبت"
+      ],
+      "answer": "لبن",
+      "hint": "نون في النهاية.",
+      "asset": "image/laban/end"
+    },
+    {
+      "id": "alphabet-150-3",
+      "type": "match",
+      "prompt": "أين تشعر بالصوت الأنفي في كلمة فن؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "النون آخر حرف.",
+      "asset": "audio/fan/end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-150-1",
+      "type": "listen",
+      "prompt": "أي كلمة يظهر فيها صوت نون في البداية؟",
+      "choices": [
+        "نمل",
+        "ملح",
+        "كحل"
+      ],
+      "answer": "نمل",
+      "hint": "النون أول صوت.",
+      "asset": "audio/nml/clip2"
+    },
+    {
+      "id": "alphabet-150-2",
+      "type": "choose",
+      "prompt": "أي كلمة ينتهي صوتها بنون واضحة؟",
+      "choices": [
+        "لبن",
+        "لب",
+        "لبت"
+      ],
+      "answer": "لبن",
+      "hint": "نون في النهاية.",
+      "asset": "image/laban/end"
+    },
+    {
+      "id": "alphabet-150-3",
+      "type": "match",
+      "prompt": "أين تشعر بالصوت الأنفي في كلمة فن؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "النون آخر حرف.",
+      "asset": "audio/fan/end"
+    }
+  ]
+}

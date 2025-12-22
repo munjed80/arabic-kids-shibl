@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-159",
+  "world": "alphabet",
+  "title": "هـ في المواقع",
+  "description": "قراءة الهاء أولًا ووسطًا وآخرًا.",
+  "objective": "تمييز شكل الهاء في كل موضع.",
+  "goal": "ثبات قراءة هـ المتصلة.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-159-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بهاء؟",
+      "choices": [
+        "هدف",
+        "دف",
+        "طف"
+      ],
+      "answer": "هدف",
+      "hint": "الهاء أول حرف.",
+      "asset": "audio/hadaf/clip1"
+    },
+    {
+      "id": "alphabet-159-2",
+      "type": "match",
+      "prompt": "أين يقع هـ في كلمة فهم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الفاء والميم.",
+      "asset": "image/fahm/middle"
+    },
+    {
+      "id": "alphabet-159-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نهر.",
+      "choices": [
+        "نهر",
+        "نر",
+        "هنر"
+      ],
+      "answer": "نهر",
+      "hint": "ضع الهاء بعد النون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-159-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بهاء؟",
+      "choices": [
+        "هدف",
+        "دف",
+        "طف"
+      ],
+      "answer": "هدف",
+      "hint": "الهاء أول حرف.",
+      "asset": "audio/hadaf/clip1"
+    },
+    {
+      "id": "alphabet-159-2",
+      "type": "match",
+      "prompt": "أين يقع هـ في كلمة فهم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين الفاء والميم.",
+      "asset": "image/fahm/middle"
+    },
+    {
+      "id": "alphabet-159-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نهر.",
+      "choices": [
+        "نهر",
+        "نر",
+        "هنر"
+      ],
+      "answer": "نهر",
+      "hint": "ضع الهاء بعد النون."
+    }
+  ]
+}

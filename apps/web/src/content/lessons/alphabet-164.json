@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-164",
+  "world": "alphabet",
+  "title": "تثبيت الواو",
+  "description": "فرق بين الواو القصيرة والمد.",
+  "objective": "اختيار الواو الصحيحة سماعًا وبصرًا.",
+  "goal": "ثقة في قراءة الواو.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-164-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها واو قصيرة في البداية؟",
+      "choices": [
+        "وَلَد",
+        "نور",
+        "دار"
+      ],
+      "answer": "وَلَد",
+      "hint": "واو مفتوحة في الأول.",
+      "asset": "audio/walad/clip1"
+    },
+    {
+      "id": "alphabet-164-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي واو طويلة في الوسط؟",
+      "choices": [
+        "نور",
+        "نار",
+        "نير"
+      ],
+      "answer": "نور",
+      "hint": "صوت أو ممتد.",
+      "asset": "audio/noor/clip2"
+    },
+    {
+      "id": "alphabet-164-3",
+      "type": "review",
+      "prompt": "كيف تشعر مع الواو الآن؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "ثقة قبل الانتقال."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-164-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها واو قصيرة في البداية؟",
+      "choices": [
+        "وَلَد",
+        "نور",
+        "دار"
+      ],
+      "answer": "وَلَد",
+      "hint": "واو مفتوحة في الأول.",
+      "asset": "audio/walad/clip1"
+    },
+    {
+      "id": "alphabet-164-2",
+      "type": "choose",
+      "prompt": "أي كلمة تحتوي واو طويلة في الوسط؟",
+      "choices": [
+        "نور",
+        "نار",
+        "نير"
+      ],
+      "answer": "نور",
+      "hint": "صوت أو ممتد.",
+      "asset": "audio/noor/clip2"
+    },
+    {
+      "id": "alphabet-164-3",
+      "type": "review",
+      "prompt": "كيف تشعر مع الواو الآن؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "ثقة قبل الانتقال."
+    }
+  ]
+}

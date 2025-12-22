@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-156",
+  "world": "alphabet",
+  "title": "إنهاء مستوى ٩",
+  "description": "احتفال بإنجاز لام ميم نون.",
+  "objective": "تثبيت الثقة والإنهاء.",
+  "goal": "الانتقال السلس للمستوى التالي.",
+  "level": 9,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-156-1",
+      "type": "match",
+      "prompt": "اختر ترتيب الحروف التي تعلمتها اليوم.",
+      "choices": [
+        "ل م ن",
+        "م ن ل",
+        "ن ل م"
+      ],
+      "answer": "ل م ن",
+      "hint": "نفس ترتيب الدروس.",
+      "asset": "image/order/lam-meem-noon"
+    },
+    {
+      "id": "alphabet-156-2",
+      "type": "choose",
+      "prompt": "أي كلمة تجمع الحروف الثلاثة؟",
+      "choices": [
+        "لمن",
+        "من",
+        "لم"
+      ],
+      "answer": "لمن",
+      "hint": "فيها ل ثم م ثم ن.",
+      "asset": "audio/lamman/clip1"
+    },
+    {
+      "id": "alphabet-156-3",
+      "type": "review",
+      "prompt": "احتفل بإنهائك المستوى!",
+      "choices": [
+        "أحسنت",
+        "رائع",
+        "ممتاز"
+      ],
+      "answer": "أحسنت",
+      "hint": "أنت جاهز للتالي."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-156-1",
+      "type": "match",
+      "prompt": "اختر ترتيب الحروف التي تعلمتها اليوم.",
+      "choices": [
+        "ل م ن",
+        "م ن ل",
+        "ن ل م"
+      ],
+      "answer": "ل م ن",
+      "hint": "نفس ترتيب الدروس.",
+      "asset": "image/order/lam-meem-noon"
+    },
+    {
+      "id": "alphabet-156-2",
+      "type": "choose",
+      "prompt": "أي كلمة تجمع الحروف الثلاثة؟",
+      "choices": [
+        "لمن",
+        "من",
+        "لم"
+      ],
+      "answer": "لمن",
+      "hint": "فيها ل ثم م ثم ن.",
+      "asset": "audio/lamman/clip1"
+    },
+    {
+      "id": "alphabet-156-3",
+      "type": "review",
+      "prompt": "احتفل بإنهائك المستوى!",
+      "choices": [
+        "أحسنت",
+        "رائع",
+        "ممتاز"
+      ],
+      "answer": "أحسنت",
+      "hint": "أنت جاهز للتالي."
+    }
+  ]
+}

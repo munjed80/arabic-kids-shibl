@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-168",
+  "world": "alphabet",
+  "title": "وضوح نقط الياء",
+  "description": "تأكيد نقطتي الياء.",
+  "objective": "رؤية الياء في الوسط والنهاية.",
+  "goal": "منع الخلط مع الألف المقصورة.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-168-1",
+      "type": "choose",
+      "prompt": "أي كلمة فيها ياء في الوسط بنقطتين واضحتين؟",
+      "choices": [
+        "سيف",
+        "سف",
+        "سفف"
+      ],
+      "answer": "سيف",
+      "hint": "نقطتان تحت الياء.",
+      "asset": "image/saif/middle"
+    },
+    {
+      "id": "alphabet-168-2",
+      "type": "match",
+      "prompt": "أين موقع الياء في كلمة في؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "تغلق الكلمة.",
+      "asset": "image/fi/end"
+    },
+    {
+      "id": "alphabet-168-3",
+      "type": "review",
+      "prompt": "جاهز لإكمال دروس الياء؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "تابع بثقة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-168-1",
+      "type": "choose",
+      "prompt": "أي كلمة فيها ياء في الوسط بنقطتين واضحتين؟",
+      "choices": [
+        "سيف",
+        "سف",
+        "سفف"
+      ],
+      "answer": "سيف",
+      "hint": "نقطتان تحت الياء.",
+      "asset": "image/saif/middle"
+    },
+    {
+      "id": "alphabet-168-2",
+      "type": "match",
+      "prompt": "أين موقع الياء في كلمة في؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "تغلق الكلمة.",
+      "asset": "image/fi/end"
+    },
+    {
+      "id": "alphabet-168-3",
+      "type": "review",
+      "prompt": "جاهز لإكمال دروس الياء؟",
+      "choices": [
+        "جاهز",
+        "أحتاج تكرار"
+      ],
+      "answer": "جاهز",
+      "hint": "تابع بثقة."
+    }
+  ]
+}
