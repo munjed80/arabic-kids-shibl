@@ -89,20 +89,21 @@ export default function RegisterPage() {
               autoComplete="new-password"
               className="w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-amber-400 focus:outline-none"
               required
+              minLength={8}
             />
           </div>
 
           <Button type="submit" className="w-full justify-center" disabled={pending}>
-            {pending ? "Creating account..." : "Register"}
+            {pending ? "Creating account..." : "Create account"}
           </Button>
         </form>
 
-        <p className="text-center text-sm text-slate-700">
-          Already registered?{" "}
-          <Link href="/login" className="font-semibold text-amber-700 hover:text-amber-800">
-            Sign in
+        <div className="flex items-center justify-between text-sm text-slate-700">
+          <span>Already registered?</span>
+          <Link href="/login" className="font-semibold text-amber-700 hover:underline">
+            Sign in to parent account
           </Link>
-        </p>
+        </div>
       </Card>
     </Container>
   );

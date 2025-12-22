@@ -104,17 +104,16 @@ function LoginForm() {
           </Button>
         </form>
 
-        <p className="text-center text-sm text-slate-700">
-          Need an account?{" "}
-          <Link href="/register" className="font-semibold text-amber-700 hover:text-amber-800">
-            Register as a parent
+        <div className="flex items-center justify-between text-sm text-slate-700">
+          <span>New here?</span>
+          <Link href="/register" className="font-semibold text-amber-700 hover:underline">
+            Create a parent account
           </Link>
-        </p>
+        </div>
       </Card>
     </Container>
   );
 }
-
 export default function LoginPage() {
   return (
     <Suspense fallback={null}>

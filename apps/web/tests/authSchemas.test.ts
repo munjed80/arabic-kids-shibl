@@ -1,5 +1,4 @@
 import { describe, expect, it } from "vitest";
-import { describe, expect, it } from "vitest";
 import { loginSchema, registerSchema } from "@/features/auth/schemas";
 
 describe("auth schemas", () => {

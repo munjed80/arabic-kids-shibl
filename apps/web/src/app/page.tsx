@@ -12,8 +12,8 @@ import { LessonEngine } from "@/features/lesson-engine/lessonEngine";
 import { lessonSchema } from "@/features/lesson-engine/lessonSchema";
 import { clearProgress, loadProgress, saveProgress } from "@/features/progress/localProgress";
 import lessonData from "@/content/lessons/lesson-letters.json";
-import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
 
 type Feedback = { message: string | null; correct?: boolean };
 
@@ -102,6 +102,14 @@ export default function Home() {
             <Button variant="ghost" className="px-3">
               Parent login
             </Button>
+          </Link>
+        </div>
+        <div className="flex flex-wrap gap-3 text-sm font-semibold text-slate-800">
+          <Link href="/login" className="rounded-full border border-slate-300 px-4 py-2 hover:border-amber-400 hover:text-amber-700">
+            Parent login
+          </Link>
+          <Link href="/register" className="rounded-full border border-slate-300 px-4 py-2 hover:border-amber-400 hover:text-amber-700">
+            Create parent account
           </Link>
         </div>
       </Card>
