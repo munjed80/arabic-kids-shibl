@@ -3,6 +3,9 @@
 import { CompanionAvatar } from "@/components/CompanionAvatar";
 import { LessonActivityCard } from "@/components/LessonActivityCard";
 import { ProgressSummary } from "@/components/ProgressSummary";
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Container } from "@/components/ui/Container";
 import { CompanionStateMachine } from "@/features/companion/stateMachine";
 import { LessonEventBus } from "@/features/lesson-engine/eventBus";
 import { LessonEngine } from "@/features/lesson-engine/lessonEngine";
@@ -50,8 +53,7 @@ export default function Home() {
       correct: result.correct,
       message: result.correct ? "Correct! Shibl is happy." : "Not quite. Try again.",
     });
-    saveProgress({
-      lessonId: lesson.id,
+    saveProgress(lesson.id, {
       activityIndex: result.nextIndex,
       completed: result.completed,
     });
@@ -68,8 +70,8 @@ export default function Home() {
   };
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-6xl flex-col gap-8 px-6 py-12">
-      <header className="flex flex-col gap-4 rounded-3xl border border-slate-200 bg-white/90 p-8 shadow-sm backdrop-blur card-shadow">
+    <Container as="main" className="flex min-h-screen flex-col gap-8 py-12">
+      <Card as="header" className="flex flex-col gap-4 card-shadow backdrop-blur">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-amber-600">
@@ -96,7 +98,7 @@ export default function Home() {
             Content-driven lessons
           </span>
         </div>
-      </header>
+      </Card>
 
       <section className="grid gap-6 lg:grid-cols-3">
         <div className="space-y-4 lg:col-span-2">
@@ -113,9 +115,7 @@ export default function Home() {
               feedback={feedback}
             />
           ) : (
-            <div className="rounded-xl border border-slate-200 bg-white p-6 text-slate-700">
-              No activity found.
-            </div>
+            <Card className="text-slate-700">No activity found.</Card>
           )}
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <ProgressSummary
@@ -123,17 +123,13 @@ export default function Home() {
               total={lesson.activities.length}
               completed={completed}
             />
-            <button
-              type="button"
-              onClick={resetLesson}
-              className="self-start rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-amber-400 hover:text-amber-700"
-            >
+            <Button type="button" onClick={resetLesson} className="self-start">
               Reset lesson
-            </button>
+            </Button>
           </div>
         </div>
 
-        <aside className="flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-sm">
+        <Card as="aside" className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold text-slate-900">Lesson details</h3>
           <p className="text-sm text-slate-700">{lesson.description}</p>
           <ul className="space-y-2 text-sm text-slate-700">
@@ -157,8 +153,8 @@ export default function Home() {
           <div className="rounded-xl bg-amber-50 p-4 text-sm text-amber-900">
             Shibl reacts visually to lesson events only. No chat or free text is collected.
           </div>
-        </aside>
+        </Card>
       </section>
-    </main>
+    </Container>
   );
 }
