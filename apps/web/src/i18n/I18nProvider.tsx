@@ -17,6 +17,13 @@ const dictionaries: Record<SupportedLocale, Dictionary> = {
   sv,
 };
 
+const languageLabelKey: Record<SupportedLocale, string> = {
+  en: "language.english",
+  nl: "language.dutch",
+  de: "language.german",
+  sv: "language.swedish",
+};
+
 type TranslateValues = Record<string, string | number>;
 
 type I18nContextValue = {
@@ -82,13 +89,10 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
       return key;
     };
 
-    const availableLanguages = supportedLocales.map((code) => {
-      const labelKey = `language.${code === "en" ? "english" : code === "nl" ? "dutch" : code === "de" ? "german" : "swedish"}`;
-      return {
-        code,
-        label: translate(labelKey),
-      };
-    });
+    const availableLanguages = supportedLocales.map((code) => ({
+      code,
+      label: translate(languageLabelKey[code]),
+    }));
 
     return {
       locale,
