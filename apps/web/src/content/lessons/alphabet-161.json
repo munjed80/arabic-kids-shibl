@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-161",
+  "world": "alphabet",
+  "title": "صوت واو واضح",
+  "description": "تمييز الواو المتحركة.",
+  "objective": "التعرف على صوت وَ في البداية.",
+  "goal": "سماع الواو بوضوح دون خلط.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-161-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بواو متحركة وَ؟",
+      "choices": [
+        "وَرَد",
+        "رَد",
+        "بَرَد"
+      ],
+      "answer": "وَرَد",
+      "hint": "اسمع الواو في البداية.",
+      "asset": "audio/ward/clip1"
+    },
+    {
+      "id": "alphabet-161-2",
+      "type": "choose",
+      "prompt": "اختر حرف الواو المنفصل.",
+      "choices": [
+        "و",
+        "ي",
+        "ب"
+      ],
+      "answer": "و",
+      "hint": "منحنى بلا نقط.",
+      "asset": "image/waw/isolated"
+    },
+    {
+      "id": "alphabet-161-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وعد.",
+      "choices": [
+        "وعد",
+        "عدو",
+        "عود"
+      ],
+      "answer": "وعد",
+      "hint": "ابدأ بواو ثم عين ثم دال."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-161-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بواو متحركة وَ؟",
+      "choices": [
+        "وَرَد",
+        "رَد",
+        "بَرَد"
+      ],
+      "answer": "وَرَد",
+      "hint": "اسمع الواو في البداية.",
+      "asset": "audio/ward/clip1"
+    },
+    {
+      "id": "alphabet-161-2",
+      "type": "choose",
+      "prompt": "اختر حرف الواو المنفصل.",
+      "choices": [
+        "و",
+        "ي",
+        "ب"
+      ],
+      "answer": "و",
+      "hint": "منحنى بلا نقط.",
+      "asset": "image/waw/isolated"
+    },
+    {
+      "id": "alphabet-161-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وعد.",
+      "choices": [
+        "وعد",
+        "عدو",
+        "عود"
+      ],
+      "answer": "وعد",
+      "hint": "ابدأ بواو ثم عين ثم دال."
+    }
+  ]
+}

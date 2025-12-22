@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-174",
+  "world": "alphabet",
+  "title": "إنهاء مستوى ١٠",
+  "description": "احتفال بإتمام هـ و ي.",
+  "objective": "ترسيخ الثقة والهدوء.",
+  "goal": "الانتقال السلس للمستوى التالي.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-174-1",
+      "type": "match",
+      "prompt": "رتّب الحروف التي تعلمتها اليوم.",
+      "choices": [
+        "هـ و ي",
+        "و ي هـ",
+        "ي هـ و"
+      ],
+      "answer": "هـ و ي",
+      "hint": "نفس ترتيب الدروس.",
+      "asset": "image/order/ha-waw-ya"
+    },
+    {
+      "id": "alphabet-174-2",
+      "type": "choose",
+      "prompt": "أي كلمة تجمع هاء وواو وياء؟",
+      "choices": [
+        "هويا",
+        "هو",
+        "هي"
+      ],
+      "answer": "هويا",
+      "hint": "تشمل الحروف الثلاثة.",
+      "asset": "audio/hawya/clip1"
+    },
+    {
+      "id": "alphabet-174-3",
+      "type": "review",
+      "prompt": "احتفل بإنهائك المستوى!",
+      "choices": [
+        "أحسنت",
+        "رائع",
+        "ممتاز"
+      ],
+      "answer": "أحسنت",
+      "hint": "أنت جاهز للتالي."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-174-1",
+      "type": "match",
+      "prompt": "رتّب الحروف التي تعلمتها اليوم.",
+      "choices": [
+        "هـ و ي",
+        "و ي هـ",
+        "ي هـ و"
+      ],
+      "answer": "هـ و ي",
+      "hint": "نفس ترتيب الدروس.",
+      "asset": "image/order/ha-waw-ya"
+    },
+    {
+      "id": "alphabet-174-2",
+      "type": "choose",
+      "prompt": "أي كلمة تجمع هاء وواو وياء؟",
+      "choices": [
+        "هويا",
+        "هو",
+        "هي"
+      ],
+      "answer": "هويا",
+      "hint": "تشمل الحروف الثلاثة.",
+      "asset": "audio/hawya/clip1"
+    },
+    {
+      "id": "alphabet-174-3",
+      "type": "review",
+      "prompt": "احتفل بإنهائك المستوى!",
+      "choices": [
+        "أحسنت",
+        "رائع",
+        "ممتاز"
+      ],
+      "answer": "أحسنت",
+      "hint": "أنت جاهز للتالي."
+    }
+  ]
+}

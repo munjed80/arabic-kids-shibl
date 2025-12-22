@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-173",
+  "world": "alphabet",
+  "title": "مراجعة مستوى ١٠",
+  "description": "مراجعة هاء وواو وياء بهدوء.",
+  "objective": "تعزيز الثقة قبل الإنهاء.",
+  "goal": "تذكر الأصوات والأشكال.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-173-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه في كلمة يوم؟",
+      "choices": [
+        "ي",
+        "و",
+        "ه"
+      ],
+      "answer": "ي",
+      "hint": "الصوت الأول ياء.",
+      "asset": "audio/yawm/clip1"
+    },
+    {
+      "id": "alphabet-173-2",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بهاء واضحة؟",
+      "choices": [
+        "وجه",
+        "وج",
+        "وجا"
+      ],
+      "answer": "وجه",
+      "hint": "هاء في الختام.",
+      "asset": "image/wajh/end2"
+    },
+    {
+      "id": "alphabet-173-3",
+      "type": "review",
+      "prompt": "ما شعورك بعد المراجعة؟",
+      "choices": [
+        "واثق",
+        "أحتاج تكرار"
+      ],
+      "answer": "واثق",
+      "hint": "أنت مستعد للإنهاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-173-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه في كلمة يوم؟",
+      "choices": [
+        "ي",
+        "و",
+        "ه"
+      ],
+      "answer": "ي",
+      "hint": "الصوت الأول ياء.",
+      "asset": "audio/yawm/clip1"
+    },
+    {
+      "id": "alphabet-173-2",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بهاء واضحة؟",
+      "choices": [
+        "وجه",
+        "وج",
+        "وجا"
+      ],
+      "answer": "وجه",
+      "hint": "هاء في الختام.",
+      "asset": "image/wajh/end2"
+    },
+    {
+      "id": "alphabet-173-3",
+      "type": "review",
+      "prompt": "ما شعورك بعد المراجعة؟",
+      "choices": [
+        "واثق",
+        "أحتاج تكرار"
+      ],
+      "answer": "واثق",
+      "hint": "أنت مستعد للإنهاء."
+    }
+  ]
+}

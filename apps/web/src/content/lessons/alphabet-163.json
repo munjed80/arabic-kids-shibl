@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-163",
+  "world": "alphabet",
+  "title": "تمييز صوت واو",
+  "description": "تمييز الواو في النهاية.",
+  "objective": "سماع الواو المنطوقة آخر الكلمة.",
+  "goal": "عدم الخلط مع حروف أخرى.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-163-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بواو واضحة؟",
+      "choices": [
+        "هو",
+        "هي",
+        "هم"
+      ],
+      "answer": "هو",
+      "hint": "اسمع الواو في الختام.",
+      "asset": "audio/huwa/clip1"
+    },
+    {
+      "id": "alphabet-163-2",
+      "type": "match",
+      "prompt": "أين موقع الواو في كلمة حلو؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/halw/end"
+    },
+    {
+      "id": "alphabet-163-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وزن.",
+      "choices": [
+        "وزن",
+        "زن",
+        "وز"
+      ],
+      "answer": "وزن",
+      "hint": "ابدأ بواو ثم زاي ثم نون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-163-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بواو واضحة؟",
+      "choices": [
+        "هو",
+        "هي",
+        "هم"
+      ],
+      "answer": "هو",
+      "hint": "اسمع الواو في الختام.",
+      "asset": "audio/huwa/clip1"
+    },
+    {
+      "id": "alphabet-163-2",
+      "type": "match",
+      "prompt": "أين موقع الواو في كلمة حلو؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "النهاية",
+      "hint": "آخر حرف.",
+      "asset": "image/halw/end"
+    },
+    {
+      "id": "alphabet-163-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وزن.",
+      "choices": [
+        "وزن",
+        "زن",
+        "وز"
+      ],
+      "answer": "وزن",
+      "hint": "ابدأ بواو ثم زاي ثم نون."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "alphabet-158",
+  "world": "alphabet",
+  "title": "أشكال هـ واضحة",
+  "description": "معرفة هـ منفصلة ومتصلة.",
+  "objective": "تمييز الهاء عن التاء المربوطة.",
+  "goal": "التعرف على هـ في المواقع المختلفة.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-158-1",
+      "type": "choose",
+      "prompt": "اختر شكل هـ المنفصلة.",
+      "choices": [
+        "هـ",
+        "ة",
+        "ح"
+      ],
+      "answer": "هـ",
+      "hint": "بدون نقط وفم صغير.",
+      "asset": "image/ha/isolated"
+    },
+    {
+      "id": "alphabet-158-2",
+      "type": "match",
+      "prompt": "أين موقع الهاء في كلمة سهم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين السين والميم.",
+      "asset": "image/sahm/middle"
+    },
+    {
+      "id": "alphabet-158-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بهاء واضحة؟",
+      "choices": [
+        "وجه",
+        "وج",
+        "وجا"
+      ],
+      "answer": "وجه",
+      "hint": "ليست تاء مربوطة.",
+      "asset": "image/wajh/end"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-158-1",
+      "type": "choose",
+      "prompt": "اختر شكل هـ المنفصلة.",
+      "choices": [
+        "هـ",
+        "ة",
+        "ح"
+      ],
+      "answer": "هـ",
+      "hint": "بدون نقط وفم صغير.",
+      "asset": "image/ha/isolated"
+    },
+    {
+      "id": "alphabet-158-2",
+      "type": "match",
+      "prompt": "أين موقع الهاء في كلمة سهم؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين السين والميم.",
+      "asset": "image/sahm/middle"
+    },
+    {
+      "id": "alphabet-158-3",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بهاء واضحة؟",
+      "choices": [
+        "وجه",
+        "وج",
+        "وجا"
+      ],
+      "answer": "وجه",
+      "hint": "ليست تاء مربوطة.",
+      "asset": "image/wajh/end"
+    }
+  ]
+}

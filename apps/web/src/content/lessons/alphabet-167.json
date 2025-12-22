@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-167",
+  "world": "alphabet",
+  "title": "ياء في المواقع",
+  "description": "قراءة الياء أولًا وآخرًا.",
+  "objective": "تمييز الياء المتصلة.",
+  "goal": "ثبات شكل الياء.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-167-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بياء واضحة؟",
+      "choices": [
+        "علي",
+        "عل",
+        "عا"
+      ],
+      "answer": "علي",
+      "hint": "ياء صوتية في الختام.",
+      "asset": "audio/ali/clip1"
+    },
+    {
+      "id": "alphabet-167-2",
+      "type": "match",
+      "prompt": "أين موقع الياء في كلمة يمن؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "البداية",
+      "hint": "أول حرف.",
+      "asset": "image/yaman/start"
+    },
+    {
+      "id": "alphabet-167-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فيل.",
+      "choices": [
+        "فيل",
+        "فل",
+        "في"
+      ],
+      "answer": "فيل",
+      "hint": "ضع الياء بعد الفاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-167-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بياء واضحة؟",
+      "choices": [
+        "علي",
+        "عل",
+        "عا"
+      ],
+      "answer": "علي",
+      "hint": "ياء صوتية في الختام.",
+      "asset": "audio/ali/clip1"
+    },
+    {
+      "id": "alphabet-167-2",
+      "type": "match",
+      "prompt": "أين موقع الياء في كلمة يمن؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "البداية",
+      "hint": "أول حرف.",
+      "asset": "image/yaman/start"
+    },
+    {
+      "id": "alphabet-167-3",
+      "type": "build",
+      "prompt": "كوّن كلمة فيل.",
+      "choices": [
+        "فيل",
+        "فل",
+        "في"
+      ],
+      "answer": "فيل",
+      "hint": "ضع الياء بعد الفاء."
+    }
+  ]
+}

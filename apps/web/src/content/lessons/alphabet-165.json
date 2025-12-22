@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-165",
+  "world": "alphabet",
+  "title": "صوت ياء واضح",
+  "description": "تمييز الياء المتحركة.",
+  "objective": "التعرف على يَ في البداية.",
+  "goal": "سماع الياء بوضوح.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-165-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بياء؟",
+      "choices": [
+        "يد",
+        "مد",
+        "سد"
+      ],
+      "answer": "يد",
+      "hint": "ياء أول حرف.",
+      "asset": "audio/yad/clip1"
+    },
+    {
+      "id": "alphabet-165-2",
+      "type": "choose",
+      "prompt": "اختر شكل الياء المنفصلة بنقطتين.",
+      "choices": [
+        "ي",
+        "ن",
+        "ب"
+      ],
+      "answer": "ي",
+      "hint": "نقطتان تحت السطر.",
+      "asset": "image/ya/isolated"
+    },
+    {
+      "id": "alphabet-165-3",
+      "type": "build",
+      "prompt": "كوّن كلمة يوم.",
+      "choices": [
+        "يوم",
+        "يم",
+        "مي"
+      ],
+      "answer": "يوم",
+      "hint": "ياء ثم واو مد ثم ميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-165-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بياء؟",
+      "choices": [
+        "يد",
+        "مد",
+        "سد"
+      ],
+      "answer": "يد",
+      "hint": "ياء أول حرف.",
+      "asset": "audio/yad/clip1"
+    },
+    {
+      "id": "alphabet-165-2",
+      "type": "choose",
+      "prompt": "اختر شكل الياء المنفصلة بنقطتين.",
+      "choices": [
+        "ي",
+        "ن",
+        "ب"
+      ],
+      "answer": "ي",
+      "hint": "نقطتان تحت السطر.",
+      "asset": "image/ya/isolated"
+    },
+    {
+      "id": "alphabet-165-3",
+      "type": "build",
+      "prompt": "كوّن كلمة يوم.",
+      "choices": [
+        "يوم",
+        "يم",
+        "مي"
+      ],
+      "answer": "يوم",
+      "hint": "ياء ثم واو مد ثم ميم."
+    }
+  ]
+}

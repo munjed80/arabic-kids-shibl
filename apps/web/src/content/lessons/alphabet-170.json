@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-170",
+  "world": "alphabet",
+  "title": "ممارسة هـ و ي ٢",
+  "description": "استمرار التدريب البطيء.",
+  "objective": "تثبيت مواقع الحروف.",
+  "goal": "زيادة الثقة بدون استعجال.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-170-1",
+      "type": "match",
+      "prompt": "أين موقع الواو في كلمة نور؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين النون والراء.",
+      "asset": "image/noor/middle"
+    },
+    {
+      "id": "alphabet-170-2",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بهاء؟",
+      "choices": [
+        "وجه",
+        "وج",
+        "وجا"
+      ],
+      "answer": "وجه",
+      "hint": "هاء في الختام.",
+      "asset": "audio/wajh/clip3"
+    },
+    {
+      "id": "alphabet-170-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وهب.",
+      "choices": [
+        "وهب",
+        "وه",
+        "هو"
+      ],
+      "answer": "وهب",
+      "hint": "واو ثم هاء ثم باء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-170-1",
+      "type": "match",
+      "prompt": "أين موقع الواو في كلمة نور؟",
+      "choices": [
+        "البداية",
+        "الوسط",
+        "النهاية"
+      ],
+      "answer": "الوسط",
+      "hint": "بين النون والراء.",
+      "asset": "image/noor/middle"
+    },
+    {
+      "id": "alphabet-170-2",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بهاء؟",
+      "choices": [
+        "وجه",
+        "وج",
+        "وجا"
+      ],
+      "answer": "وجه",
+      "hint": "هاء في الختام.",
+      "asset": "audio/wajh/clip3"
+    },
+    {
+      "id": "alphabet-170-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وهب.",
+      "choices": [
+        "وهب",
+        "وه",
+        "هو"
+      ],
+      "answer": "وهب",
+      "hint": "واو ثم هاء ثم باء."
+    }
+  ]
+}

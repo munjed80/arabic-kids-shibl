@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-171",
+  "world": "alphabet",
+  "title": "ممارسة هـ و ي ٣",
+  "description": "مزيج استماع وبناء بطيء.",
+  "objective": "تمييز النهايات والياءات.",
+  "goal": "قراءة أهدأ للحروف الثلاثة.",
+  "level": 10,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-171-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بياء واضحة؟",
+      "choices": [
+        "سعي",
+        "سع",
+        "سا"
+      ],
+      "answer": "سعي",
+      "hint": "ياء بنقطتين في الختام.",
+      "asset": "audio/saay/clip1"
+    },
+    {
+      "id": "alphabet-171-2",
+      "type": "choose",
+      "prompt": "اختر كلمة تبدأ بهاء.",
+      "choices": [
+        "هلال",
+        "لال",
+        "هلا"
+      ],
+      "answer": "هلال",
+      "hint": "هاء أول حرف.",
+      "asset": "image/helal/start"
+    },
+    {
+      "id": "alphabet-171-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وادي.",
+      "choices": [
+        "وادي",
+        "ودي",
+        "وا"
+      ],
+      "answer": "وادي",
+      "hint": "واو ثم ألف مد ثم دال ثم ياء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-171-1",
+      "type": "listen",
+      "prompt": "أي كلمة تنتهي بياء واضحة؟",
+      "choices": [
+        "سعي",
+        "سع",
+        "سا"
+      ],
+      "answer": "سعي",
+      "hint": "ياء بنقطتين في الختام.",
+      "asset": "audio/saay/clip1"
+    },
+    {
+      "id": "alphabet-171-2",
+      "type": "choose",
+      "prompt": "اختر كلمة تبدأ بهاء.",
+      "choices": [
+        "هلال",
+        "لال",
+        "هلا"
+      ],
+      "answer": "هلال",
+      "hint": "هاء أول حرف.",
+      "asset": "image/helal/start"
+    },
+    {
+      "id": "alphabet-171-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وادي.",
+      "choices": [
+        "وادي",
+        "ودي",
+        "وا"
+      ],
+      "answer": "وادي",
+      "hint": "واو ثم ألف مد ثم دال ثم ياء."
+    }
+  ]
+}
