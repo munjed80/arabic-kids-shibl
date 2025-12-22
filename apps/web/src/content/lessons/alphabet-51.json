@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-51",
+  "world": "alphabet",
+  "title": "د في النهاية",
+  "description": "تعرّف على د عند ختام الكلمة.",
+  "objective": "تمييز د النهائي صوتًا وشكلًا.",
+  "goal": "قراءة د في آخر الكلمات.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-51-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بد؟",
+      "choices": ["وعد", "حبر", "خوف"],
+      "answer": "وعد",
+      "hint": "د هو الصوت الأخير بعد العين.",
+      "asset": "audio/waad/clip1"
+    },
+    {
+      "id": "alphabet-51-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة تنتهي بد.",
+      "choices": ["سعد", "بحر", "ثلج"],
+      "answer": "سعد",
+      "hint": "نهاية الكلمة د واضحة.",
+      "asset": "audio/saad/clip1"
+    },
+    {
+      "id": "alphabet-51-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وعد.",
+      "choices": ["وعد", "عدو", "دعو"],
+      "answer": "وعد",
+      "hint": "ضع د في النهاية بعد العين."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-51-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بد؟",
+      "choices": ["وعد", "حبر", "خوف"],
+      "answer": "وعد",
+      "hint": "د هو الصوت الأخير بعد العين.",
+      "asset": "audio/waad/clip1"
+    },
+    {
+      "id": "alphabet-51-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة تنتهي بد.",
+      "choices": ["سعد", "بحر", "ثلج"],
+      "answer": "سعد",
+      "hint": "نهاية الكلمة د واضحة.",
+      "asset": "audio/saad/clip1"
+    },
+    {
+      "id": "alphabet-51-3",
+      "type": "build",
+      "prompt": "كوّن كلمة وعد.",
+      "choices": ["وعد", "عدو", "دعو"],
+      "answer": "وعد",
+      "hint": "ضع د في النهاية بعد العين."
+    }
+  ]
+}

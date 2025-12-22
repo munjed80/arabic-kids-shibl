@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-63",
+  "world": "alphabet",
+  "title": "حروف مختلطة ٧",
+  "description": "دمج الحروف القديمة مع الجديدة في كلمات قصيرة.",
+  "objective": "مطابقة الأصوات مع الأشكال.",
+  "goal": "تقوية الذاكرة البصرية والسمعية.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-63-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ذ في البداية؟",
+      "choices": ["ذيل", "بدر", "جسر"],
+      "answer": "ذيل",
+      "hint": "اسمع النقطة فوق في الصوت الأول.",
+      "asset": "audio/thayl/clip2"
+    },
+    {
+      "id": "alphabet-63-2",
+      "type": "match",
+      "prompt": "أين يقع د في كلمة خدم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الخاء والميم.",
+      "asset": "image/khedm/middle"
+    },
+    {
+      "id": "alphabet-63-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بدر.",
+      "choices": ["بدر", "درب", "ربد"],
+      "answer": "بدر",
+      "hint": "ضع د بعد الباء ثم راء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-63-1",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ذ في البداية؟",
+      "choices": ["ذيل", "بدر", "جسر"],
+      "answer": "ذيل",
+      "hint": "اسمع النقطة فوق في الصوت الأول.",
+      "asset": "audio/thayl/clip2"
+    },
+    {
+      "id": "alphabet-63-2",
+      "type": "match",
+      "prompt": "أين يقع د في كلمة خدم؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الخاء والميم.",
+      "asset": "image/khedm/middle"
+    },
+    {
+      "id": "alphabet-63-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بدر.",
+      "choices": ["بدر", "درب", "ربد"],
+      "answer": "بدر",
+      "hint": "ضع د بعد الباء ثم راء."
+    }
+  ]
+}

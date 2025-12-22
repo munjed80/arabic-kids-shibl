@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-49",
+  "world": "alphabet",
+  "title": "صوت د واضح",
+  "description": "استمع لتمييز د في كلمات قصيرة.",
+  "objective": "التعرف على صوت د في البداية.",
+  "goal": "تمييز د سمعيًا وبصريًا.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-49-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بد؟",
+      "choices": ["دلو", "جمل", "حطب"],
+      "answer": "دلو",
+      "hint": "الصوت الأول د واضح.",
+      "asset": "audio/dalw/clip1"
+    },
+    {
+      "id": "alphabet-49-2",
+      "type": "choose",
+      "prompt": "اختر شكل د المفصول.",
+      "choices": ["د", "ذ", "ر"],
+      "answer": "د",
+      "hint": "حرف بلا نقطة.",
+      "asset": "image/dal/isolated"
+    },
+    {
+      "id": "alphabet-49-3",
+      "type": "match",
+      "prompt": "أين يقع د في كلمة درج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "د هو الصوت الأول.",
+      "asset": "image/deraj/start"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-49-1",
+      "type": "listen",
+      "prompt": "أي كلمة تبدأ بد؟",
+      "choices": ["دلو", "جمل", "حطب"],
+      "answer": "دلو",
+      "hint": "الصوت الأول د واضح.",
+      "asset": "audio/dalw/clip1"
+    },
+    {
+      "id": "alphabet-49-2",
+      "type": "choose",
+      "prompt": "اختر شكل د المفصول.",
+      "choices": ["د", "ذ", "ر"],
+      "answer": "د",
+      "hint": "حرف بلا نقطة.",
+      "asset": "image/dal/isolated"
+    },
+    {
+      "id": "alphabet-49-3",
+      "type": "match",
+      "prompt": "أين يقع د في كلمة درج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "د هو الصوت الأول.",
+      "asset": "image/deraj/start"
+    }
+  ]
+}

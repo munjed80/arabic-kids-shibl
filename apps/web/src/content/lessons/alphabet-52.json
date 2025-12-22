@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-52",
+  "world": "alphabet",
+  "title": "مراجعة د",
+  "description": "تثبيت شكل وصوت د في مواقع متعددة.",
+  "objective": "استخدام د في البداية والوسط والنهاية.",
+  "goal": "قراءة د بثقة.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-52-1",
+      "type": "match",
+      "prompt": "أين يقع د في كلمة بدر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء والراء.",
+      "asset": "image/badr/middle"
+    },
+    {
+      "id": "alphabet-52-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على د أولية؟",
+      "choices": ["درب", "حبر", "جمل"],
+      "answer": "درب",
+      "hint": "الصوت الأول د واضح.",
+      "asset": "audio/darb/clip1"
+    },
+    {
+      "id": "alphabet-52-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سعد.",
+      "choices": ["سعد", "عدس", "دسا"],
+      "answer": "سعد",
+      "hint": "ضع د في النهاية بعد العين."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-52-1",
+      "type": "match",
+      "prompt": "أين يقع د في كلمة بدر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء والراء.",
+      "asset": "image/badr/middle"
+    },
+    {
+      "id": "alphabet-52-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على د أولية؟",
+      "choices": ["درب", "حبر", "جمل"],
+      "answer": "درب",
+      "hint": "الصوت الأول د واضح.",
+      "asset": "audio/darb/clip1"
+    },
+    {
+      "id": "alphabet-52-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سعد.",
+      "choices": ["سعد", "عدس", "دسا"],
+      "answer": "سعد",
+      "hint": "ضع د في النهاية بعد العين."
+    }
+  ]
+}

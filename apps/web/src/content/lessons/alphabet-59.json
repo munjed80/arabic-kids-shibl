@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-59",
+  "world": "alphabet",
+  "title": "ر في النهاية",
+  "description": "تعرّف على ر عند ختام الكلمات.",
+  "objective": "تمييز ر النهائي.",
+  "goal": "قراءة ر في آخر الكلمة.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-59-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بر؟",
+      "choices": ["جدار", "بحر", "ذهب"],
+      "answer": "بحر",
+      "hint": "ر آخر حرف بعد الحاء.",
+      "asset": "audio/bahr/clip1"
+    },
+    {
+      "id": "alphabet-59-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ر أخيرة.",
+      "choices": ["سمر", "دلو", "مشى"],
+      "answer": "سمر",
+      "hint": "ر تأتي بعد الميم.",
+      "asset": "audio/samar/clip1"
+    },
+    {
+      "id": "alphabet-59-3",
+      "type": "build",
+      "prompt": "كوّن كلمة جسر.",
+      "choices": ["جسر", "سرج", "جرس"],
+      "answer": "جسر",
+      "hint": "ضع ر في النهاية بعد السين."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-59-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بر؟",
+      "choices": ["جدار", "بحر", "ذهب"],
+      "answer": "بحر",
+      "hint": "ر آخر حرف بعد الحاء.",
+      "asset": "audio/bahr/clip1"
+    },
+    {
+      "id": "alphabet-59-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ر أخيرة.",
+      "choices": ["سمر", "دلو", "مشى"],
+      "answer": "سمر",
+      "hint": "ر تأتي بعد الميم.",
+      "asset": "audio/samar/clip1"
+    },
+    {
+      "id": "alphabet-59-3",
+      "type": "build",
+      "prompt": "كوّن كلمة جسر.",
+      "choices": ["جسر", "سرج", "جرس"],
+      "answer": "جسر",
+      "hint": "ضع ر في النهاية بعد السين."
+    }
+  ]
+}

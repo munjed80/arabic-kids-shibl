@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-54",
+  "world": "alphabet",
+  "title": "ذ في الوسط",
+  "description": "تعرّف على ذ المتصلة في منتصف الكلمة.",
+  "objective": "تمييز ذ عن د داخل الكلمة.",
+  "goal": "ربط صوت ذ مع موقعه الأوسط.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-54-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ذ في الوسط؟",
+      "choices": ["حذق", "حبل", "جمل"],
+      "answer": "حذق",
+      "hint": "ذ مع نقطة فوق في المنتصف.",
+      "asset": "audio/hathaq/clip1"
+    },
+    {
+      "id": "alphabet-54-2",
+      "type": "match",
+      "prompt": "أين يقع ذ في كلمة بذل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء واللام.",
+      "asset": "image/bathal/middle"
+    },
+    {
+      "id": "alphabet-54-3",
+      "type": "build",
+      "prompt": "كوّن كلمة غذاء.",
+      "choices": ["غذاء", "ذاءغ", "غاذ"],
+      "answer": "غذاء",
+      "hint": "ضع ذ بعد الغين مباشرة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-54-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ذ في الوسط؟",
+      "choices": ["حذق", "حبل", "جمل"],
+      "answer": "حذق",
+      "hint": "ذ مع نقطة فوق في المنتصف.",
+      "asset": "audio/hathaq/clip1"
+    },
+    {
+      "id": "alphabet-54-2",
+      "type": "match",
+      "prompt": "أين يقع ذ في كلمة مذل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الميم واللام.",
+      "asset": "image/mathal/middle"
+    },
+    {
+      "id": "alphabet-54-3",
+      "type": "build",
+      "prompt": "كوّن كلمة غذاء.",
+      "choices": ["غذاء", "ذاءغ", "غاذ"],
+      "answer": "غذاء",
+      "hint": "ضع ذ بعد الغين مباشرة."
+    }
+  ]
+}

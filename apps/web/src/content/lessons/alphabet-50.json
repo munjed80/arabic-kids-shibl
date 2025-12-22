@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-50",
+  "world": "alphabet",
+  "title": "د في الوسط",
+  "description": "تعرّف على د المتصلة في منتصف الكلمة.",
+  "objective": "تحديد د داخل كلمات قصيرة.",
+  "goal": "ربط صوت د مع موقعه الأوسط.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-50-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها د في الوسط؟",
+      "choices": ["حدب", "حبل", "ختم"],
+      "answer": "حدب",
+      "hint": "اسمع د بين الحاء والباء.",
+      "asset": "audio/hadb/clip1"
+    },
+    {
+      "id": "alphabet-50-2",
+      "type": "match",
+      "prompt": "أين يأتي د في كلمة مدد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "د في الوسط بين م ود.",
+      "asset": "image/madad/middle"
+    },
+    {
+      "id": "alphabet-50-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بدر.",
+      "choices": ["بدر", "درب", "ربد"],
+      "answer": "بدر",
+      "hint": "ضع د بين الباء والراء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-50-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها د في الوسط؟",
+      "choices": ["حدب", "حبل", "ختم"],
+      "answer": "حدب",
+      "hint": "اسمع د بين الحاء والباء.",
+      "asset": "audio/hadb/clip1"
+    },
+    {
+      "id": "alphabet-50-2",
+      "type": "match",
+      "prompt": "أين يأتي د في كلمة مدد؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "دوسط بين م ود.",
+      "asset": "image/madad/middle"
+    },
+    {
+      "id": "alphabet-50-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بدر.",
+      "choices": ["بدر", "درب", "ربد"],
+      "answer": "بدر",
+      "hint": "ضع د بين الباء والراء."
+    }
+  ]
+}

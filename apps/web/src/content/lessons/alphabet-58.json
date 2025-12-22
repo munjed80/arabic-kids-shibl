@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-58",
+  "world": "alphabet",
+  "title": "ر في الوسط",
+  "description": "تعرّف على ر المتصلة داخل الكلمة.",
+  "objective": "تمييز ر وسطية.",
+  "goal": "ربط ر مع الحروف قبل وبعدها.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-58-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ر في الوسط؟",
+      "choices": ["حرف", "حبل", "ختم"],
+      "answer": "حرف",
+      "hint": "ر بين الحاء والفاء.",
+      "asset": "audio/harf/clip1"
+    },
+    {
+      "id": "alphabet-58-2",
+      "type": "match",
+      "prompt": "أين يقع ر في كلمة بدر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "يأتي بعد الدال مباشرة.",
+      "asset": "image/badr/end"
+    },
+    {
+      "id": "alphabet-58-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بحر.",
+      "choices": ["بحر", "حبر", "ربح"],
+      "answer": "بحر",
+      "hint": "ضع ر في النهاية بعد الحاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-58-1",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ر في الوسط؟",
+      "choices": ["حرف", "حبل", "ختم"],
+      "answer": "حرف",
+      "hint": "ر بين الحاء والفاء.",
+      "asset": "audio/harf/clip1"
+    },
+    {
+      "id": "alphabet-58-2",
+      "type": "match",
+      "prompt": "أين يقع ر في كلمة بدر؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "يأتي بعد الدال مباشرة.",
+      "asset": "image/badr/end"
+    },
+    {
+      "id": "alphabet-58-3",
+      "type": "build",
+      "prompt": "كوّن كلمة بحر.",
+      "choices": ["بحر", "حبر", "ربح"],
+      "answer": "بحر",
+      "hint": "ضع ر في النهاية بعد الحاء."
+    }
+  ]
+}

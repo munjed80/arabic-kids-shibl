@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-60",
+  "world": "alphabet",
+  "title": "مراجعة ر",
+  "description": "تثبيت شكل وصوت ر في مواضع متعددة.",
+  "objective": "إتقان ر في البداية والوسط والنهاية.",
+  "goal": "قراءة ر بثبات.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-60-1",
+      "type": "match",
+      "prompt": "أين يقع ر في كلمة رمل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول صوت في الكلمة.",
+      "asset": "image/raml/start"
+    },
+    {
+      "id": "alphabet-60-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ر وسطية؟",
+      "choices": ["حرف", "حطب", "ختم"],
+      "answer": "حرف",
+      "hint": "الصوت يهتز بين الحاء والفاء.",
+      "asset": "audio/harf/clip2"
+    },
+    {
+      "id": "alphabet-60-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نهر.",
+      "choices": ["نهر", "نرح", "رهن"],
+      "answer": "نهر",
+      "hint": "ضع ر في النهاية بعد الهاء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-60-1",
+      "type": "match",
+      "prompt": "أين يقع ر في كلمة رمل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "أول صوت في الكلمة.",
+      "asset": "image/raml/start"
+    },
+    {
+      "id": "alphabet-60-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ر وسطية؟",
+      "choices": ["حرف", "حطب", "ختم"],
+      "answer": "حرف",
+      "hint": "الصوت يهتز بين الحاء والفاء.",
+      "asset": "audio/harf/clip2"
+    },
+    {
+      "id": "alphabet-60-3",
+      "type": "build",
+      "prompt": "كوّن كلمة نهر.",
+      "choices": ["نهر", "نرح", "رهن"],
+      "answer": "نهر",
+      "hint": "ضع ر في النهاية بعد الهاء."
+    }
+  ]
+}

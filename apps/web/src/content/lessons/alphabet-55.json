@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-55",
+  "world": "alphabet",
+  "title": "ذ في النهاية",
+  "description": "تعرّف على ذ عند ختام الكلمة.",
+  "objective": "تمييز ذ النهائي عن د.",
+  "goal": "قراءة ذ في آخر الكلمات.",
+  "level": 4,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-55-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بذ؟",
+      "choices": ["لذ", "مد", "حر"],
+      "answer": "لذ",
+      "hint": "نقطة فوق في النهاية.",
+      "asset": "audio/lath/clip1"
+    },
+    {
+      "id": "alphabet-55-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ذ أخيرة.",
+      "choices": ["لذيذ", "جمل", "حبل"],
+      "answer": "لذيذ",
+      "hint": "ذ يظهر مرتين بنقطة فوق.",
+      "asset": "audio/lathith/clip1"
+    },
+    {
+      "id": "alphabet-55-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لذاذ.",
+      "choices": ["لذاذ", "ذلل", "ذلا"],
+      "answer": "لذاذ",
+      "hint": "ضع ذ في الوسط والنهاية بنقطة فوق."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-55-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بذ؟",
+      "choices": ["لذ", "مد", "حر"],
+      "answer": "لذ",
+      "hint": "نقطة فوق في النهاية.",
+      "asset": "audio/lath/clip1"
+    },
+    {
+      "id": "alphabet-55-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ذ أخيرة.",
+      "choices": ["لذيذ", "جمل", "حبل"],
+      "answer": "لذيذ",
+      "hint": "ذ يظهر مرتين بنقطة فوق.",
+      "asset": "audio/lathith/clip1"
+    },
+    {
+      "id": "alphabet-55-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لذاذ.",
+      "choices": ["لذاذ", "ذلل", "ذلا"],
+      "answer": "لذاذ",
+      "hint": "ضع ذ في الوسط والنهاية بنقطة فوق."
+    }
+  ]
+}
