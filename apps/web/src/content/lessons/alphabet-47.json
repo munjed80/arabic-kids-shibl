@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-47",
+  "world": "alphabet",
+  "title": "مراجعة نهائية ١",
+  "description": "مراجعة حروف ا ب ت ث ج ح خ قبل الإكمال.",
+  "objective": "تثبيت الأصوات والأشكال معًا.",
+  "goal": "الاستعداد لإكمال المستوى ٣.",
+  "level": 3,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-47-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف بنقطة فوق وصوت خشن.",
+      "choices": ["خ", "ح", "ت"],
+      "answer": "خ",
+      "hint": "صوت قوي مع نقطة فوق.",
+      "asset": "audio/letters/khaa"
+    },
+    {
+      "id": "alphabet-47-2",
+      "type": "match",
+      "prompt": "أين يقع ج في كلمة ساج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ج آخر صوت.",
+      "asset": "image/saaj/end"
+    },
+    {
+      "id": "alphabet-47-3",
+      "type": "review",
+      "prompt": "راجع الحروف وتأكد من جاهزيتك.",
+      "choices": ["ا", "ب", "خ"],
+      "answer": "جاهز",
+      "hint": "أنت مستعد للخطوة التالية."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-47-1",
+      "type": "listen",
+      "prompt": "استمع وحدد الحرف بنقطة فوق وصوت خشن.",
+      "choices": ["خ", "ح", "ت"],
+      "answer": "خ",
+      "hint": "صوت قوي مع نقطة فوق.",
+      "asset": "audio/letters/khaa"
+    },
+    {
+      "id": "alphabet-47-2",
+      "type": "match",
+      "prompt": "أين يقع ج في كلمة ساج؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "النهاية",
+      "hint": "ج آخر صوت.",
+      "asset": "image/saaj/end"
+    },
+    {
+      "id": "alphabet-47-3",
+      "type": "review",
+      "prompt": "راجع الحروف وتأكد من جاهزيتك.",
+      "choices": ["ا", "ب", "خ"],
+      "answer": "جاهز",
+      "hint": "أنت مستعد للخطوة التالية."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-34",
+  "world": "alphabet",
+  "title": "ج في أوضاع مختلفة",
+  "description": "مراجعة أوضاع ج في كلمات متنوعة.",
+  "objective": "تثبيت شكل ج في البداية والوسط والنهاية.",
+  "goal": "القراءة بثقة مع ج.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-34-1",
+      "type": "match",
+      "prompt": "أين يقع ج في كلمة جبل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ج هو الصوت الأول.",
+      "asset": "image/jabal/start"
+    },
+    {
+      "id": "alphabet-34-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ج وسطية؟",
+      "choices": ["سجل", "سهل", "سور"],
+      "answer": "سجل",
+      "hint": "اسمع ج بين السين واللام.",
+      "asset": "audio/sajal/clip1"
+    },
+    {
+      "id": "alphabet-34-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ثلج من الحروف.",
+      "choices": ["ثلج", "لثج", "جثل"],
+      "answer": "ثلج",
+      "hint": "ابدأ بث ثم ل ثم ج."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-34-1",
+      "type": "match",
+      "prompt": "أين يقع ج في كلمة جبل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ج هو الصوت الأول.",
+      "asset": "image/jabal/start"
+    },
+    {
+      "id": "alphabet-34-2",
+      "type": "listen",
+      "prompt": "أي كلمة فيها ج وسطية؟",
+      "choices": ["سجل", "سهل", "سور"],
+      "answer": "سجل",
+      "hint": "اسمع ج بين السين واللام.",
+      "asset": "audio/sajal/clip1"
+    },
+    {
+      "id": "alphabet-34-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ثلج من الحروف.",
+      "choices": ["ثلج", "لثج", "جثل"],
+      "answer": "ثلج",
+      "hint": "ابدأ بث ثم ل ثم ج."
+    }
+  ]
+}

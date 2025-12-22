@@ -1,0 +1,64 @@
+{
+  "id": "alphabet-48",
+  "world": "alphabet",
+  "title": "إتمام المستوى ٣",
+  "description": "اختبار خفيف لكل الحروف قبل الإنهاء.",
+  "objective": "تأكيد إتقان ا ب ت ث ج ح خ.",
+  "goal": "إكمال المستوى بثقة.",
+  "level": 3,
+  "durationMinutes": 5,
+  "steps": [
+    {
+      "id": "alphabet-48-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بثلاث نقاط فوق؟",
+      "choices": ["ثوب", "حبل", "جمل"],
+      "answer": "ثوب",
+      "hint": "ثلاث نقاط مع صوت ناعم.",
+      "asset": "audio/thawb/clip1"
+    },
+    {
+      "id": "alphabet-48-2",
+      "type": "build",
+      "prompt": "كوّن كلمة خبز.",
+      "choices": ["خبز", "بخز", "خزب"],
+      "answer": "خبز",
+      "hint": "ابدأ بخاء ثم باء ثم زاي."
+    },
+    {
+      "id": "alphabet-48-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ا", "ث", "خ"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف السبع."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-48-1",
+      "type": "choose",
+      "prompt": "أي كلمة تبدأ بثلاث نقاط فوق؟",
+      "choices": ["ثوب", "حبل", "جمل"],
+      "answer": "ثوب",
+      "hint": "ثلاث نقاط مع صوت ناعم.",
+      "asset": "audio/thawb/clip1"
+    },
+    {
+      "id": "alphabet-48-2",
+      "type": "build",
+      "prompt": "كوّن كلمة خبز.",
+      "choices": ["خبز", "بخز", "خزب"],
+      "answer": "خبز",
+      "hint": "ابدأ بخاء ثم باء ثم زاي."
+    },
+    {
+      "id": "alphabet-48-3",
+      "type": "review",
+      "prompt": "راجع كل الحروف وأكمل المستوى.",
+      "choices": ["ا", "ث", "خ"],
+      "answer": "مستعد",
+      "hint": "أحسنت في الحروف السبع."
+    }
+  ]
+}

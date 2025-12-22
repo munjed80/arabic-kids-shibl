@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-42",
+  "world": "alphabet",
+  "title": "مراجعة خ",
+  "description": "تثبيت خ في مواضع متعددة.",
+  "objective": "استخدام خ في البداية والوسط والنهاية.",
+  "goal": "قراءة خ بثقة.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-42-1",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة نخلة؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بعد النون مباشرة.",
+      "asset": "image/nakhla/middle"
+    },
+    {
+      "id": "alphabet-42-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على خ أخيرة؟",
+      "choices": ["مسخ", "مصح", "مسح"],
+      "answer": "مسخ",
+      "hint": "الخاء بصوت خشن في النهاية.",
+      "asset": "audio/masakh/clip2"
+    },
+    {
+      "id": "alphabet-42-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سخاء.",
+      "choices": ["سخا", "سخاء", "خسا"],
+      "answer": "سخاء",
+      "hint": "ابدأ بس ثم خاء ثم ألف ممدود."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-42-1",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة نخلة؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بعد النون مباشرة.",
+      "asset": "image/nakhla/middle"
+    },
+    {
+      "id": "alphabet-42-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على خ أخيرة؟",
+      "choices": ["مسخ", "مصح", "مسح"],
+      "answer": "مسخ",
+      "hint": "الخاء بصوت خشن في النهاية.",
+      "asset": "audio/masakh/clip2"
+    },
+    {
+      "id": "alphabet-42-3",
+      "type": "build",
+      "prompt": "كوّن كلمة سخاء.",
+      "choices": ["سخا", "سخاء", "خسا"],
+      "answer": "سخاء",
+      "hint": "ابدأ بس ثم خاء ثم ألف ممدود." 
+    }
+  ]
+}

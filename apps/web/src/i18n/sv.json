@@ -37,14 +37,20 @@
     "progressLabel": "Framsteg: Aktivitet {current} av {total}",
     "completePercent": "{percent}% klart",
     "ariaChoose": "Välj {choice}",
-    "completedStatus": "Du har slutfört den här lektionen. Fortsätt när du vill."
+    "completedStatus": "Du har slutfört den här lektionen. Fortsätt när du vill.",
+    "listenAria": "Spela upp ljud för uppgiften",
+    "reviewSummaryTitle": "Repetition",
+    "reviewSummaryBody": "Snabb avstämning innan du går vidare. Inget svar behövs.",
+    "reviewAnswerLabel": "Förväntat svar",
+    "unsupportedType": "Det här steget stöds inte. Vi hoppar över det så att du kan fortsätta."
   },
   "level": {
-    "startHeading": "Starta nivå 1",
-    "startCopy": "Börja med enkel bokstavsigenkänning, sedan ord, första läsning och en festlig repetition. Inget konto behövs.",
-    "startCta": "Starta nivå 1",
+    "startHeading": "Starta nivå {level}",
+    "startCopy": "Börja nivå {level}. Framstegen stannar på den här enheten.",
+    "lockedCopy": "Slutför nivå {previous} för att låsa upp den här.",
+    "startCta": "Starta nivå",
     "reset": "Återställ nivå",
-    "lessonListTitle": "Nivå 1-lektioner",
+    "lessonListTitle": "Nivå {level}-lektioner",
     "lessonListSubtitle": "{completed} av {total} lektioner klara",
     "lessonStatus": {
       "current": "Aktuell",
@@ -56,8 +62,11 @@
     "progressCount": "Lektioner: {completed}/{total} klara",
     "currentLessonLabel": "Aktuell lektion {current} av {total}: {title}",
     "completedStatus": "Nivån är klar! Du kan spela lektioner igen när du vill.",
-    "completedHeading": "Du har slutfört nivå 1!",
-    "completedBody": "Bra jobbat. Du kände igen bokstäver, läste korta ord och gjorde en festlig repetition. Shibl firar med dig."
+    "completedHeading": "Du har slutfört nivå {level}!",
+    "completedBody": "Bra jobbat. Nivå {level} är klar. Du kan alltid spela om lektionerna.",
+    "switchLabel": "Nivå {level}",
+    "switchAria": "Byt till nivå {level}",
+    "lockedLabel": "Låst"
   },
   "companion": {
     "name": "Shibl",

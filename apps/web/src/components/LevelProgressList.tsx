@@ -9,6 +9,7 @@ type Props = {
   progress: LevelProgressRecord;
   currentLessonId: string;
   onSelect?: (lessonId: string) => void;
+  locked?: boolean;
 };
 
 const badgeStyles = {
@@ -18,7 +19,7 @@ const badgeStyles = {
   locked: "bg-slate-100 text-slate-700 border-slate-200",
 };
 
-export function LevelProgressList({ lessons, progress, currentLessonId, onSelect }: Props) {
+export function LevelProgressList({ lessons, progress, currentLessonId, onSelect, locked }: Props) {
   const { t } = useI18n();
 
   const lessonsById = Object.fromEntries(progress.lessons.map((entry) => [entry.lessonId, entry]));
@@ -31,7 +32,7 @@ export function LevelProgressList({ lessons, progress, currentLessonId, onSelect
         const isCurrent = lesson.id === currentLessonId;
         const previous = lessons[index - 1];
         const previousCompleted = previous ? (lessonsById[previous.id]?.completed ?? false) : true;
-        const isLocked = !isCurrent && !completed && !previousCompleted;
+        const isLocked = locked || (!isCurrent && !completed && !previousCompleted);
 
         const statusKey = completed
           ? "completed"

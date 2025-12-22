@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-37",
+  "world": "alphabet",
+  "title": "ح في النهاية",
+  "description": "تعرّف على ح عند ختام الكلمة.",
+  "objective": "تمييز ح النهائية صوتًا وشكلًا.",
+  "goal": "قراءة ح في نهاية الكلمات.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-37-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بح؟",
+      "choices": ["مفتاح", "كتاب", "قمر"],
+      "answer": "مفتاح",
+      "hint": "اسمع النفس بعد الألف.",
+      "asset": "audio/miftah/clip1"
+    },
+    {
+      "id": "alphabet-37-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ح أخيرة.",
+      "choices": ["مريح", "قصير", "نجم"],
+      "answer": "مريح",
+      "hint": "ح تأتي بعد الياء.",
+      "asset": "audio/moreeh/clip1"
+    },
+    {
+      "id": "alphabet-37-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ربح.",
+      "choices": ["ربح", "حرب", "ربحا"],
+      "answer": "ربح",
+      "hint": "الحرف الأخير ح بلا نقطة."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-37-1",
+      "type": "choose",
+      "prompt": "أي كلمة تنتهي بح؟",
+      "choices": ["مفتاح", "كتاب", "قمر"],
+      "answer": "مفتاح",
+      "hint": "اسمع النفس بعد الألف.",
+      "asset": "audio/miftah/clip1"
+    },
+    {
+      "id": "alphabet-37-2",
+      "type": "listen",
+      "prompt": "استمع وحدد كلمة فيها ح أخيرة.",
+      "choices": ["مريح", "قصير", "نجم"],
+      "answer": "مريح",
+      "hint": "ح تأتي بعد الياء.",
+      "asset": "audio/moreeh/clip1"
+    },
+    {
+      "id": "alphabet-37-3",
+      "type": "build",
+      "prompt": "كوّن كلمة ربح.",
+      "choices": ["ربح", "حرب", "ربحا"],
+      "answer": "ربح",
+      "hint": "الحرف الأخير ح بلا نقطة."
+    }
+  ]
+}

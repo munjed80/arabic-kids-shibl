@@ -1,0 +1,68 @@
+{
+  "id": "alphabet-43",
+  "world": "alphabet",
+  "title": "حروف مختلطة ١",
+  "description": "مراجعة ا ب ت ث ج ح خ معًا.",
+  "objective": "اختيار الحرف الصحيح بين مجموعة حروف.",
+  "goal": "تمييز الحروف السبع بسرعة.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-43-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه؟",
+      "choices": ["ا", "ج", "خ"],
+      "answer": "ج",
+      "hint": "صوت لين مع نقطة أسفل.",
+      "asset": "audio/letters/jeem"
+    },
+    {
+      "id": "alphabet-43-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الذي بلا نقطة وبفتحة طويلة.",
+      "choices": ["ا", "ث", "ب"],
+      "answer": "ا",
+      "hint": "خط مستقيم طويل.",
+      "asset": "image/alef/isolated"
+    },
+    {
+      "id": "alphabet-43-3",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة بخل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء واللام.",
+      "asset": "image/bakhl/middle"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-43-1",
+      "type": "listen",
+      "prompt": "أي حرف تسمعه؟",
+      "choices": ["ا", "ج", "خ"],
+      "answer": "ج",
+      "hint": "صوت لين مع نقطة أسفل.",
+      "asset": "audio/letters/jeem"
+    },
+    {
+      "id": "alphabet-43-2",
+      "type": "choose",
+      "prompt": "اختر الحرف الذي بلا نقطة وبفتحة طويلة.",
+      "choices": ["ا", "ث", "ب"],
+      "answer": "ا",
+      "hint": "خط مستقيم طويل.",
+      "asset": "image/alef/isolated"
+    },
+    {
+      "id": "alphabet-43-3",
+      "type": "match",
+      "prompt": "أين يقع خ في كلمة بخل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "الوسط",
+      "hint": "بين الباء واللام.",
+      "asset": "image/bakhl/middle"
+    }
+  ]
+}

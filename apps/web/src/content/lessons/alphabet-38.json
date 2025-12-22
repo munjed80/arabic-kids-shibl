@@ -1,0 +1,66 @@
+{
+  "id": "alphabet-38",
+  "world": "alphabet",
+  "title": "مراجعة ح",
+  "description": "تثبيت شكل وصوت ح في كلمات متعددة.",
+  "objective": "استخدام ح في مواضع مختلفة.",
+  "goal": "قراءة وسمع ح بثقة.",
+  "level": 3,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-38-1",
+      "type": "match",
+      "prompt": "أين يقع ح في كلمة حبل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ح أول حرف.",
+      "asset": "image/habl/start"
+    },
+    {
+      "id": "alphabet-38-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ح وسطية؟",
+      "choices": ["صحن", "صبح", "سمر"],
+      "answer": "صحن",
+      "hint": "يأتي النفس بعد الصاد.",
+      "asset": "audio/sahan/clip2"
+    },
+    {
+      "id": "alphabet-38-3",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين فحم.",
+      "choices": ["فحم", "محف", "حاف"],
+      "answer": "فحم",
+      "hint": "ضع ح بين الفاء والميم."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-38-1",
+      "type": "match",
+      "prompt": "أين يقع ح في كلمة حبل؟",
+      "choices": ["البداية", "الوسط", "النهاية"],
+      "answer": "البداية",
+      "hint": "ح أول حرف.",
+      "asset": "image/habl/start"
+    },
+    {
+      "id": "alphabet-38-2",
+      "type": "listen",
+      "prompt": "أي كلمة تحتوي على ح وسطية؟",
+      "choices": ["صحن", "صبح", "سمر"],
+      "answer": "صحن",
+      "hint": "يأتي النفس بعد الصاد.",
+      "asset": "audio/sahan/clip2"
+    },
+    {
+      "id": "alphabet-38-3",
+      "type": "build",
+      "prompt": "رتب الحروف لتكوين فحم.",
+      "choices": ["فحم", "محف", "حاف"],
+      "answer": "فحم",
+      "hint": "ضع ح بين الفاء والميم."
+    }
+  ]
+}

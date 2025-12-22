@@ -1,0 +1,17 @@
+/// <reference types="vitest" />
+
+import { loadLessonsFromDisk } from "@/features/lesson-engine/loadLessons";
+
+describe("lesson loading", () => {
+  it("detects all available lesson levels including level 2", async () => {
+    const lessons = await loadLessonsFromDisk();
+    const levels = new Set(lessons.map((lesson) => lesson.level));
+
+    expect(levels.has(1)).toBe(true);
+    expect(levels.has(2)).toBe(true);
+
+    const levelTwoLessonIds = lessons.filter((lesson) => lesson.level === 2).map((lesson) => lesson.id);
+    expect(levelTwoLessonIds).toContain("alphabet-11");
+    expect(levelTwoLessonIds).toContain("alphabet-30");
+  });
+});
