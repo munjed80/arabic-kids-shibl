@@ -48,7 +48,7 @@ const getNested = (dictionary: Dictionary, key: string): string | undefined => {
 const interpolate = (template: string, values?: TranslateValues) => {
   if (!values) return template;
   return template.replace(/{(\w+)}/g, (_, token) =>
-    Object.hasOwn(values, token) ? String(values[token]) : `{${token}}`,
+    Object.prototype.hasOwnProperty.call(values, token) ? String(values[token]) : `{${token}}`,
   );
 };
 

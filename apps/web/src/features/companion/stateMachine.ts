@@ -79,21 +79,22 @@ export class CompanionStateMachine {
   }
 
   getMood(): CompanionMood {
+    const label = companionLabelKeyByState[this.state] ?? companionLabelKeyByState.idle;
     switch (this.state) {
       case "intro":
-        return { state: this.state, label: "Ready to learn", accent: "info" };
+        return { state: this.state, label, accent: "info" };
       case "thinking":
-        return { state: this.state, label: "Thinking...", accent: "info" };
+        return { state: this.state, label, accent: "info" };
       case "happy":
-        return { state: this.state, label: "Great job!", accent: "success" };
+        return { state: this.state, label, accent: "success" };
       case "celebrate":
-        return { state: this.state, label: "Level complete!", accent: "success" };
+        return { state: this.state, label, accent: "success" };
       case "sad":
-        return { state: this.state, label: "Try again", accent: "warning" };
+        return { state: this.state, label, accent: "warning" };
       case "cooldown":
-        return { state: this.state, label: "Taking a short break", accent: "calm" };
+        return { state: this.state, label, accent: "calm" };
       default:
-        return { state: "idle", label: "Ready", accent: "calm" };
+        return { state: "idle", label: companionLabelKeyByState.idle, accent: "calm" };
     }
   }
 
