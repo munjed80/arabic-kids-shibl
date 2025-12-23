@@ -1,0 +1,62 @@
+{
+  "id": "assessment-words",
+  "category": "words",
+  "title": "تقييم قراءة الكلمات",
+  "description": "اختيار معنى الكلمة وسماع الكلمة واختيار كتابتها وبناء كلمة من ثلاثة أحرف.",
+  "objective": "تأكيد فهم الكلمات المألوفة دون درجات أو ضغط.",
+  "durationMinutes": 4,
+  "activities": [
+    {
+      "id": "words-1",
+      "type": "choose",
+      "prompt": "ما معنى كلمة باب في البيت؟",
+      "choices": ["مدخل البيت", "سمك في ماء", "كرة في ملعب"],
+      "answer": "مدخل البيت",
+      "hint": "الباب مدخل هادئ"
+    },
+    {
+      "id": "words-2",
+      "type": "listen",
+      "prompt": "استمع للكلمة واختر كتابتها",
+      "choices": ["سمك", "لبن", "كرة"],
+      "answer": "سمك",
+      "hint": "الصوت قصير وواضح",
+      "asset": "audio/assessments/words-samak"
+    },
+    {
+      "id": "words-3",
+      "type": "build",
+      "prompt": "ابن كلمة بيت بترتيب صحيح",
+      "choices": ["بيت", "بتي", "تيب"],
+      "answer": "بيت",
+      "hint": "ابدأ بحرف ب"
+    }
+  ],
+  "steps": [
+    {
+      "id": "words-1",
+      "type": "choose",
+      "prompt": "ما معنى كلمة باب في البيت؟",
+      "choices": ["مدخل البيت", "سمك في ماء", "كرة في ملعب"],
+      "answer": "مدخل البيت",
+      "hint": "الباب مدخل هادئ"
+    },
+    {
+      "id": "words-2",
+      "type": "listen",
+      "prompt": "استمع للكلمة واختر كتابتها",
+      "choices": ["سمك", "لبن", "كرة"],
+      "answer": "سمك",
+      "hint": "الصوت قصير وواضح",
+      "asset": "audio/assessments/words-samak"
+    },
+    {
+      "id": "words-3",
+      "type": "build",
+      "prompt": "ابن كلمة بيت بترتيب صحيح",
+      "choices": ["بيت", "بتي", "تيب"],
+      "answer": "بيت",
+      "hint": "ابدأ بحرف ب"
+    }
+  ]
+}

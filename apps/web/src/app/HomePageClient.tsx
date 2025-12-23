@@ -15,6 +15,7 @@ import { CompanionStateMachine } from "@/features/companion/stateMachine";
 import { LessonEventBus } from "@/features/lesson-engine/eventBus";
 import { LessonEngine } from "@/features/lesson-engine/lessonEngine";
 import type { Lesson } from "@/features/lesson-engine/lessonSchema";
+import { loadAssessmentSummary, type AssessmentSummary } from "@/features/assessments/localAssessmentSummary";
 import {
   getLessonProgressFromLevel,
   loadLevelProgress,
@@ -66,6 +67,7 @@ export function HomePageClient({ lessons }: Props) {
     [levels],
   );
   const [activeLevelId, setActiveLevelId] = useState(() => levels[0]?.levelId ?? "");
+  const [assessmentSummary] = useState<AssessmentSummary>(() => loadAssessmentSummary());
   const [progressByLevel, setProgressByLevel] = useState(() => {
     const initial: Record<string, ReturnType<typeof loadLevelProgress>> = {};
     levels.forEach((level) => {
@@ -284,6 +286,38 @@ export function HomePageClient({ lessons }: Props) {
           <Link href="/register" className="rounded-full border border-slate-300 px-4 py-2 hover:border-amber-400 hover:text-amber-700">
             {t("app.parentRegister")}
           </Link>
+        </div>
+      </Card>
+
+      <Card className="flex flex-col gap-3 border-slate-200 bg-slate-50">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-amber-600">
+              {t("assessments.entryBadge")}
+            </p>
+            <h2 className="text-xl font-semibold text-slate-900">{t("assessments.entryTitle")}</h2>
+            <p className="text-sm text-slate-700">{t("assessments.entryBody")}</p>
+          </div>
+          <Link
+            href="/assessments"
+            className="rounded-full bg-amber-500 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-amber-600"
+          >
+            {t("assessments.entryCta")}
+          </Link>
+        </div>
+        <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+          {(["letters", "words", "sentences", "paragraphs"] as const).map((category) => (
+            <div key={category} className="rounded-xl border border-slate-200 bg-white p-3 text-sm text-slate-800">
+              <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                {t(`assessments.types.${category}.label`)}
+              </p>
+              <p className="mt-1 font-semibold text-slate-900">
+                {assessmentSummary[category]
+                  ? t(`assessments.rating.${assessmentSummary[category]}`)
+                  : t("assessments.status.notStarted")}
+              </p>
+            </div>
+          ))}
         </div>
       </Card>
 
