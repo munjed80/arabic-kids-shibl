@@ -169,5 +169,32 @@
         "label": "Alinea's"
       }
     }
+  },
+  "stories": {
+    "entryBadge": "Verhalen",
+    "entryTitle": "Korte verhalen",
+    "entryBody": "Rustige Arabische verhalen om na de toetsen te oefenen. Grote tekst, kalm tempo, altijd opnieuw te lezen.",
+    "entryCta": "Open verhalen",
+    "badge": "Korte verhalen",
+    "title": "Korte verhalen",
+    "lede": "Lees zeer korte paragrafen met woordenschat uit niveau 11–20. Geen scores, alleen rustig lezen.",
+    "safety": "Verhalen zijn optioneel en veranderen de voortgang niet.",
+    "backToHome": "Terug naar start",
+    "listHeading": "Kies een verhaal",
+    "listBody": "Elk verhaal heeft drie korte paragrafen. Lees en luister wanneer je wilt.",
+    "storyBadge": "Verhaal",
+    "paragraphCount": "{total} paragrafen",
+    "preview": "Voorbeeld",
+    "readStory": "Lees verhaal",
+    "openReader": "Open lezer",
+    "reader": "Verhalenlezer",
+    "readerLede": "Lees één paragraaf tegelijk. Gebruik volgende of vorige wanneer je klaar bent.",
+    "paragraphProgress": "Paragraaf {current} van {total}",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "listen": "Luister",
+    "listenUnavailable": "Luisteren is niet beschikbaar op dit apparaat.",
+    "listenOptional": "Luisteren is optioneel—lees in je eigen tempo.",
+    "backToList": "Terug naar verhalen"
   }
 }

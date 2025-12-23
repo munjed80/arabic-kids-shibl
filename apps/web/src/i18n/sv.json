@@ -169,5 +169,32 @@
         "label": "Stycken"
       }
     }
+  },
+  "stories": {
+    "entryBadge": "Berättelser",
+    "entryTitle": "Korta berättelser",
+    "entryBody": "Lugna arabiska berättelser att läsa efter testerna. Stor text, lugnt tempo, kan spelas om när som helst.",
+    "entryCta": "Öppna berättelser",
+    "badge": "Korta berättelser",
+    "title": "Korta berättelser",
+    "lede": "Läs mycket korta stycken med ordförråd från nivå 11–20. Inga poäng, bara lugn läsning.",
+    "safety": "Berättelserna är valfria och påverkar inte framstegen.",
+    "backToHome": "Tillbaka hem",
+    "listHeading": "Välj en berättelse",
+    "listBody": "Varje berättelse har tre korta stycken. Läs och lyssna när du vill.",
+    "storyBadge": "Berättelse",
+    "paragraphCount": "{total} stycken",
+    "preview": "Förhandsvisning",
+    "readStory": "Läs berättelse",
+    "openReader": "Öppna läsare",
+    "reader": "Berättelseläsare",
+    "readerLede": "Läs ett stycke i taget. Använd nästa eller föregående när du är redo.",
+    "paragraphProgress": "Stycke {current} av {total}",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "listen": "Lyssna",
+    "listenUnavailable": "Lyssning är inte tillgänglig på den här enheten.",
+    "listenOptional": "Lyssna om du vill—läs i din egen takt.",
+    "backToList": "Tillbaka till berättelser"
   }
 }
