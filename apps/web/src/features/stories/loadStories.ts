@@ -3,7 +3,7 @@ import path from "path";
 import { storySchema, type Story } from "./storySchema";
 
 const numericId = (id: string) => {
-  const match = id.match(/(\d+)/);
+  const match = id.match(/story-(\d+)/);
   return match ? Number.parseInt(match[1], 10) : Number.POSITIVE_INFINITY;
 };
 
@@ -38,6 +38,13 @@ export async function loadStoriesFromDisk(): Promise<Story[]> {
 }
 
 export async function loadStoryById(id: string): Promise<Story | undefined> {
-  const stories = await loadStoriesFromDisk();
-  return stories.find((entry) => entry.id === id);
+  const filePath = path.join(process.cwd(), "src", "content", "stories", `${id}.json`);
+  try {
+    const contents = await fs.readFile(filePath, "utf-8");
+    const raw = JSON.parse(contents);
+    return storySchema.parse(raw);
+  } catch (error) {
+    console.warn(`Could not load story ${id}:`, error);
+    return undefined;
+  }
 }

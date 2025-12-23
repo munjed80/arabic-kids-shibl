@@ -68,12 +68,6 @@ export function StoriesPageClient({ stories }: Props) {
               >
                 {t("stories.readStory")}
               </Link>
-              <Link
-                href={`/stories/${story.id}`}
-                className="text-sm font-semibold text-amber-700 underline-offset-4 hover:underline"
-              >
-                {t("stories.openReader")}
-              </Link>
             </div>
           </Card>
         ))}

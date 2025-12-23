@@ -21,11 +21,11 @@ export function StoryReaderClient({ story }: Props) {
 
   useEffect(() => {
     return () => {
-      if (hasSpeech()) {
+      if (speechAvailable) {
         window.speechSynthesis.cancel();
       }
     };
-  }, []);
+  }, [speechAvailable]);
 
   const paragraph = useMemo(() => story.paragraphs[paragraphIndex] ?? [], [paragraphIndex, story.paragraphs]);
   const progressLabel = t("stories.paragraphProgress", {
@@ -85,7 +85,12 @@ export function StoryReaderClient({ story }: Props) {
         <Card className="border border-slate-200 bg-slate-50 p-4" as="div">
           <div className="space-y-2 text-right">
             {paragraph.map((sentence, index) => (
-              <p key={sentence + index} lang="ar" dir="rtl" className="text-2xl leading-relaxed text-slate-900">
+              <p
+                key={`${paragraphIndex}-${index}`}
+                lang="ar"
+                dir="rtl"
+                className="text-2xl leading-relaxed text-slate-900"
+              >
                 {sentence}
               </p>
             ))}
