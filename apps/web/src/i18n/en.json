@@ -143,6 +143,10 @@
     "noScores": "Results are qualitative only—no numbers.",
     "noteTitle": "Safety note",
     "noteBody": "We do not lock content or track attempts. Each try overwrites the previous summary only.",
+    "feedback": {
+      "correct": "Nice work—keep going.",
+      "incorrect": "Try again; you can retry as much as you like."
+    },
     "status": {
       "notStarted": "Not checked yet"
     },

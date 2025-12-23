@@ -60,10 +60,12 @@ export function AssessmentsPageClient({ assessments }: Props) {
   const [selectedCategory, setSelectedCategory] = useState<AssessmentCategory>(
     assessments[0]?.category ?? "letters",
   );
+  const categoryTotal = (category: AssessmentCategory) =>
+    assessments.find((entry) => entry.category === category)?.activities.length ?? 0;
   const [summary, setSummary] = useState<AssessmentSummary>(() => loadAssessmentSummary());
   const [runState, setRunState] = useState<RunState>(() => ({
     ...initialRunState,
-    total: assessments.find((entry) => entry.category === (assessments[0]?.category ?? "letters"))?.activities.length ?? 0,
+    total: categoryTotal(assessments[0]?.category ?? "letters"),
   }));
   const [currentActivity, setCurrentActivity] = useState<Activity | undefined>(undefined);
   const engineRef = useRef(new LessonEngine(new LessonEventBus()));
@@ -77,8 +79,7 @@ export function AssessmentsPageClient({ assessments }: Props) {
 
   const selectCategory = (category: AssessmentCategory) => {
     setSelectedCategory(category);
-    const total = assessmentsByCategory[category]?.activities.length ?? 0;
-    setRunState({ ...initialRunState, total });
+    setRunState({ ...initialRunState, total: categoryTotal(category) });
     setCurrentActivity(undefined);
   };
 
@@ -131,7 +132,7 @@ export function AssessmentsPageClient({ assessments }: Props) {
       completed,
       feedback: {
         correct: result.correct,
-        message: t(result.correct ? "lesson.feedback.correct" : "lesson.feedback.incorrect"),
+        message: t(result.correct ? "assessments.feedback.correct" : "assessments.feedback.incorrect"),
       },
     }));
     setCurrentActivity(nextActivity);

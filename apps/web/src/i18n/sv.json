@@ -143,6 +143,10 @@
     "noScores": "Resultat är bara kvalitativa – inga siffror.",
     "noteTitle": "Säkerhetsnotis",
     "noteBody": "Vi låser inte innehåll och spårar inte försök. Varje försök ersätter bara den senaste sammanfattningen.",
+    "feedback": {
+      "correct": "Bra jobbat – fortsätt så.",
+      "incorrect": "Försök igen; du kan repetera hur många gånger som helst."
+    },
     "status": {
       "notStarted": "Inte kontrollerat än"
     },

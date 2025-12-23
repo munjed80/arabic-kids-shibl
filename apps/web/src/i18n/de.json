@@ -143,6 +143,10 @@
     "noScores": "Ergebnisse sind nur qualitativ – keine Zahlen.",
     "noteTitle": "Sicherheitshinweis",
     "noteBody": "Wir sperren keinen Inhalt und verfolgen keine Versuche. Jeder Versuch überschreibt nur die letzte Zusammenfassung.",
+    "feedback": {
+      "correct": "Gut gemacht – weiter so.",
+      "incorrect": "Versuch es noch einmal; du kannst beliebig oft wiederholen."
+    },
     "status": {
       "notStarted": "Noch nicht geprüft"
     },

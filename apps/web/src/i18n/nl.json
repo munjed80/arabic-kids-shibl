@@ -143,6 +143,10 @@
     "noScores": "Alleen kwalitatieve resultaten — geen cijfers.",
     "noteTitle": "Veiligheidsnotitie",
     "noteBody": "We vergrendelen niets en volgen pogingen niet. Elke poging overschrijft alleen de laatste samenvatting.",
+    "feedback": {
+      "correct": "Mooi gedaan – ga zo door.",
+      "incorrect": "Probeer nog eens; je mag zo vaak herkansen als je wilt."
+    },
     "status": {
       "notStarted": "Nog niet bekeken"
     },
