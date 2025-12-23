@@ -114,5 +114,60 @@
     "progressSummary": "{completed} van {total} lessen voltooid",
     "currentLesson": "Huidige les: {title}",
     "noProgress": "Voortgang verschijnt nadat je kind Level 1 is gestart."
+  },
+  "assessments": {
+    "badge": "Toetsingstraject",
+    "entryBadge": "Vertrouwenscheck",
+    "entryTitle": "Check je lezen",
+    "entryBody": "Snelle, drukvrije checks voor letters, woorden, zinnen en alinea's. Onbeperkt opnieuw proberen.",
+    "entryCta": "Open assessments",
+    "title": "Check je lezen",
+    "lede": "Kies een rustige check om te zien hoe lezen nu voelt. Geen cijfers of locks — alleen zachte feedback.",
+    "safety": "Geen timers of scores. Je kunt altijd opnieuw proberen.",
+    "backToLessons": "Terug naar lessen",
+    "resultsHeading": "Laatste feedback",
+    "resultsBody": "Lokaal opgeslagen als momentopname voor ouders. Geen historie of tijdstempels.",
+    "localOnly": "Alleen op dit apparaat opgeslagen",
+    "latestSaved": "Opgeslagen van je laatste poging",
+    "chooseType": "Kies een assessment",
+    "chooseTypeBody": "Selecteer wat je nu wilt checken. Je kunt altijd wisselen.",
+    "placeholder": "Inhoud klaar",
+    "duration": "~{minutes} min",
+    "retries": "Onbeperkt opnieuw. Geen scores.",
+    "start": "Start",
+    "retry": "Opnieuw",
+    "progressLabel": "Stap {current} van {total}",
+    "completed": "Assessment afgerond. Opnieuw kan altijd.",
+    "tryUntilReady": "Blijf proberen tot het goed voelt.",
+    "readyToStart": "Druk op start om te beginnen.",
+    "noScores": "Alleen kwalitatieve resultaten — geen cijfers.",
+    "noteTitle": "Veiligheidsnotitie",
+    "noteBody": "We vergrendelen niets en volgen pogingen niet. Elke poging overschrijft alleen de laatste samenvatting.",
+    "feedback": {
+      "correct": "Mooi gedaan – ga zo door.",
+      "incorrect": "Probeer nog eens; je mag zo vaak herkansen als je wilt."
+    },
+    "status": {
+      "notStarted": "Nog niet bekeken"
+    },
+    "rating": {
+      "strong": "Sterk",
+      "good": "Goed",
+      "needsPractice": "Meer oefenen"
+    },
+    "types": {
+      "letters": {
+        "label": "Letters"
+      },
+      "words": {
+        "label": "Woorden"
+      },
+      "sentences": {
+        "label": "Zinnen"
+      },
+      "paragraphs": {
+        "label": "Alinea's"
+      }
+    }
   }
 }

@@ -114,5 +114,60 @@
     "progressSummary": "{completed} of {total} lessons completed",
     "currentLesson": "Current lesson: {title}",
     "noProgress": "Progress will appear after your child starts Level 1."
+  },
+  "assessments": {
+    "badge": "Assessment track",
+    "entryBadge": "Confidence check",
+    "entryTitle": "Check your reading",
+    "entryBody": "Quick, pressure-free checks for letters, words, sentences, and paragraphs. Unlimited retries.",
+    "entryCta": "Open assessments",
+    "title": "Check your reading",
+    "lede": "Choose a calm assessment to see how reading feels today. No grades, no locks—just gentle feedback.",
+    "safety": "No timers or scores. You can retry anytime.",
+    "backToLessons": "Back to lessons",
+    "resultsHeading": "Latest feedback",
+    "resultsBody": "Saved locally as a snapshot for parents. No history or timestamps stored.",
+    "localOnly": "Saved on this device only",
+    "latestSaved": "Saved from your last try",
+    "chooseType": "Pick an assessment",
+    "chooseTypeBody": "Select what you want to check right now. You can switch anytime.",
+    "placeholder": "Content ready",
+    "duration": "~{minutes} min",
+    "retries": "Unlimited retries. No scores.",
+    "start": "Start",
+    "retry": "Retry",
+    "progressLabel": "Step {current} of {total}",
+    "completed": "Assessment completed. Retry anytime.",
+    "tryUntilReady": "Try again until it feels right.",
+    "readyToStart": "Press start to begin this assessment.",
+    "noScores": "Results are qualitative only—no numbers.",
+    "noteTitle": "Safety note",
+    "noteBody": "We do not lock content or track attempts. Each try overwrites the previous summary only.",
+    "feedback": {
+      "correct": "Nice work—keep going.",
+      "incorrect": "Try again; you can retry as much as you like."
+    },
+    "status": {
+      "notStarted": "Not checked yet"
+    },
+    "rating": {
+      "strong": "Strong",
+      "good": "Good",
+      "needsPractice": "Needs practice"
+    },
+    "types": {
+      "letters": {
+        "label": "Letters"
+      },
+      "words": {
+        "label": "Words"
+      },
+      "sentences": {
+        "label": "Sentences"
+      },
+      "paragraphs": {
+        "label": "Paragraphs"
+      }
+    }
   }
 }

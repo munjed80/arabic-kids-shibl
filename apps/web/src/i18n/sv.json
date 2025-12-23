@@ -114,5 +114,60 @@
     "progressSummary": "{completed} av {total} lektioner klara",
     "currentLesson": "Aktuell lektion: {title}",
     "noProgress": "Framsteg visas när ditt barn startar nivå 1."
+  },
+  "assessments": {
+    "badge": "Bedömningsspår",
+    "entryBadge": "Trygghetscheck",
+    "entryTitle": "Kolla din läsning",
+    "entryBody": "Snabba, tryckfria kontroller för bokstäver, ord, meningar och stycken. Obegränsade försök.",
+    "entryCta": "Öppna bedömningar",
+    "title": "Kolla din läsning",
+    "lede": "Välj en lugn bedömning för att se hur läsningen känns idag. Inga betyg eller lås – bara mjuk feedback.",
+    "safety": "Inga timers eller poäng. Du kan försöka igen när som helst.",
+    "backToLessons": "Tillbaka till lektioner",
+    "resultsHeading": "Senaste feedback",
+    "resultsBody": "Sparas lokalt som en ögonblicksbild för föräldrar. Ingen historik eller tidsstämplar.",
+    "localOnly": "Endast sparat på den här enheten",
+    "latestSaved": "Sparat från senaste försöket",
+    "chooseType": "Välj en bedömning",
+    "chooseTypeBody": "Välj vad du vill kolla nu. Du kan byta när som helst.",
+    "placeholder": "Innehåll klart",
+    "duration": "~{minutes} min",
+    "retries": "Obegränsade försök. Inga poäng.",
+    "start": "Starta",
+    "retry": "Försök igen",
+    "progressLabel": "Steg {current} av {total}",
+    "completed": "Bedömning klar. Försök igen när du vill.",
+    "tryUntilReady": "Fortsätt tills det känns bra.",
+    "readyToStart": "Tryck start för att börja.",
+    "noScores": "Resultat är bara kvalitativa – inga siffror.",
+    "noteTitle": "Säkerhetsnotis",
+    "noteBody": "Vi låser inte innehåll och spårar inte försök. Varje försök ersätter bara den senaste sammanfattningen.",
+    "feedback": {
+      "correct": "Bra jobbat – fortsätt så.",
+      "incorrect": "Försök igen; du kan repetera hur många gånger som helst."
+    },
+    "status": {
+      "notStarted": "Inte kontrollerat än"
+    },
+    "rating": {
+      "strong": "Stark",
+      "good": "Bra",
+      "needsPractice": "Behöver öva"
+    },
+    "types": {
+      "letters": {
+        "label": "Bokstäver"
+      },
+      "words": {
+        "label": "Ord"
+      },
+      "sentences": {
+        "label": "Meningar"
+      },
+      "paragraphs": {
+        "label": "Stycken"
+      }
+    }
   }
 }

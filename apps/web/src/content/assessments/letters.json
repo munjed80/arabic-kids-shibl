@@ -1,0 +1,35 @@
+{
+  "id": "assessment-letters",
+  "category": "letters",
+  "title": "تقييم الحروف",
+  "description": "فحص هادئ للتعرف على الحروف وبناء كلمة قصيرة دون ضغط.",
+  "objective": "تمييز صوت الحرف والحرف المشابه وبناء كلمة من ثلاثة أحرف.",
+  "durationMinutes": 3,
+  "activities": [
+    {
+      "id": "letters-1",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر الحرف الصحيح",
+      "choices": ["س", "ص", "ش"],
+      "answer": "س",
+      "hint": "الصوت خفيف، ليس مفخمًا",
+      "asset": "audio/assessments/letters-s"
+    },
+    {
+      "id": "letters-2",
+      "type": "choose",
+      "prompt": "اختر الحرف المختلف عن س",
+      "choices": ["س", "س", "ص"],
+      "answer": "ص",
+      "hint": "انظر للنقطة فوق الحرف"
+    },
+    {
+      "id": "letters-3",
+      "type": "build",
+      "prompt": "ابن كلمة سمك بترتيب صحيح",
+      "choices": ["سمك", "سكم", "مكس"],
+      "answer": "سمك",
+      "hint": "ابدأ بحرف س"
+    }
+  ]
+}

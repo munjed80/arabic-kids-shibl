@@ -114,5 +114,60 @@
     "progressSummary": "{completed} von {total} Lektionen abgeschlossen",
     "currentLesson": "Aktuelle Lektion: {title}",
     "noProgress": "Fortschritt erscheint, nachdem dein Kind Level 1 gestartet hat."
+  },
+  "assessments": {
+    "badge": "Assessment-Bereich",
+    "entryBadge": "Sicherheitscheck",
+    "entryTitle": "Prüfe dein Lesen",
+    "entryBody": "Schnelle, druckfreie Checks für Buchstaben, Wörter, Sätze und Absätze. Unbegrenzt wiederholen.",
+    "entryCta": "Assessments öffnen",
+    "title": "Prüfe dein Lesen",
+    "lede": "Wähle eine ruhige Einschätzung, um zu sehen, wie sich das Lesen heute anfühlt. Keine Noten, keine Sperren – nur sanftes Feedback.",
+    "safety": "Keine Timer oder Punkte. Du kannst jederzeit neu starten.",
+    "backToLessons": "Zurück zu den Lektionen",
+    "resultsHeading": "Neueste Rückmeldung",
+    "resultsBody": "Lokal gespeichert als Schnappschuss für Eltern. Keine Historie oder Zeitstempel.",
+    "localOnly": "Nur auf diesem Gerät gespeichert",
+    "latestSaved": "Von deinem letzten Versuch gespeichert",
+    "chooseType": "Assessment wählen",
+    "chooseTypeBody": "Wähle, was du jetzt prüfen möchtest. Du kannst jederzeit wechseln.",
+    "placeholder": "Inhalt bereit",
+    "duration": "~{minutes} Min",
+    "retries": "Unbegrenzte Versuche. Keine Punkte.",
+    "start": "Start",
+    "retry": "Erneut",
+    "progressLabel": "Schritt {current} von {total}",
+    "completed": "Assessment abgeschlossen. Wiederhole jederzeit.",
+    "tryUntilReady": "Probiere weiter, bis es passt.",
+    "readyToStart": "Drücke Start, um zu beginnen.",
+    "noScores": "Ergebnisse sind nur qualitativ – keine Zahlen.",
+    "noteTitle": "Sicherheitshinweis",
+    "noteBody": "Wir sperren keinen Inhalt und verfolgen keine Versuche. Jeder Versuch überschreibt nur die letzte Zusammenfassung.",
+    "feedback": {
+      "correct": "Gut gemacht – weiter so.",
+      "incorrect": "Versuch es noch einmal; du kannst beliebig oft wiederholen."
+    },
+    "status": {
+      "notStarted": "Noch nicht geprüft"
+    },
+    "rating": {
+      "strong": "Stark",
+      "good": "Gut",
+      "needsPractice": "Braucht Übung"
+    },
+    "types": {
+      "letters": {
+        "label": "Buchstaben"
+      },
+      "words": {
+        "label": "Wörter"
+      },
+      "sentences": {
+        "label": "Sätze"
+      },
+      "paragraphs": {
+        "label": "Absätze"
+      }
+    }
   }
 }
