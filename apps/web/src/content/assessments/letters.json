@@ -31,32 +31,5 @@
       "answer": "سمك",
       "hint": "ابدأ بحرف س"
     }
-  ],
-  "steps": [
-    {
-      "id": "letters-1",
-      "type": "listen",
-      "prompt": "استمع للصوت واختر الحرف الصحيح",
-      "choices": ["س", "ص", "ش"],
-      "answer": "س",
-      "hint": "الصوت خفيف، ليس مفخمًا",
-      "asset": "audio/assessments/letters-s"
-    },
-    {
-      "id": "letters-2",
-      "type": "choose",
-      "prompt": "اختر الحرف المختلف عن س",
-      "choices": ["س", "س", "ص"],
-      "answer": "ص",
-      "hint": "انظر للنقطة فوق الحرف"
-    },
-    {
-      "id": "letters-3",
-      "type": "build",
-      "prompt": "ابن كلمة سمك بترتيب صحيح",
-      "choices": ["سمك", "سكم", "مكس"],
-      "answer": "سمك",
-      "hint": "ابدأ بحرف س"
-    }
   ]
 }

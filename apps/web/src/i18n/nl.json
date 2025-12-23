@@ -116,53 +116,53 @@
     "noProgress": "Voortgang verschijnt nadat je kind Level 1 is gestart."
   },
   "assessments": {
-    "badge": "Assessment track",
-    "entryBadge": "Confidence check",
-    "entryTitle": "Check your reading",
-    "entryBody": "Quick, pressure-free checks for letters, words, sentences, and paragraphs. Unlimited retries.",
+    "badge": "Toetsingstraject",
+    "entryBadge": "Vertrouwenscheck",
+    "entryTitle": "Check je lezen",
+    "entryBody": "Snelle, drukvrije checks voor letters, woorden, zinnen en alinea's. Onbeperkt opnieuw proberen.",
     "entryCta": "Open assessments",
-    "title": "Check your reading",
-    "lede": "Choose a calm assessment to see how reading feels today. No grades, no locks—just gentle feedback.",
-    "safety": "No timers or scores. You can retry anytime.",
-    "backToLessons": "Back to lessons",
-    "resultsHeading": "Latest feedback",
-    "resultsBody": "Saved locally as a snapshot for parents. No history or timestamps stored.",
-    "localOnly": "Saved on this device only",
-    "latestSaved": "Saved from your last try",
-    "chooseType": "Pick an assessment",
-    "chooseTypeBody": "Select what you want to check right now. You can switch anytime.",
-    "placeholder": "Content ready",
+    "title": "Check je lezen",
+    "lede": "Kies een rustige check om te zien hoe lezen nu voelt. Geen cijfers of locks — alleen zachte feedback.",
+    "safety": "Geen timers of scores. Je kunt altijd opnieuw proberen.",
+    "backToLessons": "Terug naar lessen",
+    "resultsHeading": "Laatste feedback",
+    "resultsBody": "Lokaal opgeslagen als momentopname voor ouders. Geen historie of tijdstempels.",
+    "localOnly": "Alleen op dit apparaat opgeslagen",
+    "latestSaved": "Opgeslagen van je laatste poging",
+    "chooseType": "Kies een assessment",
+    "chooseTypeBody": "Selecteer wat je nu wilt checken. Je kunt altijd wisselen.",
+    "placeholder": "Inhoud klaar",
     "duration": "~{minutes} min",
-    "retries": "Unlimited retries. No scores.",
+    "retries": "Onbeperkt opnieuw. Geen scores.",
     "start": "Start",
-    "retry": "Retry",
-    "progressLabel": "Step {current} of {total}",
-    "completed": "Assessment completed. Retry anytime.",
-    "tryUntilReady": "Try again until it feels right.",
-    "readyToStart": "Press start to begin this assessment.",
-    "noScores": "Results are qualitative only—no numbers.",
-    "noteTitle": "Safety note",
-    "noteBody": "We do not lock content or track attempts. Each try overwrites the previous summary only.",
+    "retry": "Opnieuw",
+    "progressLabel": "Stap {current} van {total}",
+    "completed": "Assessment afgerond. Opnieuw kan altijd.",
+    "tryUntilReady": "Blijf proberen tot het goed voelt.",
+    "readyToStart": "Druk op start om te beginnen.",
+    "noScores": "Alleen kwalitatieve resultaten — geen cijfers.",
+    "noteTitle": "Veiligheidsnotitie",
+    "noteBody": "We vergrendelen niets en volgen pogingen niet. Elke poging overschrijft alleen de laatste samenvatting.",
     "status": {
-      "notStarted": "Not checked yet"
+      "notStarted": "Nog niet bekeken"
     },
     "rating": {
-      "strong": "Strong",
-      "good": "Good",
-      "needsPractice": "Needs practice"
+      "strong": "Sterk",
+      "good": "Goed",
+      "needsPractice": "Meer oefenen"
     },
     "types": {
       "letters": {
         "label": "Letters"
       },
       "words": {
-        "label": "Words"
+        "label": "Woorden"
       },
       "sentences": {
-        "label": "Sentences"
+        "label": "Zinnen"
       },
       "paragraphs": {
-        "label": "Paragraphs"
+        "label": "Alinea's"
       }
     }
   }

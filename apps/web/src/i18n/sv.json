@@ -116,53 +116,53 @@
     "noProgress": "Framsteg visas när ditt barn startar nivå 1."
   },
   "assessments": {
-    "badge": "Assessment track",
-    "entryBadge": "Confidence check",
-    "entryTitle": "Check your reading",
-    "entryBody": "Quick, pressure-free checks for letters, words, sentences, and paragraphs. Unlimited retries.",
-    "entryCta": "Open assessments",
-    "title": "Check your reading",
-    "lede": "Choose a calm assessment to see how reading feels today. No grades, no locks—just gentle feedback.",
-    "safety": "No timers or scores. You can retry anytime.",
-    "backToLessons": "Back to lessons",
-    "resultsHeading": "Latest feedback",
-    "resultsBody": "Saved locally as a snapshot for parents. No history or timestamps stored.",
-    "localOnly": "Saved on this device only",
-    "latestSaved": "Saved from your last try",
-    "chooseType": "Pick an assessment",
-    "chooseTypeBody": "Select what you want to check right now. You can switch anytime.",
-    "placeholder": "Content ready",
+    "badge": "Bedömningsspår",
+    "entryBadge": "Trygghetscheck",
+    "entryTitle": "Kolla din läsning",
+    "entryBody": "Snabba, tryckfria kontroller för bokstäver, ord, meningar och stycken. Obegränsade försök.",
+    "entryCta": "Öppna bedömningar",
+    "title": "Kolla din läsning",
+    "lede": "Välj en lugn bedömning för att se hur läsningen känns idag. Inga betyg eller lås – bara mjuk feedback.",
+    "safety": "Inga timers eller poäng. Du kan försöka igen när som helst.",
+    "backToLessons": "Tillbaka till lektioner",
+    "resultsHeading": "Senaste feedback",
+    "resultsBody": "Sparas lokalt som en ögonblicksbild för föräldrar. Ingen historik eller tidsstämplar.",
+    "localOnly": "Endast sparat på den här enheten",
+    "latestSaved": "Sparat från senaste försöket",
+    "chooseType": "Välj en bedömning",
+    "chooseTypeBody": "Välj vad du vill kolla nu. Du kan byta när som helst.",
+    "placeholder": "Innehåll klart",
     "duration": "~{minutes} min",
-    "retries": "Unlimited retries. No scores.",
-    "start": "Start",
-    "retry": "Retry",
-    "progressLabel": "Step {current} of {total}",
-    "completed": "Assessment completed. Retry anytime.",
-    "tryUntilReady": "Try again until it feels right.",
-    "readyToStart": "Press start to begin this assessment.",
-    "noScores": "Results are qualitative only—no numbers.",
-    "noteTitle": "Safety note",
-    "noteBody": "We do not lock content or track attempts. Each try overwrites the previous summary only.",
+    "retries": "Obegränsade försök. Inga poäng.",
+    "start": "Starta",
+    "retry": "Försök igen",
+    "progressLabel": "Steg {current} av {total}",
+    "completed": "Bedömning klar. Försök igen när du vill.",
+    "tryUntilReady": "Fortsätt tills det känns bra.",
+    "readyToStart": "Tryck start för att börja.",
+    "noScores": "Resultat är bara kvalitativa – inga siffror.",
+    "noteTitle": "Säkerhetsnotis",
+    "noteBody": "Vi låser inte innehåll och spårar inte försök. Varje försök ersätter bara den senaste sammanfattningen.",
     "status": {
-      "notStarted": "Not checked yet"
+      "notStarted": "Inte kontrollerat än"
     },
     "rating": {
-      "strong": "Strong",
-      "good": "Good",
-      "needsPractice": "Needs practice"
+      "strong": "Stark",
+      "good": "Bra",
+      "needsPractice": "Behöver öva"
     },
     "types": {
       "letters": {
-        "label": "Letters"
+        "label": "Bokstäver"
       },
       "words": {
-        "label": "Words"
+        "label": "Ord"
       },
       "sentences": {
-        "label": "Sentences"
+        "label": "Meningar"
       },
       "paragraphs": {
-        "label": "Paragraphs"
+        "label": "Stycken"
       }
     }
   }

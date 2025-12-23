@@ -219,7 +219,7 @@ export function AssessmentsPageClient({ assessments }: Props) {
           </Card>
         </div>
 
-        <div className="lg:col-span-2 space-y-4">
+        <div className="space-y-4 lg:col-span-2">
           {selectedAssessment ? (
             <Card className="space-y-3">
               <div className="flex flex-wrap items-start justify-between gap-3">

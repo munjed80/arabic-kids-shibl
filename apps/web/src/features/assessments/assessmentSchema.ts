@@ -10,7 +10,6 @@ export const assessmentSchema = z
     objective: z.string(),
     durationMinutes: z.number().int().positive(),
     activities: z.array(activitySchema).min(1),
-    steps: z.array(activitySchema).optional(),
   })
   .passthrough();
 
