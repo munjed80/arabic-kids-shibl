@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-176",
+  "world": "alphabet",
+  "title": "دمج بطيء ٢",
+  "description": "من المقطع إلى الكلمة.",
+  "objective": "ربط لو ولون ولبن.",
+  "goal": "تنفيذ مزج بطيء بثقة.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-176-1",
+      "type": "listen",
+      "prompt": "استمع للمقطع لو واختره.",
+      "choices": [
+        "لو",
+        "لي",
+        "لا"
+      ],
+      "answer": "لو",
+      "hint": "واو في النهاية.",
+      "asset": "audio/lu/clip1"
+    },
+    {
+      "id": "alphabet-176-2",
+      "type": "build",
+      "prompt": "كوّن كلمة لون.",
+      "choices": [
+        "لون",
+        "لو",
+        "لن"
+      ],
+      "answer": "لون",
+      "hint": "لو ثم نون."
+    },
+    {
+      "id": "alphabet-176-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لبن.",
+      "choices": [
+        "لبن",
+        "لب",
+        "لن"
+      ],
+      "answer": "لبن",
+      "hint": "لام ثم باء ثم نون."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-176-1",
+      "type": "listen",
+      "prompt": "استمع للمقطع لو واختره.",
+      "choices": [
+        "لو",
+        "لي",
+        "لا"
+      ],
+      "answer": "لو",
+      "hint": "واو في النهاية.",
+      "asset": "audio/lu/clip1"
+    },
+    {
+      "id": "alphabet-176-2",
+      "type": "build",
+      "prompt": "كوّن كلمة لون.",
+      "choices": [
+        "لون",
+        "لو",
+        "لن"
+      ],
+      "answer": "لون",
+      "hint": "لو ثم نون."
+    },
+    {
+      "id": "alphabet-176-3",
+      "type": "build",
+      "prompt": "كوّن كلمة لبن.",
+      "choices": [
+        "لبن",
+        "لب",
+        "لن"
+      ],
+      "answer": "لبن",
+      "hint": "لام ثم باء ثم نون."
+    }
+  ]
+}

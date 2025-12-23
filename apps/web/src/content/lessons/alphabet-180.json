@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-180",
+  "world": "alphabet",
+  "title": "تمييز كلمات ٢",
+  "description": "اختيار الكلمة بعد سماعها.",
+  "objective": "تقوية الربط بين السمع والكتابة.",
+  "goal": "التعرف على كلمات مألوفة بسرعة هادئة.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-180-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة كلب.",
+      "choices": [
+        "كلب",
+        "كل",
+        "كب"
+      ],
+      "answer": "كلب",
+      "hint": "ثلاث حروف.",
+      "asset": "audio/kalb/clip1"
+    },
+    {
+      "id": "alphabet-180-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني قمر؟",
+      "choices": [
+        "قمر",
+        "قمرر",
+        "قما"
+      ],
+      "answer": "قمر",
+      "hint": "ثلاث حروف متتابعة."
+    },
+    {
+      "id": "alphabet-180-3",
+      "type": "match",
+      "prompt": "اختر كلمة سمك.",
+      "choices": [
+        "سمك",
+        "سك",
+        "سم"
+      ],
+      "answer": "سمك",
+      "hint": "سين ثم ميم ثم كاف.",
+      "asset": "image/samak/word"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-180-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة كلب.",
+      "choices": [
+        "كلب",
+        "كل",
+        "كب"
+      ],
+      "answer": "كلب",
+      "hint": "ثلاث حروف.",
+      "asset": "audio/kalb/clip1"
+    },
+    {
+      "id": "alphabet-180-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني قمر؟",
+      "choices": [
+        "قمر",
+        "قمرر",
+        "قما"
+      ],
+      "answer": "قمر",
+      "hint": "ثلاث حروف متتابعة."
+    },
+    {
+      "id": "alphabet-180-3",
+      "type": "match",
+      "prompt": "اختر كلمة سمك.",
+      "choices": [
+        "سمك",
+        "سك",
+        "سم"
+      ],
+      "answer": "سمك",
+      "hint": "سين ثم ميم ثم كاف.",
+      "asset": "image/samak/word"
+    }
+  ]
+}
