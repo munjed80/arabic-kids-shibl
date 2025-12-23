@@ -169,5 +169,32 @@
         "label": "Absätze"
       }
     }
+  },
+  "stories": {
+    "entryBadge": "Geschichten",
+    "entryTitle": "Kurze Geschichten",
+    "entryBody": "Ruhige arabische Geschichten zum Üben nach den Tests. Große Schrift, ruhiges Tempo, jederzeit wiederholbar.",
+    "entryCta": "Geschichten öffnen",
+    "badge": "Kurze Geschichten",
+    "title": "Kurze Geschichten",
+    "lede": "Lies sehr kurze Absätze mit Wortschatz aus Level 11–20. Keine Punkte, nur entspanntes Lesen.",
+    "safety": "Geschichten sind optional und ändern den Fortschritt nicht.",
+    "backToHome": "Zur Startseite",
+    "listHeading": "Wähle eine Geschichte",
+    "listBody": "Jede Geschichte hat drei kurze Absätze. Lies und höre, wann du möchtest.",
+    "storyBadge": "Geschichte",
+    "paragraphCount": "{total} Absätze",
+    "preview": "Vorschau",
+    "readStory": "Geschichte lesen",
+    "openReader": "Leser öffnen",
+    "reader": "Geschichtenleser",
+    "readerLede": "Lies einen Absatz nach dem anderen. Nutze Weiter oder Zurück wenn du bereit bist.",
+    "paragraphProgress": "Absatz {current} von {total}",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "listen": "Anhören",
+    "listenUnavailable": "Anhören ist auf diesem Gerät nicht verfügbar.",
+    "listenOptional": "Anhören ist optional – lies in deinem eigenen Tempo.",
+    "backToList": "Zurück zu den Geschichten"
   }
 }

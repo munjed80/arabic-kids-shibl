@@ -169,5 +169,32 @@
         "label": "Paragraphs"
       }
     }
+  },
+  "stories": {
+    "entryBadge": "Story track",
+    "entryTitle": "Short Stories",
+    "entryBody": "Gentle, optional Arabic stories to practice after assessments. Large text, calm pacing, replay anytime.",
+    "entryCta": "Open stories",
+    "badge": "Short stories",
+    "title": "Short Stories",
+    "lede": "Read very short Arabic paragraphs built from Level 11–20 vocabulary. No scores—just quiet reading.",
+    "safety": "Stories are optional and do not change lesson or assessment progress.",
+    "backToHome": "Back to home",
+    "listHeading": "Pick a story",
+    "listBody": "Each story has three short paragraphs. Replay freely and listen if you like.",
+    "storyBadge": "Story",
+    "paragraphCount": "{total} paragraphs",
+    "preview": "Preview",
+    "readStory": "Read story",
+    "openReader": "Open reader",
+    "reader": "Story reader",
+    "readerLede": "Read one paragraph at a time. Use next or previous when you are ready.",
+    "paragraphProgress": "Paragraph {current} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "listen": "Listen",
+    "listenUnavailable": "Listening is not available on this device.",
+    "listenOptional": "Listening is optional—read at your own pace.",
+    "backToList": "Back to stories"
   }
 }

@@ -321,6 +321,22 @@ export function HomePageClient({ lessons }: Props) {
         </div>
       </Card>
 
+      <Card className="flex flex-wrap items-center justify-between gap-3 border-slate-200 bg-white">
+        <div className="space-y-2">
+          <p className="text-xs font-semibold uppercase tracking-widest text-amber-600">
+            {t("stories.entryBadge")}
+          </p>
+          <h2 className="text-xl font-semibold text-slate-900">{t("stories.entryTitle")}</h2>
+          <p className="text-sm text-slate-700">{t("stories.entryBody")}</p>
+        </div>
+        <Link
+          href="/stories"
+          className="rounded-full bg-amber-500 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-amber-600"
+        >
+          {t("stories.entryCta")}
+        </Link>
+      </Card>
+
       <section className="grid gap-6 lg:grid-cols-3">
         <div className="space-y-4 lg:col-span-2">
           <div className="flex flex-wrap gap-2">
