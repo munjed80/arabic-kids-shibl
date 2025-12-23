@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-193",
+  "world": "alphabet",
+  "title": "جمل قصيرة ٣",
+  "description": "عرض جمل عن القط والبيت.",
+  "objective": "قراءة قط لبن وبيت قط.",
+  "goal": "ترسيخ معنى بسيط بهدوء.",
+  "level": 12,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-193-1",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "قط لبن",
+        "لبن قط",
+        "قط لعب"
+      ],
+      "answer": "قط لبن",
+      "hint": "جملة من كلمتين.",
+      "asset": "audio/level12/193-1"
+    },
+    {
+      "id": "alphabet-193-2",
+      "type": "review",
+      "prompt": "اقرأ بهدوء: قط لبن",
+      "choices": [
+        "تم",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "تم",
+      "hint": "استمر على مهل."
+    },
+    {
+      "id": "alphabet-193-3",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "بيت قط",
+        "قط بيت",
+        "بيت بيت"
+      ],
+      "answer": "بيت قط",
+      "hint": "كلمتان فقط.",
+      "asset": "audio/level12/193-3"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-193-1",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "قط لبن",
+        "لبن قط",
+        "قط لعب"
+      ],
+      "answer": "قط لبن",
+      "hint": "جملة من كلمتين.",
+      "asset": "audio/level12/193-1"
+    },
+    {
+      "id": "alphabet-193-2",
+      "type": "review",
+      "prompt": "اقرأ بهدوء: قط لبن",
+      "choices": [
+        "تم",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "تم",
+      "hint": "استمر على مهل."
+    },
+    {
+      "id": "alphabet-193-3",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "بيت قط",
+        "قط بيت",
+        "بيت بيت"
+      ],
+      "answer": "بيت قط",
+      "hint": "كلمتان فقط.",
+      "asset": "audio/level12/193-3"
+    }
+  ]
+}

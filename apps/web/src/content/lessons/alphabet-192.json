@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-192",
+  "world": "alphabet",
+  "title": "جمل قصيرة ٢",
+  "description": "استماع وقراءة لجملة يوم لعب.",
+  "objective": "التعرض لجمل من كلمتين.",
+  "goal": "الحفاظ على تدفق هادئ.",
+  "level": 12,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-192-1",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "يوم لعب",
+        "لعب يوم",
+        "ولد لعب"
+      ],
+      "answer": "يوم لعب",
+      "hint": "جملة قصيرة وواضحة.",
+      "asset": "audio/level12/192-1"
+    },
+    {
+      "id": "alphabet-192-2",
+      "type": "review",
+      "prompt": "اقرأ بهدوء: يوم لعب",
+      "choices": [
+        "تم",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "تم",
+      "hint": "لا تستعجل."
+    },
+    {
+      "id": "alphabet-192-3",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "ولد لعب",
+        "لعب ولد",
+        "ولد نور"
+      ],
+      "answer": "ولد لعب",
+      "hint": "فقط كلمتان.",
+      "asset": "audio/level12/192-3"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-192-1",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "يوم لعب",
+        "لعب يوم",
+        "ولد لعب"
+      ],
+      "answer": "يوم لعب",
+      "hint": "جملة قصيرة وواضحة.",
+      "asset": "audio/level12/192-1"
+    },
+    {
+      "id": "alphabet-192-2",
+      "type": "review",
+      "prompt": "اقرأ بهدوء: يوم لعب",
+      "choices": [
+        "تم",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "تم",
+      "hint": "لا تستعجل."
+    },
+    {
+      "id": "alphabet-192-3",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "ولد لعب",
+        "لعب ولد",
+        "ولد نور"
+      ],
+      "answer": "ولد لعب",
+      "hint": "فقط كلمتان.",
+      "asset": "audio/level12/192-3"
+    }
+  ]
+}
