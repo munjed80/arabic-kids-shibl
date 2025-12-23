@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-191",
+  "world": "alphabet",
+  "title": "جمل قصيرة ١",
+  "description": "استماع لجملة بسيطة.",
+  "objective": "سماع ثم قراءة باب بيت.",
+  "goal": "هدوء مع أول جمل.",
+  "level": 12,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-191-1",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "باب بيت",
+        "بيت باب",
+        "بيت نور"
+      ],
+      "answer": "باب بيت",
+      "hint": "جملة من كلمتين.",
+      "asset": "audio/level12/191-1"
+    },
+    {
+      "id": "alphabet-191-2",
+      "type": "review",
+      "prompt": "اقرأ بهدوء: باب بيت",
+      "choices": [
+        "تم",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "تم",
+      "hint": "خذ وقتك."
+    },
+    {
+      "id": "alphabet-191-3",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "بيت نور",
+        "نور بيت",
+        "باب بيت"
+      ],
+      "answer": "بيت نور",
+      "hint": "كلمتان فقط.",
+      "asset": "audio/level12/191-3"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-191-1",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "باب بيت",
+        "بيت باب",
+        "بيت نور"
+      ],
+      "answer": "باب بيت",
+      "hint": "جملة من كلمتين.",
+      "asset": "audio/level12/191-1"
+    },
+    {
+      "id": "alphabet-191-2",
+      "type": "review",
+      "prompt": "اقرأ بهدوء: باب بيت",
+      "choices": [
+        "تم",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "تم",
+      "hint": "خذ وقتك."
+    },
+    {
+      "id": "alphabet-191-3",
+      "type": "listen",
+      "prompt": "استمع للجملة واختر ما سمعت.",
+      "choices": [
+        "بيت نور",
+        "نور بيت",
+        "باب بيت"
+      ],
+      "answer": "بيت نور",
+      "hint": "كلمتان فقط.",
+      "asset": "audio/level12/191-3"
+    }
+  ]
+}
