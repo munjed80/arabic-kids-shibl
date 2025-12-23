@@ -40,11 +40,14 @@ const initialRunState: RunState = {
   total: 0,
 };
 
+const STRONG_THRESHOLD = 0.85;
+const GOOD_THRESHOLD = 0.6;
+
 const rubric = (correct: number, total: number): AssessmentRating => {
   if (total === 0) return "needsPractice";
   const ratio = correct / total;
-  if (ratio >= 0.85) return "strong";
-  if (ratio >= 0.6) return "good";
+  if (ratio >= STRONG_THRESHOLD) return "strong";
+  if (ratio >= GOOD_THRESHOLD) return "good";
   return "needsPractice";
 };
 
@@ -57,6 +60,7 @@ const toLesson = (assessment: Assessment): Lesson => ({
 
 export function AssessmentsPageClient({ assessments }: Props) {
   const { t } = useI18n();
+  const eventBus = useMemo(() => new LessonEventBus(), []);
   const [selectedCategory, setSelectedCategory] = useState<AssessmentCategory>(
     assessments[0]?.category ?? "letters",
   );
@@ -68,7 +72,7 @@ export function AssessmentsPageClient({ assessments }: Props) {
     total: categoryTotal(assessments[0]?.category ?? "letters"),
   }));
   const [currentActivity, setCurrentActivity] = useState<Activity | undefined>(undefined);
-  const engineRef = useRef(new LessonEngine(new LessonEventBus()));
+  const engineRef = useRef(new LessonEngine(eventBus));
 
   const assessmentsByCategory = useMemo(
     () => Object.fromEntries(assessments.map((entry) => [entry.category, entry] as const)),
