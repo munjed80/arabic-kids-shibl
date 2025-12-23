@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-179",
+  "world": "alphabet",
+  "title": "تمييز كلمات ١",
+  "description": "اختيار الكلمة الصحيحة بعد الاستماع.",
+  "objective": "الانتقال من الصوت إلى الكلمة المكتوبة.",
+  "goal": "تعزيز التمييز البصري والسمعي.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-179-1",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر كلمة بيت.",
+      "choices": [
+        "بيت",
+        "بت",
+        "بات"
+      ],
+      "answer": "بيت",
+      "hint": "ثلاث حروف واضحة.",
+      "asset": "audio/bayt/clip1"
+    },
+    {
+      "id": "alphabet-179-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني يد؟",
+      "choices": [
+        "يد",
+        "يدو",
+        "دي"
+      ],
+      "answer": "يد",
+      "hint": "حرفان فقط."
+    },
+    {
+      "id": "alphabet-179-3",
+      "type": "match",
+      "prompt": "طابق الصوت مع الكلمة: نور.",
+      "choices": [
+        "نور",
+        "نار",
+        "نون"
+      ],
+      "answer": "نور",
+      "hint": "واو في الوسط.",
+      "asset": "audio/noor/clip1"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-179-1",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر كلمة بيت.",
+      "choices": [
+        "بيت",
+        "بت",
+        "بات"
+      ],
+      "answer": "بيت",
+      "hint": "ثلاث حروف واضحة.",
+      "asset": "audio/bayt/clip1"
+    },
+    {
+      "id": "alphabet-179-2",
+      "type": "choose",
+      "prompt": "أي كلمة تعني يد؟",
+      "choices": [
+        "يد",
+        "يدو",
+        "دي"
+      ],
+      "answer": "يد",
+      "hint": "حرفان فقط."
+    },
+    {
+      "id": "alphabet-179-3",
+      "type": "match",
+      "prompt": "طابق الصوت مع الكلمة: نور.",
+      "choices": [
+        "نور",
+        "نار",
+        "نون"
+      ],
+      "answer": "نور",
+      "hint": "واو في الوسط.",
+      "asset": "audio/noor/clip1"
+    }
+  ]
+}

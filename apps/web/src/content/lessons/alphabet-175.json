@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-175",
+  "world": "alphabet",
+  "title": "دمج بطيء ١",
+  "description": "من الصوت إلى المقطع.",
+  "objective": "تثبيت مزج با/بو/بي.",
+  "goal": "قراءة مقطع بسيط ثم كلمة.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-175-1",
+      "type": "listen",
+      "prompt": "استمع واختر المقطع الذي سمعت: با",
+      "choices": [
+        "با",
+        "بو",
+        "بي"
+      ],
+      "answer": "با",
+      "hint": "ألف بعد باء.",
+      "asset": "audio/ba/clip1"
+    },
+    {
+      "id": "alphabet-175-2",
+      "type": "build",
+      "prompt": "كوّن المقطع با من الحروف.",
+      "choices": [
+        "با",
+        "اب",
+        "ب"
+      ],
+      "answer": "با",
+      "hint": "ابدأ بالباء."
+    },
+    {
+      "id": "alphabet-175-3",
+      "type": "build",
+      "prompt": "كوّن كلمة باب.",
+      "choices": [
+        "باب",
+        "بب",
+        "با"
+      ],
+      "answer": "باب",
+      "hint": "باء ثم ألف ثم باء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-175-1",
+      "type": "listen",
+      "prompt": "استمع واختر المقطع الذي سمعت: با",
+      "choices": [
+        "با",
+        "بو",
+        "بي"
+      ],
+      "answer": "با",
+      "hint": "ألف بعد باء.",
+      "asset": "audio/ba/clip1"
+    },
+    {
+      "id": "alphabet-175-2",
+      "type": "build",
+      "prompt": "كوّن المقطع با من الحروف.",
+      "choices": [
+        "با",
+        "اب",
+        "ب"
+      ],
+      "answer": "با",
+      "hint": "ابدأ بالباء."
+    },
+    {
+      "id": "alphabet-175-3",
+      "type": "build",
+      "prompt": "كوّن كلمة باب.",
+      "choices": [
+        "باب",
+        "بب",
+        "با"
+      ],
+      "answer": "باب",
+      "hint": "باء ثم ألف ثم باء."
+    }
+  ]
+}

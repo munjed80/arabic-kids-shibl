@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-182",
+  "world": "alphabet",
+  "title": "تمييز كلمات ٤",
+  "description": "اختيار الكلمة بعد سماعها بوضوح.",
+  "objective": "تعزيز قراءة يوم وشمس ويد.",
+  "goal": "ثقة في التعرف على كلمات قصيرة.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-182-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة يوم.",
+      "choices": [
+        "يوم",
+        "يم",
+        "يو"
+      ],
+      "answer": "يوم",
+      "hint": "ثلاث حروف بينها واو.",
+      "asset": "audio/yawm/clip1"
+    },
+    {
+      "id": "alphabet-182-2",
+      "type": "choose",
+      "prompt": "أي كلمة هي شمس؟",
+      "choices": [
+        "شمس",
+        "شم",
+        "شس"
+      ],
+      "answer": "شمس",
+      "hint": "أربع أحرف واضحة."
+    },
+    {
+      "id": "alphabet-182-3",
+      "type": "match",
+      "prompt": "اختر كلمة يد.",
+      "choices": [
+        "يد",
+        "دي",
+        "يدو"
+      ],
+      "answer": "يد",
+      "hint": "حرفان فقط.",
+      "asset": "image/hand/word"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-182-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة يوم.",
+      "choices": [
+        "يوم",
+        "يم",
+        "يو"
+      ],
+      "answer": "يوم",
+      "hint": "ثلاث حروف بينها واو.",
+      "asset": "audio/yawm/clip1"
+    },
+    {
+      "id": "alphabet-182-2",
+      "type": "choose",
+      "prompt": "أي كلمة هي شمس؟",
+      "choices": [
+        "شمس",
+        "شم",
+        "شس"
+      ],
+      "answer": "شمس",
+      "hint": "أربع أحرف واضحة."
+    },
+    {
+      "id": "alphabet-182-3",
+      "type": "match",
+      "prompt": "اختر كلمة يد.",
+      "choices": [
+        "يد",
+        "دي",
+        "يدو"
+      ],
+      "answer": "يد",
+      "hint": "حرفان فقط.",
+      "asset": "image/hand/word"
+    }
+  ]
+}

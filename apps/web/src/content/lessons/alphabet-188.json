@@ -1,0 +1,88 @@
+{
+  "id": "alphabet-188",
+  "world": "alphabet",
+  "title": "مراجعة مختلطة ٢",
+  "description": "استماع واختيار لكلمات مألوفة.",
+  "objective": "مراجعة قمر ويد وكلب.",
+  "goal": "تثبيت القراءة المتنوعة بهدوء.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-188-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة قمر.",
+      "choices": [
+        "قمر",
+        "قما",
+        "قم"
+      ],
+      "answer": "قمر",
+      "hint": "ثلاث حروف واضحة.",
+      "asset": "audio/qamar/clip1"
+    },
+    {
+      "id": "alphabet-188-2",
+      "type": "match",
+      "prompt": "أي كلمة فيها يد؟",
+      "choices": [
+        "يد",
+        "يدو",
+        "يدي"
+      ],
+      "answer": "يد",
+      "hint": "حرفان فقط."
+    },
+    {
+      "id": "alphabet-188-3",
+      "type": "build",
+      "prompt": "كوّن كلمة كلب.",
+      "choices": [
+        "كلب",
+        "كل",
+        "كب"
+      ],
+      "answer": "كلب",
+      "hint": "كاف ثم لام ثم باء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-188-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة قمر.",
+      "choices": [
+        "قمر",
+        "قما",
+        "قم"
+      ],
+      "answer": "قمر",
+      "hint": "ثلاث حروف واضحة.",
+      "asset": "audio/qamar/clip1"
+    },
+    {
+      "id": "alphabet-188-2",
+      "type": "match",
+      "prompt": "أي كلمة فيها يد؟",
+      "choices": [
+        "يد",
+        "يدو",
+        "يدي"
+      ],
+      "answer": "يد",
+      "hint": "حرفان فقط."
+    },
+    {
+      "id": "alphabet-188-3",
+      "type": "build",
+      "prompt": "كوّن كلمة كلب.",
+      "choices": [
+        "كلب",
+        "كل",
+        "كب"
+      ],
+      "answer": "كلب",
+      "hint": "كاف ثم لام ثم باء."
+    }
+  ]
+}

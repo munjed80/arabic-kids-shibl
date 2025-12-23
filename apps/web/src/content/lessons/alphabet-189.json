@@ -1,0 +1,86 @@
+{
+  "id": "alphabet-189",
+  "world": "alphabet",
+  "title": "مراجعة مختلطة ٣",
+  "description": "اختيار وقراءة هادئة.",
+  "objective": "تثبيت بيت ويوم ونور.",
+  "goal": "قراءة مختلطة بثقة.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-189-1",
+      "type": "choose",
+      "prompt": "أي كلمة تكتب بيت؟",
+      "choices": [
+        "بيت",
+        "بت",
+        "بي"
+      ],
+      "answer": "بيت",
+      "hint": "ثلاث حروف."
+    },
+    {
+      "id": "alphabet-189-2",
+      "type": "match",
+      "prompt": "اختر كلمة يوم.",
+      "choices": [
+        "يوم",
+        "يم",
+        "يو"
+      ],
+      "answer": "يوم",
+      "hint": "بينها واو."
+    },
+    {
+      "id": "alphabet-189-3",
+      "type": "review",
+      "prompt": "اقرأ: بيت يوم نور.",
+      "choices": [
+        "جيد",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "جيد",
+      "hint": "حافظ على الهدوء."
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-189-1",
+      "type": "choose",
+      "prompt": "أي كلمة تكتب بيت؟",
+      "choices": [
+        "بيت",
+        "بت",
+        "بي"
+      ],
+      "answer": "بيت",
+      "hint": "ثلاث حروف."
+    },
+    {
+      "id": "alphabet-189-2",
+      "type": "match",
+      "prompt": "اختر كلمة يوم.",
+      "choices": [
+        "يوم",
+        "يم",
+        "يو"
+      ],
+      "answer": "يوم",
+      "hint": "بينها واو."
+    },
+    {
+      "id": "alphabet-189-3",
+      "type": "review",
+      "prompt": "اقرأ: بيت يوم نور.",
+      "choices": [
+        "جيد",
+        "أعيد",
+        "صعب"
+      ],
+      "answer": "جيد",
+      "hint": "حافظ على الهدوء."
+    }
+  ]
+}

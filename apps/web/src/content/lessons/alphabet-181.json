@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-181",
+  "world": "alphabet",
+  "title": "تمييز كلمات ٣",
+  "description": "التقاط الكلمة الصحيحة من السمع.",
+  "objective": "تمييز أصوات قفل وولد ولبن.",
+  "goal": "رفع الثقة في القراءة البصرية.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-181-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة قفل.",
+      "choices": [
+        "قفل",
+        "قل",
+        "فقل"
+      ],
+      "answer": "قفل",
+      "hint": "ثلاث حروف متماسكة.",
+      "asset": "audio/qafl/clip1"
+    },
+    {
+      "id": "alphabet-181-2",
+      "type": "choose",
+      "prompt": "أي كلمة هي ولد؟",
+      "choices": [
+        "ولد",
+        "ول",
+        "ود"
+      ],
+      "answer": "ولد",
+      "hint": "ثلاث حروف."
+    },
+    {
+      "id": "alphabet-181-3",
+      "type": "match",
+      "prompt": "اختر كلمة لبن.",
+      "choices": [
+        "لبن",
+        "لب",
+        "لن"
+      ],
+      "answer": "لبن",
+      "hint": "نون في النهاية.",
+      "asset": "audio/laban/clip1"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-181-1",
+      "type": "listen",
+      "prompt": "استمع واختر كلمة قفل.",
+      "choices": [
+        "قفل",
+        "قل",
+        "فقل"
+      ],
+      "answer": "قفل",
+      "hint": "ثلاث حروف متماسكة.",
+      "asset": "audio/qafl/clip1"
+    },
+    {
+      "id": "alphabet-181-2",
+      "type": "choose",
+      "prompt": "أي كلمة هي ولد؟",
+      "choices": [
+        "ولد",
+        "ول",
+        "ود"
+      ],
+      "answer": "ولد",
+      "hint": "ثلاث حروف."
+    },
+    {
+      "id": "alphabet-181-3",
+      "type": "match",
+      "prompt": "اختر كلمة لبن.",
+      "choices": [
+        "لبن",
+        "لب",
+        "لن"
+      ],
+      "answer": "لبن",
+      "hint": "نون في النهاية.",
+      "asset": "audio/laban/clip1"
+    }
+  ]
+}

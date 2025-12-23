@@ -1,0 +1,90 @@
+{
+  "id": "alphabet-178",
+  "world": "alphabet",
+  "title": "دمج بطيء ٤",
+  "description": "من سي إلى كلمات كاملة.",
+  "objective": "دمج السين مع الميم والكاف والشين.",
+  "goal": "إنجاز قراءة بطيئة لكلمات قصيرة.",
+  "level": 11,
+  "durationMinutes": 4,
+  "steps": [
+    {
+      "id": "alphabet-178-1",
+      "type": "listen",
+      "prompt": "استمع للمقطع سي واختره.",
+      "choices": [
+        "سي",
+        "سو",
+        "سا"
+      ],
+      "answer": "سي",
+      "hint": "ياء بعد السين.",
+      "asset": "audio/si/clip1"
+    },
+    {
+      "id": "alphabet-178-2",
+      "type": "build",
+      "prompt": "كوّن كلمة سمك.",
+      "choices": [
+        "سمك",
+        "سم",
+        "سك"
+      ],
+      "answer": "سمك",
+      "hint": "سين ثم ميم ثم كاف."
+    },
+    {
+      "id": "alphabet-178-3",
+      "type": "build",
+      "prompt": "كوّن كلمة شمس.",
+      "choices": [
+        "شمس",
+        "شم",
+        "شس"
+      ],
+      "answer": "شمس",
+      "hint": "أربع أحرف سهلة.",
+      "asset": "image/shams/word"
+    }
+  ],
+  "activities": [
+    {
+      "id": "alphabet-178-1",
+      "type": "listen",
+      "prompt": "استمع للمقطع سي واختره.",
+      "choices": [
+        "سي",
+        "سو",
+        "سا"
+      ],
+      "answer": "سي",
+      "hint": "ياء بعد السين.",
+      "asset": "audio/si/clip1"
+    },
+    {
+      "id": "alphabet-178-2",
+      "type": "build",
+      "prompt": "كوّن كلمة سمك.",
+      "choices": [
+        "سمك",
+        "سم",
+        "سك"
+      ],
+      "answer": "سمك",
+      "hint": "سين ثم ميم ثم كاف."
+    },
+    {
+      "id": "alphabet-178-3",
+      "type": "build",
+      "prompt": "كوّن كلمة شمس.",
+      "choices": [
+        "شمس",
+        "شم",
+        "شس"
+      ],
+      "answer": "شمس",
+      "hint": "أربع أحرف سهلة.",
+      "asset": "image/shams/word"
+    }
+  ]
+}
