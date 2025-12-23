@@ -8,9 +8,7 @@ const sortAssessments = (assessments: Assessment[]) =>
   [...assessments].sort((a, b) => {
     const orderA = preferredOrder.indexOf(a.category);
     const orderB = preferredOrder.indexOf(b.category);
-    if (orderA !== -1 || orderB !== -1) {
-      if (orderA === -1) return 1;
-      if (orderB === -1) return -1;
+    if (orderA !== -1 && orderB !== -1) {
       if (orderA !== orderB) return orderA - orderB;
     }
     return a.id.localeCompare(b.id);
