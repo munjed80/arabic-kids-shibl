@@ -196,5 +196,108 @@
     "listenUnavailable": "Anhören ist auf diesem Gerät nicht verfügbar.",
     "listenOptional": "Anhören ist optional – lies in deinem eigenen Tempo.",
     "backToList": "Zurück zu den Geschichten"
+  },
+  "exams": {
+    "badge": "Übungsprüfung",
+    "entryBadge": "Übungsprüfung",
+    "entryTitle": "Übungsprüfung",
+    "entryBody": "Ruhige Übungsprüfungen basierend auf abgeschlossenem Lernen. Kein Druck, keine Noten—nur Validierung und elternfreundliche Berichte.",
+    "entryCta": "Übungsprüfungen öffnen",
+    "title": "Übungsprüfungen",
+    "lede": "Wähle eine ruhige Übungsprüfung zur Validierung des Lernens. Keine Timer, keine Punkte—nur sanftes Feedback und Einblicke für Eltern.",
+    "safety": "Keine Timer, keine Punkte, kein Bestanden/Durchgefallen. Du kannst jederzeit erneut versuchen.",
+    "backToHome": "Zurück zur Startseite",
+    "parentReportHeading": "Elternfreundlicher Bericht",
+    "parentReportBody": "Klare Einblicke, was Ihr Kind kann und was als nächstes geübt werden sollte. Lokal als Momentaufnahme gespeichert.",
+    "localOnly": "Nur auf diesem Gerät gespeichert",
+    "latestSaved": "Neuestes Ergebnis",
+    "chooseType": "Wähle einen Prüfungstyp",
+    "chooseTypeBody": "Wähle, was du jetzt validieren möchtest. Du kannst jederzeit wechseln.",
+    "placeholder": "Inhalt bereit",
+    "duration": "~{minutes} min",
+    "retries": "Unbegrenzte Versuche. Keine Punkte.",
+    "start": "Start",
+    "retry": "Erneut versuchen",
+    "progressLabel": "Schritt {current} von {total}",
+    "completed": "Prüfung abgeschlossen. Jederzeit erneut versuchen.",
+    "tryUntilReady": "Versuche es erneut, bis es sich richtig anfühlt.",
+    "readyToStart": "Drücke Start, um diese Prüfung zu beginnen.",
+    "noScores": "Ergebnisse sind nur qualitativ—keine Zahlen.",
+    "noteTitle": "Wichtiger Hinweis",
+    "noteBody": "Dies ist eine Übungsprüfung, getrennt von Lektionen und Bewertungen. Sie beeinflusst keine Fortschritte oder schaltet Inhalte frei. Ergebnisse zeigen nur qualitatives Feedback.",
+    "feedback": {
+      "correct": "Gut gemacht—weiter so.",
+      "incorrect": "Versuche es erneut; du kannst so oft versuchen, wie du möchtest."
+    },
+    "status": {
+      "notStarted": "Noch nicht überprüft"
+    },
+    "rating": {
+      "strong": "Stark",
+      "good": "Gut",
+      "needsPractice": "Braucht Übung"
+    },
+    "types": {
+      "letters": {
+        "label": "Buchstaben"
+      },
+      "words": {
+        "label": "Wörter"
+      },
+      "sentences": {
+        "label": "Sätze"
+      },
+      "paragraphs": {
+        "label": "Absätze"
+      }
+    },
+    "parent": {
+      "canDoLabel": "Was sie können:",
+      "nextStepsLabel": "Was zu üben:",
+      "canDo": {
+        "letters": {
+          "strong": "Ihr Kind kann Buchstaben nach Klang identifizieren und ähnliche Buchstaben sicher unterscheiden.",
+          "good": "Ihr Kind erkennt die meisten Buchstaben und kann einfache Wörter mit etwas Unterstützung bilden.",
+          "needsPractice": "Ihr Kind lernt, Buchstaben zu identifizieren. Mehr Übung mit Buchstabenlauten wird helfen."
+        },
+        "words": {
+          "strong": "Ihr Kind liest Wörter fließend und versteht ihre Bedeutungen.",
+          "good": "Ihr Kind kann vertraute Wörter lesen und versteht die meisten Bedeutungen.",
+          "needsPractice": "Ihr Kind baut Worterkennung auf. Regelmäßiges Leseüben wird dies stärken."
+        },
+        "sentences": {
+          "strong": "Ihr Kind liest Sätze fließend und versteht ihre Bedeutung klar.",
+          "good": "Ihr Kind versteht die meisten Sätze und kann Hauptideen identifizieren.",
+          "needsPractice": "Ihr Kind entwickelt Satzverständnis. Gemeinsames Lesen einfacher Sätze wird helfen."
+        },
+        "paragraphs": {
+          "strong": "Ihr Kind liest Absätze selbstbewusst und identifiziert Hauptideen und Details.",
+          "good": "Ihr Kind versteht Absätze und kann wichtige Informationen mit etwas Anleitung finden.",
+          "needsPractice": "Ihr Kind lernt, längere Texte zu lesen. Beginnen Sie mit kurzen Absätzen und besprechen Sie sie gemeinsam."
+        }
+      },
+      "nextSteps": {
+        "letters": {
+          "strong": "Verstärken Sie weiterhin Buchstabenlaute durch Wortbildungsaktivitäten.",
+          "good": "Üben Sie das Unterscheiden ähnlicher Buchstaben und das Bilden komplexerer Wörter.",
+          "needsPractice": "Konzentrieren Sie sich auf Buchstabenlaute und deren Zuordnung zu geschriebenen Buchstaben. Verwenden Sie Wiederholung und Ermutigung."
+        },
+        "words": {
+          "strong": "Gehen Sie zu komplexeren Wörtern und Satzlesen über.",
+          "good": "Üben Sie das Lesen von Wörtern im Kontext und erkunden Sie neues Vokabular.",
+          "needsPractice": "Überprüfen Sie täglich vertraute Wörter und verbinden Sie sie mit Bildern oder echten Objekten."
+        },
+        "sentences": {
+          "strong": "Ermutigen Sie das Lesen längerer Texte und besprechen Sie Hauptideen.",
+          "good": "Üben Sie das Identifizieren von Satzthemen und besprechen Sie, was gelesen wurde.",
+          "needsPractice": "Lesen Sie gemeinsam einfache Sätze und stellen Sie 'Was ist passiert?' Fragen."
+        },
+        "paragraphs": {
+          "strong": "Erkunden Sie komplexere Texte und besprechen Sie Themen und Details.",
+          "good": "Üben Sie das Finden von Hauptideen und unterstützenden Details in kurzen Texten.",
+          "needsPractice": "Lesen Sie einen Absatz nach dem anderen, dann sprechen Sie darüber, was darin steht. Nutzen Sie die Geschichtenfunktion."
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,60 @@
+{
+  "id": "exam-letters",
+  "category": "letters",
+  "title": "امتحان الحروف التدريبي",
+  "description": "تعرف على الحروف بصوتها، ميز الحروف المتشابهة، وابن كلمة قصيرة.",
+  "objective": "تأكد من قدرة الطفل على التعرف على الحروف وبناء كلمة بسيطة في جو هادئ بلا ضغط.",
+  "durationMinutes": 5,
+  "activities": [
+    {
+      "id": "exam-letters-1",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر الحرف الصحيح",
+      "choices": ["ب", "ت", "ث"],
+      "answer": "ب",
+      "hint": "الصوت له نقطة واحدة أسفل الحرف",
+      "asset": "audio/exams/letter-ba"
+    },
+    {
+      "id": "exam-letters-2",
+      "type": "listen",
+      "prompt": "استمع للصوت واختر الحرف الصحيح",
+      "choices": ["س", "ش", "ص"],
+      "answer": "س",
+      "hint": "الصوت خفيف وليس مفخماً",
+      "asset": "audio/exams/letter-seen"
+    },
+    {
+      "id": "exam-letters-3",
+      "type": "choose",
+      "prompt": "اختر الحرف المختلف عن ح",
+      "choices": ["ح", "ح", "خ"],
+      "answer": "خ",
+      "hint": "انظر للنقطة فوق الحرف"
+    },
+    {
+      "id": "exam-letters-4",
+      "type": "choose",
+      "prompt": "اختر الحرف المختلف عن د",
+      "choices": ["د", "ذ", "د"],
+      "answer": "ذ",
+      "hint": "الذال له نقطة"
+    },
+    {
+      "id": "exam-letters-5",
+      "type": "build",
+      "prompt": "ابن كلمة قلم بالترتيب الصحيح",
+      "choices": ["قلم", "لقم", "ملق"],
+      "answer": "قلم",
+      "hint": "ابدأ بحرف ق"
+    },
+    {
+      "id": "exam-letters-6",
+      "type": "build",
+      "prompt": "ابن كلمة نور بالترتيب الصحيح",
+      "choices": ["نور", "رون", "ورن"],
+      "answer": "نور",
+      "hint": "ابدأ بحرف ن"
+    }
+  ]
+}
