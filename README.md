@@ -56,6 +56,7 @@ arabic-kids-shibl/
 - All progress is stored locally in the browser via LocalStorage.
 - No tracking, analytics, or ads included.
 - See `docs/PRIVACY.md` for the full statement.
+- Developer note: Arabic is reserved exclusively for learning content (lessons, stories, exams). UI text must never contain Arabic.
 
 ## Deployment
 
