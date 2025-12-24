@@ -196,5 +196,108 @@
     "listenUnavailable": "Listening is not available on this device.",
     "listenOptional": "Listening is optional—read at your own pace.",
     "backToList": "Back to stories"
+  },
+  "exams": {
+    "badge": "Practice Exam",
+    "entryBadge": "Practice Exam",
+    "entryTitle": "Mock Exam",
+    "entryBody": "Calm practice exams based on completed learning. No pressure, no grades—just validation and parent-friendly reports.",
+    "entryCta": "Open practice exams",
+    "title": "Practice Exams",
+    "lede": "Choose a calm practice exam to validate learning. No timers, no scores—just gentle feedback and insights for parents.",
+    "safety": "No timers, no scores, no pass/fail. You can retry anytime.",
+    "backToHome": "Back to home",
+    "parentReportHeading": "Parent-Friendly Report",
+    "parentReportBody": "Clear insights about what your child can do and what to practice next. Saved locally as a snapshot.",
+    "localOnly": "Saved on this device only",
+    "latestSaved": "Latest result",
+    "chooseType": "Pick an exam type",
+    "chooseTypeBody": "Select what you want to validate right now. You can switch anytime.",
+    "placeholder": "Content ready",
+    "duration": "~{minutes} min",
+    "retries": "Unlimited retries. No scores.",
+    "start": "Start",
+    "retry": "Retry",
+    "progressLabel": "Step {current} of {total}",
+    "completed": "Exam completed. Retry anytime.",
+    "tryUntilReady": "Try again until it feels right.",
+    "readyToStart": "Press start to begin this exam.",
+    "noScores": "Results are qualitative only—no numbers.",
+    "noteTitle": "Important note",
+    "noteBody": "This is a practice exam, separate from lessons and assessments. It does not affect progression or unlock content. Results show qualitative feedback only.",
+    "feedback": {
+      "correct": "Nice work—keep going.",
+      "incorrect": "Try again; you can retry as much as you like."
+    },
+    "status": {
+      "notStarted": "Not checked yet"
+    },
+    "rating": {
+      "strong": "Strong",
+      "good": "Good",
+      "needsPractice": "Needs practice"
+    },
+    "types": {
+      "letters": {
+        "label": "Letters"
+      },
+      "words": {
+        "label": "Words"
+      },
+      "sentences": {
+        "label": "Sentences"
+      },
+      "paragraphs": {
+        "label": "Paragraphs"
+      }
+    },
+    "parent": {
+      "canDoLabel": "What they can do:",
+      "nextStepsLabel": "What to practice next:",
+      "canDo": {
+        "letters": {
+          "strong": "Your child can identify letters by sound and discriminate similar letters confidently.",
+          "good": "Your child recognizes most letters and can build simple words with some support.",
+          "needsPractice": "Your child is learning to identify letters. More practice with letter sounds will help."
+        },
+        "words": {
+          "strong": "Your child reads words fluently and understands their meanings.",
+          "good": "Your child can read familiar words and understands most meanings.",
+          "needsPractice": "Your child is building word recognition. Regular reading practice will strengthen this."
+        },
+        "sentences": {
+          "strong": "Your child reads sentences fluently and grasps their meaning clearly.",
+          "good": "Your child understands most sentences and can identify main ideas.",
+          "needsPractice": "Your child is developing sentence comprehension. Reading simple sentences together will help."
+        },
+        "paragraphs": {
+          "strong": "Your child reads paragraphs confidently and identifies main ideas and details.",
+          "good": "Your child understands paragraphs and can find key information with some guidance.",
+          "needsPractice": "Your child is learning to read longer texts. Start with short paragraphs and discuss them together."
+        }
+      },
+      "nextSteps": {
+        "letters": {
+          "strong": "Keep reinforcing letter sounds through word building activities.",
+          "good": "Practice discriminating similar letters and building more complex words.",
+          "needsPractice": "Focus on letter sounds and matching them to written letters. Use repetition and encouragement."
+        },
+        "words": {
+          "strong": "Move to more complex words and sentence reading.",
+          "good": "Practice reading words in context and exploring new vocabulary.",
+          "needsPractice": "Review familiar words daily and connect them to pictures or real objects."
+        },
+        "sentences": {
+          "strong": "Encourage reading longer texts and discussing main ideas.",
+          "good": "Practice identifying sentence topics and discussing what was read.",
+          "needsPractice": "Read simple sentences together and ask 'what happened?' questions."
+        },
+        "paragraphs": {
+          "strong": "Explore more complex texts and discuss themes and details.",
+          "good": "Practice finding main ideas and supporting details in short texts.",
+          "needsPractice": "Read one paragraph at a time, then talk about what it says. Use the stories feature."
+        }
+      }
+    }
   }
 }

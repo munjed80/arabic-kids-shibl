@@ -196,5 +196,108 @@
     "listenUnavailable": "Lyssning är inte tillgänglig på den här enheten.",
     "listenOptional": "Lyssna om du vill—läs i din egen takt.",
     "backToList": "Tillbaka till berättelser"
+  },
+  "exams": {
+    "badge": "Övningsprov",
+    "entryBadge": "Övningsprov",
+    "entryTitle": "Övningsprov",
+    "entryBody": "Lugna övningsprov baserade på avslutat lärande. Ingen press, inga betyg—bara validering och föräldravänliga rapporter.",
+    "entryCta": "Öppna övningsprov",
+    "title": "Övningsprov",
+    "lede": "Välj ett lugnt övningsprov för att validera lärande. Inga timers, inga poäng—bara mjuk återkoppling och insikter för föräldrar.",
+    "safety": "Inga timers, inga poäng, inget godkänt/underkänt. Du kan försöka igen när som helst.",
+    "backToHome": "Tillbaka till hem",
+    "parentReportHeading": "Föräldravänlig rapport",
+    "parentReportBody": "Tydliga insikter om vad ditt barn kan och vad som ska övas nästa. Sparas lokalt som en ögonblicksbild.",
+    "localOnly": "Sparas endast på den här enheten",
+    "latestSaved": "Senaste resultat",
+    "chooseType": "Välj en provstyp",
+    "chooseTypeBody": "Välj vad du vill validera just nu. Du kan byta när som helst.",
+    "placeholder": "Innehåll redo",
+    "duration": "~{minutes} min",
+    "retries": "Obegränsade försök. Inga poäng.",
+    "start": "Start",
+    "retry": "Försök igen",
+    "progressLabel": "Steg {current} av {total}",
+    "completed": "Prov slutfört. Försök igen när som helst.",
+    "tryUntilReady": "Försök igen tills det känns rätt.",
+    "readyToStart": "Tryck på start för att börja detta prov.",
+    "noScores": "Resultat är endast kvalitativa—inga siffror.",
+    "noteTitle": "Viktig information",
+    "noteBody": "Detta är ett övningsprov, separat från lektioner och bedömningar. Det påverkar inte progression eller låser upp innehåll. Resultat visar endast kvalitativ återkoppling.",
+    "feedback": {
+      "correct": "Bra jobbat—fortsätt så.",
+      "incorrect": "Försök igen; du kan försöka så mycket du vill."
+    },
+    "status": {
+      "notStarted": "Inte kontrollerad än"
+    },
+    "rating": {
+      "strong": "Stark",
+      "good": "Bra",
+      "needsPractice": "Behöver övning"
+    },
+    "types": {
+      "letters": {
+        "label": "Bokstäver"
+      },
+      "words": {
+        "label": "Ord"
+      },
+      "sentences": {
+        "label": "Meningar"
+      },
+      "paragraphs": {
+        "label": "Stycken"
+      }
+    },
+    "parent": {
+      "canDoLabel": "Vad de kan:",
+      "nextStepsLabel": "Vad att öva:",
+      "canDo": {
+        "letters": {
+          "strong": "Ditt barn kan identifiera bokstäver efter ljud och särskilja liknande bokstäver med förtroende.",
+          "good": "Ditt barn känner igen de flesta bokstäver och kan bygga enkla ord med lite stöd.",
+          "needsPractice": "Ditt barn lär sig identifiera bokstäver. Mer övning med bokstavsljud kommer att hjälpa."
+        },
+        "words": {
+          "strong": "Ditt barn läser ord flytande och förstår deras betydelser.",
+          "good": "Ditt barn kan läsa bekanta ord och förstår de flesta betydelser.",
+          "needsPractice": "Ditt barn bygger ordigenkänning. Regelbunden läsövning kommer att stärka detta."
+        },
+        "sentences": {
+          "strong": "Ditt barn läser meningar flytande och förstår deras betydelse tydligt.",
+          "good": "Ditt barn förstår de flesta meningar och kan identifiera huvudidéer.",
+          "needsPractice": "Ditt barn utvecklar meningsförståelse. Att läsa enkla meningar tillsammans kommer att hjälpa."
+        },
+        "paragraphs": {
+          "strong": "Ditt barn läser stycken med förtroende och identifierar huvudidéer och detaljer.",
+          "good": "Ditt barn förstår stycken och kan hitta viktig information med lite vägledning.",
+          "needsPractice": "Ditt barn lär sig läsa längre texter. Börja med korta stycken och diskutera dem tillsammans."
+        }
+      },
+      "nextSteps": {
+        "letters": {
+          "strong": "Fortsätt förstärka bokstavsljud genom ordbyggnadsaktiviteter.",
+          "good": "Öva på att särskilja liknande bokstäver och bygga mer komplexa ord.",
+          "needsPractice": "Fokusera på bokstavsljud och matcha dem till skrivna bokstäver. Använd upprepning och uppmuntran."
+        },
+        "words": {
+          "strong": "Gå vidare till mer komplexa ord och meningsläsning.",
+          "good": "Öva på att läsa ord i sammanhang och utforska nytt ordförråd.",
+          "needsPractice": "Granska bekanta ord dagligen och koppla dem till bilder eller verkliga objekt."
+        },
+        "sentences": {
+          "strong": "Uppmuntra läsning av längre texter och diskutera huvudidéer.",
+          "good": "Öva på att identifiera meningsämnen och diskutera vad som lästes.",
+          "needsPractice": "Läs enkla meningar tillsammans och ställ 'vad hände?' frågor."
+        },
+        "paragraphs": {
+          "strong": "Utforska mer komplexa texter och diskutera teman och detaljer.",
+          "good": "Öva på att hitta huvudidéer och stödjande detaljer i korta texter.",
+          "needsPractice": "Läs ett stycke i taget, prata sedan om vad det säger. Använd berättelsefunktionen."
+        }
+      }
+    }
   }
 }

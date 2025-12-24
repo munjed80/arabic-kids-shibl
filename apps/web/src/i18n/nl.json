@@ -196,5 +196,108 @@
     "listenUnavailable": "Luisteren is niet beschikbaar op dit apparaat.",
     "listenOptional": "Luisteren is optioneel—lees in je eigen tempo.",
     "backToList": "Terug naar verhalen"
+  },
+  "exams": {
+    "badge": "Oefenexamen",
+    "entryBadge": "Oefenexamen",
+    "entryTitle": "Oefenexamen",
+    "entryBody": "Rustige oefenexamens gebaseerd op voltooid leren. Geen druk, geen cijfers—alleen validatie en ouder-vriendelijke rapporten.",
+    "entryCta": "Open oefenexamens",
+    "title": "Oefenexamens",
+    "lede": "Kies een rustig oefenexamen om leren te valideren. Geen timers, geen scores—alleen zachte feedback en inzichten voor ouders.",
+    "safety": "Geen timers, geen scores, geen geslaagd/gezakt. Je kunt altijd opnieuw proberen.",
+    "backToHome": "Terug naar home",
+    "parentReportHeading": "Ouder-vriendelijk rapport",
+    "parentReportBody": "Duidelijke inzichten over wat je kind kan en wat er geoefend moet worden. Lokaal opgeslagen als momentopname.",
+    "localOnly": "Alleen op dit apparaat opgeslagen",
+    "latestSaved": "Laatste resultaat",
+    "chooseType": "Kies een examtype",
+    "chooseTypeBody": "Selecteer wat je nu wilt valideren. Je kunt altijd wisselen.",
+    "placeholder": "Inhoud klaar",
+    "duration": "~{minutes} min",
+    "retries": "Onbeperkt opnieuw proberen. Geen scores.",
+    "start": "Start",
+    "retry": "Opnieuw",
+    "progressLabel": "Stap {current} van {total}",
+    "completed": "Examen voltooid. Probeer opnieuw wanneer je wilt.",
+    "tryUntilReady": "Probeer opnieuw totdat het goed voelt.",
+    "readyToStart": "Druk op start om dit examen te beginnen.",
+    "noScores": "Resultaten zijn alleen kwalitatief—geen cijfers.",
+    "noteTitle": "Belangrijke opmerking",
+    "noteBody": "Dit is een oefenexamen, gescheiden van lessen en beoordelingen. Het beïnvloedt geen progressie of ontgrendelt geen inhoud. Resultaten tonen alleen kwalitatieve feedback.",
+    "feedback": {
+      "correct": "Goed gedaan—ga zo door.",
+      "incorrect": "Probeer opnieuw; je mag zo vaak proberen als je wilt."
+    },
+    "status": {
+      "notStarted": "Nog niet gecontroleerd"
+    },
+    "rating": {
+      "strong": "Sterk",
+      "good": "Goed",
+      "needsPractice": "Heeft oefening nodig"
+    },
+    "types": {
+      "letters": {
+        "label": "Letters"
+      },
+      "words": {
+        "label": "Woorden"
+      },
+      "sentences": {
+        "label": "Zinnen"
+      },
+      "paragraphs": {
+        "label": "Paragrafen"
+      }
+    },
+    "parent": {
+      "canDoLabel": "Wat ze kunnen:",
+      "nextStepsLabel": "Wat te oefenen:",
+      "canDo": {
+        "letters": {
+          "strong": "Je kind kan letters herkennen op geluid en vergelijkbare letters met vertrouwen onderscheiden.",
+          "good": "Je kind herkent de meeste letters en kan eenvoudige woorden bouwen met wat hulp.",
+          "needsPractice": "Je kind leert letters te identificeren. Meer oefening met lettergeluiden zal helpen."
+        },
+        "words": {
+          "strong": "Je kind leest woorden vloeiend en begrijpt hun betekenis.",
+          "good": "Je kind kan bekende woorden lezen en begrijpt de meeste betekenissen.",
+          "needsPractice": "Je kind bouwt woordherkenning op. Regelmatige leesoefening zal dit versterken."
+        },
+        "sentences": {
+          "strong": "Je kind leest zinnen vloeiend en begrijpt hun betekenis duidelijk.",
+          "good": "Je kind begrijpt de meeste zinnen en kan hoofdideeën identificeren.",
+          "needsPractice": "Je kind ontwikkelt zinsbegrip. Samen eenvoudige zinnen lezen zal helpen."
+        },
+        "paragraphs": {
+          "strong": "Je kind leest paragrafen met vertrouwen en identificeert hoofdideeën en details.",
+          "good": "Je kind begrijpt paragrafen en kan belangrijke informatie vinden met wat begeleiding.",
+          "needsPractice": "Je kind leert langere teksten te lezen. Begin met korte paragrafen en bespreek ze samen."
+        }
+      },
+      "nextSteps": {
+        "letters": {
+          "strong": "Blijf lettergeluiden versterken door woordbouwactiviteiten.",
+          "good": "Oefen het onderscheiden van vergelijkbare letters en het bouwen van complexere woorden.",
+          "needsPractice": "Focus op lettergeluiden en het koppelen aan geschreven letters. Gebruik herhaling en aanmoediging."
+        },
+        "words": {
+          "strong": "Ga naar complexere woorden en zinnen lezen.",
+          "good": "Oefen woorden in context lezen en nieuwe woordenschat verkennen.",
+          "needsPractice": "Bekijk dagelijks bekende woorden en koppel ze aan afbeeldingen of echte objecten."
+        },
+        "sentences": {
+          "strong": "Moedig het lezen van langere teksten aan en bespreek hoofdideeën.",
+          "good": "Oefen het identificeren van zinonderwerpen en bespreek wat er gelezen is.",
+          "needsPractice": "Lees samen eenvoudige zinnen en stel 'wat gebeurde er?' vragen."
+        },
+        "paragraphs": {
+          "strong": "Verken complexere teksten en bespreek thema's en details.",
+          "good": "Oefen het vinden van hoofdideeën en ondersteunende details in korte teksten.",
+          "needsPractice": "Lees één paragraaf tegelijk, praat dan over wat erin staat. Gebruik de verhalenfunctie."
+        }
+      }
+    }
   }
 }

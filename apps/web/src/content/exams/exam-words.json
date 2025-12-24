@@ -1,0 +1,60 @@
+{
+  "id": "exam-words",
+  "category": "words",
+  "title": "امتحان الكلمات التدريبي",
+  "description": "اقرأ الكلمة واختر معناها، استمع واختر الكلمة المكتوبة.",
+  "objective": "تأكد من قدرة الطفل على فهم معاني الكلمات المألوفة بلا درجات أو ضغط.",
+  "durationMinutes": 6,
+  "activities": [
+    {
+      "id": "exam-words-1",
+      "type": "choose",
+      "prompt": "ما معنى كلمة قلم؟",
+      "choices": ["أداة للكتابة", "حيوان أليف", "طعام لذيذ"],
+      "answer": "أداة للكتابة",
+      "hint": "نستخدمه للكتابة على الورق"
+    },
+    {
+      "id": "exam-words-2",
+      "type": "choose",
+      "prompt": "ما معنى كلمة شمس؟",
+      "choices": ["نجم في السماء", "نهر كبير", "طائر صغير"],
+      "answer": "نجم في السماء",
+      "hint": "تضيء في النهار"
+    },
+    {
+      "id": "exam-words-3",
+      "type": "choose",
+      "prompt": "ما معنى كلمة ماء؟",
+      "choices": ["سائل نشربه", "كتاب نقرأه", "باب نفتحه"],
+      "answer": "سائل نشربه",
+      "hint": "نشربه عندما نعطش"
+    },
+    {
+      "id": "exam-words-4",
+      "type": "listen",
+      "prompt": "استمع للكلمة واختر كتابتها",
+      "choices": ["كتاب", "قلم", "باب"],
+      "answer": "كتاب",
+      "hint": "نقرأ فيه القصص",
+      "asset": "audio/exams/word-kitab"
+    },
+    {
+      "id": "exam-words-5",
+      "type": "listen",
+      "prompt": "استمع للكلمة واختر كتابتها",
+      "choices": ["ورد", "قمر", "بحر"],
+      "answer": "قمر",
+      "hint": "نراه في الليل",
+      "asset": "audio/exams/word-qamar"
+    },
+    {
+      "id": "exam-words-6",
+      "type": "build",
+      "prompt": "ابن كلمة ورد بالترتيب الصحيح",
+      "choices": ["ورد", "ردو", "دور"],
+      "answer": "ورد",
+      "hint": "ابدأ بحرف و"
+    }
+  ]
+}
