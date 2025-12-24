@@ -2,7 +2,10 @@ import { readdirSync, readFileSync, statSync } from "fs";
 import path from "path";
 import { describe, expect, it } from "vitest";
 
-const disallowedArabic = /[\u0600-\u06FF]/;
+// Arabic Unicode blocks (base, Supplement, Extended-A, Presentation Forms A/B) are disallowed in UI code.
+const disallowedArabic =
+  /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/;
+const learningContentDir = "content";
 const textExtensions = new Set([
   ".ts",
   ".tsx",
@@ -43,16 +46,18 @@ const collectFiles = (dir: string, ignoreDirs: Set<string>): string[] => {
 
 describe("language separation", () => {
   it("keeps Arabic text out of the UI codebase", () => {
-    const srcRoot = path.join(process.cwd(), "src");
-    const files = collectFiles(srcRoot, new Set(["content"]));
+    const projectRoot = path.resolve(__dirname, "..");
+    const srcRoot = path.join(projectRoot, "src");
+    const files = collectFiles(srcRoot, new Set([learningContentDir]));
 
-    const offenders = files
-      .map((file) => ({
-        file,
-        content: readFileSync(file, "utf8"),
-      }))
-      .filter(({ content }) => disallowedArabic.test(content))
-      .map(({ file }) => path.relative(process.cwd(), file));
+    const offenders: string[] = [];
+
+    for (const file of files) {
+      const content = readFileSync(file, "utf8");
+      if (disallowedArabic.test(content)) {
+        offenders.push(path.relative(process.cwd(), file));
+      }
+    }
 
     expect(offenders).toEqual([]);
   });
