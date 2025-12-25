@@ -9,6 +9,8 @@ const voiceLangByLocale: Record<SupportedLocale, string> = {
   sv: "sv",
 };
 
+const VOICES_TIMEOUT_MS = 300;
+
 const loadVoices = (synth: SpeechSynthesis) =>
   new Promise<SpeechSynthesisVoice[]>((resolve) => {
     const voices = synth.getVoices();
@@ -25,7 +27,7 @@ const loadVoices = (synth: SpeechSynthesis) =>
     const fallback = setTimeout(() => {
       synth.removeEventListener("voiceschanged", handleVoices);
       resolve(synth.getVoices());
-    }, 300);
+    }, VOICES_TIMEOUT_MS);
     synth.addEventListener("voiceschanged", handleVoices);
   });
 
