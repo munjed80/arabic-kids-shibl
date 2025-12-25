@@ -35,15 +35,20 @@
       "lessonComplete": "Lektion abgeschlossen! Weiter zum nächsten Schritt."
     },
     "progressLabel": "Fortschritt: Aktivität {current} von {total}",
-    "completePercent": "{percent}% abgeschlossen",
-    "ariaChoose": "Wähle {choice}",
-    "completedStatus": "Du hast diese Lektion abgeschlossen. Mache weiter, wenn du bereit bist.",
-    "listenAria": "Audio für die Aufgabe abspielen",
-    "reviewSummaryTitle": "Wiederholung",
-    "reviewSummaryBody": "Kurzer Check, bevor es weitergeht. Keine Antwort nötig.",
-    "reviewAnswerLabel": "Erwartete Antwort",
-    "unsupportedType": "Dieser Schritt wird nicht unterstützt. Wir überspringen ihn, damit du weitermachen kannst."
-  },
+      "completePercent": "{percent}% abgeschlossen",
+      "ariaChoose": "Wähle {choice}",
+      "completedStatus": "Du hast diese Lektion abgeschlossen. Mache weiter, wenn du bereit bist.",
+      "listenAria": "Audio für die Aufgabe abspielen",
+      "prompt": {
+        "listenChooseLetter": "Höre zu und wähle den richtigen Buchstaben.",
+        "tapLetterBySound": "Tippe den Buchstaben, der zum Klang passt.",
+        "tryAgain": "Versuche es noch einmal und höre erneut zu."
+      },
+      "reviewSummaryTitle": "Wiederholung",
+      "reviewSummaryBody": "Kurzer Check, bevor es weitergeht. Keine Antwort nötig.",
+      "reviewAnswerLabel": "Erwartete Antwort",
+      "unsupportedType": "Dieser Schritt wird nicht unterstützt. Wir überspringen ihn, damit du weitermachen kannst."
+    },
   "level": {
     "startHeading": "Level {level} starten",
     "startCopy": "Beginne Level {level}. Der Fortschritt bleibt auf diesem Gerät.",

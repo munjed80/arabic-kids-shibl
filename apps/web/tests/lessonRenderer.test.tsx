@@ -6,6 +6,13 @@ import { LessonActivityCard } from "@/components/LessonActivityCard";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import type { ComponentProps } from "react";
 import type { Activity } from "@/features/lesson-engine/lessonSchema";
+import { speakArabicLetter, speakUiPrompt } from "@/lib/tts";
+
+vi.mock("@/lib/tts", () => ({
+  speak: vi.fn().mockResolvedValue(undefined),
+  speakUiPrompt: vi.fn().mockResolvedValue(undefined),
+  speakArabicLetter: vi.fn().mockResolvedValue(undefined),
+}));
 
 type CardProps = ComponentProps<typeof LessonActivityCard>;
 
@@ -41,6 +48,10 @@ describe("LessonActivityCard", () => {
     choices: ["A", "B"],
     answer: "A",
   };
+
+  beforeEach(() => {
+    vi.clearAllMocks();
+  });
 
   it("renders level 2 activity types without crashing", async () => {
     const activities: Activity[] = [
@@ -82,7 +93,7 @@ describe("LessonActivityCard", () => {
   });
 
   it("keeps feedback non-textual in visual-only mode and still triggers audio", async () => {
-    const originalAudio = (global as any).Audio;
+    const originalAudio = globalThis.Audio;
     const playSpy = vi.fn().mockResolvedValue(undefined);
     class MockAudio {
       preload = "";
@@ -91,7 +102,7 @@ describe("LessonActivityCard", () => {
       pause = vi.fn();
       constructor() {}
     }
-    (global as any).Audio = MockAudio;
+    (globalThis as unknown as { Audio: typeof Audio }).Audio = MockAudio as unknown as typeof Audio;
 
     const activity: Activity = {
       ...baseActivity,
@@ -106,9 +117,38 @@ describe("LessonActivityCard", () => {
     });
 
     expect(playSpy).toHaveBeenCalled();
+    expect(speakUiPrompt).toHaveBeenCalled();
     expect(rendered.container.textContent).not.toContain("should-hide");
 
     await rendered.unmount();
-    (global as any).Audio = originalAudio;
+    if (originalAudio) {
+      (globalThis as unknown as { Audio: typeof Audio }).Audio = originalAudio;
+    } else {
+      delete (globalThis as unknown as { Audio?: typeof Audio }).Audio;
+    }
+  });
+
+  it("narrates prompt and target letter on demand", async () => {
+    const activity: Activity = {
+      ...baseActivity,
+      id: "listen-1",
+      type: "listen",
+      answer: "ب",
+      asset: "audio/level1/b-sound-1.wav",
+    };
+
+    const rendered = await renderActivity(activity, vi.fn(), { autoPlayAudio: true });
+
+    expect(speakUiPrompt).toHaveBeenCalledWith(expect.stringContaining("Listen"), "en");
+    expect(speakArabicLetter).toHaveBeenCalledWith("ب");
+
+    const button = rendered.container.querySelector<HTMLButtonElement>('button[aria-label="Play prompt audio"]');
+    await act(async () => {
+      button?.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+    });
+
+    expect(speakUiPrompt).toHaveBeenCalledTimes(2);
+
+    await rendered.unmount();
   });
 });
