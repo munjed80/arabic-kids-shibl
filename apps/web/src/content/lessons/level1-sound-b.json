@@ -9,24 +9,24 @@
     {
       "id": "level1-sound-b-1",
       "type": "listen",
-      "prompt": "Play the sound. Tap the shape that matches /b/.",
+      "prompt": "🔊 /b/",
       "choices": ["ب", "ا", "ت"],
       "answer": "ب",
-      "asset": "audio/level1/b-sound-1"
+      "asset": "audio/level1/b-sound-1.wav"
     },
     {
       "id": "level1-sound-b-2",
       "type": "choose",
-      "prompt": "Find the shape with one dot that fits the /b/ sound.",
+      "prompt": "Match /b/",
       "choices": ["ت", "ب", "ا"],
       "answer": "ب",
-      "asset": "image/level1/b-isolated"
+      "asset": "audio/level1/b-sound-1.wav"
     },
     {
       "id": "level1-sound-b-3",
       "type": "review",
-      "prompt": "Listen and repeat /b/ with a quick lip pop.",
-      "asset": "audio/level1/b-repeat"
+      "prompt": "Repeat /b/",
+      "asset": "audio/level1/b-repeat.wav"
     }
   ]
 }

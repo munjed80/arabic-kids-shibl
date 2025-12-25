@@ -30,7 +30,7 @@
     "activities": "Activiteiten",
     "safetyNote": "Shibl reageert alleen visueel op lesgebeurtenissen. Geen chat of vrije tekst wordt verzameld.",
     "feedback": {
-      "correct": "Goed zo! Shibl is blij.",
+      "correct": "Goed zo!",
       "incorrect": "Bijna. Probeer opnieuw.",
       "lessonComplete": "Les voltooid! Klaar voor de volgende stap."
     },

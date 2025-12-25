@@ -30,7 +30,7 @@
     "activities": "Aktiviteter",
     "safetyNote": "Shibl reagerar bara visuellt på händelser i lektionen. Ingen chatt eller fritext samlas in.",
     "feedback": {
-      "correct": "Rätt! Shibl är glad.",
+      "correct": "Rätt träff!",
       "incorrect": "Inte riktigt. Försök igen.",
       "lessonComplete": "Lektion klar! Dags för nästa steg."
     },

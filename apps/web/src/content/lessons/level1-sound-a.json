@@ -9,24 +9,24 @@
     {
       "id": "level1-sound-a-1",
       "type": "listen",
-      "prompt": "Play the sound. Tap the shape that matches /a/.",
+      "prompt": "🔊 /a/",
       "choices": ["ا", "ب", "ت"],
       "answer": "ا",
-      "asset": "audio/level1/a-sound-1"
+      "asset": "audio/level1/a-sound-1.wav"
     },
     {
       "id": "level1-sound-a-2",
       "type": "choose",
-      "prompt": "Which shape goes with the open mouth sound /a/?",
+      "prompt": "Match /a/",
       "choices": ["ت", "ا", "ب"],
       "answer": "ا",
-      "asset": "image/level1/a-isolated"
+      "asset": "audio/level1/a-sound-1.wav"
     },
     {
       "id": "level1-sound-a-3",
       "type": "review",
-      "prompt": "Listen again, then repeat /a/ out loud with Shibl's animation.",
-      "asset": "audio/level1/a-repeat"
+      "prompt": "Repeat /a/",
+      "asset": "audio/level1/a-repeat.wav"
     }
   ]
 }

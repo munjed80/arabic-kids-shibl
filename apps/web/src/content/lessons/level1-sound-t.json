@@ -9,24 +9,24 @@
     {
       "id": "level1-sound-t-1",
       "type": "listen",
-      "prompt": "Play the sound. Tap the shape that matches /t/.",
+      "prompt": "🔊 /t/",
       "choices": ["ت", "ب", "ا"],
       "answer": "ت",
-      "asset": "audio/level1/t-sound-1"
+      "asset": "audio/level1/t-sound-1.wav"
     },
     {
       "id": "level1-sound-t-2",
       "type": "choose",
-      "prompt": "Find the shape with two dots for the gentle /t/ sound.",
+      "prompt": "Match /t/",
       "choices": ["ا", "ت", "ب"],
       "answer": "ت",
-      "asset": "image/level1/t-isolated"
+      "asset": "audio/level1/t-sound-1.wav"
     },
     {
       "id": "level1-sound-t-3",
       "type": "review",
-      "prompt": "Listen and repeat /t/ with a light tap of your tongue.",
-      "asset": "audio/level1/t-repeat"
+      "prompt": "Repeat /t/",
+      "asset": "audio/level1/t-repeat.wav"
     }
   ]
 }
