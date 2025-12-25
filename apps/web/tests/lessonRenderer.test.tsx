@@ -93,7 +93,8 @@ describe("LessonActivityCard", () => {
   });
 
   it("keeps feedback non-textual in visual-only mode and still triggers audio", async () => {
-    const originalAudio = globalThis.Audio;
+    const globalWithAudio = globalThis as typeof globalThis & { Audio?: typeof Audio };
+    const originalAudio = globalWithAudio.Audio;
     const playSpy = vi.fn().mockResolvedValue(undefined);
     class MockAudio {
       preload = "";
@@ -102,7 +103,7 @@ describe("LessonActivityCard", () => {
       pause = vi.fn();
       constructor() {}
     }
-    (globalThis as any).Audio = MockAudio;
+    globalWithAudio.Audio = MockAudio as unknown as typeof Audio;
 
     const activity: Activity = {
       ...baseActivity,
@@ -121,7 +122,7 @@ describe("LessonActivityCard", () => {
     expect(rendered.container.textContent).not.toContain("should-hide");
 
     await rendered.unmount();
-    (globalThis as any).Audio = originalAudio || undefined;
+    globalWithAudio.Audio = originalAudio || undefined;
   });
 
   it("narrates prompt and target letter on demand", async () => {

@@ -7,25 +7,91 @@
   "durationMinutes": 3,
   "activities": [
     {
-      "id": "level1-sound-a-1",
+      "id": "level1-sound-a-01",
       "type": "listen",
-      "prompt": "🔊 /a/",
-      "choices": ["ا", "ب", "ت"],
+      "prompt": "Listen for the short /a/ sound.",
+      "choices": ["ا", "|", "A"],
       "answer": "ا",
       "asset": "audio/level1/a-sound-1.wav"
     },
     {
-      "id": "level1-sound-a-2",
+      "id": "level1-sound-a-02",
+      "type": "listen",
+      "prompt": "Hear /a/ again and tap it.",
+      "choices": ["I", "ا", "/"],
+      "answer": "ا",
+      "asset": "audio/level1/a-sound-1.wav"
+    },
+    {
+      "id": "level1-sound-a-03",
       "type": "choose",
-      "prompt": "Match /a/",
-      "choices": ["ت", "ا", "ب"],
+      "prompt": "Tap the target letter for /a/.",
+      "choices": ["ا", "A", "1"],
       "answer": "ا",
       "asset": "audio/level1/a-sound-1.wav"
     },
     {
-      "id": "level1-sound-a-3",
+      "id": "level1-sound-a-04",
+      "type": "choose",
+      "prompt": "Find the straight line letter.",
+      "choices": ["|", "ا", "A"],
+      "answer": "ا"
+    },
+    {
+      "id": "level1-sound-a-05",
+      "type": "match",
+      "prompt": "Match the sound to the letter.",
+      "choices": ["ا", "I", "/"],
+      "answer": "ا",
+      "asset": "audio/level1/a-sound-1.wav"
+    },
+    {
+      "id": "level1-sound-a-06",
+      "type": "build",
+      "prompt": "Build the sound by selecting the letter.",
+      "choices": ["ا", "A", "|"],
+      "answer": "ا"
+    },
+    {
+      "id": "level1-sound-a-07",
+      "type": "choose",
+      "prompt": "Select the letter you practiced.",
+      "choices": ["1", "ا", "A"],
+      "answer": "ا"
+    },
+    {
+      "id": "level1-sound-a-08",
+      "type": "match",
+      "prompt": "Pair the audio with the letter.",
+      "choices": ["ا", "/", "I"],
+      "answer": "ا",
+      "asset": "audio/level1/a-sound-1.wav"
+    },
+    {
+      "id": "level1-sound-a-09",
+      "type": "build",
+      "prompt": "Assemble with the correct letter.",
+      "choices": ["ا", "A", "-"],
+      "answer": "ا"
+    },
+    {
+      "id": "level1-sound-a-10",
+      "type": "choose",
+      "prompt": "Spot the target letter quickly.",
+      "choices": ["ا", "|", "A"],
+      "answer": "ا"
+    },
+    {
+      "id": "level1-sound-a-11",
+      "type": "build",
+      "prompt": "Finish by choosing the letter again.",
+      "choices": ["ا", "1", "/"],
+      "answer": "ا"
+    },
+    {
+      "id": "level1-sound-a-12",
       "type": "review",
-      "prompt": "Repeat /a/",
+      "prompt": "Great work on the /a/ sound.",
       "asset": "audio/level1/a-repeat.wav"
     }
   ]

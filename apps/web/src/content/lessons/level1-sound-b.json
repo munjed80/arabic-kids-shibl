@@ -7,25 +7,91 @@
   "durationMinutes": 3,
   "activities": [
     {
-      "id": "level1-sound-b-1",
+      "id": "level1-sound-b-01",
       "type": "listen",
-      "prompt": "🔊 /b/",
-      "choices": ["ب", "ا", "ت"],
+      "prompt": "Listen for the short /b/ sound.",
+      "choices": ["ب", "p", "b"],
       "answer": "ب",
       "asset": "audio/level1/b-sound-1.wav"
     },
     {
-      "id": "level1-sound-b-2",
+      "id": "level1-sound-b-02",
+      "type": "listen",
+      "prompt": "Hear /b/ again and tap it.",
+      "choices": ["d", "ب", "p"],
+      "answer": "ب",
+      "asset": "audio/level1/b-sound-1.wav"
+    },
+    {
+      "id": "level1-sound-b-03",
       "type": "choose",
-      "prompt": "Match /b/",
-      "choices": ["ت", "ب", "ا"],
+      "prompt": "Tap the target letter for /b/.",
+      "choices": ["ب", "b", "p"],
       "answer": "ب",
       "asset": "audio/level1/b-sound-1.wav"
     },
     {
-      "id": "level1-sound-b-3",
+      "id": "level1-sound-b-04",
+      "type": "choose",
+      "prompt": "Find the letter with one dot sound.",
+      "choices": ["p", "ب", "b"],
+      "answer": "ب"
+    },
+    {
+      "id": "level1-sound-b-05",
+      "type": "match",
+      "prompt": "Match the popping sound to the letter.",
+      "choices": ["ب", "b", "d"],
+      "answer": "ب",
+      "asset": "audio/level1/b-sound-1.wav"
+    },
+    {
+      "id": "level1-sound-b-06",
+      "type": "build",
+      "prompt": "Build /b/ by picking the letter.",
+      "choices": ["ب", "p", "b"],
+      "answer": "ب"
+    },
+    {
+      "id": "level1-sound-b-07",
+      "type": "choose",
+      "prompt": "Select the round-bottom letter.",
+      "choices": ["b", "ب", "p"],
+      "answer": "ب"
+    },
+    {
+      "id": "level1-sound-b-08",
+      "type": "match",
+      "prompt": "Pair the sound with the target letter.",
+      "choices": ["ب", "p", "b"],
+      "answer": "ب",
+      "asset": "audio/level1/b-sound-1.wav"
+    },
+    {
+      "id": "level1-sound-b-09",
+      "type": "build",
+      "prompt": "Assemble by tapping the right letter.",
+      "choices": ["ب", "d", "b"],
+      "answer": "ب"
+    },
+    {
+      "id": "level1-sound-b-10",
+      "type": "choose",
+      "prompt": "Spot the /b/ letter quickly.",
+      "choices": ["ب", "p", "b"],
+      "answer": "ب"
+    },
+    {
+      "id": "level1-sound-b-11",
+      "type": "build",
+      "prompt": "Finish with one more /b/ pick.",
+      "choices": ["ب", "b", "p"],
+      "answer": "ب"
+    },
+    {
+      "id": "level1-sound-b-12",
       "type": "review",
-      "prompt": "Repeat /b/",
+      "prompt": "Great work on the /b/ sound.",
       "asset": "audio/level1/b-repeat.wav"
     }
   ]
