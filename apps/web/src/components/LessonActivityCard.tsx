@@ -49,7 +49,7 @@ export function LessonActivityCard({
       <p className="text-xs font-semibold uppercase tracking-widest text-amber-600">
         {t("lesson.activityLabel")}
       </p>
-      <h2 className="mt-2 text-2xl font-semibold text-slate-900 flex items-center gap-2">
+      <h2 className="arabic-content mt-2 font-semibold text-slate-900 flex items-center gap-2" lang="ar">
         {activity.prompt}
         {isListen ? (
           <span
@@ -63,7 +63,7 @@ export function LessonActivityCard({
       </h2>
       {activity.hint ? (
         <p className="mt-1 text-sm text-slate-500">
-          {t("lesson.hint")}: {activity.hint}
+          {t("lesson.hint")}: <span className="arabic-content inline" lang="ar">{activity.hint}</span>
         </p>
       ) : null}
 
@@ -87,9 +87,10 @@ export function LessonActivityCard({
                 onThinking?.();
                 onSubmit(choice);
               }}
-              className="flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-lg font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:border-amber-400 hover:bg-amber-50 hover:shadow disabled:cursor-not-allowed disabled:opacity-70"
+              className="arabic-content flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:border-amber-400 hover:bg-amber-50 hover:shadow disabled:cursor-not-allowed disabled:opacity-70"
               disabled={disabled}
               aria-label={t("lesson.ariaChoose", { choice })}
+              lang="ar"
             >
               {choice}
             </button>

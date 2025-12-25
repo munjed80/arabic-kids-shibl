@@ -83,13 +83,12 @@ export function StoryReaderClient({ story }: Props) {
           </div>
         </div>
         <Card className="border border-slate-200 bg-slate-50 p-4" as="div">
-          <div className="space-y-2 text-right">
+          <div className="space-y-2">
             {paragraph.map((sentence, index) => (
               <p
                 key={`${paragraphIndex}-${index}`}
                 lang="ar"
-                dir="rtl"
-                className="text-2xl leading-relaxed text-slate-900"
+                className="arabic-content text-slate-900"
               >
                 {sentence}
               </p>
