@@ -47,3 +47,65 @@ a {
 .arabic-content + .arabic-content {
   margin-top: var(--arabic-paragraph-gap);
 }
+
+@keyframes shiblBounce {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shiblNod {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(6deg);
+  }
+  60% {
+    transform: rotate(-6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes shiblFocus {
+  from {
+    filter: drop-shadow(0 0 0 rgba(59, 130, 246, 0.25));
+  }
+  to {
+    filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.35));
+  }
+}
+
+@keyframes shiblWave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+}
+
+.shibl-bounce {
+  animation: shiblBounce 0.9s ease-in-out;
+}
+
+.shibl-nod {
+  animation: shiblNod 1s ease-in-out;
+}
+
+.shibl-focus {
+  animation: shiblFocus 1.2s ease-in-out infinite alternate;
+}
+
+.shibl-wave {
+  animation: shiblWave 1.2s ease-in-out;
+}

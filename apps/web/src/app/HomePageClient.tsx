@@ -7,6 +7,7 @@ import { LessonActivityCard } from "@/components/LessonActivityCard";
 import { LevelProgressList } from "@/components/LevelProgressList";
 import { LevelProgressTracker } from "@/components/LevelProgressTracker";
 import { ProgressSummary } from "@/components/ProgressSummary";
+import { ShiblVisual } from "@/components/ShiblVisual";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
@@ -99,6 +100,7 @@ export function HomePageClient({ lessons }: Props) {
   const lessonCompleted = currentLessonProgress.completed;
   const activityIndex = currentLessonProgress.activityIndex;
   const activity = activeProgress?.started ? engine.getCurrentActivity() : currentLesson?.activities[0];
+  const isLevelOne = currentLesson?.level === 1;
 
   const isLevelUnlocked = useCallback(
     (level: number) => {
@@ -397,85 +399,117 @@ export function HomePageClient({ lessons }: Props) {
             <LevelProgressTracker lessons={activeLevel?.lessons ?? []} progress={activeProgress} />
           ) : null}
           {activeProgress?.levelCompleted ? (
-            <Card className="flex flex-col gap-3 border-emerald-200 bg-emerald-50 text-emerald-900">
-              <h2 className="text-xl font-semibold">
-                {t("level.completedHeading", { level: activeLevel?.level ?? 1 })}
-              </h2>
-              <p className="text-sm text-emerald-800">
-                {t("level.completedBody", { level: activeLevel?.level ?? 1 })}
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Button type="button" onClick={resetLevel} className="bg-white text-emerald-800">
-                  {t("level.reset")}
-                </Button>
-              </div>
-            </Card>
-          ) : levelLocked ? (
-            <Card className="flex flex-col gap-4 border-slate-200 bg-slate-50 text-slate-900">
-              <h2 className="text-xl font-semibold">
-                {t("level.startHeading", { level: activeLevel?.level ?? 1 })}
-              </h2>
-              <p className="text-sm text-slate-700">
-                {t("level.lockedCopy", { previous: (activeLevel?.level ?? 2) - 1 })}
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Button type="button" onClick={resetLevel}>
-                  {t("level.reset")}
-                </Button>
-              </div>
-            </Card>
-          ) : !activeProgress?.started ? (
-            <Card className="flex flex-col gap-4 border-amber-200 bg-amber-50 text-amber-900">
-              <h2 className="text-xl font-semibold">
-                {t("level.startHeading", { level: activeLevel?.level ?? 1 })}
-              </h2>
-              <p className="text-sm text-amber-800">
-                {levelLocked
-                  ? t("level.lockedCopy", { previous: (activeLevel?.level ?? 2) - 1 })
-                  : t("level.startCopy", { level: activeLevel?.level ?? 1 })}
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Button type="button" onClick={startLevel} disabled={levelLocked}>
-                  {t("level.startCta")}
-                </Button>
-                <Button type="button" variant="ghost" onClick={resetLevel}>
-                  {t("level.reset")}
-                </Button>
-              </div>
-            </Card>
-          ) : activity ? (
-            <>
-              <LessonActivityCard
-                activity={activity}
-                onSubmit={submitAnswer}
-                onThinking={() =>
-                  eventBus.emit({
-                    type: "THINKING",
-                    payload: { lessonId: currentLesson?.id ?? "", activityId: activity.id },
-                  })
-                }
-                feedback={{
-                  correct: feedback.correct,
-                  message: feedback.key ? t(feedback.key) : null,
-                }}
-                disabled={lessonCompleted || levelCompleted}
-                statusMessage={lessonCompleted ? t("lesson.completedStatus") : undefined}
-              />
-              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <ProgressSummary
-                  current={activityIndex}
-                  total={currentLesson?.activities.length ?? 0}
-                  completed={lessonCompleted}
-                />
-                <div className="flex flex-wrap gap-2">
-                  <Button type="button" onClick={resetLevel} className="self-start">
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_240px] lg:items-start">
+              <Card className="flex flex-col gap-3 border-emerald-200 bg-emerald-50 text-emerald-900">
+                <h2 className="text-xl font-semibold">
+                  {t("level.completedHeading", { level: activeLevel?.level ?? 1 })}
+                </h2>
+                <p className="text-sm text-emerald-800">
+                  {t("level.completedBody", { level: activeLevel?.level ?? 1 })}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Button type="button" onClick={resetLevel} className="bg-white text-emerald-800">
                     {t("level.reset")}
                   </Button>
                 </div>
+              </Card>
+              <div className="lg:justify-self-end">
+                <ShiblVisual mood={mood} />
               </div>
-            </>
+            </div>
+          ) : levelLocked ? (
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_240px] lg:items-start">
+              <Card className="flex flex-col gap-4 border-slate-200 bg-slate-50 text-slate-900">
+                <h2 className="text-xl font-semibold">
+                  {t("level.startHeading", { level: activeLevel?.level ?? 1 })}
+                </h2>
+                <p className="text-sm text-slate-700">
+                  {t("level.lockedCopy", { previous: (activeLevel?.level ?? 2) - 1 })}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Button type="button" onClick={resetLevel}>
+                    {t("level.reset")}
+                  </Button>
+                </div>
+              </Card>
+              <div className="lg:justify-self-end">
+                <ShiblVisual mood={mood} />
+              </div>
+            </div>
+          ) : !activeProgress?.started ? (
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_240px] lg:items-start">
+              <Card className="flex flex-col gap-4 border-amber-200 bg-amber-50 text-amber-900">
+                <h2 className="text-xl font-semibold">
+                  {t("level.startHeading", { level: activeLevel?.level ?? 1 })}
+                </h2>
+                <p className="text-sm text-amber-800">
+                  {levelLocked
+                    ? t("level.lockedCopy", { previous: (activeLevel?.level ?? 2) - 1 })
+                    : t("level.startCopy", { level: activeLevel?.level ?? 1 })}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Button type="button" onClick={startLevel} disabled={levelLocked}>
+                    {t("level.startCta")}
+                  </Button>
+                  <Button type="button" variant="ghost" onClick={resetLevel}>
+                    {t("level.reset")}
+                  </Button>
+                </div>
+              </Card>
+              <div className="lg:justify-self-end">
+                <ShiblVisual mood={mood} />
+              </div>
+            </div>
+          ) : activity ? (
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_240px] lg:items-start">
+              <div className="space-y-3">
+                <LessonActivityCard
+                  activity={activity}
+                  onSubmit={submitAnswer}
+                  onThinking={() =>
+                    eventBus.emit({
+                      type: "THINKING",
+                      payload: { lessonId: currentLesson?.id ?? "", activityId: activity.id },
+                    })
+                  }
+                  feedback={
+                    feedback.key || feedback.correct !== undefined
+                      ? {
+                          correct: feedback.correct,
+                          message: isLevelOne ? null : feedback.key ? t(feedback.key) : null,
+                        }
+                      : undefined
+                  }
+                  disabled={lessonCompleted || levelCompleted}
+                  statusMessage={!isLevelOne && lessonCompleted ? t("lesson.completedStatus") : undefined}
+                  visualOnly={isLevelOne}
+                  autoPlayAudio={isLevelOne}
+                  playEffects={isLevelOne}
+                />
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                  <ProgressSummary
+                    current={activityIndex}
+                    total={currentLesson?.activities.length ?? 0}
+                    completed={lessonCompleted}
+                  />
+                  <div className="flex flex-wrap gap-2">
+                    <Button type="button" onClick={resetLevel} className="self-start">
+                      {t("level.reset")}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:justify-self-end">
+                <ShiblVisual mood={mood} />
+              </div>
+            </div>
           ) : (
-            <Card className="text-slate-700">{t("lesson.noActivity")}</Card>
+            <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_240px] lg:items-start">
+              <Card className="text-slate-700">{t("lesson.noActivity")}</Card>
+              <div className="lg:justify-self-end">
+                <ShiblVisual mood={mood} />
+              </div>
+            </div>
           )}
         </div>
 

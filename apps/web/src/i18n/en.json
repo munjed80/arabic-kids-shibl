@@ -30,7 +30,7 @@
     "activities": "Activities",
     "safetyNote": "Shibl reacts visually to lesson events only. No chat or free text is collected.",
     "feedback": {
-      "correct": "Correct! Shibl is happy.",
+      "correct": "Great match!",
       "incorrect": "Not quite. Try again.",
       "lessonComplete": "Lesson complete! Get ready for the next step."
     },

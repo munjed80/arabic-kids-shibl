@@ -30,8 +30,8 @@
     "activities": "Aktivitäten",
     "safetyNote": "Shibl reagiert nur visuell auf Ereignisse in der Lektion. Kein Chat und keine Freitexte werden gesammelt.",
     "feedback": {
-      "correct": "Richtig! Shibl ist glücklich.",
-      "incorrect": "Noch nicht. Versuch es noch einmal.",
+      "correct": "Gut gemacht!",
+      "incorrect": "Noch nicht. Versuch es erneut.",
       "lessonComplete": "Lektion abgeschlossen! Weiter zum nächsten Schritt."
     },
     "progressLabel": "Fortschritt: Aktivität {current} von {total}",

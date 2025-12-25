@@ -4,16 +4,19 @@ import { act } from "react";
 import { createRoot } from "react-dom/client";
 import { LessonActivityCard } from "@/components/LessonActivityCard";
 import { I18nProvider } from "@/i18n/I18nProvider";
+import type { ComponentProps } from "react";
 import type { Activity } from "@/features/lesson-engine/lessonSchema";
 
-const renderActivity = async (activity: Activity, onSubmit = vi.fn()) => {
+type CardProps = ComponentProps<typeof LessonActivityCard>;
+
+const renderActivity = async (activity: Activity, onSubmit = vi.fn(), extraProps: Partial<CardProps> = {}) => {
   const container = document.createElement("div");
   const root = createRoot(container);
 
   await act(async () => {
     root.render(
       <I18nProvider>
-        <LessonActivityCard activity={activity} onSubmit={onSubmit} />
+        <LessonActivityCard activity={activity} onSubmit={onSubmit} {...extraProps} />
       </I18nProvider>,
     );
   });
@@ -22,6 +25,7 @@ const renderActivity = async (activity: Activity, onSubmit = vi.fn()) => {
 
   return {
     onSubmit,
+    container,
     unmount: async () =>
       act(async () => {
         root.unmount();
@@ -75,5 +79,36 @@ describe("LessonActivityCard", () => {
     expect(warnSpy).toHaveBeenCalled();
     await rendered.unmount();
     warnSpy.mockRestore();
+  });
+
+  it("keeps feedback non-textual in visual-only mode and still triggers audio", async () => {
+    const originalAudio = (global as any).Audio;
+    const playSpy = vi.fn().mockResolvedValue(undefined);
+    class MockAudio {
+      preload = "";
+      currentTime = 0;
+      play = playSpy;
+      pause = vi.fn();
+      constructor() {}
+    }
+    (global as any).Audio = MockAudio;
+
+    const activity: Activity = {
+      ...baseActivity,
+      asset: "audio/level1/a-sound-1.wav",
+    };
+
+    const rendered = await renderActivity(activity, vi.fn(), {
+      visualOnly: true,
+      autoPlayAudio: true,
+      feedback: { correct: true, message: "should-hide" },
+      playEffects: true,
+    });
+
+    expect(playSpy).toHaveBeenCalled();
+    expect(rendered.container.textContent).not.toContain("should-hide");
+
+    await rendered.unmount();
+    (global as any).Audio = originalAudio;
   });
 });
