@@ -299,5 +299,61 @@
         }
       }
     }
+  },
+  "finalExam": {
+    "badge": "Eindcontrole",
+    "entryBadge": "Eindcontrole",
+    "entryTitle": "Laatste checkpoint",
+    "entryBody": "Eén rustige check na niveau 1–20. Onbeperkt opnieuw proberen, geen cijfers.",
+    "entryCta": "Open eindcontrole",
+    "title": "Laatste checkpoint",
+    "lede": "Controleer leesgereedheid na niveau 1–20. Secties voor letters, woorden, zinnen en een alinea.",
+    "objective": "Doel: rustige gereedheidscheck over vier secties zonder cijfers.",
+    "safety": "Geen scores, geen timers, geen geslaagd/gezakt. Arabisch staat alleen in de activiteiten.",
+    "backToHome": "Terug naar start",
+    "readinessHeading": "Enkele check",
+    "readinessBody": "Voltooi alle vier secties en bekijk daarna het kwalitatieve verslag.",
+    "localOnly": "Laatste resultaat wordt alleen op dit apparaat opgeslagen",
+    "start": "Start controle",
+    "restart": "Opnieuw starten",
+    "latestResultBadge": "Laatste resultaat",
+    "resultHeading": "Checkpoint verslag",
+    "resultBody": "Alleen kwalitatieve beoordelingen: sterk, goed of oefenen nodig per sectie.",
+    "structureHeading": "Wat je kunt verwachten",
+    "structureBody": "Vier rustige secties op rij. Elke sectie gebruikt bestaande activiteitstypen.",
+    "sectionCount": "4 activiteiten",
+    "retries": "Onbeperkte pogingen. Elke poging overschrijft de vorige momentopname.",
+    "progressLabel": "Stap {current} van {total}",
+    "sectionNow": "Huidige sectie: {section}",
+    "notStarted": "Nog niet gestart",
+    "readyToStart": "Druk op start om de eindcontrole te beginnen.",
+    "noScores": "Geen scores of percentages worden getoond.",
+    "completed": "Checkpoint voltooid. Bekijk het verslag hieronder.",
+    "tryUntilReady": "Je kunt herhalen tot het goed voelt.",
+    "noteTitle": "Herinnering",
+    "noteBody": "Deze controle beïnvloedt de voortgang niet. Het is alleen een rustige gereedheidscheck.",
+    "feedback": {
+      "correct": "Mooi gedaan, ga zo door.",
+      "incorrect": "Probeer opnieuw; je kunt zo vaak oefenen als je wilt."
+    },
+    "rating": {
+      "strong": "Sterk",
+      "good": "Goed",
+      "needsPractice": "Oefenen nodig"
+    },
+    "types": {
+      "letters": {
+        "label": "Letters"
+      },
+      "words": {
+        "label": "Woorden"
+      },
+      "sentences": {
+        "label": "Zinnen"
+      },
+      "paragraphs": {
+        "label": "Alinea’s"
+      }
+    }
   }
 }

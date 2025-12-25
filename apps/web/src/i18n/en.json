@@ -299,5 +299,61 @@
         }
       }
     }
+  },
+  "finalExam": {
+    "badge": "Final checkpoint",
+    "entryBadge": "Final checkpoint",
+    "entryTitle": "Final checkpoint exam",
+    "entryBody": "One calm readiness check after Levels 1–20. Unlimited retries, no grades.",
+    "entryCta": "Open final exam",
+    "title": "Final checkpoint exam",
+    "lede": "Validate Arabic reading readiness after Levels 1–20. Sections cover letters, words, sentences, and a paragraph.",
+    "objective": "Objective: a calm readiness check across four sections without grades.",
+    "safety": "No scores, no timers, no pass/fail. Arabic appears only inside activities.",
+    "backToHome": "Back to home",
+    "readinessHeading": "Single checkpoint",
+    "readinessBody": "Complete all four sections once, then review the qualitative report.",
+    "localOnly": "Latest result saved on this device only",
+    "start": "Start exam",
+    "restart": "Restart",
+    "latestResultBadge": "Latest saved result",
+    "resultHeading": "Checkpoint report",
+    "resultBody": "Qualitative ratings only: strong, good, or needs practice for each section.",
+    "structureHeading": "What to expect",
+    "structureBody": "Four calm sections in order. Each section uses existing activity types.",
+    "sectionCount": "4 activities",
+    "retries": "Unlimited retries. Each attempt overwrites the previous snapshot.",
+    "progressLabel": "Step {current} of {total}",
+    "sectionNow": "Current section: {section}",
+    "notStarted": "Not started",
+    "readyToStart": "Press start to begin the final checkpoint.",
+    "noScores": "No scores or percentages are shown.",
+    "completed": "Checkpoint completed. Review the report below.",
+    "tryUntilReady": "You can retry until it feels right.",
+    "noteTitle": "Friendly reminder",
+    "noteBody": "This checkpoint does not affect level progression. It is a calm readiness check only.",
+    "feedback": {
+      "correct": "Nice work—keep going.",
+      "incorrect": "Try again; you can retry as much as you like."
+    },
+    "rating": {
+      "strong": "Strong",
+      "good": "Good",
+      "needsPractice": "Needs practice"
+    },
+    "types": {
+      "letters": {
+        "label": "Letters"
+      },
+      "words": {
+        "label": "Words"
+      },
+      "sentences": {
+        "label": "Sentences"
+      },
+      "paragraphs": {
+        "label": "Paragraphs"
+      }
+    }
   }
 }

@@ -299,5 +299,61 @@
         }
       }
     }
+  },
+  "finalExam": {
+    "badge": "Abschließender Checkpoint",
+    "entryBadge": "Abschließender Checkpoint",
+    "entryTitle": "Finaler Check",
+    "entryBody": "Ein ruhiger Bereitschaftscheck nach Level 1–20. Unbegrenzte Versuche, keine Noten.",
+    "entryCta": "Finalen Check öffnen",
+    "title": "Finaler Check",
+    "lede": "Prüfe die Lesebereitschaft nach Level 1–20. Abschnitte zu Buchstaben, Wörtern, Sätzen und einem Absatz.",
+    "objective": "Ziel: ruhiger Bereitschaftscheck über vier Abschnitte ohne Noten.",
+    "safety": "Keine Punkte, keine Timer, kein Bestehen/Nichtbestehen. Arabisch erscheint nur in den Aktivitäten.",
+    "backToHome": "Zur Startseite",
+    "readinessHeading": "Ein einzelner Check",
+    "readinessBody": "Alle vier Abschnitte einmal abschließen und dann den qualitativen Bericht ansehen.",
+    "localOnly": "Letztes Ergebnis wird nur auf diesem Gerät gespeichert",
+    "start": "Check starten",
+    "restart": "Neu starten",
+    "latestResultBadge": "Letztes Ergebnis",
+    "resultHeading": "Checkpoint Bericht",
+    "resultBody": "Nur qualitative Einstufungen: stark, gut oder Übung nötig pro Abschnitt.",
+    "structureHeading": "Was erwartet wird",
+    "structureBody": "Vier ruhige Abschnitte in Reihenfolge. Jeder Abschnitt nutzt vorhandene Aufgabentypen.",
+    "sectionCount": "4 Aktivitäten",
+    "retries": "Unbegrenzte Versuche. Jeder Versuch überschreibt die vorherige Momentaufnahme.",
+    "progressLabel": "Schritt {current} von {total}",
+    "sectionNow": "Aktueller Abschnitt: {section}",
+    "notStarted": "Nicht gestartet",
+    "readyToStart": "Drücke Start, um den finalen Check zu beginnen.",
+    "noScores": "Keine Punkte oder Prozente werden angezeigt.",
+    "completed": "Checkpoint abgeschlossen. Bericht unten ansehen.",
+    "tryUntilReady": "Du kannst so oft wiederholen, wie es sich richtig anfühlt.",
+    "noteTitle": "Hinweis",
+    "noteBody": "Dieser Check beeinflusst den Fortschritt nicht. Er ist nur ein ruhiger Bereitschaftscheck.",
+    "feedback": {
+      "correct": "Gut gemacht – weiter so.",
+      "incorrect": "Versuche es noch einmal; du kannst beliebig oft wiederholen."
+    },
+    "rating": {
+      "strong": "Stark",
+      "good": "Gut",
+      "needsPractice": "Übung nötig"
+    },
+    "types": {
+      "letters": {
+        "label": "Buchstaben"
+      },
+      "words": {
+        "label": "Wörter"
+      },
+      "sentences": {
+        "label": "Sätze"
+      },
+      "paragraphs": {
+        "label": "Absätze"
+      }
+    }
   }
 }
