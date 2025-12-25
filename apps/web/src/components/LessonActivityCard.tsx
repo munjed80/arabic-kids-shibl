@@ -5,6 +5,9 @@ import { Card } from "@/components/ui/Card";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useEffect, useMemo, useRef, useState } from "react";
 
+const CORRECT_SFX = "/audio/sfx/correct.wav";
+const GENTLE_SFX = "/audio/sfx/gentle.wav";
+
 type Props = {
   activity: Activity;
   onSubmit: (choice: string) => void;
@@ -86,7 +89,7 @@ export function LessonActivityCard({
     if (feedback?.correct === undefined) return;
     if (typeof Audio === "undefined") return;
 
-    const sfx = new Audio(feedback.correct ? "/audio/sfx/correct.wav" : "/audio/sfx/gentle.wav");
+    const sfx = new Audio(feedback.correct ? CORRECT_SFX : GENTLE_SFX);
     sfx.volume = feedback.correct ? 0.8 : 0.6;
     sfxAudioRef.current = sfx;
     void sfx.play().catch(() => {});

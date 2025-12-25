@@ -8,7 +8,7 @@ const faceByState: Record<CompanionMood["state"], string> = {
   thinking: "🤔",
   happy: "😺",
   celebrate: "🎉",
-  sad: "🤗",
+  sad: "😿",
   cooldown: "😌",
 };
 
