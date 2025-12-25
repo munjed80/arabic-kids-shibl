@@ -337,6 +337,22 @@ export function HomePageClient({ lessons }: Props) {
         </Link>
       </Card>
 
+      <Card className="flex flex-wrap items-center justify-between gap-3 border-emerald-200 bg-emerald-50">
+        <div className="space-y-2">
+          <p className="text-xs font-semibold uppercase tracking-widest text-emerald-600">
+            {t("finalExam.entryBadge")}
+          </p>
+          <h2 className="text-xl font-semibold text-slate-900">{t("finalExam.entryTitle")}</h2>
+          <p className="text-sm text-slate-700">{t("finalExam.entryBody")}</p>
+        </div>
+        <Link
+          href="/final-exam"
+          className="rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow transition hover:bg-emerald-600"
+        >
+          {t("finalExam.entryCta")}
+        </Link>
+      </Card>
+
       <Card className="flex flex-wrap items-center justify-between gap-3 border-slate-200 bg-white">
         <div className="space-y-2">
           <p className="text-xs font-semibold uppercase tracking-widest text-amber-600">

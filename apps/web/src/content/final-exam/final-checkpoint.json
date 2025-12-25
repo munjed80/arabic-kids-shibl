@@ -1,0 +1,165 @@
+{
+  "id": "final-checkpoint",
+  "title": "Final checkpoint exam",
+  "description": "Calm readiness check after Levels 1–20.",
+  "objective": "Validate letters, words, sentences, and paragraphs without grades.",
+  "durationMinutes": 12,
+  "sections": [
+    {
+      "id": "final-letters",
+      "title": "Letters",
+      "category": "letters",
+      "activities": [
+        {
+          "id": "final-letters-1",
+          "type": "listen",
+          "prompt": "استمع واختر صوت ب",
+          "choices": ["ب", "ت", "ث"],
+          "answer": "ب",
+          "hint": "صوت قصير مع نقطة واحدة"
+        },
+        {
+          "id": "final-letters-2",
+          "type": "choose",
+          "prompt": "اختر الحرف الذي تحته نقطة",
+          "choices": ["ب", "ح", "د"],
+          "answer": "ب",
+          "hint": "نقطة واحدة تحت الخط"
+        },
+        {
+          "id": "final-letters-3",
+          "type": "match",
+          "prompt": "اختر الحرف الذي يكتب دون نقاط",
+          "choices": ["ح", "ث", "ظ"],
+          "answer": "ح",
+          "hint": "شكل بسيط بلا نقاط"
+        },
+        {
+          "id": "final-letters-4",
+          "type": "build",
+          "prompt": "ابن كلمة بيت",
+          "choices": ["بيت", "يتي", "تيب"],
+          "answer": "بيت",
+          "hint": "ابدأ بحرف ب"
+        }
+      ]
+    },
+    {
+      "id": "final-words",
+      "title": "Words",
+      "category": "words",
+      "activities": [
+        {
+          "id": "final-words-1",
+          "type": "choose",
+          "prompt": "اقرأ الكلمة باب واختر معناها",
+          "choices": ["مدخل البيت", "حيوان صغير", "نهر طويل"],
+          "answer": "مدخل البيت",
+          "hint": "يفتح ويغلق"
+        },
+        {
+          "id": "final-words-2",
+          "type": "listen",
+          "prompt": "استمع للكلمة قمر واختر كتابتها",
+          "choices": ["قمر", "شمس", "ماء"],
+          "answer": "قمر",
+          "hint": "نراه في الليل"
+        },
+        {
+          "id": "final-words-3",
+          "type": "match",
+          "prompt": "اختر الكلمة التي تعني مكان للكتب",
+          "choices": ["مكتبة", "شجرة", "قلم"],
+          "answer": "مكتبة",
+          "hint": "يوجد فيها كتب"
+        },
+        {
+          "id": "final-words-4",
+          "type": "build",
+          "prompt": "ابن كلمة شمس",
+          "choices": ["شمس", "سمش", "مشس"],
+          "answer": "شمس",
+          "hint": "تضيء في النهار"
+        }
+      ]
+    },
+    {
+      "id": "final-sentences",
+      "title": "Sentences",
+      "category": "sentences",
+      "activities": [
+        {
+          "id": "final-sentences-1",
+          "type": "choose",
+          "prompt": "اقرأ الجملة الولد يقرأ كتاب مفيد واختر المعنى",
+          "choices": ["الولد يقرأ", "الولد يركض", "الولد ينام"],
+          "answer": "الولد يقرأ",
+          "hint": "ركز على الفعل"
+        },
+        {
+          "id": "final-sentences-2",
+          "type": "choose",
+          "prompt": "اقرأ الجملة البنت تحمل حقيبة زرقاء واختر العنوان",
+          "choices": ["حقيبة زرقاء", "بيت واسع", "قطة صغيرة"],
+          "answer": "حقيبة زرقاء",
+          "hint": "العنوان يصف الشيء الأهم"
+        },
+        {
+          "id": "final-sentences-3",
+          "type": "match",
+          "prompt": "اقرأ الجملة المعلمة تشرح الدرس بهدوء واختر الجملة التي تعبر عن نفس الفكرة",
+          "choices": ["المعلمة تشرح بهدوء", "الطالب يكتب بسرعة", "الأصدقاء يلعبون في الحديقة"],
+          "answer": "المعلمة تشرح بهدوء",
+          "hint": "ابحث عن نفس الفعل"
+        },
+        {
+          "id": "final-sentences-4",
+          "type": "review",
+          "prompt": "تذكر ان القراءة الهادئة تساعدك على الفهم",
+          "choices": ["قراءة هادئة", "تركيز ثابت", "تنفس عميق"],
+          "answer": "قراءة هادئة",
+          "hint": "استمر بهدوء"
+        }
+      ]
+    },
+    {
+      "id": "final-paragraphs",
+      "title": "Paragraphs",
+      "category": "paragraphs",
+      "activities": [
+        {
+          "id": "final-paragraphs-1",
+          "type": "choose",
+          "prompt": "اقرأ الفقرة في صباح هادئ استيقظ احمد مبكرا غسل وجهه وافطر مع عائلته ثم حمل حقيبته الزرقاء وذهب الى المدرسة وعاد سعيدا اختر الفكرة الرئيسية",
+          "choices": ["يوم احمد من الصباح الى العودة", "قطة تلعب في الحديقة", "سفر الى مدينة"],
+          "answer": "يوم احمد من الصباح الى العودة",
+          "hint": "الفكرة تلخص اليوم"
+        },
+        {
+          "id": "final-paragraphs-2",
+          "type": "choose",
+          "prompt": "من نفس الفقرة اختر تفصيلا صريحا",
+          "choices": ["حمل حقيبة زرقاء", "سافر بطائرة", "لعب كرة"],
+          "answer": "حمل حقيبة زرقاء",
+          "hint": "التفصيل مذكور بوضوح"
+        },
+        {
+          "id": "final-paragraphs-3",
+          "type": "choose",
+          "prompt": "اقرأ الفقرة في الحديقة الخضراء تلعب سلمى مع صديقتها تركضان بين الاشجار وتضحكان ثم تجلسان تحت ظل شجرة كبيرة وتشرب سلمى ماء باردا وتعود للعب اختر الفكرة الرئيسية",
+          "choices": ["لعب سلمى الهادئ في الحديقة", "ركوب حافلة الى المدرسة", "مطالعة كتاب كبير"],
+          "answer": "لعب سلمى الهادئ في الحديقة",
+          "hint": "الفكرة تجمع كل الجمل"
+        },
+        {
+          "id": "final-paragraphs-4",
+          "type": "match",
+          "prompt": "من نفس الفقرة اختر تفصيلا صريحا",
+          "choices": ["الجلوس تحت ظل شجرة كبيرة", "السفر الى مدينة بعيدة", "الكتابة في دفتر"],
+          "answer": "الجلوس تحت ظل شجرة كبيرة",
+          "hint": "التفصيل يظهر بوضوح"
+        }
+      ]
+    }
+  ]
+}

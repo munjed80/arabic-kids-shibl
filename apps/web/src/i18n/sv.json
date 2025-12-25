@@ -299,5 +299,61 @@
         }
       }
     }
+  },
+  "finalExam": {
+    "badge": "Slutkontroll",
+    "entryBadge": "Slutkontroll",
+    "entryTitle": "Sista checkpoint",
+    "entryBody": "En lugn kontroll efter nivå 1–20. Obegränsade försök, inga betyg.",
+    "entryCta": "Öppna slutkontroll",
+    "title": "Sista checkpoint",
+    "lede": "Kontrollera läsberedskap efter nivå 1–20. Avsnitt för bokstäver, ord, meningar och ett stycke.",
+    "objective": "Mål: lugn beredskapskontroll över fyra avsnitt utan betyg.",
+    "safety": "Inga poäng, inga timers, inget godkänd/icke godkänd. Arabiska finns bara i aktiviteterna.",
+    "backToHome": "Till startsidan",
+    "readinessHeading": "En enda kontroll",
+    "readinessBody": "Slutför alla fyra avsnitt och se sedan den kvalitativa rapporten.",
+    "localOnly": "Senaste resultatet sparas bara på denna enhet",
+    "start": "Starta kontroll",
+    "restart": "Starta om",
+    "latestResultBadge": "Senaste resultat",
+    "resultHeading": "Checkpoint rapport",
+    "resultBody": "Endast kvalitativa nivåer: stark, bra eller behöver träning per avsnitt.",
+    "structureHeading": "Vad som väntar",
+    "structureBody": "Fyra lugna avsnitt i ordning. Varje avsnitt använder befintliga aktivitetstyper.",
+    "sectionCount": "4 aktiviteter",
+    "retries": "Obegränsade försök. Varje försök skriver över den tidigare ögonblicksbilden.",
+    "progressLabel": "Steg {current} av {total}",
+    "sectionNow": "Aktuellt avsnitt: {section}",
+    "notStarted": "Inte startad",
+    "readyToStart": "Tryck start för att börja slutkontrollen.",
+    "noScores": "Inga poäng eller procent visas.",
+    "completed": "Checkpoint klar. Se rapporten nedan.",
+    "tryUntilReady": "Du kan upprepa tills det känns rätt.",
+    "noteTitle": "Påminnelse",
+    "noteBody": "Denna kontroll påverkar inte progressionen. Den är bara en lugn beredskapskontroll.",
+    "feedback": {
+      "correct": "Bra jobbat – fortsätt så.",
+      "incorrect": "Försök igen; du kan repetera hur många gånger du vill."
+    },
+    "rating": {
+      "strong": "Stark",
+      "good": "Bra",
+      "needsPractice": "Behöver träning"
+    },
+    "types": {
+      "letters": {
+        "label": "Bokstäver"
+      },
+      "words": {
+        "label": "Ord"
+      },
+      "sentences": {
+        "label": "Meningar"
+      },
+      "paragraphs": {
+        "label": "Stycken"
+      }
+    }
   }
 }
