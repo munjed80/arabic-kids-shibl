@@ -1,0 +1,32 @@
+{
+  "id": "level1-sound-b",
+  "title": "Sound 2: /b/ (ب)",
+  "description": "Feel the short burst /b/ and connect it to its single-dot shape.",
+  "objective": "Build recognition of the /b/ sound by pairing the audio with the correct letter form.",
+  "level": 1,
+  "durationMinutes": 3,
+  "activities": [
+    {
+      "id": "level1-sound-b-1",
+      "type": "listen",
+      "prompt": "Play the sound. Tap the shape that matches /b/.",
+      "choices": ["ب", "ا", "ت"],
+      "answer": "ب",
+      "asset": "audio/level1/b-sound-1"
+    },
+    {
+      "id": "level1-sound-b-2",
+      "type": "choose",
+      "prompt": "Find the shape with one dot that fits the /b/ sound.",
+      "choices": ["ت", "ب", "ا"],
+      "answer": "ب",
+      "asset": "image/level1/b-isolated"
+    },
+    {
+      "id": "level1-sound-b-3",
+      "type": "review",
+      "prompt": "Listen and repeat /b/ with a quick lip pop.",
+      "asset": "audio/level1/b-repeat"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ const numericId = (id: string) => {
 };
 
 const defaultOrderingByLevel: Record<number, string[]> = {
-  1: ["lesson-letters-intro", "lesson-words", "lesson-reading", "lesson-review"],
+  1: ["level1-sound-a", "level1-sound-b", "level1-sound-t"],
 };
 
 const compareLessons: LessonComparator = (a, b) => {

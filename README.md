@@ -45,7 +45,7 @@ arabic-kids-shibl/
 - `apps/web/src/features/lesson-engine/*` – Lesson schema (Zod), typed event bus, and engine logic.
 - `apps/web/src/features/companion/stateMachine.ts` – Shibl state machine with anti-annoyance cooldowns.
 - `apps/web/src/features/progress/localProgress.ts` – LocalStorage persistence helpers.
-- `apps/web/src/content/lessons/lesson-letters.json` – Placeholder content-driven lesson.
+- `apps/web/src/content/lessons/level1-sound-*.json` – Phase A lessons for the first three letter sounds.
 - `apps/web/tests/*` – Vitest coverage for bus, engine, companion, and progress helpers.
 - `docs/*.md` – Product, curriculum, companion spec, and privacy stance.
 - `.github/workflows/ci.yml` – CI to lint, test, and build the web app.

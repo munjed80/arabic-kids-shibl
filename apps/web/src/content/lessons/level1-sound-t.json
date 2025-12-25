@@ -1,0 +1,32 @@
+{
+  "id": "level1-sound-t",
+  "title": "Sound 3: /t/ (ت)",
+  "description": "Hear the soft /t/ and match it to the two-dot shape.",
+  "objective": "Strengthen awareness of the /t/ sound by linking audio to the correct letter shape.",
+  "level": 1,
+  "durationMinutes": 3,
+  "activities": [
+    {
+      "id": "level1-sound-t-1",
+      "type": "listen",
+      "prompt": "Play the sound. Tap the shape that matches /t/.",
+      "choices": ["ت", "ب", "ا"],
+      "answer": "ت",
+      "asset": "audio/level1/t-sound-1"
+    },
+    {
+      "id": "level1-sound-t-2",
+      "type": "choose",
+      "prompt": "Find the shape with two dots for the gentle /t/ sound.",
+      "choices": ["ا", "ت", "ب"],
+      "answer": "ت",
+      "asset": "image/level1/t-isolated"
+    },
+    {
+      "id": "level1-sound-t-3",
+      "type": "review",
+      "prompt": "Listen and repeat /t/ with a light tap of your tongue.",
+      "asset": "audio/level1/t-repeat"
+    }
+  ]
+}
