@@ -17,6 +17,7 @@ const loadVoices = (synth: SpeechSynthesis) =>
       return;
     }
     const handleVoices = () => {
+      clearTimeout(fallback);
       const available = synth.getVoices();
       resolve(available);
       synth.removeEventListener("voiceschanged", handleVoices);
@@ -26,13 +27,6 @@ const loadVoices = (synth: SpeechSynthesis) =>
       resolve(synth.getVoices());
     }, 300);
     synth.addEventListener("voiceschanged", handleVoices);
-    synth.addEventListener(
-      "voiceschanged",
-      () => {
-        clearTimeout(fallback);
-      },
-      { once: true },
-    );
   });
 
 const pickVoice = (voices: SpeechSynthesisVoice[], lang: string) => {
@@ -72,7 +66,7 @@ export const speakUiPrompt = async (i18nText: string, locale: SupportedLocale): 
 const fatha = "\u064e";
 
 const letterToFatha: Record<string, string> = {
-  "\u0627": "\u0623" + fatha,
+  "\u0627": "\u0627" + fatha,
   "\u0628": "\u0628" + fatha,
   "\u062a": "\u062a" + fatha,
   "\u062b": "\u062b" + fatha,

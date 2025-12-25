@@ -102,7 +102,7 @@ describe("LessonActivityCard", () => {
       pause = vi.fn();
       constructor() {}
     }
-    (globalThis as unknown as { Audio: typeof Audio }).Audio = MockAudio as unknown as typeof Audio;
+    (globalThis as any).Audio = MockAudio;
 
     const activity: Activity = {
       ...baseActivity,
@@ -121,11 +121,7 @@ describe("LessonActivityCard", () => {
     expect(rendered.container.textContent).not.toContain("should-hide");
 
     await rendered.unmount();
-    if (originalAudio) {
-      (globalThis as unknown as { Audio: typeof Audio }).Audio = originalAudio;
-    } else {
-      delete (globalThis as unknown as { Audio?: typeof Audio }).Audio;
-    }
+    (globalThis as any).Audio = originalAudio || undefined;
   });
 
   it("narrates prompt and target letter on demand", async () => {
