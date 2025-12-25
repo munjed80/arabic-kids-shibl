@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState, useEffect } from "react";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { LessonActivityCard } from "@/components/LessonActivityCard";
+import { CompanionAvatar } from "@/components/CompanionAvatar";
 import { useI18n } from "@/i18n/I18nProvider";
 import { LessonEventBus } from "@/features/lesson-engine/eventBus";
 import { LessonEngine } from "@/features/lesson-engine/lessonEngine";
@@ -18,6 +19,7 @@ import {
   type AssessmentRating,
   type AssessmentSummary,
 } from "@/features/assessments/localAssessmentSummary";
+import { createCompanionAdapter } from "@/features/companion/companionAdapter";
 
 type Props = {
   assessments: Assessment[];
@@ -61,6 +63,17 @@ const toLesson = (assessment: Assessment): Lesson => ({
 export function AssessmentsPageClient({ assessments }: Props) {
   const { t } = useI18n();
   const eventBus = useMemo(() => new LessonEventBus(), []);
+  const [companionMood, setCompanionMood] = useState(() => 
+    createCompanionAdapter({ eventBus }).getMood()
+  );
+  const companion = useMemo(
+    () => createCompanionAdapter({ 
+      eventBus, 
+      onStateChange: (mood) => setCompanionMood(mood) 
+    }),
+    [eventBus]
+  );
+  
   const [selectedCategory, setSelectedCategory] = useState<AssessmentCategory>(
     assessments[0]?.category ?? "letters",
   );
@@ -73,6 +86,12 @@ export function AssessmentsPageClient({ assessments }: Props) {
   }));
   const [currentActivity, setCurrentActivity] = useState<Activity | undefined>(undefined);
   const engineRef = useRef(new LessonEngine(eventBus));
+
+  // Subscribe to event bus for companion reactions
+  useEffect(() => {
+    const unsubscribe = companion.subscribe();
+    return () => unsubscribe();
+  }, [companion]);
 
   const assessmentsByCategory = useMemo(
     () => Object.fromEntries(assessments.map((entry) => [entry.category, entry] as const)),
@@ -166,6 +185,8 @@ export function AssessmentsPageClient({ assessments }: Props) {
           {t("assessments.backToLessons")}
         </Link>
       </div>
+
+      <CompanionAvatar mood={companionMood} />
 
       <Card className="flex flex-col gap-4 border-slate-200 bg-slate-50 p-4 text-slate-900">
         <div className="flex flex-wrap justify-between gap-3">
