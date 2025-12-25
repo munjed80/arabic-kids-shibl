@@ -355,5 +355,12 @@
         "label": "Paragraphs"
       }
     }
+  },
+  "error": {
+    "guardLabel": "Safety guard",
+    "title": "Something went wrong",
+    "message": "We hit an unexpected issue. Please try again; your child's progress is still safe on this device.",
+    "retry": "Retry",
+    "backHome": "Back to home"
   }
 }
