@@ -18,13 +18,16 @@ const loadVoices = (synth: SpeechSynthesis) =>
       resolve(voices);
       return;
     }
+    let fallback: ReturnType<typeof setTimeout> | null = null;
     const handleVoices = () => {
-      clearTimeout(fallback);
+      if (fallback !== null) {
+        clearTimeout(fallback);
+      }
       const available = synth.getVoices();
       resolve(available);
       synth.removeEventListener("voiceschanged", handleVoices);
     };
-    const fallback = setTimeout(() => {
+    fallback = setTimeout(() => {
       synth.removeEventListener("voiceschanged", handleVoices);
       resolve(synth.getVoices());
     }, VOICES_TIMEOUT_MS);

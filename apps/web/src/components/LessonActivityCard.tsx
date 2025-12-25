@@ -108,11 +108,9 @@ export function LessonActivityCard({
     onSubmitRef.current(activity.answer);
   }, [activity.answer, activity.id, isReview]);
 
-  const replayAudio = () => {
+  const replayPrompt = () => {
     void playNarration();
   };
-
-  const resolvedStatus = statusMessage ?? (feedback?.correct === false ? t("lesson.prompt.tryAgain") : null);
 
   return (
     <Card>
@@ -126,7 +124,7 @@ export function LessonActivityCard({
         </p>
         <button
           type="button"
-          onClick={replayAudio}
+          onClick={replayPrompt}
           className={`inline-flex items-center justify-center rounded-full bg-amber-100 text-amber-800 shadow-sm transition hover:-translate-y-0.5 hover:bg-amber-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-500 ${
             visualOnly ? "h-12 w-12 text-xl" : "h-9 w-9 text-sm"
           } ${isNarrating ? "ring-2 ring-amber-400" : ""}`}
@@ -200,7 +198,11 @@ export function LessonActivityCard({
         </div>
       )}
 
-      {!visualOnly && resolvedStatus ? <p className="mt-3 text-sm text-slate-500">{resolvedStatus}</p> : null}
+      {!visualOnly && (statusMessage ?? (feedback?.correct === false ? t("lesson.prompt.tryAgain") : null)) ? (
+        <p className="mt-3 text-sm text-slate-500">
+          {statusMessage ?? (feedback?.correct === false ? t("lesson.prompt.tryAgain") : null)}
+        </p>
+      ) : null}
 
       {visualOnly ? (
         feedback && feedback.correct !== undefined ? (
