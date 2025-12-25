@@ -1,0 +1,224 @@
+{
+  "id": "level2-noon-shapes",
+  "title": "Level 2: Noon shapes",
+  "description": "Practice the /n/ sound in isolated, initial, medial, and final forms.",
+  "objective": "Help children spot the letter Noon in every position without using full words.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "level2-noon-01",
+      "type": "listen",
+      "prompt": "Hear the /n/ sound. Tap the isolated shape.",
+      "choices": ["ن", "ب", "ت"],
+      "answer": "ن",
+      "hint": "Find the single dot above the curve.",
+      "asset": "tts/en/level2/noon-01.mp3"
+    },
+    {
+      "id": "level2-noon-02",
+      "type": "listen",
+      "prompt": "Hear /n/ at the start. Tap its initial shape.",
+      "choices": ["نـ", "يـ", "ثـ"],
+      "answer": "نـ",
+      "hint": "Look for the forward curve with one dot.",
+      "asset": "tts/en/level2/noon-02.mp3"
+    },
+    {
+      "id": "level2-noon-03",
+      "type": "choose",
+      "prompt": "Select the isolated form for /n/.",
+      "choices": ["ن", "ـن", "ـب"],
+      "answer": "ن",
+      "hint": "No connectors appear on either side.",
+      "asset": "tts/en/level2/noon-03.mp3"
+    },
+    {
+      "id": "level2-noon-04",
+      "type": "choose",
+      "prompt": "Choose the middle /n/ shape.",
+      "choices": ["ـنـ", "ـتـ", "ـيـ"],
+      "answer": "ـنـ",
+      "hint": "It connects on both sides with one dot above.",
+      "asset": "tts/en/level2/noon-04.mp3"
+    },
+    {
+      "id": "level2-noon-05",
+      "type": "match",
+      "prompt": "Match the sound to the final /n/ shape.",
+      "choices": ["ـن", "ـب", "ـث"],
+      "answer": "ـن",
+      "hint": "The tail lifts with a single dot above.",
+      "asset": "tts/en/level2/noon-05.mp3"
+    },
+    {
+      "id": "level2-noon-06",
+      "type": "build",
+      "prompt": "Build /n/ at the start.",
+      "choices": ["نـ", "بـ", "ثـ"],
+      "answer": "نـ",
+      "hint": "Pick the starting curve with one dot.",
+      "asset": "tts/en/level2/noon-06.mp3"
+    },
+    {
+      "id": "level2-noon-07",
+      "type": "choose",
+      "prompt": "Tap /n/ when it stands alone.",
+      "choices": ["ن", "ا", "ي"],
+      "answer": "ن",
+      "hint": "The isolated form keeps one dot above.",
+      "asset": "tts/en/level2/noon-07.mp3"
+    },
+    {
+      "id": "level2-noon-08",
+      "type": "match",
+      "prompt": "Match the audio to the medial /n/ shape.",
+      "choices": ["ـنـ", "ـبـ", "ـثـ"],
+      "answer": "ـنـ",
+      "hint": "It connects on both sides with a single dot.",
+      "asset": "tts/en/level2/noon-08.mp3"
+    },
+    {
+      "id": "level2-noon-09",
+      "type": "build",
+      "prompt": "Build the ending shape for /n/.",
+      "choices": ["ـن", "ـي", "ـت"],
+      "answer": "ـن",
+      "hint": "Choose the form that finishes with one dot.",
+      "asset": "tts/en/level2/noon-09.mp3"
+    },
+    {
+      "id": "level2-noon-10",
+      "type": "choose",
+      "prompt": "Which option shows /n/ connecting on both sides?",
+      "choices": ["ـنـ", "ـيـ", "ـبـ"],
+      "answer": "ـنـ",
+      "hint": "It links on both sides while keeping one dot.",
+      "asset": "tts/en/level2/noon-10.mp3"
+    },
+    {
+      "id": "level2-noon-11",
+      "type": "choose",
+      "prompt": "Spot /n/ with one dot in final form.",
+      "choices": ["ـن", "ـث", "ـا"],
+      "answer": "ـن",
+      "hint": "The final form ends with a lift and one dot.",
+      "asset": "tts/en/level2/noon-11.mp3"
+    },
+    {
+      "id": "level2-noon-12",
+      "type": "review",
+      "prompt": "Great work practicing the /n/ letter shapes.",
+      "answer": "ن",
+      "asset": "tts/en/level2/noon-12.mp3"
+    }
+  ],
+  "activities": [
+    {
+      "id": "level2-noon-01",
+      "type": "listen",
+      "prompt": "Hear the /n/ sound. Tap the isolated shape.",
+      "choices": ["ن", "ب", "ت"],
+      "answer": "ن",
+      "hint": "Find the single dot above the curve.",
+      "asset": "tts/en/level2/noon-01.mp3"
+    },
+    {
+      "id": "level2-noon-02",
+      "type": "listen",
+      "prompt": "Hear /n/ at the start. Tap its initial shape.",
+      "choices": ["نـ", "يـ", "ثـ"],
+      "answer": "نـ",
+      "hint": "Look for the forward curve with one dot.",
+      "asset": "tts/en/level2/noon-02.mp3"
+    },
+    {
+      "id": "level2-noon-03",
+      "type": "choose",
+      "prompt": "Select the isolated form for /n/.",
+      "choices": ["ن", "ـن", "ـب"],
+      "answer": "ن",
+      "hint": "No connectors appear on either side.",
+      "asset": "tts/en/level2/noon-03.mp3"
+    },
+    {
+      "id": "level2-noon-04",
+      "type": "choose",
+      "prompt": "Choose the middle /n/ shape.",
+      "choices": ["ـنـ", "ـتـ", "ـيـ"],
+      "answer": "ـنـ",
+      "hint": "It connects on both sides with one dot above.",
+      "asset": "tts/en/level2/noon-04.mp3"
+    },
+    {
+      "id": "level2-noon-05",
+      "type": "match",
+      "prompt": "Match the sound to the final /n/ shape.",
+      "choices": ["ـن", "ـب", "ـث"],
+      "answer": "ـن",
+      "hint": "The tail lifts with a single dot above.",
+      "asset": "tts/en/level2/noon-05.mp3"
+    },
+    {
+      "id": "level2-noon-06",
+      "type": "build",
+      "prompt": "Build /n/ at the start.",
+      "choices": ["نـ", "بـ", "ثـ"],
+      "answer": "نـ",
+      "hint": "Pick the starting curve with one dot.",
+      "asset": "tts/en/level2/noon-06.mp3"
+    },
+    {
+      "id": "level2-noon-07",
+      "type": "choose",
+      "prompt": "Tap /n/ when it stands alone.",
+      "choices": ["ن", "ا", "ي"],
+      "answer": "ن",
+      "hint": "The isolated form keeps one dot above.",
+      "asset": "tts/en/level2/noon-07.mp3"
+    },
+    {
+      "id": "level2-noon-08",
+      "type": "match",
+      "prompt": "Match the audio to the medial /n/ shape.",
+      "choices": ["ـنـ", "ـبـ", "ـثـ"],
+      "answer": "ـنـ",
+      "hint": "It connects on both sides with a single dot.",
+      "asset": "tts/en/level2/noon-08.mp3"
+    },
+    {
+      "id": "level2-noon-09",
+      "type": "build",
+      "prompt": "Build the ending shape for /n/.",
+      "choices": ["ـن", "ـي", "ـت"],
+      "answer": "ـن",
+      "hint": "Choose the form that finishes with one dot.",
+      "asset": "tts/en/level2/noon-09.mp3"
+    },
+    {
+      "id": "level2-noon-10",
+      "type": "choose",
+      "prompt": "Which option shows /n/ connecting on both sides?",
+      "choices": ["ـنـ", "ـيـ", "ـبـ"],
+      "answer": "ـنـ",
+      "hint": "It links on both sides while keeping one dot.",
+      "asset": "tts/en/level2/noon-10.mp3"
+    },
+    {
+      "id": "level2-noon-11",
+      "type": "choose",
+      "prompt": "Spot /n/ with one dot in final form.",
+      "choices": ["ـن", "ـث", "ـا"],
+      "answer": "ـن",
+      "hint": "The final form ends with a lift and one dot.",
+      "asset": "tts/en/level2/noon-11.mp3"
+    },
+    {
+      "id": "level2-noon-12",
+      "type": "review",
+      "prompt": "Great work practicing the /n/ letter shapes.",
+      "answer": "ن",
+      "asset": "tts/en/level2/noon-12.mp3"
+    }
+  ]
+}
