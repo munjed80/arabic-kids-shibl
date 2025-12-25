@@ -27,8 +27,6 @@ const renderWithI18n = async (ui: ReactElement) => {
     root.render(<I18nProvider>{ui}</I18nProvider>);
   });
 
-  await act(async () => {});
-
   return {
     textContent: container.textContent ?? "",
     unmount: async () =>
