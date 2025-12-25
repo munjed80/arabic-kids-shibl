@@ -8,13 +8,13 @@
     <circle cx="160" cy="170" r="110" fill="#F7C65A" stroke="#C47A28" stroke-width="6"/>
     <ellipse cx="160" cy="206" rx="60" ry="48" fill="#FBE3A1" stroke="#C47A28" stroke-width="5"/>
     <path d="M150 188h20l-10 14z" fill="#C47A28" stroke="#C47A28" stroke-width="3.5"/>
-    <ellipse cx="125" cy="152" rx="11" ry="9" fill="#2F1B0C"/>
-    <ellipse cx="195" cy="152" rx="11" ry="9" fill="#2F1B0C"/>
+    <circle cx="125" cy="152" r="10" fill="#2F1B0C"/>
+    <circle cx="195" cy="152" r="10" fill="#2F1B0C"/>
     <circle cx="120" cy="149" r="3.5" fill="#FFFFFF" opacity="0.7"/>
     <circle cx="190" cy="149" r="3.5" fill="#FFFFFF" opacity="0.7"/>
     <path d="M108 136c14-6 28-2 40 6" stroke="#C47A28" stroke-width="5"/>
     <path d="M174 130c12-6 28-6 40 6" stroke="#C47A28" stroke-width="5"/>
-    <path d="M148 216q12 -6 24 6" stroke="#C47A28" stroke-width="5"/>
+    <path d="M148 216q12-6 24 6" stroke="#C47A28" stroke-width="5"/>
     <path d="M160 202v7" stroke="#C47A28" stroke-width="4"/>
   </g>
 </svg>
