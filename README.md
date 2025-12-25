@@ -2,15 +2,15 @@
 
 Foundation for a child-safe Arabic learning experience with a non-verbal lion cub companion, **Shibl**. The MVP is entirely client-side (Next.js App Router), uses Tailwind CSS for styling, Zod for lesson validation, Vitest for testing, and stores progress locally.
 
-## Quick start
+## Quick Start
 
 ```bash
 cd apps/web
-npm install           # already run in this repo
+npm ci
 npm run dev           # start local dev server
-npm run lint          # Next.js ESLint checks
-npm run test          # Vitest unit tests
-npm run build         # Production build (Turbopack)
+npm run lint          # ESLint
+npm run test          # Vitest
+npm run build         # Next.js build
 ```
 
 ## What’s included
@@ -58,6 +58,22 @@ arabic-kids-shibl/
 - See `docs/PRIVACY.md` for the full statement.
 - Developer note: Arabic is reserved exclusively for learning content (lessons, stories, exams). UI text must never contain Arabic.
 
-## Deployment
+## Deploy
 
-Target: Vercel. The app is production-ready for static deployment (`npm run build`), with only client-side data storage.
+- Primary: Vercel (Next.js preset). See `docs/DEPLOY.md` for commands and env setup.
+- Alternative: Netlify (Next.js runtime). Same build steps as above.
+
+## Documentation
+
+- Product overview: `docs/PRODUCT_OVERVIEW.md`
+- Architecture: `docs/ARCHITECTURE.md`
+- Deploy guide: `docs/DEPLOY.md`
+- Support: `docs/SUPPORT.md`
+- Release checklist: `RELEASE_CHECKLIST.md`
+- Privacy: `docs/PRIVACY.md`
+- Curriculum and content: `docs/LEVEL*.md`, `docs/EXAMS.md`, `docs/ASSESSMENTS.md`, `docs/STORIES.md`, `docs/COMPANION*.md`
+
+## Roadmap (non-binding)
+- Content quality pass
+- Richer story track
+- Optional accounts
