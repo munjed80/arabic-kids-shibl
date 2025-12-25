@@ -19,4 +19,4 @@ npm run build # Production build
 - `src/features/lesson-engine/*` – Lesson schema, event bus, and engine.
 - `src/features/companion/stateMachine.ts` – Non-verbal companion logic with cooldowns.
 - `src/features/progress/localProgress.ts` – LocalStorage helpers for progress.
-- `src/content/lessons/lesson-letters.json` – Placeholder letter recognition lesson.
+- `src/content/lessons/level1-sound-*.json` – Phase A lessons for the first three Arabic letter sounds.

@@ -1,0 +1,32 @@
+{
+  "id": "level1-sound-a",
+  "title": "Sound 1: /a/ (ا)",
+  "description": "Listen first, then spot the shape for the very first Arabic sound.",
+  "objective": "Help children hear and repeat the /a/ sound while matching it to the isolated shape.",
+  "level": 1,
+  "durationMinutes": 3,
+  "activities": [
+    {
+      "id": "level1-sound-a-1",
+      "type": "listen",
+      "prompt": "Play the sound. Tap the shape that matches /a/.",
+      "choices": ["ا", "ب", "ت"],
+      "answer": "ا",
+      "asset": "audio/level1/a-sound-1"
+    },
+    {
+      "id": "level1-sound-a-2",
+      "type": "choose",
+      "prompt": "Which shape goes with the open mouth sound /a/?",
+      "choices": ["ت", "ا", "ب"],
+      "answer": "ا",
+      "asset": "image/level1/a-isolated"
+    },
+    {
+      "id": "level1-sound-a-3",
+      "type": "review",
+      "prompt": "Listen again, then repeat /a/ out loud with Shibl's animation.",
+      "asset": "audio/level1/a-repeat"
+    }
+  ]
+}

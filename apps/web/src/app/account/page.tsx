@@ -14,10 +14,9 @@ import {
   type LevelProgressRecord,
 } from "@/features/progress/localProgress";
 import { lessonSchema } from "@/features/lesson-engine/lessonSchema";
-import lessonData from "@/content/lessons/lesson-letters.json";
-import wordsLessonData from "@/content/lessons/lesson-words.json";
-import readingLessonData from "@/content/lessons/lesson-reading.json";
-import reviewLessonData from "@/content/lessons/lesson-review.json";
+import soundALessonData from "@/content/lessons/level1-sound-a.json";
+import soundBLessonData from "@/content/lessons/level1-sound-b.json";
+import soundTLessonData from "@/content/lessons/level1-sound-t.json";
 
 const LEVEL_ID = "level-1";
 
@@ -27,10 +26,9 @@ export default function AccountPage() {
   const router = useRouter();
   const lessons = useMemo(
     () => [
-      lessonSchema.parse(lessonData),
-      lessonSchema.parse(wordsLessonData),
-      lessonSchema.parse(readingLessonData),
-      lessonSchema.parse(reviewLessonData),
+      lessonSchema.parse(soundALessonData),
+      lessonSchema.parse(soundBLessonData),
+      lessonSchema.parse(soundTLessonData),
     ],
     [],
   );
