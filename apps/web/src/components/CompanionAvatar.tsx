@@ -14,6 +14,13 @@ const accentStyles: Record<CompanionMood["accent"], string> = {
   info: "bg-indigo-50 text-indigo-900 border-indigo-200",
 };
 
+const accentTransitions: Record<CompanionMood["accent"], string> = {
+  calm: "transition-colors duration-300",
+  success: "transition-colors duration-300",
+  warning: "transition-colors duration-300",
+  info: "transition-colors duration-300",
+};
+
 const stateEmojis: Record<CompanionState, string> = {
   idle: "🦁",
   intro: "👋",
@@ -31,9 +38,15 @@ type Props = {
 export function CompanionAvatar({ mood }: Props) {
   const { t } = useI18n();
   const style = accentStyles[mood.accent];
+  const transition = accentTransitions[mood.accent];
 
   return (
-    <div className={`flex items-center gap-3 rounded-xl border px-4 py-3 shadow-sm ${style}`}>
+    <div 
+      className={`flex items-center gap-3 rounded-xl border px-4 py-3 shadow-sm ${style} ${transition} motion-reduce:transition-none`}
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    >
       <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl shadow-inner">
         {stateEmojis[mood.state]}
       </div>

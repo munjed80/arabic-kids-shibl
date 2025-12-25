@@ -5,8 +5,10 @@ import { useEffect, useMemo, useState } from "react";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
+import { CompanionAvatar } from "@/components/CompanionAvatar";
 import { useI18n } from "@/i18n/I18nProvider";
 import type { Story } from "@/features/stories/storySchema";
+import { createCompanionAdapter } from "@/features/companion/companionAdapter";
 
 type Props = {
   story: Story;
@@ -18,6 +20,33 @@ export function StoryReaderClient({ story }: Props) {
   const { t } = useI18n();
   const [paragraphIndex, setParagraphIndex] = useState(0);
   const [speechAvailable] = useState(() => hasSpeech());
+  const [companionMood, setCompanionMood] = useState(() => 
+    createCompanionAdapter().getMood()
+  );
+  const companion = useMemo(
+    () => createCompanionAdapter({ 
+      onStateChange: (mood) => setCompanionMood(mood) 
+    }),
+    []
+  );
+
+  // Emit story started event
+  useEffect(() => {
+    companion.handleStoryEvent({
+      type: "STORY_STARTED",
+      payload: { storyId: story.id },
+    });
+  }, [story.id, companion]);
+
+  // Emit paragraph changed event
+  useEffect(() => {
+    if (paragraphIndex > 0) {
+      companion.handleStoryEvent({
+        type: "STORY_PARAGRAPH_CHANGED",
+        payload: { storyId: story.id, paragraphIndex },
+      });
+    }
+  }, [paragraphIndex, story.id, companion]);
 
   useEffect(() => {
     return () => {
@@ -43,7 +72,18 @@ export function StoryReaderClient({ story }: Props) {
   };
 
   const goPrevious = () => setParagraphIndex((index) => Math.max(0, index - 1));
-  const goNext = () => setParagraphIndex((index) => Math.min(story.paragraphs.length - 1, index + 1));
+  const goNext = () => {
+    const nextIndex = Math.min(story.paragraphs.length - 1, paragraphIndex + 1);
+    setParagraphIndex(nextIndex);
+    
+    // Emit completion event if we've reached the end
+    if (nextIndex === story.paragraphs.length - 1 && paragraphIndex < nextIndex) {
+      companion.handleStoryEvent({
+        type: "STORY_COMPLETED",
+        payload: { storyId: story.id },
+      });
+    }
+  };
 
   return (
     <Container className="space-y-6 py-8">
@@ -64,6 +104,8 @@ export function StoryReaderClient({ story }: Props) {
         </Link>
       </div>
 
+      <CompanionAvatar mood={companionMood} />
+
       <Card className="space-y-4 border-slate-200 bg-white p-4 shadow">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="space-y-1">
@@ -83,13 +125,12 @@ export function StoryReaderClient({ story }: Props) {
           </div>
         </div>
         <Card className="border border-slate-200 bg-slate-50 p-4" as="div">
-          <div className="space-y-2 text-right">
+          <div className="space-y-2">
             {paragraph.map((sentence, index) => (
               <p
                 key={`${paragraphIndex}-${index}`}
                 lang="ar"
-                dir="rtl"
-                className="text-2xl leading-relaxed text-slate-900"
+                className="arabic-content text-slate-900"
               >
                 {sentence}
               </p>

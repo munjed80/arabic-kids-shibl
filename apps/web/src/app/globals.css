@@ -4,12 +4,19 @@
   --background: #f8fafc;
   --foreground: #0f172a;
   --accent: #f59e0b;
+
+  /* Typography tokens */
+  --font-ui: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-arabic-content: "Geeza Pro", "Traditional Arabic", "Simplified Arabic", "Arial", sans-serif;
+  --arabic-font-size: 1.5rem;
+  --arabic-line-height: 2;
+  --arabic-paragraph-gap: 1rem;
 }
 
 body {
   background: radial-gradient(circle at 20% 20%, #fff7ed, #f8fafc 35%);
   color: var(--foreground);
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: var(--font-ui);
 }
 
 a {
@@ -21,4 +28,22 @@ a {
   box-shadow:
     0 10px 40px rgba(15, 23, 42, 0.08),
     0 2px 12px rgba(15, 23, 42, 0.04);
+}
+
+.arabic-content {
+  font-family: var(--font-arabic-content);
+  font-size: var(--arabic-font-size);
+  line-height: var(--arabic-line-height);
+  direction: rtl;
+  text-align: right;
+}
+
+.arabic-content.inline {
+  display: inline;
+  direction: inherit;
+  text-align: inherit;
+}
+
+.arabic-content + .arabic-content {
+  margin-top: var(--arabic-paragraph-gap);
 }
