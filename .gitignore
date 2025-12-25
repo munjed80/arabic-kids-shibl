@@ -8,3 +8,16 @@ apps/web/.next
 apps/web/out
 apps/web/node_modules
 .vercel
+# Playwright artifacts
+playwright-report/
+test-results/
+.playwright/
+blob-report/
+trace.zip
+**/playwright-report/
+**/test-results/
+**/.playwright/
+**/blob-report/
+
+# Local temp captures
+/tmp/

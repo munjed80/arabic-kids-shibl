@@ -355,5 +355,12 @@
         "label": "Alinea’s"
       }
     }
+  },
+  "error": {
+    "guardLabel": "Veiligheidsbewaking",
+    "title": "Er ging iets mis",
+    "message": "Er trad een onverwacht probleem op. Probeer het opnieuw; de voortgang blijft op dit apparaat bewaard.",
+    "retry": "Opnieuw proberen",
+    "backHome": "Terug naar start"
   }
 }

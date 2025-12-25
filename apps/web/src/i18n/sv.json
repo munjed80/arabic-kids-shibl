@@ -355,5 +355,12 @@
         "label": "Stycken"
       }
     }
+  },
+  "error": {
+    "guardLabel": "Säkerhetsvakt",
+    "title": "Något gick fel",
+    "message": "Ett oväntat fel uppstod. Försök igen; framstegen sparas fortfarande på den här enheten.",
+    "retry": "Försök igen",
+    "backHome": "Tillbaka till start"
   }
 }
