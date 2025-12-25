@@ -34,16 +34,21 @@
       "incorrect": "Bijna. Probeer opnieuw.",
       "lessonComplete": "Les voltooid! Klaar voor de volgende stap."
     },
-    "progressLabel": "Voortgang: Activiteit {current} van {total}",
-    "completePercent": "{percent}% voltooid",
-    "ariaChoose": "Kies {choice}",
-    "completedStatus": "Je hebt deze les afgerond. Ga verder wanneer je wilt.",
-    "listenAria": "Speel de audio voor de vraag af",
-    "reviewSummaryTitle": "Herhaling",
-    "reviewSummaryBody": "Korte check voordat je verder gaat. Geen antwoord nodig.",
-    "reviewAnswerLabel": "Verwacht antwoord",
-    "unsupportedType": "Deze stap wordt niet ondersteund. We slaan hem over zodat je door kunt gaan."
-  },
+      "progressLabel": "Voortgang: Activiteit {current} van {total}",
+      "completePercent": "{percent}% voltooid",
+      "ariaChoose": "Kies {choice}",
+      "completedStatus": "Je hebt deze les afgerond. Ga verder wanneer je wilt.",
+      "listenAria": "Speel de audio voor de vraag af",
+      "prompt": {
+        "listenChooseLetter": "Luister en kies de juiste letter.",
+        "tapLetterBySound": "Tik op de letter die bij het geluid past.",
+        "tryAgain": "Probeer het nog eens en luister opnieuw."
+      },
+      "reviewSummaryTitle": "Herhaling",
+      "reviewSummaryBody": "Korte check voordat je verder gaat. Geen antwoord nodig.",
+      "reviewAnswerLabel": "Verwacht antwoord",
+      "unsupportedType": "Deze stap wordt niet ondersteund. We slaan hem over zodat je door kunt gaan."
+    },
   "level": {
     "startHeading": "Level {level} starten",
     "startCopy": "Begin Level {level}. Voortgang blijft op dit apparaat.",

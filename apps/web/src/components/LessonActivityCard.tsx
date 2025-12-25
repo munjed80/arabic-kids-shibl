@@ -3,10 +3,12 @@
 import type { Activity } from "@/features/lesson-engine/lessonSchema";
 import { Card } from "@/components/ui/Card";
 import { useI18n } from "@/i18n/I18nProvider";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { speakArabicLetter, speakUiPrompt } from "@/lib/tts";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 const CORRECT_SFX = "/audio/sfx/correct.wav";
 const GENTLE_SFX = "/audio/sfx/gentle.wav";
+const arabicRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/;
 
 type Props = {
   activity: Activity;
@@ -31,24 +33,27 @@ export function LessonActivityCard({
   autoPlayAudio,
   playEffects,
 }: Props) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const supportedTypes = useMemo(() => ["choose", "listen", "build", "match", "review"], []);
   const isReview = activity.type === "review";
   const isListen = activity.type === "listen";
   const isUnsupported = !supportedTypes.includes(activity.type);
   const onSubmitRef = useRef(onSubmit);
-  const letterAudioRef = useRef<HTMLAudioElement | null>(null);
   const sfxAudioRef = useRef<HTMLAudioElement | null>(null);
-  const [needsManualAudio, setNeedsManualAudio] = useState(false);
-
-  const resolveAudioSrc = (asset?: string) => {
-    if (!asset || !asset.startsWith("audio/")) return null;
-    if (asset.endsWith(".mp3") || asset.endsWith(".wav")) return `/${asset}`;
-    return `/${asset}.wav`;
-  };
-
-  const audioSrc = resolveAudioSrc(activity.asset);
-  const showAudioControl = Boolean(audioSrc);
+  const [isNarrating, setIsNarrating] = useState(false);
+  const hasAudioAsset = useMemo(() => Boolean(activity.asset && activity.asset.startsWith("audio/")), [activity.asset]);
+  const requiresListening = isListen || hasAudioAsset;
+  const promptKey = useMemo(() => {
+    if (isListen) return "lesson.prompt.listenChooseLetter";
+    if (activity.type === "choose" && hasAudioAsset) return "lesson.prompt.tapLetterBySound";
+    return null;
+  }, [activity.type, hasAudioAsset, isListen]);
+  const uiPrompt = useMemo(() => {
+    const fallback = t(promptKey ?? "lesson.activityLabel");
+    if (promptKey) return fallback;
+    if (!activity.prompt) return fallback;
+    return arabicRegex.test(activity.prompt) ? fallback : activity.prompt;
+  }, [activity.prompt, promptKey, t]);
 
   useEffect(() => {
     onSubmitRef.current = onSubmit;
@@ -60,29 +65,23 @@ export function LessonActivityCard({
     }
   }, [activity.type, isUnsupported]);
 
+  const playNarration = useCallback(async () => {
+    if (!uiPrompt) return;
+    setIsNarrating(true);
+    try {
+      await speakUiPrompt(uiPrompt, locale);
+      if (requiresListening && activity.answer) {
+        await speakArabicLetter(activity.answer);
+      }
+    } finally {
+      setIsNarrating(false);
+    }
+  }, [activity.answer, locale, requiresListening, uiPrompt]);
+
   useEffect(() => {
     if (!autoPlayAudio) return;
-    if (!audioSrc || typeof Audio === "undefined") return;
-    setNeedsManualAudio(false);
-    const sound = new Audio(audioSrc);
-    sound.preload = "auto";
-    letterAudioRef.current = sound;
-
-    const tryPlay = async () => {
-      try {
-        await sound.play();
-        setNeedsManualAudio(false);
-      } catch {
-        setNeedsManualAudio(true);
-      }
-    };
-
-    void tryPlay();
-
-    return () => {
-      sound.pause();
-    };
-  }, [activity.id, audioSrc, autoPlayAudio]);
+    void playNarration();
+  }, [activity.id, autoPlayAudio, playNarration]);
 
   useEffect(() => {
     if (!playEffects) return;
@@ -97,8 +96,10 @@ export function LessonActivityCard({
 
   useEffect(() => {
     return () => {
-      letterAudioRef.current?.pause();
       sfxAudioRef.current?.pause();
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
     };
   }, []);
 
@@ -107,13 +108,8 @@ export function LessonActivityCard({
     onSubmitRef.current(activity.answer);
   }, [activity.answer, activity.id, isReview]);
 
-  const replayAudio = () => {
-    if (!audioSrc || typeof Audio === "undefined") return;
-    const player = letterAudioRef.current ?? new Audio(audioSrc);
-    player.preload = "auto";
-    letterAudioRef.current = player;
-    player.currentTime = 0;
-    void player.play().then(() => setNeedsManualAudio(false)).catch(() => setNeedsManualAudio(true));
+  const replayPrompt = () => {
+    void playNarration();
   };
 
   return (
@@ -126,46 +122,40 @@ export function LessonActivityCard({
         >
           {t("lesson.activityLabel")}
         </p>
-        {showAudioControl ? (
-          <button
-            type="button"
-            onClick={replayAudio}
-            className={`inline-flex items-center justify-center rounded-full bg-amber-100 text-amber-800 shadow-sm transition hover:-translate-y-0.5 hover:bg-amber-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-500 ${
-              visualOnly ? "h-12 w-12 text-xl" : "h-9 w-9 text-sm"
-            } ${needsManualAudio ? "ring-2 ring-amber-400" : ""}`}
-            aria-label={t("lesson.listenAria")}
-          >
-            ▶
-          </button>
-        ) : null}
+        <button
+          type="button"
+          onClick={replayPrompt}
+          className={`inline-flex items-center justify-center rounded-full bg-amber-100 text-amber-800 shadow-sm transition hover:-translate-y-0.5 hover:bg-amber-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-500 ${
+            visualOnly ? "h-12 w-12 text-xl" : "h-9 w-9 text-sm"
+          } ${isNarrating ? "ring-2 ring-amber-400" : ""}`}
+          aria-label={t("lesson.listenAria")}
+        >
+          ▶
+        </button>
       </div>
 
-      {visualOnly ? (
-        <div className="sr-only">{activity.prompt}</div>
-      ) : (
-        <>
-          <h2 className="arabic-content mt-2 flex items-center gap-2 font-semibold text-slate-900" lang="ar">
-            {activity.prompt}
-            {isListen ? (
-              <span
-                role="img"
-                aria-label={t("lesson.listenAria")}
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-700"
-              >
-                ▶
-              </span>
-            ) : null}
-          </h2>
-          {activity.hint ? (
-            <p className="mt-1 text-sm text-slate-500">
-              {t("lesson.hint")}:{" "}
-              <span className="arabic-content inline" lang="ar">
-                {activity.hint}
-              </span>
-            </p>
+      <div className="mt-2">
+        <h2 className="flex items-center gap-2 font-semibold text-slate-900">
+          {uiPrompt}
+          {isListen ? (
+            <span
+              role="img"
+              aria-label={t("lesson.listenAria")}
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-sm text-slate-700"
+            >
+              ▶
+            </span>
           ) : null}
-        </>
-      )}
+        </h2>
+        {activity.hint ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {t("lesson.hint")}:{" "}
+            <span className="arabic-content inline" lang="ar">
+              {activity.hint}
+            </span>
+          </p>
+        ) : null}
+      </div>
 
       {isReview ? (
         visualOnly ? (
@@ -208,7 +198,11 @@ export function LessonActivityCard({
         </div>
       )}
 
-      {!visualOnly && statusMessage ? <p className="mt-3 text-sm text-slate-500">{statusMessage}</p> : null}
+      {!visualOnly && (statusMessage ?? (feedback?.correct === false ? t("lesson.prompt.tryAgain") : null)) ? (
+        <p className="mt-3 text-sm text-slate-500">
+          {statusMessage ?? (feedback?.correct === false ? t("lesson.prompt.tryAgain") : null)}
+        </p>
+      ) : null}
 
       {visualOnly ? (
         feedback && feedback.correct !== undefined ? (

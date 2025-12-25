@@ -35,15 +35,20 @@
       "lessonComplete": "Lektion klar! Dags för nästa steg."
     },
     "progressLabel": "Framsteg: Aktivitet {current} av {total}",
-    "completePercent": "{percent}% klart",
-    "ariaChoose": "Välj {choice}",
-    "completedStatus": "Du har slutfört den här lektionen. Fortsätt när du vill.",
-    "listenAria": "Spela upp ljud för uppgiften",
-    "reviewSummaryTitle": "Repetition",
-    "reviewSummaryBody": "Snabb avstämning innan du går vidare. Inget svar behövs.",
-    "reviewAnswerLabel": "Förväntat svar",
-    "unsupportedType": "Det här steget stöds inte. Vi hoppar över det så att du kan fortsätta."
-  },
+      "completePercent": "{percent}% klart",
+      "ariaChoose": "Välj {choice}",
+      "completedStatus": "Du har slutfört den här lektionen. Fortsätt när du vill.",
+      "listenAria": "Spela upp ljud för uppgiften",
+      "prompt": {
+        "listenChooseLetter": "Lyssna och välj rätt bokstav.",
+        "tapLetterBySound": "Tryck på bokstaven som passar ljudet.",
+        "tryAgain": "Försök igen och lyssna en gång till."
+      },
+      "reviewSummaryTitle": "Repetition",
+      "reviewSummaryBody": "Snabb avstämning innan du går vidare. Inget svar behövs.",
+      "reviewAnswerLabel": "Förväntat svar",
+      "unsupportedType": "Det här steget stöds inte. Vi hoppar över det så att du kan fortsätta."
+    },
   "level": {
     "startHeading": "Starta nivå {level}",
     "startCopy": "Börja nivå {level}. Framstegen stannar på den här enheten.",

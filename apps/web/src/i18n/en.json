@@ -36,14 +36,19 @@
     },
     "progressLabel": "Progress: Activity {current} of {total}",
     "completePercent": "{percent}% complete",
-    "ariaChoose": "Choose {choice}",
-    "completedStatus": "You finished this lesson. Continue when you’re ready.",
-    "listenAria": "Play prompt audio",
-    "reviewSummaryTitle": "Review",
-    "reviewSummaryBody": "Quick check-in before you move on. No answer needed.",
-    "reviewAnswerLabel": "Expected answer",
-    "unsupportedType": "This step uses an unsupported format. We skipped it so you can keep going."
-  },
+      "ariaChoose": "Choose {choice}",
+      "completedStatus": "You finished this lesson. Continue when you’re ready.",
+      "listenAria": "Play prompt audio",
+      "prompt": {
+        "listenChooseLetter": "Listen and choose the correct letter.",
+        "tapLetterBySound": "Tap the letter that matches the sound.",
+        "tryAgain": "Try again and listen once more."
+      },
+      "reviewSummaryTitle": "Review",
+      "reviewSummaryBody": "Quick check-in before you move on. No answer needed.",
+      "reviewAnswerLabel": "Expected answer",
+      "unsupportedType": "This step uses an unsupported format. We skipped it so you can keep going."
+    },
   "level": {
     "startHeading": "Start Level {level}",
     "startCopy": "Begin Level {level}. Progress stays on this device.",
