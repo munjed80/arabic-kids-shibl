@@ -11,7 +11,10 @@ const numericId = (id: string) => {
 
 const defaultOrderingByLevel: Record<number, string[]> = {
   1: ["level1-sound-a", "level1-sound-b", "level1-sound-t"],
+  2: ["level2-thaa-shapes", "level2-noon-shapes", "level2-yaa-shapes"],
 };
+
+const allowedLevel2Ids = new Set(defaultOrderingByLevel[2]);
 
 const compareLessons: LessonComparator = (a, b) => {
   if (a.level !== b.level) return a.level - b.level;
@@ -50,6 +53,7 @@ export async function loadLessonsFromDisk(): Promise<Lesson[]> {
     try {
       const raw = JSON.parse(contents);
       const parsed = lessonSchema.parse(raw);
+      if (parsed.level === 2 && !allowedLevel2Ids.has(parsed.id)) continue;
       lessons.push(parsed);
     } catch (error) {
       console.warn(`Skipping invalid lesson file ${entry}:`, error);

@@ -1,0 +1,224 @@
+{
+  "id": "level2-thaa-shapes",
+  "title": "Level 2: Thaa shapes",
+  "description": "Practice the /th/ sound in isolated, initial, medial, and final forms.",
+  "objective": "Help children spot the letter Thaa in every position without using full words.",
+  "level": 2,
+  "durationMinutes": 3,
+  "steps": [
+    {
+      "id": "level2-thaa-01",
+      "type": "listen",
+      "prompt": "Hear the /th/ sound. Tap the isolated shape.",
+      "choices": ["ث", "ب", "ت"],
+      "answer": "ث",
+      "hint": "Find the letter with three dots on top.",
+      "asset": "tts/en/level2/thaa-01.mp3"
+    },
+    {
+      "id": "level2-thaa-02",
+      "type": "listen",
+      "prompt": "Hear /th/ at the start. Tap its initial shape.",
+      "choices": ["ثـ", "نـ", "يـ"],
+      "answer": "ثـ",
+      "hint": "Look for the leading curve with three dots.",
+      "asset": "tts/en/level2/thaa-02.mp3"
+    },
+    {
+      "id": "level2-thaa-03",
+      "type": "choose",
+      "prompt": "Select the isolated form for /th/.",
+      "choices": ["ث", "ـث", "ـب"],
+      "answer": "ث",
+      "hint": "No connectors appear on either side.",
+      "asset": "tts/en/level2/thaa-03.mp3"
+    },
+    {
+      "id": "level2-thaa-04",
+      "type": "choose",
+      "prompt": "Choose the middle /th/ shape.",
+      "choices": ["ـثـ", "ـتـ", "ـيـ"],
+      "answer": "ـثـ",
+      "hint": "Three dots stay on top even in the middle.",
+      "asset": "tts/en/level2/thaa-04.mp3"
+    },
+    {
+      "id": "level2-thaa-05",
+      "type": "match",
+      "prompt": "Match the sound to the final /th/ shape.",
+      "choices": ["ـث", "ـب", "ـن"],
+      "answer": "ـث",
+      "hint": "The tail leans left with three dots above.",
+      "asset": "tts/en/level2/thaa-05.mp3"
+    },
+    {
+      "id": "level2-thaa-06",
+      "type": "build",
+      "prompt": "Build /th/ at the start.",
+      "choices": ["ثـ", "بـ", "نـ"],
+      "answer": "ثـ",
+      "hint": "Pick the starting curve with three dots.",
+      "asset": "tts/en/level2/thaa-06.mp3"
+    },
+    {
+      "id": "level2-thaa-07",
+      "type": "choose",
+      "prompt": "Tap /th/ when it stands alone.",
+      "choices": ["ث", "ت", "ي"],
+      "answer": "ث",
+      "hint": "The isolated form is a single curve with dots.",
+      "asset": "tts/en/level2/thaa-07.mp3"
+    },
+    {
+      "id": "level2-thaa-08",
+      "type": "match",
+      "prompt": "Match the audio to the medial /th/ shape.",
+      "choices": ["ـثـ", "ـنـ", "ـبـ"],
+      "answer": "ـثـ",
+      "hint": "It connects on both sides and keeps three dots.",
+      "asset": "tts/en/level2/thaa-08.mp3"
+    },
+    {
+      "id": "level2-thaa-09",
+      "type": "build",
+      "prompt": "Build the ending shape for /th/.",
+      "choices": ["ـث", "ـي", "ـت"],
+      "answer": "ـث",
+      "hint": "Choose the form that finishes with three dots.",
+      "asset": "tts/en/level2/thaa-09.mp3"
+    },
+    {
+      "id": "level2-thaa-10",
+      "type": "choose",
+      "prompt": "Which option shows /th/ connecting on both sides?",
+      "choices": ["ـثـ", "ـبـ", "ـنـ"],
+      "answer": "ـثـ",
+      "hint": "It links on both sides while keeping three dots.",
+      "asset": "tts/en/level2/thaa-10.mp3"
+    },
+    {
+      "id": "level2-thaa-11",
+      "type": "choose",
+      "prompt": "Spot /th/ with three dots in final form.",
+      "choices": ["ـث", "ـي", "ـا"],
+      "answer": "ـث",
+      "hint": "The final form ends with a tail and dots.",
+      "asset": "tts/en/level2/thaa-11.mp3"
+    },
+    {
+      "id": "level2-thaa-12",
+      "type": "review",
+      "prompt": "Great work practicing the /th/ letter shapes.",
+      "answer": "ث",
+      "asset": "tts/en/level2/thaa-12.mp3"
+    }
+  ],
+  "activities": [
+    {
+      "id": "level2-thaa-01",
+      "type": "listen",
+      "prompt": "Hear the /th/ sound. Tap the isolated shape.",
+      "choices": ["ث", "ب", "ت"],
+      "answer": "ث",
+      "hint": "Find the letter with three dots on top.",
+      "asset": "tts/en/level2/thaa-01.mp3"
+    },
+    {
+      "id": "level2-thaa-02",
+      "type": "listen",
+      "prompt": "Hear /th/ at the start. Tap its initial shape.",
+      "choices": ["ثـ", "نـ", "يـ"],
+      "answer": "ثـ",
+      "hint": "Look for the leading curve with three dots.",
+      "asset": "tts/en/level2/thaa-02.mp3"
+    },
+    {
+      "id": "level2-thaa-03",
+      "type": "choose",
+      "prompt": "Select the isolated form for /th/.",
+      "choices": ["ث", "ـث", "ـب"],
+      "answer": "ث",
+      "hint": "No connectors appear on either side.",
+      "asset": "tts/en/level2/thaa-03.mp3"
+    },
+    {
+      "id": "level2-thaa-04",
+      "type": "choose",
+      "prompt": "Choose the middle /th/ shape.",
+      "choices": ["ـثـ", "ـتـ", "ـيـ"],
+      "answer": "ـثـ",
+      "hint": "Three dots stay on top even in the middle.",
+      "asset": "tts/en/level2/thaa-04.mp3"
+    },
+    {
+      "id": "level2-thaa-05",
+      "type": "match",
+      "prompt": "Match the sound to the final /th/ shape.",
+      "choices": ["ـث", "ـب", "ـن"],
+      "answer": "ـث",
+      "hint": "The tail leans left with three dots above.",
+      "asset": "tts/en/level2/thaa-05.mp3"
+    },
+    {
+      "id": "level2-thaa-06",
+      "type": "build",
+      "prompt": "Build /th/ at the start.",
+      "choices": ["ثـ", "بـ", "نـ"],
+      "answer": "ثـ",
+      "hint": "Pick the starting curve with three dots.",
+      "asset": "tts/en/level2/thaa-06.mp3"
+    },
+    {
+      "id": "level2-thaa-07",
+      "type": "choose",
+      "prompt": "Tap /th/ when it stands alone.",
+      "choices": ["ث", "ت", "ي"],
+      "answer": "ث",
+      "hint": "The isolated form is a single curve with dots.",
+      "asset": "tts/en/level2/thaa-07.mp3"
+    },
+    {
+      "id": "level2-thaa-08",
+      "type": "match",
+      "prompt": "Match the audio to the medial /th/ shape.",
+      "choices": ["ـثـ", "ـنـ", "ـبـ"],
+      "answer": "ـثـ",
+      "hint": "It connects on both sides and keeps three dots.",
+      "asset": "tts/en/level2/thaa-08.mp3"
+    },
+    {
+      "id": "level2-thaa-09",
+      "type": "build",
+      "prompt": "Build the ending shape for /th/.",
+      "choices": ["ـث", "ـي", "ـت"],
+      "answer": "ـث",
+      "hint": "Choose the form that finishes with three dots.",
+      "asset": "tts/en/level2/thaa-09.mp3"
+    },
+    {
+      "id": "level2-thaa-10",
+      "type": "choose",
+      "prompt": "Which option shows /th/ connecting on both sides?",
+      "choices": ["ـثـ", "ـبـ", "ـنـ"],
+      "answer": "ـثـ",
+      "hint": "It links on both sides while keeping three dots.",
+      "asset": "tts/en/level2/thaa-10.mp3"
+    },
+    {
+      "id": "level2-thaa-11",
+      "type": "choose",
+      "prompt": "Spot /th/ with three dots in final form.",
+      "choices": ["ـث", "ـي", "ـا"],
+      "answer": "ـث",
+      "hint": "The final form ends with a tail and dots.",
+      "asset": "tts/en/level2/thaa-11.mp3"
+    },
+    {
+      "id": "level2-thaa-12",
+      "type": "review",
+      "prompt": "Great work practicing the /th/ letter shapes.",
+      "answer": "ث",
+      "asset": "tts/en/level2/thaa-12.mp3"
+    }
+  ]
+}

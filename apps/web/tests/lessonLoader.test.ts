@@ -11,7 +11,8 @@ describe("lesson loading", () => {
     expect(levels.has(2)).toBe(true);
 
     const levelTwoLessonIds = lessons.filter((lesson) => lesson.level === 2).map((lesson) => lesson.id);
-    expect(levelTwoLessonIds).toContain("alphabet-11");
-    expect(levelTwoLessonIds).toContain("alphabet-30");
+    expect(levelTwoLessonIds).toContain("level2-thaa-shapes");
+    expect(levelTwoLessonIds).toContain("level2-noon-shapes");
+    expect(levelTwoLessonIds).toContain("level2-yaa-shapes");
   });
 });
