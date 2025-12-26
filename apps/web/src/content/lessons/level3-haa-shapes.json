@@ -1,0 +1,254 @@
+{
+  "id": "level3-haa-shapes",
+  "title": "Level 3: Haa shapes",
+  "description": "Train the smooth /ḥ/ sound in isolated, initial, medial, and final shapes with contrast to the raspy /kh/ sound.",
+  "objective": "Help children tell Haa apart by sound and shape, without any words.",
+  "level": 3,
+  "durationMinutes": 4,
+  "activities": [
+    {
+      "id": "level3-haa-01",
+      "type": "listen",
+      "prompt": "Hear the smooth /ḥ/ sound. Tap the isolated shape.",
+      "promptI18n": {
+        "en": "Hear the smooth /ḥ/ sound. Tap the isolated shape.",
+        "nl": "Hoor de zachte /ḥ/-klank. Tik op de losse vorm.",
+        "de": "Höre den weichen /ḥ/-Laut. Tippe auf die Einzelform.",
+        "sv": "Hör det mjuka /ḥ/-ljudet. Tryck på den fristående formen."
+      },
+      "choices": ["ح", "خ", "ج"],
+      "answer": "ح",
+      "hint": "Open curve with no dot.",
+      "hintI18n": {
+        "en": "Open curve with no dot.",
+        "nl": "Open boog zonder punt.",
+        "de": "Offene Kurve ohne Punkt.",
+        "sv": "Öppen böj utan punkt."
+      },
+      "asset": "tts/en/level3/haa-01.mp3"
+    },
+    {
+      "id": "level3-haa-02",
+      "type": "listen",
+      "prompt": "Hear /ḥ/ at the start. Tap its initial shape.",
+      "promptI18n": {
+        "en": "Hear /ḥ/ at the start. Tap its initial shape.",
+        "nl": "Hoor /ḥ/ aan het begin. Tik op de beginvorm.",
+        "de": "Höre /ḥ/ am Anfang. Tippe auf die Anfangsform.",
+        "sv": "Hör /ḥ/ i början. Tryck på startformen."
+      },
+      "choices": ["حـ", "خـ", "جـ"],
+      "answer": "حـ",
+      "hint": "Starting curve without any dot.",
+      "hintI18n": {
+        "en": "Starting curve without any dot.",
+        "nl": "Beginnende boog zonder punt.",
+        "de": "Anfangsbogen ohne Punkt.",
+        "sv": "Startböj utan punkt."
+      },
+      "asset": "tts/en/level3/haa-02.mp3"
+    },
+    {
+      "id": "level3-haa-03",
+      "type": "listen",
+      "prompt": "Listen for the soft /ḥ/ not the scratchy /kh/ sound.",
+      "promptI18n": {
+        "en": "Listen for the soft /ḥ/ not the scratchy /kh/ sound.",
+        "nl": "Luister naar de zachte /ḥ/ en niet het schrapende /kh/ geluid.",
+        "de": "Höre auf das weiche /ḥ/, nicht auf das raue /kh/ Geräusch.",
+        "sv": "Lyssna efter det mjuka /ḥ/ och inte det raspiga /kh/-ljudet."
+      },
+      "choices": ["ح", "خ", "ب"],
+      "answer": "ح",
+      "hint": "Choose the breathy sound without a dot.",
+      "hintI18n": {
+        "en": "Choose the breathy sound without a dot.",
+        "nl": "Kies het ademende geluid zonder punt.",
+        "de": "Wähle den luftigen Klang ohne Punkt.",
+        "sv": "Välj det luftiga ljudet utan punkt."
+      },
+      "asset": "tts/en/level3/haa-03.mp3"
+    },
+    {
+      "id": "level3-haa-04",
+      "type": "choose",
+      "prompt": "Pick the middle shape for /ḥ/.",
+      "promptI18n": {
+        "en": "Pick the middle shape for /ḥ/.",
+        "nl": "Kies de middenvorm voor /ḥ/.",
+        "de": "Wähle die Mittelform für /ḥ/.",
+        "sv": "Välj mittformen för /ḥ/."
+      },
+      "choices": ["ـحـ", "ـخـ", "ـجـ"],
+      "answer": "ـحـ",
+      "hint": "The only middle curve here without a dot.",
+      "hintI18n": {
+        "en": "The only middle curve here without a dot.",
+        "nl": "De enige middenboog hier zonder punt.",
+        "de": "Die einzige Mittellinie hier ohne Punkt.",
+        "sv": "Den enda mittböjen här utan punkt."
+      },
+      "asset": "tts/en/level3/haa-04.mp3"
+    },
+    {
+      "id": "level3-haa-05",
+      "type": "choose",
+      "prompt": "Choose the ending shape for /ḥ/.",
+      "promptI18n": {
+        "en": "Choose the ending shape for /ḥ/.",
+        "nl": "Kies de eindvorm voor /ḥ/.",
+        "de": "Wähle die Endform für /ḥ/.",
+        "sv": "Välj slutformen för /ḥ/."
+      },
+      "choices": ["ـح", "ـخ", "ـج"],
+      "answer": "ـح",
+      "hint": "Look for the tail without any dot.",
+      "hintI18n": {
+        "en": "Look for the tail without any dot.",
+        "nl": "Zoek de staart zonder punt.",
+        "de": "Achte auf den Schweif ohne Punkt.",
+        "sv": "Leta efter svansen utan punkt."
+      },
+      "asset": "tts/en/level3/haa-05.mp3"
+    },
+    {
+      "id": "level3-haa-06",
+      "type": "match",
+      "prompt": "Match the sound to the starting /ḥ/ shape.",
+      "promptI18n": {
+        "en": "Match the sound to the starting /ḥ/ shape.",
+        "nl": "Koppel het geluid aan de beginvorm van /ḥ/.",
+        "de": "Ordne den Klang der Anfangsform von /ḥ/ zu.",
+        "sv": "Para ljudet med startformen för /ḥ/."
+      },
+      "choices": ["حـ", "بـ", "نـ"],
+      "answer": "حـ",
+      "hint": "No dot above or below this starter.",
+      "hintI18n": {
+        "en": "No dot above or below this starter.",
+        "nl": "Geen punt boven of onder deze starter.",
+        "de": "Kein Punkt über oder unter diesem Starter.",
+        "sv": "Ingen punkt över eller under den här början."
+      },
+      "asset": "tts/en/level3/haa-06.mp3"
+    },
+    {
+      "id": "level3-haa-07",
+      "type": "build",
+      "prompt": "Build the isolated /ḥ/ shape.",
+      "promptI18n": {
+        "en": "Build the isolated /ḥ/ shape.",
+        "nl": "Bouw de losse /ḥ/-vorm.",
+        "de": "Baue die einzelne /ḥ/-Form.",
+        "sv": "Bygg den fristående /ḥ/-formen."
+      },
+      "choices": ["ح", "ج", "ت"],
+      "answer": "ح",
+      "hint": "Keep the shape open with no dot.",
+      "hintI18n": {
+        "en": "Keep the shape open with no dot.",
+        "nl": "Houd de vorm open zonder punt.",
+        "de": "Halte die Form offen ohne Punkt.",
+        "sv": "Behåll den öppen utan punkt."
+      },
+      "asset": "tts/en/level3/haa-07.mp3"
+    },
+    {
+      "id": "level3-haa-08",
+      "type": "choose",
+      "prompt": "Pick /ḥ/ when shown with similar letters.",
+      "promptI18n": {
+        "en": "Pick /ḥ/ when shown with similar letters.",
+        "nl": "Kies /ḥ/ tussen vergelijkbare letters.",
+        "de": "Wähle /ḥ/ zwischen ähnlichen Buchstaben.",
+        "sv": "Välj /ḥ/ bland liknande bokstäver."
+      },
+      "choices": ["ح", "خ", "ج"],
+      "answer": "ح",
+      "hint": "Select the clean shape without a dot.",
+      "hintI18n": {
+        "en": "Select the clean shape without a dot.",
+        "nl": "Kies de schone vorm zonder punt.",
+        "de": "Wähle die klare Form ohne Punkt.",
+        "sv": "Välj den rena formen utan punkt."
+      },
+      "asset": "tts/en/level3/haa-08.mp3"
+    },
+    {
+      "id": "level3-haa-09",
+      "type": "match",
+      "prompt": "Match the /ḥ/ audio to the middle shape.",
+      "promptI18n": {
+        "en": "Match the /ḥ/ audio to the middle shape.",
+        "nl": "Koppel het /ḥ/-geluid aan de middenvorm.",
+        "de": "Ordne den /ḥ/-Klang der Mittelform zu.",
+        "sv": "Para /ḥ/-ljudet med mittformen."
+      },
+      "choices": ["ـحـ", "ـبـ", "ـنـ"],
+      "answer": "ـحـ",
+      "hint": "Find the connecting curve with no dot.",
+      "hintI18n": {
+        "en": "Find the connecting curve with no dot.",
+        "nl": "Zoek de verbindende boog zonder punt.",
+        "de": "Finde die verbindende Kurve ohne Punkt.",
+        "sv": "Hitta den sammanbindande böjen utan punkt."
+      },
+      "asset": "tts/en/level3/haa-09.mp3"
+    },
+    {
+      "id": "level3-haa-10",
+      "type": "build",
+      "prompt": "Build the ending /ḥ/ shape.",
+      "promptI18n": {
+        "en": "Build the ending /ḥ/ shape.",
+        "nl": "Bouw de eindvorm van /ḥ/.",
+        "de": "Baue die Endform von /ḥ/.",
+        "sv": "Bygg slutformen för /ḥ/."
+      },
+      "choices": ["ـح", "ـج", "ـي"],
+      "answer": "ـح",
+      "hint": "Choose the tail without a dot.",
+      "hintI18n": {
+        "en": "Choose the tail without a dot.",
+        "nl": "Kies de staart zonder punt.",
+        "de": "Wähle den Schweif ohne Punkt.",
+        "sv": "Välj svansen utan punkt."
+      },
+      "asset": "tts/en/level3/haa-10.mp3"
+    },
+    {
+      "id": "level3-haa-11",
+      "type": "choose",
+      "prompt": "Choose the soft /ḥ/ instead of the scratchy /kh/.",
+      "promptI18n": {
+        "en": "Choose the soft /ḥ/ instead of the scratchy /kh/.",
+        "nl": "Kies de zachte /ḥ/ in plaats van de schrapende /kh/.",
+        "de": "Wähle das weiche /ḥ/ statt des kratzigen /kh/.",
+        "sv": "Välj det mjuka /ḥ/ istället för det raspiga /kh/."
+      },
+      "choices": ["ح", "خ", "ث"],
+      "answer": "ح",
+      "hint": "Pick the shape with no dot for the gentle sound.",
+      "hintI18n": {
+        "en": "Pick the shape with no dot for the gentle sound.",
+        "nl": "Kies de vorm zonder punt voor het zachte geluid.",
+        "de": "Wähle die Form ohne Punkt für den sanften Klang.",
+        "sv": "Välj formen utan punkt för det mjuka ljudet."
+      },
+      "asset": "tts/en/level3/haa-11.mp3"
+    },
+    {
+      "id": "level3-haa-12",
+      "type": "review",
+      "prompt": "Review the soft /ḥ/ shapes you practiced.",
+      "promptI18n": {
+        "en": "Review the soft /ḥ/ shapes you practiced.",
+        "nl": "Herhaal de zachte /ḥ/-vormen die je oefende.",
+        "de": "Wiederhole die geübten weichen /ḥ/-Formen.",
+        "sv": "Repetera de mjuka /ḥ/-former du övat på."
+      },
+      "answer": "ح",
+      "asset": "tts/en/level3/haa-12.mp3"
+    }
+  ]
+}

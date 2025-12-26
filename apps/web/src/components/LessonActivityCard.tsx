@@ -43,17 +43,25 @@ export function LessonActivityCard({
   const [isNarrating, setIsNarrating] = useState(false);
   const hasAudioAsset = useMemo(() => Boolean(activity.asset && activity.asset.startsWith("audio/")), [activity.asset]);
   const requiresListening = isListen || hasAudioAsset;
+  const localizedPrompt = useMemo(
+    () => activity.promptI18n?.[locale],
+    [activity.promptI18n, locale]
+  );
+  const localizedHint = useMemo(() => activity.hintI18n?.[locale], [activity.hintI18n, locale]);
+  const promptText = localizedPrompt ?? activity.prompt;
+  const hintText = localizedHint ?? activity.hint;
   const promptKey = useMemo(() => {
+    if (localizedPrompt) return null;
     if (isListen) return "lesson.prompt.listenChooseLetter";
     if (activity.type === "choose" && hasAudioAsset) return "lesson.prompt.tapLetterBySound";
     return null;
-  }, [activity.type, hasAudioAsset, isListen]);
+  }, [activity.type, hasAudioAsset, isListen, localizedPrompt]);
   const uiPrompt = useMemo(() => {
     const fallback = t(promptKey ?? "lesson.activityLabel");
     if (promptKey) return fallback;
-    if (!activity.prompt) return fallback;
-    return arabicRegex.test(activity.prompt) ? fallback : activity.prompt;
-  }, [activity.prompt, promptKey, t]);
+    if (!promptText) return fallback;
+    return arabicRegex.test(promptText) ? fallback : promptText;
+  }, [promptKey, promptText, t]);
 
   useEffect(() => {
     onSubmitRef.current = onSubmit;
@@ -147,11 +155,11 @@ export function LessonActivityCard({
             </span>
           ) : null}
         </h2>
-        {activity.hint ? (
+        {hintText ? (
           <p className="mt-1 text-sm text-slate-500">
             {t("lesson.hint")}:{" "}
             <span className="arabic-content inline" lang="ar">
-              {activity.hint}
+              {hintText}
             </span>
           </p>
         ) : null}
