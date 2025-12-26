@@ -1,15 +1,23 @@
 import { z } from "zod";
 
 const knownActivityTypes = ["choose", "listen", "build", "match", "review"] as const;
+const localizedTextSchema = z.object({
+  en: z.string(),
+  nl: z.string(),
+  de: z.string(),
+  sv: z.string(),
+});
 
 export const activitySchema = z
   .object({
     id: z.string(),
     type: z.enum(knownActivityTypes).default("choose"),
     prompt: z.string(),
+    promptI18n: localizedTextSchema.optional(),
     choices: z.array(z.string()).default([]),
     answer: z.string().default(""),
     hint: z.string().optional(),
+    hintI18n: localizedTextSchema.optional(),
     asset: z.string().optional(),
   })
   .passthrough();

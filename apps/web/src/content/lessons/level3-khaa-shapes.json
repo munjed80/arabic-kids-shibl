@@ -1,0 +1,254 @@
+{
+  "id": "level3-khaa-shapes",
+  "title": "Level 3: Khaa shapes",
+  "description": "Train the raspy /kh/ sound across all shapes while contrasting it with the soft /ḥ/ sound.",
+  "objective": "Help children spot Khaa by its sound and dot placement, without any words.",
+  "level": 3,
+  "durationMinutes": 4,
+  "activities": [
+    {
+      "id": "level3-khaa-01",
+      "type": "listen",
+      "prompt": "Hear the raspy /kh/ sound. Tap the isolated shape.",
+      "promptI18n": {
+        "en": "Hear the raspy /kh/ sound. Tap the isolated shape.",
+        "nl": "Hoor het schrapende /kh/ geluid. Tik op de losse vorm.",
+        "de": "Höre den kratzigen /kh/-Laut. Tippe auf die Einzelform.",
+        "sv": "Hör det raspiga /kh/-ljudet. Tryck på den fristående formen."
+      },
+      "choices": ["خ", "ح", "ج"],
+      "answer": "خ",
+      "hint": "Curve with a dot above it.",
+      "hintI18n": {
+        "en": "Curve with a dot above it.",
+        "nl": "Boog met een punt erboven.",
+        "de": "Kurve mit einem Punkt darüber.",
+        "sv": "Böj med en punkt ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-01.mp3"
+    },
+    {
+      "id": "level3-khaa-02",
+      "type": "listen",
+      "prompt": "Hear /kh/ at the start. Tap its initial shape.",
+      "promptI18n": {
+        "en": "Hear /kh/ at the start. Tap its initial shape.",
+        "nl": "Hoor /kh/ aan het begin. Tik op de beginvorm.",
+        "de": "Höre /kh/ am Anfang. Tippe auf die Anfangsform.",
+        "sv": "Hör /kh/ i början. Tryck på startformen."
+      },
+      "choices": ["خـ", "حـ", "جـ"],
+      "answer": "خـ",
+      "hint": "Starting curve with a dot above.",
+      "hintI18n": {
+        "en": "Starting curve with a dot above.",
+        "nl": "Beginnende boog met een punt erboven.",
+        "de": "Anfangsbogen mit einem Punkt darüber.",
+        "sv": "Startböj med en punkt ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-02.mp3"
+    },
+    {
+      "id": "level3-khaa-03",
+      "type": "listen",
+      "prompt": "Listen for the scratchy /kh/ not the soft /ḥ/ sound.",
+      "promptI18n": {
+        "en": "Listen for the scratchy /kh/ not the soft /ḥ/ sound.",
+        "nl": "Luister naar het schrapende /kh/ en niet het zachte /ḥ/ geluid.",
+        "de": "Höre auf das kratzige /kh/, nicht auf das weiche /ḥ/ Geräusch.",
+        "sv": "Lyssna efter det raspiga /kh/ och inte det mjuka /ḥ/-ljudet."
+      },
+      "choices": ["خ", "ح", "ب"],
+      "answer": "خ",
+      "hint": "Pick the rough sound with the dot on top.",
+      "hintI18n": {
+        "en": "Pick the rough sound with the dot on top.",
+        "nl": "Kies het ruwe geluid met de punt erboven.",
+        "de": "Wähle den rauen Klang mit dem Punkt oben.",
+        "sv": "Välj det grova ljudet med punkten ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-03.mp3"
+    },
+    {
+      "id": "level3-khaa-04",
+      "type": "choose",
+      "prompt": "Choose the middle shape for /kh/.",
+      "promptI18n": {
+        "en": "Choose the middle shape for /kh/.",
+        "nl": "Kies de middenvorm voor /kh/.",
+        "de": "Wähle die Mittelform für /kh/.",
+        "sv": "Välj mittformen för /kh/."
+      },
+      "choices": ["ـخـ", "ـحـ", "ـجـ"],
+      "answer": "ـخـ",
+      "hint": "The connecting curve with a dot above.",
+      "hintI18n": {
+        "en": "The connecting curve with a dot above.",
+        "nl": "De verbindende boog met een punt erboven.",
+        "de": "Die verbindende Kurve mit einem Punkt darüber.",
+        "sv": "Den sammanbindande böjen med en punkt ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-04.mp3"
+    },
+    {
+      "id": "level3-khaa-05",
+      "type": "choose",
+      "prompt": "Pick the ending /kh/ shape.",
+      "promptI18n": {
+        "en": "Pick the ending /kh/ shape.",
+        "nl": "Kies de eindvorm van /kh/.",
+        "de": "Wähle die Endform von /kh/.",
+        "sv": "Välj slutformen för /kh/."
+      },
+      "choices": ["ـخ", "ـح", "ـج"],
+      "answer": "ـخ",
+      "hint": "Tail to the left with a dot above.",
+      "hintI18n": {
+        "en": "Tail to the left with a dot above.",
+        "nl": "Staart naar links met een punt erboven.",
+        "de": "Schweif nach links mit einem Punkt darüber.",
+        "sv": "Svans åt vänster med en punkt ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-05.mp3"
+    },
+    {
+      "id": "level3-khaa-06",
+      "type": "match",
+      "prompt": "Match the sound to the starting /kh/ shape.",
+      "promptI18n": {
+        "en": "Match the sound to the starting /kh/ shape.",
+        "nl": "Koppel het geluid aan de beginvorm van /kh/.",
+        "de": "Ordne den Klang der Anfangsform von /kh/ zu.",
+        "sv": "Para ljudet med startformen för /kh/."
+      },
+      "choices": ["خـ", "بـ", "تـ"],
+      "answer": "خـ",
+      "hint": "Look for the starter with the dot above.",
+      "hintI18n": {
+        "en": "Look for the starter with the dot above.",
+        "nl": "Zoek de starter met de punt erboven.",
+        "de": "Suche die Anfangsform mit dem Punkt oben.",
+        "sv": "Leta efter starten med punkten ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-06.mp3"
+    },
+    {
+      "id": "level3-khaa-07",
+      "type": "build",
+      "prompt": "Build the isolated /kh/ shape.",
+      "promptI18n": {
+        "en": "Build the isolated /kh/ shape.",
+        "nl": "Bouw de losse /kh/-vorm.",
+        "de": "Baue die einzelne /kh/-Form.",
+        "sv": "Bygg den fristående /kh/-formen."
+      },
+      "choices": ["خ", "ح", "ث"],
+      "answer": "خ",
+      "hint": "Place the dot above the open curve.",
+      "hintI18n": {
+        "en": "Place the dot above the open curve.",
+        "nl": "Zet de punt boven de open boog.",
+        "de": "Setze den Punkt über die offene Kurve.",
+        "sv": "Sätt punkten ovanför den öppna böjen."
+      },
+      "asset": "tts/en/level3/khaa-07.mp3"
+    },
+    {
+      "id": "level3-khaa-08",
+      "type": "choose",
+      "prompt": "Choose the raspy /kh/ among look-alikes.",
+      "promptI18n": {
+        "en": "Choose the raspy /kh/ among look-alikes.",
+        "nl": "Kies de schrapende /kh/ tussen de lookalikes.",
+        "de": "Wähle das kratzige /kh/ unter ähnlichen Formen.",
+        "sv": "Välj det raspiga /kh/ bland liknande former."
+      },
+      "choices": ["خ", "ح", "ج"],
+      "answer": "خ",
+      "hint": "Dot above shows the raspy sound.",
+      "hintI18n": {
+        "en": "Dot above shows the raspy sound.",
+        "nl": "Punt erboven geeft het schrapende geluid.",
+        "de": "Der Punkt oben zeigt den kratzigen Klang.",
+        "sv": "Punkten ovanpå visar det raspiga ljudet."
+      },
+      "asset": "tts/en/level3/khaa-08.mp3"
+    },
+    {
+      "id": "level3-khaa-09",
+      "type": "match",
+      "prompt": "Match the /kh/ audio to the middle shape.",
+      "promptI18n": {
+        "en": "Match the /kh/ audio to the middle shape.",
+        "nl": "Koppel het /kh/-geluid aan de middenvorm.",
+        "de": "Ordne den /kh/-Klang der Mittelform zu.",
+        "sv": "Para /kh/-ljudet med mittformen."
+      },
+      "choices": ["ـخـ", "ـيـ", "ـنـ"],
+      "answer": "ـخـ",
+      "hint": "Find the connector with a dot above.",
+      "hintI18n": {
+        "en": "Find the connector with a dot above.",
+        "nl": "Zoek de verbinding met een punt erboven.",
+        "de": "Finde die Verbindung mit einem Punkt darüber.",
+        "sv": "Hitta kopplingen med en punkt ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-09.mp3"
+    },
+    {
+      "id": "level3-khaa-10",
+      "type": "build",
+      "prompt": "Build the ending /kh/ shape with the dot.",
+      "promptI18n": {
+        "en": "Build the ending /kh/ shape with the dot.",
+        "nl": "Bouw de eindvorm van /kh/ met de punt.",
+        "de": "Baue die Endform von /kh/ mit dem Punkt.",
+        "sv": "Bygg slutformen för /kh/ med punkten."
+      },
+      "choices": ["ـخ", "ـح", "ـت"],
+      "answer": "ـخ",
+      "hint": "Select the tail that keeps the top dot.",
+      "hintI18n": {
+        "en": "Select the tail that keeps the top dot.",
+        "nl": "Kies de staart die de punt bovenop houdt.",
+        "de": "Wähle den Schweif, der den Punkt oben behält.",
+        "sv": "Välj svansen som behåller punkten ovanpå."
+      },
+      "asset": "tts/en/level3/khaa-10.mp3"
+    },
+    {
+      "id": "level3-khaa-11",
+      "type": "choose",
+      "prompt": "Choose the scratchy /kh/ instead of the soft /ḥ/.",
+      "promptI18n": {
+        "en": "Choose the scratchy /kh/ instead of the soft /ḥ/.",
+        "nl": "Kies de schrapende /kh/ in plaats van de zachte /ḥ/.",
+        "de": "Wähle das kratzige /kh/ statt des weichen /ḥ/.",
+        "sv": "Välj det raspiga /kh/ istället för det mjuka /ḥ/."
+      },
+      "choices": ["خ", "ح", "ي"],
+      "answer": "خ",
+      "hint": "Pick the shape with the dot above for the rough sound.",
+      "hintI18n": {
+        "en": "Pick the shape with the dot above for the rough sound.",
+        "nl": "Kies de vorm met de punt erboven voor het ruwe geluid.",
+        "de": "Wähle die Form mit dem Punkt oben für den rauen Klang.",
+        "sv": "Välj formen med punkten ovanför för det grova ljudet."
+      },
+      "asset": "tts/en/level3/khaa-11.mp3"
+    },
+    {
+      "id": "level3-khaa-12",
+      "type": "review",
+      "prompt": "Review the raspy /kh/ shapes you practiced.",
+      "promptI18n": {
+        "en": "Review the raspy /kh/ shapes you practiced.",
+        "nl": "Herhaal de schrapende /kh/-vormen die je oefende.",
+        "de": "Wiederhole die geübten kratzigen /kh/-Formen.",
+        "sv": "Repetera de raspiga /kh/-former du övat på."
+      },
+      "answer": "خ",
+      "asset": "tts/en/level3/khaa-12.mp3"
+    }
+  ]
+}

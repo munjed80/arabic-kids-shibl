@@ -1,0 +1,254 @@
+{
+  "id": "level3-jeem-shapes",
+  "title": "Level 3: Jeem shapes",
+  "description": "Train the /j/ sound across isolated, initial, medial, and final shapes with focused sound-to-shape practice.",
+  "objective": "Help children recognize the letter Jeem by sound and shape without words.",
+  "level": 3,
+  "durationMinutes": 4,
+  "activities": [
+    {
+      "id": "level3-jeem-01",
+      "type": "listen",
+      "prompt": "Hear the /j/ sound. Tap the isolated shape.",
+      "promptI18n": {
+        "en": "Hear the /j/ sound. Tap the isolated shape.",
+        "nl": "Luister naar de /j/-klank. Tik op de losse vorm.",
+        "de": "Höre den /dsch/-Laut. Tippe auf die Einzelform.",
+        "sv": "Lyssna på /dj/-ljudet. Tryck på den fristående formen."
+      },
+      "choices": ["ج", "ح", "خ"],
+      "answer": "ج",
+      "hint": "Open curve with a dot under it.",
+      "hintI18n": {
+        "en": "Open curve with a dot under it.",
+        "nl": "Open boog met een punt eronder.",
+        "de": "Offene Kurve mit einem Punkt darunter.",
+        "sv": "Öppen böj med en punkt under."
+      },
+      "asset": "tts/en/level3/jeem-01.mp3"
+    },
+    {
+      "id": "level3-jeem-02",
+      "type": "listen",
+      "prompt": "Hear /j/ at the start. Tap its initial shape.",
+      "promptI18n": {
+        "en": "Hear /j/ at the start. Tap its initial shape.",
+        "nl": "Hoor /j/ aan het begin. Tik op de beginvorm.",
+        "de": "Höre /dsch/ am Anfang. Tippe auf die Anfangsform.",
+        "sv": "Hör /dj/ i början. Tryck på startformen."
+      },
+      "choices": ["جـ", "حـ", "خـ"],
+      "answer": "جـ",
+      "hint": "Beginning curve with a dot below.",
+      "hintI18n": {
+        "en": "Beginning curve with a dot below.",
+        "nl": "Beginnende boog met een punt eronder.",
+        "de": "Anfangsbogen mit einem Punkt darunter.",
+        "sv": "Startböj med en punkt under."
+      },
+      "asset": "tts/en/level3/jeem-02.mp3"
+    },
+    {
+      "id": "level3-jeem-03",
+      "type": "listen",
+      "prompt": "Listen for /j/ in the middle. Tap the medial shape.",
+      "promptI18n": {
+        "en": "Listen for /j/ in the middle. Tap the medial shape.",
+        "nl": "Luister naar /j/ in het midden. Tik op de middenvorm.",
+        "de": "Höre /dsch/ in der Mitte. Tippe auf die Mittelform.",
+        "sv": "Lyssna på /dj/ i mitten. Tryck på mittformen."
+      },
+      "choices": ["ـجـ", "ـحـ", "ـخـ"],
+      "answer": "ـجـ",
+      "hint": "Connects both sides with a dot below.",
+      "hintI18n": {
+        "en": "Connects both sides with a dot below.",
+        "nl": "Verbindt beide kanten met een punt eronder.",
+        "de": "Verbindet beide Seiten mit einem Punkt darunter.",
+        "sv": "Binder båda sidor med en punkt under."
+      },
+      "asset": "tts/en/level3/jeem-03.mp3"
+    },
+    {
+      "id": "level3-jeem-04",
+      "type": "choose",
+      "prompt": "Choose the ending /j/ shape.",
+      "promptI18n": {
+        "en": "Choose the ending /j/ shape.",
+        "nl": "Kies de eindvorm van /j/.",
+        "de": "Wähle die Endform von /dsch/.",
+        "sv": "Välj slutformen för /dj/."
+      },
+      "choices": ["ـج", "ـح", "ـخ"],
+      "answer": "ـج",
+      "hint": "Tail to the left with a dot below.",
+      "hintI18n": {
+        "en": "Tail to the left with a dot below.",
+        "nl": "Staart naar links met een punt eronder.",
+        "de": "Schweif nach links mit einem Punkt darunter.",
+        "sv": "Svans åt vänster med en punkt under."
+      },
+      "asset": "tts/en/level3/jeem-04.mp3"
+    },
+    {
+      "id": "level3-jeem-05",
+      "type": "choose",
+      "prompt": "Spot the isolated /j/ shape quickly.",
+      "promptI18n": {
+        "en": "Spot the isolated /j/ shape quickly.",
+        "nl": "Zie snel de losse /j/-vorm.",
+        "de": "Erken die einzelne /dsch/-Form schnell.",
+        "sv": "Hitta snabbt den fristående /dj/-formen."
+      },
+      "choices": ["ج", "ت", "ي"],
+      "answer": "ج",
+      "hint": "Only one dot sits below the curve.",
+      "hintI18n": {
+        "en": "Only one dot sits below the curve.",
+        "nl": "Er staat één punt onder de boog.",
+        "de": "Nur ein Punkt steht unter der Kurve.",
+        "sv": "Endast en punkt finns under böjen."
+      },
+      "asset": "tts/en/level3/jeem-05.mp3"
+    },
+    {
+      "id": "level3-jeem-06",
+      "type": "match",
+      "prompt": "Match the sound to the starting /j/ shape.",
+      "promptI18n": {
+        "en": "Match the sound to the starting /j/ shape.",
+        "nl": "Koppel het geluid aan de beginvorm van /j/.",
+        "de": "Ordne den Klang der Anfangsform von /dsch/ zu.",
+        "sv": "Para ljudet med startformen för /dj/."
+      },
+      "choices": ["جـ", "بـ", "ثـ"],
+      "answer": "جـ",
+      "hint": "Look for the hook that begins the line.",
+      "hintI18n": {
+        "en": "Look for the hook that begins the line.",
+        "nl": "Zoek de haak die de lijn start.",
+        "de": "Suche den Haken, der die Linie startet.",
+        "sv": "Leta efter kroken som startar linjen."
+      },
+      "asset": "tts/en/level3/jeem-06.mp3"
+    },
+    {
+      "id": "level3-jeem-07",
+      "type": "build",
+      "prompt": "Build the isolated /j/ shape.",
+      "promptI18n": {
+        "en": "Build the isolated /j/ shape.",
+        "nl": "Bouw de losse /j/-vorm.",
+        "de": "Baue die einzelne /dsch/-Form.",
+        "sv": "Bygg den fristående /dj/-formen."
+      },
+      "choices": ["ج", "ح", "ت"],
+      "answer": "ج",
+      "hint": "Place the dot under the open curve.",
+      "hintI18n": {
+        "en": "Place the dot under the open curve.",
+        "nl": "Zet de punt onder de open boog.",
+        "de": "Setze den Punkt unter die offene Kurve.",
+        "sv": "Sätt punkten under den öppna böjen."
+      },
+      "asset": "tts/en/level3/jeem-07.mp3"
+    },
+    {
+      "id": "level3-jeem-08",
+      "type": "choose",
+      "prompt": "Choose the dotted hook for /j/ in the middle.",
+      "promptI18n": {
+        "en": "Choose the dotted hook for /j/ in the middle.",
+        "nl": "Kies de geprikte haak voor /j/ in het midden.",
+        "de": "Wähle den Punkt-Haken für /dsch/ in der Mitte.",
+        "sv": "Välj kroken med punkt för /dj/ i mitten."
+      },
+      "choices": ["ـجـ", "ـحـ", "ـنـ"],
+      "answer": "ـجـ",
+      "hint": "The only hook here with a dot below.",
+      "hintI18n": {
+        "en": "The only hook here with a dot below.",
+        "nl": "De enige haak hier met een punt eronder.",
+        "de": "Der einzige Haken hier mit einem Punkt darunter.",
+        "sv": "Den enda kroken här med en punkt under."
+      },
+      "asset": "tts/en/level3/jeem-08.mp3"
+    },
+    {
+      "id": "level3-jeem-09",
+      "type": "match",
+      "prompt": "Match the /j/ audio to the middle shape.",
+      "promptI18n": {
+        "en": "Match the /j/ audio to the middle shape.",
+        "nl": "Koppel het /j/-geluid aan de middenvorm.",
+        "de": "Ordne den /dsch/-Klang der Mittelform zu.",
+        "sv": "Para /dj/-ljudet med mittformen."
+      },
+      "choices": ["ـجـ", "ـيـ", "ـثـ"],
+      "answer": "ـجـ",
+      "hint": "Find the connecting form with a low dot.",
+      "hintI18n": {
+        "en": "Find the connecting form with a low dot.",
+        "nl": "Zoek de verbindingsvorm met een lage punt.",
+        "de": "Finde die verbindende Form mit tiefem Punkt.",
+        "sv": "Hitta den sammanbindande formen med en låg punkt."
+      },
+      "asset": "tts/en/level3/jeem-09.mp3"
+    },
+    {
+      "id": "level3-jeem-10",
+      "type": "build",
+      "prompt": "Build the ending /j/ shape with the dot.",
+      "promptI18n": {
+        "en": "Build the ending /j/ shape with the dot.",
+        "nl": "Bouw de eindvorm van /j/ met de punt.",
+        "de": "Baue die Endform von /dsch/ mit dem Punkt.",
+        "sv": "Bygg slutformen för /dj/ med punkten."
+      },
+      "choices": ["ـج", "ـح", "ـت"],
+      "answer": "ـج",
+      "hint": "Select the tail that keeps the dot.",
+      "hintI18n": {
+        "en": "Select the tail that keeps the dot.",
+        "nl": "Kies de staart die de punt behoudt.",
+        "de": "Wähle den Schweif, der den Punkt behält.",
+        "sv": "Välj svansen som behåller punkten."
+      },
+      "asset": "tts/en/level3/jeem-10.mp3"
+    },
+    {
+      "id": "level3-jeem-11",
+      "type": "choose",
+      "prompt": "Pick /j/ against similar shapes.",
+      "promptI18n": {
+        "en": "Pick /j/ against similar shapes.",
+        "nl": "Kies /j/ tussen vergelijkbare vormen.",
+        "de": "Wähle /dsch/ zwischen ähnlichen Formen.",
+        "sv": "Välj /dj/ bland liknande former."
+      },
+      "choices": ["ج", "ح", "خ"],
+      "answer": "ج",
+      "hint": "Look for the dot under the curve.",
+      "hintI18n": {
+        "en": "Look for the dot under the curve.",
+        "nl": "Zoek de punt onder de boog.",
+        "de": "Achte auf den Punkt unter der Kurve.",
+        "sv": "Se efter punkten under böjen."
+      },
+      "asset": "tts/en/level3/jeem-11.mp3"
+    },
+    {
+      "id": "level3-jeem-12",
+      "type": "review",
+      "prompt": "Review the /j/ shapes you practiced.",
+      "promptI18n": {
+        "en": "Review the /j/ shapes you practiced.",
+        "nl": "Herhaal de /j/-vormen die je oefende.",
+        "de": "Wiederhole die geübten /dsch/-Formen.",
+        "sv": "Repetera /dj/-former du övat på."
+      },
+      "answer": "ج",
+      "asset": "tts/en/level3/jeem-12.mp3"
+    }
+  ]
+}
